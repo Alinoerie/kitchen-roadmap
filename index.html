@@ -747,6 +747,159 @@
     box-shadow: 0 0 0 3px var(--primary-light);
   }
 
+  /* ============================================
+     PAGINATION
+     ============================================ */
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px 16px;
+    background: var(--bg-elevated);
+    border-top: 1px solid var(--border);
+    border-radius: 0 0 var(--radius) var(--radius);
+  }
+  .pagination .info {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+  .pagination .controls {
+    display: flex;
+    gap: 4px;
+  }
+  .pagination button {
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    background: var(--bg-elevated);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-size: 12px;
+    color: var(--text);
+    font-family: inherit;
+    min-width: 32px;
+  }
+  .pagination button:hover:not(:disabled) {
+    background: var(--bg-hover);
+    border-color: var(--border-strong);
+  }
+  .pagination button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  .pagination button.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+  }
+  .pagination select {
+    padding: 4px 8px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--bg-elevated);
+    font-size: 12px;
+    font-family: inherit;
+    cursor: pointer;
+  }
+
+  /* ============================================
+     COLLAPSIBLE COMPLIANCE BANNER
+     ============================================ */
+  .desktop-compliance.collapsed .compliance-detail { display: none; }
+  .desktop-compliance.collapsed .compliance-toggle-icon { transform: rotate(-90deg); }
+  .compliance-toggle-icon {
+    display: inline-block;
+    transition: transform 0.2s;
+    font-size: 10px;
+  }
+
+  /* ============================================
+     EMPTY STATE
+     ============================================ */
+  .empty-state {
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--text-muted);
+    background: var(--bg);
+    border: 1px dashed var(--border);
+    border-radius: var(--radius);
+    margin: 12px;
+  }
+  .empty-state .emoji {
+    font-size: 36px;
+    margin-bottom: 12px;
+    display: block;
+  }
+  .empty-state .title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+  .empty-state .sub {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  /* ============================================
+     OWNER DROPDOWN VISUAL COLOR
+     ============================================ */
+  .owner-select.ali { background: rgba(200,152,96,0.12); color: #8a6438; border-color: rgba(200,152,96,0.3); }
+  .owner-select.kheibar { background: rgba(74,120,179,0.12); color: #2d5a8a; border-color: rgba(74,120,179,0.3); }
+  .owner-select.farshad { background: rgba(139,90,150,0.12); color: #6a3d75; border-color: rgba(139,90,150,0.3); }
+  .owner-select.designer { background: rgba(184,91,115,0.12); color: #8a3d57; border-color: rgba(184,91,115,0.3); }
+  .owner-select.hermes { background: rgba(61,130,104,0.12); color: #285c47; border-color: rgba(61,130,104,0.3); }
+
+  /* Mobile owner chips styling (better contrast) */
+  .mobile-owner-chip.ali { background: rgba(200,152,96,0.2); color: #6a4528; }
+  .mobile-owner-chip.kheibar { background: rgba(74,120,179,0.2); color: #1d3d5a; }
+  .mobile-owner-chip.farshad { background: rgba(139,90,150,0.2); color: #4a2454; }
+  .mobile-owner-chip.designer { background: rgba(184,91,115,0.2); color: #5d2538; }
+  .mobile-owner-chip.hermes { background: rgba(61,130,104,0.2); color: #1a3d2c; }
+
+  /* ============================================
+     SAVE INDICATOR (prominent)
+     ============================================ */
+  .desktop-save-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text-muted);
+    padding: 8px 14px;
+    border-radius: 20px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    transition: all 0.2s;
+    min-width: 200px;
+  }
+  .desktop-save-indicator.saving { color: var(--accent); border-color: var(--accent); }
+  .desktop-save-indicator.saved { color: var(--success); border-color: var(--success); background: var(--success-bg); }
+  .desktop-save-indicator.error { color: var(--danger); background: var(--danger-bg); border-color: var(--danger); }
+
+  .mobile-save {
+    font-size: 12px;
+    padding: 6px 14px;
+    border-radius: 14px;
+    background: var(--success-bg);
+    color: var(--success);
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 500;
+  }
+  .mobile-save.saving { background: var(--accent-light); color: #8a6438; }
+  .mobile-save.error { background: var(--danger-bg); color: var(--danger); }
+
+  /* ============================================
+     LAST-EDITED-BY BADGE
+     ============================================ */
+  .last-edited {
+    font-size: 10px;
+    color: var(--text-faint);
+    font-style: italic;
+    margin-top: 4px;
+  }
+
   .btn {
     display: inline-flex;
     align-items: center;
@@ -1215,14 +1368,16 @@
     </div>
 
     <div class="desktop-compliance">
-      <strong>⚠️ HK-only seller structuur — compliance exposure (bewust gekozen)</strong>
-      Jullie hebben expliciet gekozen voor een HK-bedrijf als enige seller. Bekende risico's (gemitigeerd in roadmap):
-      <ul>
-        <li><strong>GPSR Responsible Person:</strong> extern service (~€50-150/SKU/jaar)</li>
-        <li><strong>Douane:</strong> klanten kunnen btw-verrassingen krijgen bij import (geen IOSS)</li>
-        <li><strong>NL-belastingdienst:</strong> DAC7 reporting — wereldwijd inkomen belastbaar (Ali fiscaal inwoner NL)</li>
-        <li><strong>Productaansprakelijkheid:</strong> blijft gelden ongeacht seller-land</li>
-      </ul>
+      <strong>⚠️ HK-only seller structuur — compliance exposure (bewust gekozen) <span class="compliance-toggle-icon">▼</span></strong>
+      <div class="compliance-detail">
+        <p style="margin: 8px 0;">Jullie hebben expliciet gekozen voor een HK-bedrijf als enige seller. Bekende risico's (gemitigeerd in roadmap):</p>
+        <ul>
+          <li><strong>GPSR Responsible Person:</strong> extern service (~€50-150/SKU/jaar)</li>
+          <li><strong>Douane:</strong> klanten kunnen btw-verrassingen krijgen bij import (geen IOSS)</li>
+          <li><strong>NL-belastingdienst:</strong> DAC7 reporting — wereldwijd inkomen belastbaar (Ali fiscaal inwoner NL)</li>
+          <li><strong>Productaansprakelijkheid:</strong> blijft gelden ongeacht seller-land</li>
+        </ul>
+      </div>
     </div>
 
     <div id="desktop-phases"></div>
@@ -1303,6 +1458,9 @@ class KitchenApp {
     this.currentQuery = '';
     this.saveTimer = null;
     this.phasesCollapsed = {};
+    this.currentPage = 1;
+    this.tasksPerPage = 20;
+    this.complianceCollapsed = localStorage.getItem('compliance-collapsed') !== 'false';
   }
 
   async init() {
@@ -1383,10 +1541,32 @@ class KitchenApp {
     if (!container) return;
     container.innerHTML = '';
 
+    // Compute filtered + paginated tasks
+    const allVisibleTasks = [];
     this.state.phases.forEach(phase => {
-      const visibleTasks = this.getVisibleTasks(phase);
-      if (visibleTasks.length === 0) return;
+      this.getVisibleTasks(phase).forEach(task => {
+        allVisibleTasks.push({ task, phase });
+      });
+    });
 
+    if (allVisibleTasks.length === 0) {
+      container.innerHTML = this.renderEmptyState();
+      return;
+    }
+
+    const totalPages = Math.ceil(allVisibleTasks.length / this.tasksPerPage);
+    if (this.currentPage > totalPages) this.currentPage = totalPages;
+    const startIdx = (this.currentPage - 1) * this.tasksPerPage;
+    const pageTasks = allVisibleTasks.slice(startIdx, startIdx + this.tasksPerPage);
+
+    // Group by phase
+    const tasksByPhase = {};
+    pageTasks.forEach(({ task, phase }) => {
+      if (!tasksByPhase[phase.id]) tasksByPhase[phase.id] = { phase, tasks: [] };
+      tasksByPhase[phase.id].tasks.push(task);
+    });
+
+    Object.values(tasksByPhase).forEach(({ phase, tasks }) => {
       const doneCount = phase.tasks.filter(t => this.status[t.id]).length;
       const totalCount = phase.tasks.length;
       const isCollapsed = this.phasesCollapsed[phase.id];
@@ -1423,13 +1603,44 @@ class KitchenApp {
               </tr>
             </thead>
             <tbody>
-              ${visibleTasks.map(task => this.renderDesktopTask(task)).join('')}
+              ${tasks.map(task => this.renderDesktopTask(task)).join('')}
             </tbody>
           </table>
         </div>
       `;
       container.appendChild(phaseEl);
     });
+
+    // Pagination footer
+    if (totalPages > 1) {
+      const pagEl = document.createElement('div');
+      pagEl.className = 'pagination';
+      pagEl.innerHTML = `
+        <div class="info">
+          Pagina ${this.currentPage} van ${totalPages} · ${allVisibleTasks.length} taken
+        </div>
+        <div class="controls">
+          <button ${this.currentPage === 1 ? 'disabled' : ''} data-page="first">« Eerste</button>
+          <button ${this.currentPage === 1 ? 'disabled' : ''} data-page="prev">‹ Vorige</button>
+          <span style="padding: 4px 8px; font-size: 12px; color: var(--text-muted); align-self: center;">${this.currentPage} / ${totalPages}</span>
+          <button ${this.currentPage === totalPages ? 'disabled' : ''} data-page="next">Volgende ›</button>
+          <button ${this.currentPage === totalPages ? 'disabled' : ''} data-page="last">Laatste »</button>
+        </div>
+      `;
+      container.appendChild(pagEl);
+
+      pagEl.querySelectorAll('[data-page]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const p = btn.dataset.page;
+          if (p === 'first') this.currentPage = 1;
+          else if (p === 'prev') this.currentPage = Math.max(1, this.currentPage - 1);
+          else if (p === 'next') this.currentPage = Math.min(totalPages, this.currentPage + 1);
+          else if (p === 'last') this.currentPage = totalPages;
+          this.render();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      });
+    }
 
     container.querySelectorAll('[data-desktop-toggle]').forEach(el => {
       el.addEventListener('click', e => {
@@ -1451,15 +1662,30 @@ class KitchenApp {
     this.updateDesktopProgress();
   }
 
+  renderEmptyState() {
+    const messages = {
+      default: { emoji: '🎯', title: 'Geen taken gevonden', sub: 'Pas je filters aan om taken te zien.' },
+      done: { emoji: '🌟', title: 'Alles klaar!', sub: 'Geen open taken in deze weergave.' },
+      todo: { emoji: '📋', title: 'Nog niks gedaan', sub: 'De eerste taak afvinken?' },
+    };
+    const m = messages[this.currentStatus] || messages.default;
+    return `<div class="empty-state">
+      <span class="emoji">${m.emoji}</span>
+      <div class="title">${m.title}</div>
+      <div class="sub">${m.sub}</div>
+    </div>`;
+  }
+
   renderDesktopTask(task) {
     const isDone = !!this.status[task.id];
     const ownerOptions = Object.entries(OWNER_LABELS).map(([key, label]) =>
       `<option value="${key}" ${task.owner === key ? 'selected' : ''}>${label}</option>`
     ).join('');
+    const lastEdited = this.status[task.id + '_edited'];
     return `
       <tr class="${isDone ? 'done' : ''}">
         <td><div class="task-check ${isDone ? 'checked' : ''}" data-d-task="${task.id}" data-d-field="check"></div></td>
-        <td><input type="text" class="task-name-field" data-d-task="${task.id}" data-d-field="name" value="${this.escape(task.name)}"></td>
+        <td><input type="text" class="task-name-field" data-d-task="${task.id}" data-d-field="name" value="${this.escape(task.name)}">${lastEdited ? `<div class="last-edited">laatst: ${lastEdited}</div>` : ''}</td>
         <td><select class="owner-select owner-${task.owner}" data-d-task="${task.id}" data-d-field="owner">${ownerOptions}</select></td>
         <td><input type="text" class="task-day-field" data-d-task="${task.id}" data-d-field="day" value="${this.escape(task.day)}"></td>
         <td><input type="text" class="task-done-field" data-d-task="${task.id}" data-d-field="done" value="${this.escape(task.done)}"></td>
@@ -1474,6 +1700,19 @@ class KitchenApp {
     const container = document.getElementById('mobile-phases');
     if (!container) return;
     container.innerHTML = '';
+
+    // Group by phase (mobile shows all, no pagination)
+    let totalVisible = 0;
+    this.state.phases.forEach(phase => {
+      const visibleTasks = this.getVisibleTasks(phase);
+      totalVisible += visibleTasks.length;
+    });
+
+    if (totalVisible === 0) {
+      container.innerHTML = this.renderEmptyState();
+      this.updateMobileProgress();
+      return;
+    }
 
     this.state.phases.forEach(phase => {
       const visibleTasks = this.getVisibleTasks(phase);
@@ -1625,6 +1864,9 @@ class KitchenApp {
       const task = this.findTask(taskId);
       if (!task) return;
       task[field] = value;
+      // Track who edited when (last-edited badge in UI)
+      this.status[taskId + '_edited'] = `${this.currentUser} · ${new Date().toLocaleString('nl-NL', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}`;
+      this.saveStatusLocal();
       this.scheduleSave();
     }
   }
@@ -1736,6 +1978,7 @@ class KitchenApp {
         document.querySelectorAll('.desktop-sidebar [data-filter]').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         this.currentFilter = btn.dataset.filter;
+        this.currentPage = 1; // reset to first page on filter change
         this.render();
       });
     });
@@ -1744,14 +1987,35 @@ class KitchenApp {
         document.querySelectorAll('.desktop-sidebar [data-status]').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         this.currentStatus = btn.dataset.status;
+        this.currentPage = 1;
         this.render();
       });
     });
     document.getElementById('desktop-search').addEventListener('input', e => {
       this.currentQuery = e.target.value.toLowerCase();
+      this.currentPage = 1;
       document.getElementById('mobile-search').value = e.target.value;
       this.render();
     });
+    document.getElementById('mobile-search').addEventListener('input', e => {
+      this.currentQuery = e.target.value.toLowerCase();
+      this.currentPage = 1;
+      document.getElementById('desktop-search').value = e.target.value;
+      this.render();
+    });
+
+    // Compliance banner toggle
+    const complianceEl = document.querySelector('.desktop-compliance');
+    if (complianceEl) {
+      if (this.complianceCollapsed) complianceEl.classList.add('collapsed');
+      complianceEl.style.cursor = 'pointer';
+      complianceEl.addEventListener('click', e => {
+        if (e.target.closest('a, button, input, select')) return;
+        this.complianceCollapsed = !this.complianceCollapsed;
+        localStorage.setItem('compliance-collapsed', this.complianceCollapsed);
+        complianceEl.classList.toggle('collapsed');
+      });
+    }
   }
 
   attachMobileFilters() {
@@ -1845,17 +2109,30 @@ class KitchenApp {
   }
 
   // =============================================================
-  // COUNTS + PROGRESS
+  // COUNTS + PROGRESS (reactive — based on current filter+query)
   // =============================================================
   updateCounts() {
-    const counts = { all: 0, ali: 0, kheibar: 0, farshad: 0, designer: 0, hermes: 0 };
+    // Calculate reactive counts (respects current filter+query, but NOT owner filter
+    // so user can see "if I clicked Ali, how many would I see")
+    const reactiveCounts = { ali: 0, kheibar: 0, farshad: 0, designer: 0, hermes: 0 };
+
     this.state.phases.forEach(p => p.tasks.forEach(t => {
-      counts.all++;
-      counts[t.owner] = (counts[t.owner] || 0) + 1;
+      // Apply status + search filter, but skip owner filter for counts
+      if (this.currentStatus === 'todo' && this.status[t.id]) return;
+      if (this.currentStatus === 'done' && !this.status[t.id]) return;
+      if (this.currentQuery) {
+        const q = this.currentQuery.toLowerCase();
+        const haystack = `${t.name} ${t.day} ${t.done} ${t.notes || ''}`.toLowerCase();
+        if (!haystack.includes(q)) return;
+      }
+      reactiveCounts[t.owner] = (reactiveCounts[t.owner] || 0) + 1;
     }));
-    Object.keys(counts).forEach(k => {
+
+    reactiveCounts.all = Object.values(reactiveCounts).reduce((a, b) => a + b, 0);
+
+    Object.keys(reactiveCounts).forEach(k => {
       const el = document.getElementById('count-' + k);
-      if (el) el.textContent = counts[k];
+      if (el) el.textContent = reactiveCounts[k];
     });
   }
 
