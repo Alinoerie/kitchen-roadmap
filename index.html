@@ -2,12 +2,15 @@
 <html lang="nl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#2d5a3d">
 <title>Kitchen Roadmap · 0 → €10k+/maand</title>
 <meta name="description" content="Keukengerij launch roadmap · 90 dagen · Ali · Kheibar · Farshad">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>
   /* ============================================
-     DESIGN TOKENS (Asana/Miro-inspired)
+     DESIGN TOKENS
      ============================================ */
   :root {
     --bg: #f7f8fa;
@@ -20,6 +23,7 @@
     --text-muted: #57606a;
     --text-faint: #8b949e;
     --primary: #2d5a3d;
+    --primary-hover: #234a32;
     --primary-light: #e6f0e9;
     --accent: #c89860;
     --accent-light: #fdf3e0;
@@ -30,27 +34,18 @@
     --danger: #cf222e;
     --danger-bg: #ffebe9;
 
-    /* Owner colors */
     --c-ali: #c89860;
     --c-kheibar: #4a78b3;
     --c-farshad: #8b5a96;
     --c-designer: #b85b73;
     --c-hermes: #3d8268;
 
-    /* Sizing */
     --radius: 6px;
     --radius-sm: 4px;
+    --radius-lg: 10px;
     --shadow-sm: 0 1px 2px rgba(31,35,40,.06);
     --shadow-md: 0 4px 8px rgba(31,35,40,.08), 0 2px 4px rgba(31,35,40,.04);
     --shadow-lg: 0 12px 24px rgba(31,35,40,.12), 0 4px 8px rgba(31,35,40,.04);
-
-    /* Spacing */
-    --sp-1: 4px;
-    --sp-2: 8px;
-    --sp-3: 12px;
-    --sp-4: 16px;
-    --sp-5: 24px;
-    --sp-6: 32px;
   }
 
   * { box-sizing: border-box; }
@@ -62,54 +57,541 @@
     font-size: 14px;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: contain;
   }
-  * { box-sizing: border-box; }
 
   /* ============================================
-     LAYOUT
+     MOBILE LAYOUT (default <900px)
      ============================================ */
-  .app { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+  body { padding-bottom: env(safe-area-inset-bottom); padding-top: env(safe-area-inset-top); }
 
-  .sidebar {
+  .app-mobile {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: var(--bg);
+  }
+
+  /* Mobile top bar */
+  .mobile-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--bg-elevated);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background: rgba(255,255,255,0.92);
+  }
+  .mobile-header h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .mobile-header .user-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--bg-hover);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 4px 10px 4px 4px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text);
+  }
+  .user-chip select {
+    background: transparent;
+    border: none;
+    font: inherit;
+    color: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    padding-right: 8px;
+  }
+
+  /* Mobile main scroll */
+  .mobile-main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    padding-bottom: 100px;
+  }
+
+  /* Mobile progress card */
+  .mobile-progress {
+    background: linear-gradient(135deg, var(--primary), var(--primary-hover));
+    color: white;
+    padding: 16px;
+    border-radius: var(--radius-lg);
+    margin-bottom: 16px;
+    box-shadow: var(--shadow-md);
+  }
+  .mobile-progress .label {
+    font-size: 11px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .mobile-progress .value {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 4px 0;
+  }
+  .mobile-progress .bar {
+    height: 6px;
+    background: rgba(255,255,255,0.25);
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 8px;
+  }
+  .mobile-progress .bar-fill {
+    height: 100%;
+    background: white;
+    border-radius: 3px;
+    transition: width 0.3s ease;
+  }
+
+  /* Mobile save indicator */
+  .mobile-save {
+    font-size: 11px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    background: var(--success-bg);
+    color: var(--success);
+    margin-top: 8px;
+    display: inline-block;
+  }
+  .mobile-save.saving { background: var(--accent-light); color: #8a6438; }
+  .mobile-save.error { background: var(--danger-bg); color: var(--danger); }
+
+  /* Mobile search bar */
+  .mobile-search {
+    position: sticky;
+    top: 56px;
+    z-index: 40;
+    background: var(--bg);
+    padding: 8px 0 12px 0;
+    margin: -8px 0 8px 0;
+  }
+  .mobile-search input {
+    width: 100%;
+    padding: 10px 14px 10px 40px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--bg-elevated);
+    font-size: 15px;
+    color: var(--text);
+    font-family: inherit;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2357606a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='11' cy='11' r='8'/><line x1='21' y1='21' x2='16.65' y2='16.65'/></svg>");
+    background-repeat: no-repeat;
+    background-position: 14px center;
+  }
+  .mobile-search input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px var(--primary-light);
+  }
+
+  /* Mobile phase card */
+  .mobile-phase {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    margin-bottom: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+  }
+  .mobile-phase-head {
+    padding: 14px 16px;
+    background: var(--bg-elevated);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: background 0.1s;
+  }
+  .mobile-phase-head:active { background: var(--bg-hover); }
+  .mobile-phase.collapsed .phase-body { display: none; }
+  .mobile-phase-head-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+  }
+  .mobile-phase-code {
+    background: var(--primary);
+    color: white;
+    padding: 4px 10px;
+    border-radius: var(--radius-sm);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    flex-shrink: 0;
+  }
+  .mobile-phase-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .mobile-phase-days {
+    font-size: 11px;
+    color: var(--text-faint);
+    margin-top: 2px;
+  }
+  .mobile-phase-count {
+    font-size: 12px;
+    color: var(--text-muted);
+    background: var(--bg-active);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+  .mobile-phase-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-faint);
+    font-size: 18px;
+    padding: 4px 8px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Mobile phase body */
+  .mobile-phase-body {
+    border-top: 1px solid var(--border);
+  }
+
+  /* Mobile task card */
+  .mobile-task {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.1s;
+  }
+  .mobile-task:last-child { border-bottom: none; }
+  .mobile-task:active { background: var(--bg-hover); }
+  .mobile-task.done { opacity: 0.55; }
+  .mobile-task.done .task-name { text-decoration: line-through; color: var(--text-muted); }
+
+  .mobile-task-top {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  .mobile-task-check {
+    width: 22px; height: 22px;
+    border: 2px solid var(--border-strong);
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background 0.1s, border-color 0.1s;
+    margin-top: 2px;
+  }
+  .mobile-task-check.checked {
+    background: var(--success);
+    border-color: var(--success);
+  }
+  .mobile-task-check.checked::after {
+    content: '';
+    width: 5px; height: 10px;
+    border: solid white;
+    border-width: 0 2.5px 2.5px 0;
+    transform: rotate(45deg) translate(-1px, -1px);
+  }
+  .mobile-task-main { flex: 1; min-width: 0; }
+  .mobile-task-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text);
+    margin: 0 0 6px 0;
+    line-height: 1.4;
+  }
+  .mobile-task-name input {
+    background: transparent;
+    border: none;
+    font: inherit;
+    color: inherit;
+    width: 100%;
+    padding: 0;
+  }
+  .mobile-task-name input:focus {
+    outline: none;
+    background: var(--bg-hover);
+    border-radius: var(--radius-sm);
+    padding: 4px 6px;
+    margin: -4px -6px;
+  }
+
+  .mobile-task-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    align-items: center;
+  }
+
+  .mobile-task-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .mobile-task-actions button {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    background: var(--bg-elevated);
+    border-radius: var(--radius-sm);
+    font-size: 12px;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+  }
+  .mobile-task-actions button:active { background: var(--bg-hover); }
+  .mobile-task-actions button.delete { color: var(--danger); border-color: var(--danger); background: white; }
+
+  /* Owner chip mobile */
+  .mobile-owner-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .mobile-owner-chip select {
+    background: transparent;
+    border: none;
+    color: inherit;
+    font: inherit;
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  .mobile-owner-chip .dot { width: 6px; height: 6px; }
+
+  /* Mobile day chip */
+  .mobile-day-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 8px;
+    background: var(--bg-active);
+    border-radius: 10px;
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: 'SF Mono', Monaco, monospace;
+  }
+
+  /* Mobile expandable details */
+  .mobile-task-details {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px dashed var(--border);
+    display: none;
+  }
+  .mobile-task.expanded .mobile-task-details { display: block; }
+  .mobile-task-detail-row {
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+  .mobile-task-detail-label {
+    color: var(--text-faint);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin-bottom: 2px;
+  }
+  .mobile-task-detail-input {
+    width: 100%;
+    padding: 6px 8px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--bg-elevated);
+    font-size: 13px;
+    font-family: inherit;
+    color: var(--text);
+  }
+  .mobile-task-detail-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px var(--primary-light);
+  }
+
+  /* Mobile FAB */
+  .mobile-fab {
+    position: fixed;
+    bottom: calc(20px + env(safe-area-inset-bottom));
+    right: 20px;
+    width: 56px;
+    height: 56px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: var(--shadow-lg);
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.1s, transform 0.1s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .mobile-fab:active { transform: scale(0.92); background: var(--primary-hover); }
+
+  /* Mobile bottom sheet filters */
+  .mobile-sheet-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 200;
+    display: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .mobile-sheet-overlay.open { display: block; }
+  .mobile-sheet {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-elevated);
+    border-radius: 16px 16px 0 0;
+    max-height: 75vh;
+    overflow-y: auto;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    padding-bottom: env(safe-area-inset-bottom);
+    z-index: 201;
+    -webkit-overflow-scrolling: touch;
+  }
+  .mobile-sheet.open { transform: translateY(0); }
+  .mobile-sheet-handle {
+    width: 36px;
+    height: 4px;
+    background: var(--border-strong);
+    border-radius: 2px;
+    margin: 12px auto 8px auto;
+  }
+  .mobile-sheet-content {
+    padding: 8px 20px 20px 20px;
+  }
+  .mobile-sheet h3 {
+    margin: 16px 0 12px 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-faint);
+    font-weight: 600;
+  }
+
+  /* Mobile compliance banner */
+  .mobile-compliance {
+    background: var(--warn-bg);
+    border-left: 4px solid var(--warn);
+    border-radius: var(--radius-sm);
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    font-size: 12px;
+  }
+  .mobile-compliance strong { color: var(--warn); display: block; margin-bottom: 4px; }
+  .mobile-compliance ul { margin: 6px 0 0 0; padding-left: 18px; font-size: 11px; }
+  .mobile-compliance li { margin: 2px 0; }
+
+  /* ============================================
+     DESKTOP LAYOUT (≥900px)
+     ============================================ */
+  .desktop-app {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    min-height: 100vh;
+  }
+
+  .desktop-sidebar {
     background: var(--bg-elevated);
     border-right: 1px solid var(--border);
-    padding: var(--sp-4);
+    padding: 16px;
     position: sticky;
     top: 0;
     height: 100vh;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: var(--sp-4);
+    gap: 16px;
   }
-  .sidebar h1 {
+  .desktop-sidebar h1 {
     margin: 0;
     font-size: 16px;
     font-weight: 700;
     color: var(--text);
     display: flex;
     align-items: center;
-    gap: var(--sp-2);
+    gap: 8px;
   }
-  .sidebar .subtitle {
+  .desktop-sidebar .subtitle {
     font-size: 11px;
     color: var(--text-faint);
     margin: 0;
   }
-  .sidebar section { display: flex; flex-direction: column; gap: 2px; }
-  .sidebar h3 {
-    margin: 0 0 var(--sp-2) 0;
+  .desktop-sidebar section { display: flex; flex-direction: column; gap: 2px; }
+  .desktop-sidebar h3 {
+    margin: 0 0 8px 0;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     color: var(--text-faint);
     font-weight: 600;
   }
+  .desktop-user-bar {
+    padding: 12px;
+    background: var(--bg);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+  }
+  .desktop-user-bar label {
+    display: block;
+    font-size: 11px;
+    color: var(--text-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+  .desktop-user-bar select {
+    width: 100%;
+    padding: 4px 8px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--bg-elevated);
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+  }
 
-  /* ============================================
-     BUTTONS / NAV
-     ============================================ */
   .filter-btn {
     display: flex;
     align-items: center;
@@ -124,6 +606,7 @@
     font-size: 13px;
     text-align: left;
     transition: background 0.1s, border-color 0.1s;
+    font-family: inherit;
   }
   .filter-btn:hover { background: var(--bg-hover); }
   .filter-btn.active {
@@ -140,31 +623,7 @@
     color: var(--text-muted);
     font-weight: 500;
   }
-  .filter-btn.active .count {
-    background: var(--primary);
-    color: white;
-  }
-
-  /* ============================================
-     OWNER DOTS
-     ============================================ */
-  .owner-chip {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    padding: 2px 8px 2px 6px;
-    border-radius: 10px;
-    font-size: 11px;
-    font-weight: 500;
-    border: 1px solid transparent;
-    transition: border-color 0.1s;
-  }
-  .owner-chip:hover { border-color: var(--border-strong); cursor: pointer; }
-  .owner-ali { background: rgba(200,152,96,0.15); color: #8a6438; }
-  .owner-kheibar { background: rgba(74,120,179,0.15); color: #2d5a8a; }
-  .owner-farshad { background: rgba(139,90,150,0.15); color: #6a3d75; }
-  .owner-designer { background: rgba(184,91,115,0.15); color: #8a3d57; }
-  .owner-hermes { background: rgba(61,130,104,0.15); color: #285c47; }
+  .filter-btn.active .count { background: var(--primary); color: white; }
 
   .dot {
     width: 6px; height: 6px;
@@ -177,39 +636,36 @@
   .dot-designer { background: var(--c-designer); }
   .dot-hermes { background: var(--c-hermes); }
 
-  /* ============================================
-     MAIN
-     ============================================ */
-  .main {
-    padding: var(--sp-5) var(--sp-6);
+  /* Desktop main */
+  .desktop-main {
+    padding: 24px 32px;
     max-width: 1200px;
-    overflow-x: hidden;
   }
-  .header {
+  .desktop-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: var(--sp-5);
-    gap: var(--sp-4);
+    margin-bottom: 24px;
+    gap: 16px;
     flex-wrap: wrap;
   }
-  .header h2 {
+  .desktop-header h2 {
     margin: 0;
     font-size: 22px;
     font-weight: 700;
     color: var(--text);
   }
-  .header .sub {
-    margin: var(--sp-1) 0 0 0;
+  .desktop-header .sub {
+    margin: 4px 0 0 0;
     color: var(--text-muted);
     font-size: 13px;
   }
-  .header-right {
+  .desktop-header-right {
     display: flex;
     align-items: center;
-    gap: var(--sp-3);
+    gap: 12px;
   }
-  .save-indicator {
+  .desktop-save-indicator {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -220,25 +676,25 @@
     background: var(--bg-elevated);
     border: 1px solid var(--border);
   }
-  .save-indicator.saving { color: var(--accent); }
-  .save-indicator.saved { color: var(--success); }
-  .save-indicator.error { color: var(--danger); background: var(--danger-bg); border-color: var(--danger); }
-  .save-indicator .spinner {
+  .desktop-save-indicator.saving { color: var(--accent); }
+  .desktop-save-indicator.saved { color: var(--success); }
+  .desktop-save-indicator.error { color: var(--danger); background: var(--danger-bg); border-color: var(--danger); }
+  .spinner {
     width: 10px; height: 10px;
-    border: 2px solid var(--accent);
+    border: 2px solid currentColor;
     border-top-color: transparent;
     border-radius: 50%;
     animation: spin 0.6s linear infinite;
     display: none;
   }
-  .save-indicator.saving .spinner { display: inline-block; }
+  .saving .spinner { display: inline-block; }
   @keyframes spin { to { transform: rotate(360deg); } }
 
   .progress-card {
     background: var(--bg-elevated);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: var(--sp-3) var(--sp-4);
+    padding: 12px 16px;
     min-width: 200px;
     box-shadow: var(--shadow-sm);
   }
@@ -267,13 +723,10 @@
     border-radius: 2px;
   }
 
-  /* ============================================
-     SEARCH + ACTIONS
-     ============================================ */
   .toolbar {
     display: flex;
-    gap: var(--sp-3);
-    margin-bottom: var(--sp-4);
+    gap: 12px;
+    margin-bottom: 16px;
     flex-wrap: wrap;
     align-items: center;
   }
@@ -293,7 +746,6 @@
     border-color: var(--primary);
     box-shadow: 0 0 0 3px var(--primary-light);
   }
-  .search-bar::placeholder { color: var(--text-faint); }
 
   .btn {
     display: inline-flex;
@@ -311,64 +763,34 @@
     transition: background 0.1s, border-color 0.1s, color 0.1s;
   }
   .btn:hover { background: var(--bg-hover); border-color: var(--border-strong); }
-  .btn.primary {
-    background: var(--primary);
-    color: white;
-    border-color: var(--primary);
-  }
-  .btn.primary:hover {
-    background: #234a32;
-    border-color: #234a32;
-  }
-  .btn.danger {
-    background: var(--bg-elevated);
-    color: var(--danger);
-    border-color: var(--danger);
-  }
-  .btn.danger:hover { background: var(--danger-bg); }
-  .btn.ghost {
-    background: transparent;
-    border-color: transparent;
-    color: var(--text-muted);
-    padding: 4px 8px;
-  }
-  .btn.ghost:hover { background: var(--bg-hover); color: var(--text); }
+  .btn.primary { background: var(--primary); color: white; border-color: var(--primary); }
+  .btn.primary:hover { background: var(--primary-hover); border-color: var(--primary-hover); }
 
-  /* ============================================
-     COMPLIANCE BANNER
-     ============================================ */
-  .compliance-banner {
+  .desktop-compliance {
     background: var(--warn-bg);
     border: 1px solid #d4a72c;
     border-left: 4px solid var(--warn);
     border-radius: var(--radius);
-    padding: var(--sp-3) var(--sp-4);
-    margin-bottom: var(--sp-4);
+    padding: 12px 16px;
+    margin-bottom: 16px;
     font-size: 13px;
   }
-  .compliance-banner strong {
-    color: var(--warn);
-    display: block;
-    margin-bottom: 4px;
-  }
-  .compliance-banner ul { margin: var(--sp-2) 0 0 0; padding-left: 20px; }
-  .compliance-banner li { margin: 2px 0; }
+  .desktop-compliance strong { color: var(--warn); display: block; margin-bottom: 4px; }
+  .desktop-compliance ul { margin: 8px 0 0 0; padding-left: 20px; }
 
-  /* ============================================
-     PHASE ACCORDION
-     ============================================ */
-  .phase {
+  /* Desktop phase card */
+  .desktop-phase {
     background: var(--bg-elevated);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    margin-bottom: var(--sp-3);
+    margin-bottom: 12px;
     overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: box-shadow 0.1s;
   }
-  .phase:hover { box-shadow: var(--shadow-md); }
-  .phase-head {
-    padding: var(--sp-3) var(--sp-4);
+  .desktop-phase:hover { box-shadow: var(--shadow-md); }
+  .desktop-phase-head {
+    padding: 12px 16px;
     background: var(--bg-elevated);
     border-bottom: 1px solid var(--border);
     cursor: pointer;
@@ -378,13 +800,13 @@
     user-select: none;
     transition: background 0.1s;
   }
-  .phase-head:hover { background: var(--bg-hover); }
-  .phase.collapsed .phase-head { border-bottom: none; }
-  .phase.collapsed .phase-body { display: none; }
+  .desktop-phase-head:hover { background: var(--bg-hover); }
+  .desktop-phase.collapsed .desktop-phase-head { border-bottom: none; }
+  .desktop-phase.collapsed .desktop-phase-body { display: none; }
   .phase-head-left {
     display: flex;
     align-items: center;
-    gap: var(--sp-3);
+    gap: 12px;
   }
   .phase-code {
     background: var(--primary);
@@ -404,7 +826,7 @@
     color: var(--text-faint);
     font-size: 12px;
     font-weight: 500;
-    margin-left: var(--sp-2);
+    margin-left: 8px;
   }
   .phase-goal {
     color: var(--text-muted);
@@ -414,7 +836,7 @@
   .phase-head-right {
     display: flex;
     align-items: center;
-    gap: var(--sp-3);
+    gap: 12px;
   }
   .phase-count {
     font-size: 12px;
@@ -424,19 +846,9 @@
     border-radius: 10px;
     font-weight: 500;
   }
-  .phase-toggle {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    color: var(--text-faint);
-    font-size: 14px;
-    padding: 4px;
-  }
 
-  /* ============================================
-     TASK TABLE
-     ============================================ */
-  .phase-body { padding: 0; }
+  /* Desktop table */
+  .desktop-phase-body { padding: 0; }
   table.tasks {
     width: 100%;
     border-collapse: collapse;
@@ -452,8 +864,6 @@
     letter-spacing: 0.5px;
     font-weight: 600;
     border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
   }
   table.tasks tbody tr {
     border-bottom: 1px solid var(--border);
@@ -467,8 +877,6 @@
     padding: 8px 12px;
     vertical-align: middle;
   }
-
-  /* Task checkbox */
   .task-check {
     width: 18px; height: 18px;
     border: 2px solid var(--border-strong);
@@ -484,7 +892,6 @@
   .task-check.checked {
     background: var(--success);
     border-color: var(--success);
-    color: white;
   }
   .task-check.checked::after {
     content: '';
@@ -493,8 +900,6 @@
     border-width: 0 2px 2px 0;
     transform: rotate(45deg) translate(-1px, -1px);
   }
-
-  /* Inline edit fields */
   .task-name-field {
     background: transparent;
     border: 1px solid transparent;
@@ -513,7 +918,6 @@
     background: var(--bg-elevated);
     border-color: var(--primary);
   }
-
   .task-day-field, .task-done-field, .task-notes-field {
     background: transparent;
     border: 1px solid transparent;
@@ -525,7 +929,7 @@
     font-family: inherit;
     transition: background 0.1s, border-color 0.1s;
   }
-  .task-day-field { font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace; }
+  .task-day-field { font-family: 'SF Mono', Monaco, monospace; }
   .task-day-field:hover, .task-done-field:hover, .task-notes-field:hover { background: var(--bg-hover); }
   .task-day-field:focus, .task-done-field:focus, .task-notes-field:focus {
     outline: none;
@@ -534,8 +938,6 @@
     color: var(--text);
   }
   .task-notes-field { font-style: italic; }
-
-  /* Owner dropdown */
   .owner-select {
     background: transparent;
     border: 1px solid transparent;
@@ -547,8 +949,6 @@
     transition: background 0.1s, border-color 0.1s;
   }
   .owner-select:hover { background: var(--bg-hover); border-color: var(--border); }
-
-  /* Comment */
   .comment-field {
     background: transparent;
     border: 1px solid transparent;
@@ -569,8 +969,6 @@
     color: var(--text);
   }
   .comment-field::placeholder { color: var(--text-faint); font-style: italic; }
-
-  /* Task delete button */
   .task-delete {
     opacity: 0;
     transition: opacity 0.1s;
@@ -581,85 +979,14 @@
     padding: 4px 8px;
     border-radius: var(--radius-sm);
     font-size: 12px;
+    font-family: inherit;
   }
   table.tasks tbody tr:hover .task-delete { opacity: 1; }
   .task-delete:hover { background: var(--danger-bg); color: var(--danger); border-color: var(--danger); }
 
-  /* ============================================
-     ADD TASK ROW
-     ============================================ */
-  .add-task-row {
-    background: var(--bg);
-    border-top: 1px dashed var(--border);
-  }
-  .add-task-row td {
-    padding: var(--sp-3) var(--sp-4);
-  }
-  .add-task-input {
-    background: var(--bg-elevated);
-    border: 1px solid var(--border);
-    padding: 6px 10px;
-    border-radius: var(--radius-sm);
-    font-size: 13px;
-    color: var(--text);
-    width: 100%;
-    font-family: inherit;
-  }
-  .add-task-input:focus {
-    outline: none;
-    border-color: var(--primary);
-    box-shadow: 0 0 0 2px var(--primary-light);
-  }
-  .add-task-btn {
-    background: var(--primary);
-    color: white;
-    border: none;
-    padding: 6px 14px;
-    border-radius: var(--radius-sm);
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: 500;
-    font-family: inherit;
-    transition: background 0.1s;
-  }
-  .add-task-btn:hover { background: #234a32; }
-  .add-task-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-
-  /* ============================================
-     USER IDENTITY BAR
-     ============================================ */
-  .user-bar {
-    padding: var(--sp-3);
-    background: var(--bg);
-    border-radius: var(--radius);
-    border: 1px solid var(--border);
-    margin-bottom: var(--sp-2);
-  }
-  .user-bar label {
-    display: block;
-    font-size: 11px;
-    color: var(--text-faint);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 4px;
-  }
-  .user-bar select {
-    width: 100%;
-    padding: 4px 8px;
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    background: var(--bg-elevated);
-    font-size: 13px;
-    font-family: inherit;
-    cursor: pointer;
-  }
-
-  /* ============================================
-     FOOTER
-     ============================================ */
-  .footer {
-    margin-top: var(--sp-6);
-    padding-top: var(--sp-4);
+  .desktop-footer {
+    margin-top: 32px;
+    padding-top: 16px;
     border-top: 1px solid var(--border);
     color: var(--text-faint);
     font-size: 12px;
@@ -667,46 +994,155 @@
   }
 
   /* ============================================
-     RESPONSIVE
+     MODAL (shared)
      ============================================ */
-  @media (max-width: 900px) {
-    .app { grid-template-columns: 1fr; }
-    .sidebar {
-      position: relative;
-      height: auto;
-      border-right: none;
-      border-bottom: 1px solid var(--border);
-    }
-    .main { padding: var(--sp-4); }
-    table.tasks { font-size: 12px; }
-    table.tasks th:nth-child(5), table.tasks td:nth-child(5),
-    table.tasks th:nth-child(6), table.tasks td:nth-child(6),
-    table.tasks th:nth-child(7), table.tasks td:nth-child(7) { display: none; }
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 300;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    max-width: 480px;
+    width: 100%;
+    box-shadow: var(--shadow-lg);
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .modal h3 {
+    margin: 0 0 16px 0;
+    font-size: 18px;
+  }
+  .form-group {
+    margin-bottom: 12px;
+  }
+  .form-group label {
+    display: block;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+    font-family: inherit;
+    box-sizing: border-box;
+  }
+  .form-group input:focus,
+  .form-group select:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px var(--primary-light);
+  }
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 16px;
   }
 
   /* ============================================
-     ANIMATIONS
+     RESPONSIVE SWITCH
      ============================================ */
+  .desktop-only { display: none; }
+  .mobile-only { display: block; }
+
+  @media (min-width: 900px) {
+    .desktop-only { display: block; }
+    .mobile-only { display: none; }
+    body { background: var(--bg); }
+  }
+
+  /* Fade animations */
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(4px); }
     to { opacity: 1; transform: translateY(0); }
   }
-  .phase { animation: fadeIn 0.2s ease-out; }
+  .desktop-phase, .mobile-phase { animation: fadeIn 0.2s ease-out; }
 </style>
 </head>
 <body>
 
-<div class="app">
-  <!-- ============== SIDEBAR ============== -->
-  <aside class="sidebar">
+<!-- ============================================================
+     MOBILE LAYOUT
+     ============================================================ -->
+<div class="app-mobile mobile-only">
+
+  <header class="mobile-header">
+    <h1>🍳 Roadmap</h1>
+    <div class="user-chip">
+      <select id="mobile-user-select">
+        <option value="ali">Ali</option>
+        <option value="kheibar">Kheibar</option>
+        <option value="farshad">Farshad</option>
+        <option value="designer">Designer (F)</option>
+        <option value="hermes">Hermes</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="mobile-main">
+    <div class="mobile-progress">
+      <div class="label">Voortgang</div>
+      <div class="value" id="mobile-progress-text">0 / 0 taken</div>
+      <div class="bar"><div class="bar-fill" id="mobile-progress-fill" style="width: 0%"></div></div>
+      <div class="mobile-save saved" id="mobile-save">Laden...</div>
+    </div>
+
+    <div class="mobile-search">
+      <input type="text" id="mobile-search" placeholder="Zoek taak...">
+    </div>
+
+    <div class="mobile-compliance">
+      <strong>⚠️ HK-only seller (bewust gekozen)</strong>
+      Compliance exposure: GPSR via extern service, geen IOSS, DAC7 reporting, productaansprakelijkheid EU.
+    </div>
+
+    <div id="mobile-phases"></div>
+  </main>
+
+  <button class="mobile-fab" onclick="window.kitchenApp.openAddTaskModal()" aria-label="Taak toevoegen">+</button>
+
+  <div class="mobile-sheet-overlay" id="mobile-sheet-overlay" onclick="window.kitchenApp.closeFilterSheet()"></div>
+  <div class="mobile-sheet" id="mobile-sheet">
+    <div class="mobile-sheet-handle"></div>
+    <div class="mobile-sheet-content" id="mobile-sheet-content">
+      <!-- dynamically filled -->
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     DESKTOP LAYOUT
+     ============================================================ -->
+<div class="desktop-app desktop-only">
+  <aside class="desktop-sidebar">
     <div>
       <h1>🍳 Keuken Roadmap</h1>
       <p class="subtitle">0 → €10k+/maand · 90 dagen</p>
     </div>
 
-    <div class="user-bar">
+    <div class="desktop-user-bar">
       <label>Wie ben jij?</label>
-      <select id="user-select">
+      <select id="desktop-user-select">
         <option value="ali">Ali</option>
         <option value="kheibar">Kheibar</option>
         <option value="farshad">Farshad</option>
@@ -739,94 +1175,82 @@
 
     <section>
       <h3>Filter per status</h3>
-      <button class="filter-btn active" data-status="all">
-        <span>Alle</span>
-      </button>
-      <button class="filter-btn" data-status="todo">
-        <span>Te doen</span>
-      </button>
-      <button class="filter-btn" data-status="done">
-        <span>Klaar</span>
-      </button>
+      <button class="filter-btn active" data-status="all"><span>Alle</span></button>
+      <button class="filter-btn" data-status="todo"><span>Te doen</span></button>
+      <button class="filter-btn" data-status="done"><span>Klaar</span></button>
     </section>
 
     <section>
       <h3>Acties</h3>
-      <button class="filter-btn" onclick="window.kitchenApp.expandAll()">
-        <span>📂 Alles uitklappen</span>
-      </button>
-      <button class="filter-btn" onclick="window.kitchenApp.collapseAll()">
-        <span>📁 Alles inklappen</span>
-      </button>
       <button class="filter-btn" onclick="window.kitchenApp.exportJSON()">
         <span>💾 Export voortgang</span>
       </button>
     </section>
   </aside>
 
-  <!-- ============== MAIN ============== -->
-  <main class="main">
-    <div class="header">
+  <main class="desktop-main">
+    <div class="desktop-header">
       <div>
         <h2>Roadmap · 90 dagen · v2.0</h2>
         <p class="sub">Kitchengarai launch · 10 producten · Shopify EU10 · dropship via Farshad's netwerk</p>
       </div>
-      <div class="header-right">
+      <div class="desktop-header-right">
         <div class="progress-card">
           <div class="label">Voortgang</div>
-          <div class="value" id="progress-text">0 / 0 taken</div>
-          <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width: 0%"></div></div>
+          <div class="value" id="desktop-progress-text">0 / 0 taken</div>
+          <div class="progress-bar"><div class="progress-fill" id="desktop-progress-fill" style="width: 0%"></div></div>
         </div>
-        <div class="save-indicator" id="save-indicator">
+        <div class="desktop-save-indicator" id="desktop-save-indicator">
           <span class="spinner"></span>
-          <span id="save-text">Laden...</span>
+          <span id="desktop-save-text">Laden...</span>
         </div>
       </div>
     </div>
 
     <div class="toolbar">
-      <input type="text" class="search-bar" id="search" placeholder="🔍 Zoek taak (bijv. 'logo', 'Klaviyo', 'sample')...">
+      <input type="text" class="search-bar" id="desktop-search" placeholder="🔍 Zoek taak (bijv. 'logo', 'Klaviyo', 'sample')...">
       <button class="btn primary" onclick="window.kitchenApp.openAddTaskModal()">
         <span style="font-size: 16px; line-height: 1;">+</span> Taak toevoegen
       </button>
     </div>
 
-    <div class="compliance-banner">
+    <div class="desktop-compliance">
       <strong>⚠️ HK-only seller structuur — compliance exposure (bewust gekozen)</strong>
       Jullie hebben expliciet gekozen voor een HK-bedrijf als enige seller. Bekende risico's (gemitigeerd in roadmap):
       <ul>
-        <li><strong>GPSR Responsible Person:</strong> extern service (~ ~€50-150/SKU/jaar)</li>
+        <li><strong>GPSR Responsible Person:</strong> extern service (~€50-150/SKU/jaar)</li>
         <li><strong>Douane:</strong> klanten kunnen btw-verrassingen krijgen bij import (geen IOSS)</li>
-        <li><strong>NL-belastingdienst:</strong> DAC7 reporting — wereldwijd inkomen belastbaar (Alfiscaal inwoner NL)</li>
+        <li><strong>NL-belastingdienst:</strong> DAC7 reporting — wereldwijd inkomen belastbaar (Ali fiscaal inwoner NL)</li>
         <li><strong>Productaansprakelijkheid:</strong> blijft gelden ongeacht seller-land</li>
       </ul>
     </div>
 
-    <div id="phases"></div>
+    <div id="desktop-phases"></div>
 
-    <div class="footer">
+    <div class="desktop-footer">
       <div>128 taken · 6 fasen · realtime sync via GitHub</div>
-      <div style="margin-top: 4px;">Locatie: <code>~/.hermes/profiles/hermes_ecom_research/projects/kitchen-roadmap/</code></div>
     </div>
   </main>
 </div>
 
-<!-- ============== ADD TASK MODAL ============== -->
-<div id="add-task-modal" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 100; align-items: center; justify-content: center;">
-  <div style="background: white; border-radius: 8px; padding: 24px; max-width: 480px; width: 90%; box-shadow: 0 12px 32px rgba(0,0,0,0.2);">
-    <h3 style="margin: 0 0 16px 0;">Taak toevoegen</h3>
-    <div style="margin-bottom: 12px;">
-      <label style="display: block; font-size: 12px; color: #57606a; margin-bottom: 4px;">Fase</label>
-      <select id="add-phase" style="width: 100%; padding: 8px; border: 1px solid #e1e4e8; border-radius: 4px; font-size: 14px;"></select>
+<!-- ============================================================
+     MODAL (shared, used by both layouts)
+     ============================================================ -->
+<div class="modal-overlay" id="modal-overlay" onclick="if(event.target===this) window.kitchenApp.closeAddTaskModal()">
+  <div class="modal">
+    <h3>Taak toevoegen</h3>
+    <div class="form-group">
+      <label>Fase</label>
+      <select id="modal-phase"></select>
     </div>
-    <div style="margin-bottom: 12px;">
-      <label style="display: block; font-size: 12px; color: #57606a; margin-bottom: 4px;">Taak naam</label>
-      <input type="text" id="add-name" placeholder="bijv. 'Sample review documenten'" style="width: 100%; padding: 8px; border: 1px solid #e1e4e8; border-radius: 4px; font-size: 14px; box-sizing: border-box;">
+    <div class="form-group">
+      <label>Taak naam</label>
+      <input type="text" id="modal-name" placeholder="bijv. 'Sample review documenten'">
     </div>
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
-      <div>
-        <label style="display: block; font-size: 12px; color: #57606a; margin-bottom: 4px;">Eigenaar</label>
-        <select id="add-owner" style="width: 100%; padding: 8px; border: 1px solid #e1e4e8; border-radius: 4px; font-size: 14px;">
+    <div class="form-row">
+      <div class="form-group">
+        <label>Eigenaar</label>
+        <select id="modal-owner">
           <option value="ali">Ali</option>
           <option value="kheibar">Kheibar</option>
           <option value="farshad">Farshad</option>
@@ -834,20 +1258,20 @@
           <option value="hermes">Hermes</option>
         </select>
       </div>
-      <div>
-        <label style="display: block; font-size: 12px; color: #57606a; margin-bottom: 4px;">Deadline</label>
-        <input type="text" id="add-day" placeholder="bijv. 'D7' of 'vrijdag'" style="width: 100%; padding: 8px; border: 1px solid #e1e4e8; border-radius: 4px; font-size: 14px; box-sizing: border-box;">
+      <div class="form-group">
+        <label>Deadline</label>
+        <input type="text" id="modal-day" placeholder="bijv. 'D7' of 'vrijdag'">
       </div>
     </div>
-    <div style="margin-bottom: 16px;">
-      <label style="display: block; font-size: 12px; color: #57606a; margin-bottom: 4px;">Done-criterium</label>
-      <input type="text" id="add-done" placeholder="bijv. 'Live in Shopify'" style="width: 100%; padding: 8px; border: 1px solid #e1e4e8; border-radius: 4px; font-size: 14px; box-sizing: border-box;">
+    <div class="form-group">
+      <label>Done-criterium</label>
+      <input type="text" id="modal-done" placeholder="bijv. 'Live in Shopify'">
     </div>
-    <div style="margin-bottom: 16px;">
-      <label style="display: block; font-size: 12px; color: #57606a; margin-bottom: 4px;">Notities (optioneel)</label>
-      <input type="text" id="add-notes" placeholder="bijv. 'na sample arrival'" style="width: 100%; padding: 8px; border: 1px solid #e1e4e8; border-radius: 4px; font-size: 14px; box-sizing: border-box;">
+    <div class="form-group">
+      <label>Notities (optioneel)</label>
+      <input type="text" id="modal-notes" placeholder="bijv. 'na sample arrival'">
     </div>
-    <div style="display: flex; justify-content: flex-end; gap: 8px;">
+    <div class="modal-actions">
       <button class="btn" onclick="window.kitchenApp.closeAddTaskModal()">Annuleren</button>
       <button class="btn primary" onclick="window.kitchenApp.confirmAddTask()">Toevoegen</button>
     </div>
@@ -862,7 +1286,7 @@ const OWNER_LABELS = {
   ali: 'Ali',
   kheibar: 'Kheibar',
   farshad: 'Farshad',
-  designer: 'Designer (F)',
+  designer: 'Designer',
   hermes: 'Hermes',
 };
 
@@ -881,81 +1305,97 @@ class KitchenApp {
     this.phasesCollapsed = {};
   }
 
-  // =============================================================
-  // INIT
-  // =============================================================
   async init() {
-    document.getElementById('user-select').value = this.currentUser;
-    document.getElementById('user-select').addEventListener('change', e => {
+    // User select handlers (both)
+    document.getElementById('mobile-user-select').value = this.currentUser;
+    document.getElementById('desktop-user-select').value = this.currentUser;
+    document.getElementById('mobile-user-select').addEventListener('change', e => {
       this.currentUser = e.target.value;
       localStorage.setItem(USER_KEY, this.currentUser);
+      document.getElementById('desktop-user-select').value = this.currentUser;
+      this.render();
+    });
+    document.getElementById('desktop-user-select').addEventListener('change', e => {
+      this.currentUser = e.target.value;
+      localStorage.setItem(USER_KEY, this.currentUser);
+      document.getElementById('mobile-user-select').value = this.currentUser;
+      this.render();
     });
 
     try {
-      this.setSaveIndicator('saving', 'Laden uit GitHub...');
+      this.setSaveIndicator('saving', 'Laden...');
       const res = await fetch('/api/state');
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       this.state = await res.json();
-      this.setSaveIndicator('saved', `✓ Opgeslagen door ${this.state.lastSavedBy || 'systeem'}`);
+      this.setSaveIndicator('saved', `✓ ${this.state.lastSavedBy || 'systeem'}`);
     } catch (err) {
-      this.setSaveIndicator('error', `⚠️ Kon state niet laden: ${err.message}`);
-      // Fallback: load embedded state
+      this.setSaveIndicator('error', `⚠️ ${err.message}`);
       try {
         const res = await fetch('/data/state.json');
         this.state = await res.json();
-        this.setSaveIndicator('saved', '✓ Geladen uit fallback');
+        this.setSaveIndicator('saved', '✓ Geladen');
       } catch (e2) {
-        this.setSaveIndicator('error', '❌ Geen state beschikbaar');
+        this.setSaveIndicator('error', '❌ Geen state');
       }
     }
 
     if (!this.state) return;
 
+    this.attachDesktopFilters();
+    this.attachMobileFilters();
     this.render();
-    this.attachFilters();
   }
 
-  // =============================================================
-  // STATUS (per browser, per task)
-  // =============================================================
   loadStatus() {
     try { return JSON.parse(localStorage.getItem(STATUS_KEY)) || {}; }
     catch { return {}; }
   }
-  saveStatus() {
+  saveStatusLocal() {
     localStorage.setItem(STATUS_KEY, JSON.stringify(this.status));
   }
 
-  // =============================================================
-  // SAVE INDICATOR
-  // =============================================================
   setSaveIndicator(state, text) {
-    const el = document.getElementById('save-indicator');
-    const txt = document.getElementById('save-text');
-    el.className = 'save-indicator ' + state;
-    txt.textContent = text;
+    const mobileEl = document.getElementById('mobile-save');
+    const desktopEl = document.getElementById('desktop-save-indicator');
+    const desktopText = document.getElementById('desktop-save-text');
+
+    if (mobileEl) {
+      mobileEl.className = 'mobile-save ' + state;
+      mobileEl.textContent = text;
+    }
+    if (desktopEl && desktopText) {
+      desktopEl.className = 'desktop-save-indicator ' + state;
+      desktopText.textContent = text;
+    }
   }
 
   // =============================================================
   // RENDER
   // =============================================================
   render() {
-    const container = document.getElementById('phases');
+    this.renderDesktop();
+    this.renderMobile();
+    this.updateCounts();
+  }
+
+  renderDesktop() {
+    const container = document.getElementById('desktop-phases');
+    if (!container) return;
     container.innerHTML = '';
 
-    this.state.phases.forEach((phase, phaseIdx) => {
+    this.state.phases.forEach(phase => {
       const visibleTasks = this.getVisibleTasks(phase);
       if (visibleTasks.length === 0) return;
 
-      const doneCount = visibleTasks.filter(t => this.status[t.id]).length;
+      const doneCount = phase.tasks.filter(t => this.status[t.id]).length;
       const totalCount = phase.tasks.length;
       const isCollapsed = this.phasesCollapsed[phase.id];
 
       const phaseEl = document.createElement('div');
-      phaseEl.className = 'phase' + (isCollapsed ? ' collapsed' : '');
+      phaseEl.className = 'desktop-phase' + (isCollapsed ? ' collapsed' : '');
       phaseEl.dataset.phase = phase.id;
       phaseEl.innerHTML = `
-        <div class="phase-head" data-phase-toggle="${phase.id}">
+        <div class="desktop-phase-head" data-desktop-toggle="${phase.id}">
           <div class="phase-head-left">
             <span class="phase-code">${phase.code}</span>
             <div>
@@ -965,10 +1405,10 @@ class KitchenApp {
           </div>
           <div class="phase-head-right">
             <span class="phase-count"><strong>${doneCount}</strong> / ${totalCount}</span>
-            <button class="phase-toggle" data-phase-toggle="${phase.id}">${isCollapsed ? '▶' : '▼'}</button>
+            <button class="phase-toggle" data-desktop-toggle="${phase.id}">${isCollapsed ? '▶' : '▼'}</button>
           </div>
         </div>
-        <div class="phase-body">
+        <div class="desktop-phase-body">
           <table class="tasks">
             <thead>
               <tr>
@@ -983,7 +1423,7 @@ class KitchenApp {
               </tr>
             </thead>
             <tbody>
-              ${visibleTasks.map(task => this.renderTask(task)).join('')}
+              ${visibleTasks.map(task => this.renderDesktopTask(task)).join('')}
             </tbody>
           </table>
         </div>
@@ -991,71 +1431,167 @@ class KitchenApp {
       container.appendChild(phaseEl);
     });
 
-    // Attach phase toggle handlers
-    container.querySelectorAll('[data-phase-toggle]').forEach(el => {
+    container.querySelectorAll('[data-desktop-toggle]').forEach(el => {
       el.addEventListener('click', e => {
         e.stopPropagation();
-        const phaseId = el.dataset.phaseToggle;
+        const phaseId = el.dataset.desktopToggle;
         this.phasesCollapsed[phaseId] = !this.phasesCollapsed[phaseId];
         this.render();
       });
     });
 
-    // Attach task edit handlers
-    container.querySelectorAll('[data-task-id]').forEach(el => {
-      const taskId = el.dataset.taskId;
-      const field = el.dataset.field;
-
-      if (field === 'check') {
-        el.addEventListener('click', () => this.toggleTask(taskId));
-      } else if (field === 'name' || field === 'day' || field === 'done' || field === 'notes' || field === 'comment') {
-        el.addEventListener('change', e => this.updateTask(taskId, field, e.target.value));
-      } else if (field === 'owner') {
-        el.addEventListener('change', e => this.updateTask(taskId, field, e.target.value));
-      } else if (field === 'delete') {
-        el.addEventListener('click', () => this.deleteTask(taskId));
-      }
+    container.querySelectorAll('[data-d-task]').forEach(el => {
+      el.addEventListener('change', e => this.updateTask(el.dataset.dTask, el.dataset.dField, e.target.value));
+      el.addEventListener('click', e => {
+        if (el.dataset.dField === 'check') this.toggleTask(el.dataset.dTask);
+        if (el.dataset.dField === 'delete') this.deleteTask(el.dataset.dTask);
+      });
     });
 
-    this.updateCounts();
-    this.updateProgress();
+    this.updateDesktopProgress();
   }
 
-  renderTask(task) {
+  renderDesktopTask(task) {
     const isDone = !!this.status[task.id];
     const ownerOptions = Object.entries(OWNER_LABELS).map(([key, label]) =>
       `<option value="${key}" ${task.owner === key ? 'selected' : ''}>${label}</option>`
     ).join('');
     return `
-      <tr class="${isDone ? 'done' : ''}" data-task-row="${task.id}">
-        <td>
-          <div class="task-check ${isDone ? 'checked' : ''}" data-task-id="${task.id}" data-field="check"></div>
-        </td>
-        <td>
-          <input type="text" class="task-name-field" data-task-id="${task.id}" data-field="name" value="${this.escape(task.name)}">
-        </td>
-        <td>
-          <select class="owner-select owner-${task.owner}" data-task-id="${task.id}" data-field="owner">
-            ${ownerOptions}
-          </select>
-        </td>
-        <td>
-          <input type="text" class="task-day-field" data-task-id="${task.id}" data-field="day" value="${this.escape(task.day)}">
-        </td>
-        <td>
-          <input type="text" class="task-done-field" data-task-id="${task.id}" data-field="done" value="${this.escape(task.done)}">
-        </td>
-        <td>
-          <input type="text" class="task-notes-field" data-task-id="${task.id}" data-field="notes" value="${this.escape(task.notes || '')}">
-        </td>
-        <td>
-          <input type="text" class="comment-field" data-task-id="${task.id}" data-field="comment" placeholder="Notitie of vraag..." value="${this.escape(this.status[task.id + '_comment'] || '')}">
-        </td>
-        <td>
-          <button class="task-delete" data-task-id="${task.id}" data-field="delete" title="Verwijder taak">✕</button>
-        </td>
+      <tr class="${isDone ? 'done' : ''}">
+        <td><div class="task-check ${isDone ? 'checked' : ''}" data-d-task="${task.id}" data-d-field="check"></div></td>
+        <td><input type="text" class="task-name-field" data-d-task="${task.id}" data-d-field="name" value="${this.escape(task.name)}"></td>
+        <td><select class="owner-select owner-${task.owner}" data-d-task="${task.id}" data-d-field="owner">${ownerOptions}</select></td>
+        <td><input type="text" class="task-day-field" data-d-task="${task.id}" data-d-field="day" value="${this.escape(task.day)}"></td>
+        <td><input type="text" class="task-done-field" data-d-task="${task.id}" data-d-field="done" value="${this.escape(task.done)}"></td>
+        <td><input type="text" class="task-notes-field" data-d-task="${task.id}" data-d-field="notes" value="${this.escape(task.notes || '')}"></td>
+        <td><input type="text" class="comment-field" data-d-task="${task.id}" data-d-field="comment" placeholder="Notitie of vraag..." value="${this.escape(this.status[task.id + '_comment'] || '')}"></td>
+        <td><button class="task-delete" data-d-task="${task.id}" data-d-field="delete">✕</button></td>
       </tr>
     `;
+  }
+
+  renderMobile() {
+    const container = document.getElementById('mobile-phases');
+    if (!container) return;
+    container.innerHTML = '';
+
+    this.state.phases.forEach(phase => {
+      const visibleTasks = this.getVisibleTasks(phase);
+      if (visibleTasks.length === 0) return;
+
+      const doneCount = phase.tasks.filter(t => this.status[t.id]).length;
+      const totalCount = phase.tasks.length;
+      const isCollapsed = this.phasesCollapsed[phase.id];
+
+      const phaseEl = document.createElement('div');
+      phaseEl.className = 'mobile-phase' + (isCollapsed ? ' collapsed' : '');
+      phaseEl.dataset.phase = phase.id;
+      phaseEl.innerHTML = `
+        <div class="mobile-phase-head" data-mobile-toggle="${phase.id}">
+          <div class="mobile-phase-head-left">
+            <span class="mobile-phase-code">${phase.code}</span>
+            <div>
+              <div class="mobile-phase-title">${this.escape(phase.title)}</div>
+              <div class="mobile-phase-days">${this.escape(phase.days)} · ${doneCount}/${totalCount}</div>
+            </div>
+          </div>
+          <button class="mobile-phase-toggle" data-mobile-toggle="${phase.id}">${isCollapsed ? '▶' : '▼'}</button>
+        </div>
+        <div class="mobile-phase-body">
+          ${visibleTasks.map(task => this.renderMobileTask(task)).join('')}
+        </div>
+      `;
+      container.appendChild(phaseEl);
+    });
+
+    container.querySelectorAll('[data-mobile-toggle]').forEach(el => {
+      el.addEventListener('click', e => {
+        e.stopPropagation();
+        const phaseId = el.dataset.mobileToggle;
+        this.phasesCollapsed[phaseId] = !this.phasesCollapsed[phaseId];
+        this.render();
+      });
+    });
+
+    container.querySelectorAll('[data-m-task]').forEach(el => {
+      const taskId = el.dataset.mTask;
+      const field = el.dataset.mField;
+      el.addEventListener('change', () => this.updateTask(taskId, field, el.value));
+      el.addEventListener('click', e => {
+        if (field === 'check') { this.toggleTask(taskId); e.stopPropagation(); }
+        if (field === 'expand') { this.toggleMobileTaskExpand(taskId); e.stopPropagation(); }
+        if (field === 'delete') { this.deleteTask(taskId); e.stopPropagation(); }
+        if (field === 'add-comment') { this.focusMobileComment(taskId); e.stopPropagation(); }
+      });
+    });
+
+    this.updateMobileProgress();
+  }
+
+  renderMobileTask(task) {
+    const isDone = !!this.status[task.id];
+    const isExpanded = this.status[task.id + '_expanded'];
+    const ownerOptions = Object.entries(OWNER_LABELS).map(([key, label]) =>
+      `<option value="${key}" ${task.owner === key ? 'selected' : ''}>${label}</option>`
+    ).join('');
+    const comment = this.status[task.id + '_comment'] || '';
+
+    return `
+      <div class="mobile-task ${isDone ? 'done' : ''} ${isExpanded ? 'expanded' : ''}" data-m-task-id="${task.id}">
+        <div class="mobile-task-top">
+          <div class="mobile-task-check ${isDone ? 'checked' : ''}" data-m-task="${task.id}" data-m-field="check"></div>
+          <div class="mobile-task-main">
+            <div class="mobile-task-name">
+              <input type="text" value="${this.escape(task.name)}" data-m-task="${task.id}" data-m-field="name">
+            </div>
+            <div class="mobile-task-meta">
+              <div class="mobile-owner-chip owner-${task.owner}">
+                <span class="dot dot-${task.owner}"></span>
+                <select data-m-task="${task.id}" data-m-field="owner">${ownerOptions}</select>
+              </div>
+              <div class="mobile-day-chip">${this.escape(task.day)}</div>
+              ${comment ? '<div class="mobile-day-chip" style="background: var(--accent-light); color: #8a6438;">💬 heeft comment</div>' : ''}
+            </div>
+          </div>
+        </div>
+
+        <div class="mobile-task-details">
+          <div class="mobile-task-detail-row">
+            <div class="mobile-task-detail-label">Done-criterium</div>
+            <input class="mobile-task-detail-input" type="text" data-m-task="${task.id}" data-m-field="done" value="${this.escape(task.done)}">
+          </div>
+          <div class="mobile-task-detail-row">
+            <div class="mobile-task-detail-label">Deadline</div>
+            <input class="mobile-task-detail-input" type="text" data-m-task="${task.id}" data-m-field="day" value="${this.escape(task.day)}">
+          </div>
+          <div class="mobile-task-detail-row">
+            <div class="mobile-task-detail-label">Notities</div>
+            <input class="mobile-task-detail-input" type="text" data-m-task="${task.id}" data-m-field="notes" value="${this.escape(task.notes || '')}">
+          </div>
+          <div class="mobile-task-detail-row">
+            <div class="mobile-task-detail-label">Comment (alleen zichtbaar in jouw browser)</div>
+            <input class="mobile-task-detail-input" type="text" data-m-task="${task.id}" data-m-field="comment" placeholder="Notitie of vraag..." value="${this.escape(comment)}">
+          </div>
+          <div class="mobile-task-actions">
+            <button data-m-task="${task.id}" data-m-field="add-comment">Comment</button>
+            <button data-m-task="${task.id}" data-m-field="delete" class="delete">Verwijderen</button>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  toggleMobileTaskExpand(taskId) {
+    this.status[taskId + '_expanded'] = !this.status[taskId + '_expanded'];
+    this.saveStatusLocal();
+    this.renderMobile();
+  }
+
+  focusMobileComment(taskId) {
+    setTimeout(() => {
+      const input = document.querySelector(`[data-m-task="${taskId}"][data-m-field="comment"]`);
+      if (input) input.focus();
+    }, 50);
   }
 
   getVisibleTasks(phase) {
@@ -1077,24 +1613,24 @@ class KitchenApp {
   // =============================================================
   toggleTask(taskId) {
     this.status[taskId] = !this.status[taskId];
-    this.saveStatus();
+    this.saveStatusLocal();
     this.render();
   }
 
   updateTask(taskId, field, value) {
-    const task = this.findTask(taskId);
-    if (!task) return;
     if (field === 'comment') {
       this.status[taskId + '_comment'] = value;
-      this.saveStatus();
+      this.saveStatusLocal();
     } else {
+      const task = this.findTask(taskId);
+      if (!task) return;
       task[field] = value;
       this.scheduleSave();
     }
   }
 
   deleteTask(taskId) {
-    if (!confirm('Taak verwijderen? Dit kan niet ongedaan gemaakt worden.')) return;
+    if (!confirm('Taak verwijderen?')) return;
     for (const phase of this.state.phases) {
       const idx = phase.tasks.findIndex(t => t.id === taskId);
       if (idx >= 0) {
@@ -1104,7 +1640,8 @@ class KitchenApp {
     }
     delete this.status[taskId];
     delete this.status[taskId + '_comment'];
-    this.saveStatus();
+    delete this.status[taskId + '_expanded'];
+    this.saveStatusLocal();
     this.scheduleSave();
     this.render();
   }
@@ -1118,34 +1655,33 @@ class KitchenApp {
   }
 
   // =============================================================
-  // ADD TASK
+  // ADD TASK MODAL
   // =============================================================
   openAddTaskModal() {
-    const phaseSelect = document.getElementById('add-phase');
-    phaseSelect.innerHTML = this.state.phases
+    document.getElementById('modal-phase').innerHTML = this.state.phases
       .map(p => `<option value="${p.id}">${p.code}: ${this.escape(p.title)}</option>`)
       .join('');
-    phaseSelect.value = this.state.phases[0].id;
-    document.getElementById('add-owner').value = this.currentUser === 'designer' ? 'designer' : this.currentUser;
-    document.getElementById('add-name').value = '';
-    document.getElementById('add-day').value = '';
-    document.getElementById('add-done').value = '';
-    document.getElementById('add-notes').value = '';
-    document.getElementById('add-task-modal').style.display = 'flex';
-    document.getElementById('add-name').focus();
+    document.getElementById('modal-phase').value = this.state.phases[0].id;
+    document.getElementById('modal-owner').value = this.currentUser === 'designer' ? 'designer' : this.currentUser;
+    document.getElementById('modal-name').value = '';
+    document.getElementById('modal-day').value = '';
+    document.getElementById('modal-done').value = '';
+    document.getElementById('modal-notes').value = '';
+    document.getElementById('modal-overlay').classList.add('open');
+    setTimeout(() => document.getElementById('modal-name').focus(), 50);
   }
 
   closeAddTaskModal() {
-    document.getElementById('add-task-modal').style.display = 'none';
+    document.getElementById('modal-overlay').classList.remove('open');
   }
 
   confirmAddTask() {
-    const phaseId = document.getElementById('add-phase').value;
-    const name = document.getElementById('add-name').value.trim();
-    const day = document.getElementById('add-day').value.trim() || 'TBD';
-    const owner = document.getElementById('add-owner').value;
-    const done = document.getElementById('add-done').value.trim() || 'Live';
-    const notes = document.getElementById('add-notes').value.trim();
+    const phaseId = document.getElementById('modal-phase').value;
+    const name = document.getElementById('modal-name').value.trim();
+    const day = document.getElementById('modal-day').value.trim() || 'TBD';
+    const owner = document.getElementById('modal-owner').value;
+    const done = document.getElementById('modal-done').value.trim() || 'Live';
+    const notes = document.getElementById('modal-notes').value.trim();
 
     if (!name) { alert('Taak naam is verplicht'); return; }
 
@@ -1153,14 +1689,7 @@ class KitchenApp {
     if (!phase) return;
 
     const newId = `${phaseId.replace('f', 'f')}-${Date.now().toString(36)}`;
-    phase.tasks.push({
-      id: newId,
-      name,
-      owner,
-      day,
-      done,
-      notes,
-    });
+    phase.tasks.push({ id: newId, name, owner, day, done, notes });
     this.scheduleSave();
     this.closeAddTaskModal();
     this.render();
@@ -1183,10 +1712,7 @@ class KitchenApp {
       const res = await fetch('/api/state', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          state: this.state,
-          savedBy: this.currentUser,
-        }),
+        body: JSON.stringify({ state: this.state, savedBy: this.currentUser }),
       });
 
       if (!res.ok) {
@@ -1195,38 +1721,127 @@ class KitchenApp {
       }
 
       const result = await res.json();
-      this.setSaveIndicator('saved', `✓ Opgeslagen door ${this.currentUser} · ${new Date(result.commitSha ? result.commitSha.substr(0,7) : 'now').toLocaleTimeString('nl-NL')}`);
+      this.setSaveIndicator('saved', `✓ ${this.currentUser} · ${new Date().toLocaleTimeString('nl-NL', { hour: '2-digit', minute: '2-digit' })}`);
     } catch (err) {
-      this.setSaveIndicator('error', `❌ Save failed: ${err.message} (probeer opnieuw)`);
+      this.setSaveIndicator('error', `❌ ${err.message}`);
     }
   }
 
   // =============================================================
   // FILTERS
   // =============================================================
-  attachFilters() {
-    document.querySelectorAll('[data-filter]').forEach(btn => {
+  attachDesktopFilters() {
+    document.querySelectorAll('.desktop-sidebar [data-filter]').forEach(btn => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.desktop-sidebar [data-filter]').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         this.currentFilter = btn.dataset.filter;
         this.render();
       });
     });
-
-    document.querySelectorAll('[data-status]').forEach(btn => {
+    document.querySelectorAll('.desktop-sidebar [data-status]').forEach(btn => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('[data-status]').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.desktop-sidebar [data-status]').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         this.currentStatus = btn.dataset.status;
         this.render();
       });
     });
-
-    document.getElementById('search').addEventListener('input', e => {
+    document.getElementById('desktop-search').addEventListener('input', e => {
       this.currentQuery = e.target.value.toLowerCase();
+      document.getElementById('mobile-search').value = e.target.value;
       this.render();
     });
+  }
+
+  attachMobileFilters() {
+    // Mobile filter sheet
+    const filterBtn = document.createElement('button');
+    filterBtn.className = 'btn';
+    filterBtn.style.cssText = 'position: fixed; bottom: calc(90px + env(safe-area-inset-bottom)); right: 20px; background: var(--bg-elevated); box-shadow: var(--shadow-md); z-index: 99; padding: 12px 16px;';
+    filterBtn.innerHTML = '🔍 Filters';
+    filterBtn.onclick = () => this.openFilterSheet();
+    document.querySelector('.app-mobile').appendChild(filterBtn);
+
+    document.getElementById('mobile-search').addEventListener('input', e => {
+      this.currentQuery = e.target.value.toLowerCase();
+      document.getElementById('desktop-search').value = e.target.value;
+      this.render();
+    });
+  }
+
+  openFilterSheet() {
+    const content = document.getElementById('mobile-sheet-content');
+    content.innerHTML = `
+      <h3>Eigenaar</h3>
+      ${this.renderMobileFilterButtons('all')}
+      ${Object.entries(OWNER_LABELS).map(([key, label]) => this.renderMobileFilterButtons(key)).join('')}
+
+      <h3>Status</h3>
+      ${this.renderMobileStatusButtons()}
+
+      <h3>Acties</h3>
+      <button class="btn" onclick="window.kitchenApp.exportJSON(); window.kitchenApp.closeFilterSheet();" style="width: 100%; justify-content: center;">
+        💾 Export voortgang
+      </button>
+    `;
+
+    // Render counts
+    this.updateMobileCount(content);
+
+    document.getElementById('mobile-sheet').classList.add('open');
+    document.getElementById('mobile-sheet-overlay').classList.add('open');
+
+    content.querySelectorAll('[data-m-filter]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        this.currentFilter = btn.dataset.mFilter;
+        this.render();
+        this.openFilterSheet(); // refresh
+      });
+    });
+    content.querySelectorAll('[data-m-status]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        this.currentStatus = btn.dataset.mStatus;
+        this.render();
+        this.openFilterSheet();
+      });
+    });
+  }
+
+  renderMobileFilterButtons(owner) {
+    const isActive = this.currentFilter === owner;
+    return `<button class="filter-btn ${isActive ? 'active' : ''}" data-m-filter="${owner}" style="margin-bottom: 2px;">
+      <span>${owner === 'all' ? 'Alle' : OWNER_LABELS[owner]}</span>
+      <span class="count" data-m-count="${owner}">0</span>
+    </button>`;
+  }
+
+  renderMobileStatusButtons() {
+    return ['all', 'todo', 'done'].map(s => {
+      const labels = { all: 'Alle', todo: 'Te doen', done: 'Klaar' };
+      const isActive = this.currentStatus === s;
+      return `<button class="filter-btn ${isActive ? 'active' : ''}" data-m-status="${s}" style="margin-bottom: 2px;">
+        <span>${labels[s]}</span>
+      </button>`;
+    }).join('');
+  }
+
+  updateMobileCount(container) {
+    if (!container) container = document;
+    const counts = { all: 0, ali: 0, kheibar: 0, farshad: 0, designer: 0, hermes: 0 };
+    this.state.phases.forEach(p => p.tasks.forEach(t => {
+      counts.all++;
+      counts[t.owner] = (counts[t.owner] || 0) + 1;
+    }));
+    container.querySelectorAll('[data-m-count]').forEach(el => {
+      const k = el.dataset.mCount;
+      if (counts[k] !== undefined) el.textContent = counts[k];
+    });
+  }
+
+  closeFilterSheet() {
+    document.getElementById('mobile-sheet').classList.remove('open');
+    document.getElementById('mobile-sheet-overlay').classList.remove('open');
   }
 
   // =============================================================
@@ -1244,19 +1859,26 @@ class KitchenApp {
     });
   }
 
-  updateProgress() {
+  updateDesktopProgress() {
     let total = 0, done = 0;
     this.state.phases.forEach(p => p.tasks.forEach(t => {
       total++;
       if (this.status[t.id]) done++;
     }));
-    document.getElementById('progress-text').textContent = `${done} / ${total} taken`;
-    document.getElementById('progress-fill').style.width = total > 0 ? (done / total * 100) + '%' : '0%';
+    document.getElementById('desktop-progress-text').textContent = `${done} / ${total} taken`;
+    document.getElementById('desktop-progress-fill').style.width = total > 0 ? (done / total * 100) + '%' : '0%';
   }
 
-  // =============================================================
-  // ACTIONS
-  // =============================================================
+  updateMobileProgress() {
+    let total = 0, done = 0;
+    this.state.phases.forEach(p => p.tasks.forEach(t => {
+      total++;
+      if (this.status[t.id]) done++;
+    }));
+    document.getElementById('mobile-progress-text').textContent = `${done} / ${total} taken`;
+    document.getElementById('mobile-progress-fill').style.width = total > 0 ? (done / total * 100) + '%' : '0%';
+  }
+
   expandAll() {
     Object.keys(this.phasesCollapsed).forEach(k => this.phasesCollapsed[k] = false);
     this.render();
@@ -1292,9 +1914,6 @@ class KitchenApp {
   }
 }
 
-// =============================================================
-// BOOT
-// =============================================================
 window.kitchenApp = new KitchenApp();
 window.kitchenApp.init();
 </script>
