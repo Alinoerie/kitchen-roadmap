@@ -1,0 +1,9 @@
+{
+  "name": "kitchen-roadmap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Keukengerij launch roadmap · 0 → €10k+/maand · 90 dagen · Ali + Kheibar + Farshad",
+  "scripts": {
+    "dev": "python3 -m http.server 8000"
+  }
+}
