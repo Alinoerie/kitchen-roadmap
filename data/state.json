@@ -181,7 +181,7 @@
         {
           "id": "f0-22",
           "name": "Domain WHOIS privacy setup",
-          "owner": "ali",
+          "owner": "kheibar",
           "day": "D-2",
           "done": "Privacy enabled",
           "notes": "HK adres niet publiek"
@@ -205,7 +205,7 @@
         {
           "id": "f0-25",
           "name": "Shopify Inbox setup + chatbot widget",
-          "owner": "ali",
+          "owner": "kheibar",
           "day": "D-2",
           "done": "Chat widget live",
           "notes": "Multi-language templates"
