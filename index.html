@@ -1371,6 +1371,8 @@
 
     <div class="toolbar">
       <input type="text" class="search-bar" id="desktop-search" placeholder="🔍 Zoek taak (bijv. 'logo', 'Klaviyo', 'sample')...">
+      <button class="btn" onclick="window.kitchenApp.expandAllPhases()" title="Alle fasen uitklappen">▼ Alles</button>
+      <button class="btn" onclick="window.kitchenApp.collapseAllPhases()" title="Alle fasen inklappen">▶ Alles</button>
       <button class="btn primary" onclick="window.kitchenApp.openAddTaskModal()">
         <span style="font-size: 16px; line-height: 1;">+</span> Taak toevoegen
       </button>
@@ -1466,7 +1468,7 @@ class KitchenApp {
     this.currentStatus = 'all';
     this.currentQuery = '';
     this.saveTimer = null;
-    this.phasesCollapsed = {};
+    this.phasesCollapsed = JSON.parse(localStorage.getItem('phases-collapsed') || '{}');
     this.currentPage = 1;
     this.tasksPerPage = 20;
     this.complianceCollapsed = localStorage.getItem('compliance-collapsed') !== 'false';
@@ -1508,6 +1510,13 @@ class KitchenApp {
 
     if (!this.state) return;
 
+    // Default: all phases start collapsed on first visit (when no saved state exists)
+    if (!localStorage.getItem('phases-collapsed-initialized')) {
+      this.state.phases.forEach(p => { this.phasesCollapsed[p.id] = true; });
+      localStorage.setItem('phases-collapsed-initialized', '1');
+      this.savePhasesCollapsed();
+    }
+
     this.attachDesktopFilters();
     this.attachMobileFilters();
     this.render();
@@ -1519,6 +1528,9 @@ class KitchenApp {
   }
   saveStatusLocal() {
     localStorage.setItem(STATUS_KEY, JSON.stringify(this.status));
+  }
+  savePhasesCollapsed() {
+    localStorage.setItem('phases-collapsed', JSON.stringify(this.phasesCollapsed));
   }
 
   setSaveIndicator(state, text) {
@@ -1620,6 +1632,7 @@ class KitchenApp {
         e.stopPropagation();
         const phaseId = el.dataset.desktopToggle;
         this.phasesCollapsed[phaseId] = !this.phasesCollapsed[phaseId];
+        this.savePhasesCollapsed();
         this.render();
       });
     });
@@ -1647,6 +1660,20 @@ class KitchenApp {
       <div class="title">${m.title}</div>
       <div class="sub">${m.sub}</div>
     </div>`;
+  }
+
+  expandAllPhases() {
+    if (!this.state) return;
+    this.state.phases.forEach(p => { this.phasesCollapsed[p.id] = false; });
+    this.savePhasesCollapsed();
+    this.render();
+  }
+
+  collapseAllPhases() {
+    if (!this.state) return;
+    this.state.phases.forEach(p => { this.phasesCollapsed[p.id] = true; });
+    this.savePhasesCollapsed();
+    this.render();
   }
 
   renderDesktopTask(task) {
@@ -1721,6 +1748,7 @@ class KitchenApp {
         e.stopPropagation();
         const phaseId = el.dataset.mobileToggle;
         this.phasesCollapsed[phaseId] = !this.phasesCollapsed[phaseId];
+        this.savePhasesCollapsed();
         this.render();
       });
     });
