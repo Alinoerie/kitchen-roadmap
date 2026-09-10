@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "hermes-audit",
-  "lastSavedAt": "2026-09-10T14:43:54.667670Z",
+  "lastSavedBy": "hermes-merge-1",
+  "lastSavedAt": "2026-09-10T15:24:58.419682Z",
   "phases": [
     {
       "id": "f0",
@@ -11,39 +11,12 @@
       "goal": "HK live, Shopify opgezet, design klaar, alle infra",
       "tasks": [
         {
-          "id": "f0-1",
-          "name": "HK bank account aanmaken",
-          "owner": "kheibar",
-          "day": "vrijdag 12 sept",
-          "done": "Rekening actief, IBAN genoteerd",
-          "notes": "Eerste prioriteit vrijdag",
-          "created_at": "2026-09-04T06:38:09Z"
-        },
-        {
-          "id": "f0-2",
-          "name": "WISE account aanmaken",
-          "owner": "kheibar",
-          "day": "vrijdag 12 sept",
-          "done": "WISE live",
-          "notes": "Multi-currency payouts",
-          "created_at": "2026-09-04T04:38:09Z"
-        },
-        {
-          "id": "f0-3",
-          "name": "Currency Ways account aanmaken",
-          "owner": "kheibar",
-          "day": "vrijdag 12 sept",
-          "done": "Currency Ways live",
-          "notes": "Payout infrastructure",
-          "created_at": "2026-09-04T02:38:09Z"
-        },
-        {
           "id": "f0-4",
           "name": "HK bedrijf oprichten",
           "owner": "kheibar",
           "day": "vrijdag 12 sept",
           "done": "HK entity registered",
-          "notes": "Sales of record = HK entity",
+          "notes": "Sales of record = HK entity | MERGED 2026-09-10 (audit): includes HK bank (f0-1), WISE (f0-2), Currency Ways (f0-3). 4 accounts openen op vrijdag 12 sept in deze volgorde: HK entity → HK bank → WISE → Currency Ways. Owner: Kheibar.",
           "created_at": "2026-09-04T00:38:09Z"
         },
         {
@@ -178,7 +151,7 @@
           "owner": "hermes",
           "day": "D-3",
           "done": "Live",
-          "notes": "EU wettelijk minimum",
+          "notes": "EU wettelijk minimum | MERGED 2026-09-10 (audit): omvat returns policy 14 dgn (origineel f0-19) + returns portal opzetten Returnless/Loop/Shopify Afterpay (f0-38). Eén workflow: policy opstellen + portal activeren. Owner: Hermes.",
           "created_at": "2026-09-02T18:38:09Z"
         },
         {
@@ -341,15 +314,6 @@
           "day": "D-5",
           "done": "",
           "notes": "CRITICAL — AVB verzekering f0-20 dekt aansprakelijkheid, maar HACCP/LFGB materiaal-cert is verplicht voor food-contact keukengerij. Zonder = recall risico.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
-        },
-        {
-          "id": "f0-38",
-          "name": "Returns portal opzetten (Returnless / Loop / Shopify Afterpay)",
-          "owner": "hermes",
-          "day": "D-3",
-          "done": "",
-          "notes": "HIGH — 14d retour recht EU; zonder geautomatiseerd portaal wordt dit manueel werk en negatieve reviews.",
           "created_at": "2026-09-10T14:43:54.667670Z"
         },
         {
@@ -583,26 +547,8 @@
           "owner": "farshad",
           "day": "D7",
           "done": "Per SKU genoteerd",
-          "notes": "Allergens per product",
+          "notes": "Allergens per product | MERGED 2026-09-10 (audit): omvat material composition (origineel f1-21), country of origin marking (f1-22), manufacturer address (f1-23). Eén spreadsheet artifact per SKU. Owner: Farshad.",
           "created_at": "2026-09-03T14:38:09Z"
-        },
-        {
-          "id": "f1-22",
-          "name": "Country of origin marking per SKU",
-          "owner": "farshad",
-          "day": "D7",
-          "done": "Marked",
-          "notes": "EU import requirement",
-          "created_at": "2026-09-03T12:38:09Z"
-        },
-        {
-          "id": "f1-23",
-          "name": "Manufacturer address per SKU",
-          "owner": "farshad",
-          "day": "D7",
-          "done": "Addressable",
-          "notes": "Op product/packaging",
-          "created_at": "2026-09-03T10:38:09Z"
         },
         {
           "id": "f1-24",
@@ -790,7 +736,7 @@
           "owner": "designer",
           "day": "D20",
           "done": "Live",
-          "notes": "",
+          "notes": "MERGED 2026-09-10 (audit): omvat Trust badges + reviews app Judge.me install (origineel f2-7) + review velocity setup (f2-21). Owner: Designer (install) + Hermes (velocity automation).",
           "created_at": "2026-09-05T18:38:09Z"
         },
         {
@@ -908,15 +854,6 @@
           "day": "D20",
           "done": "",
           "notes": "CRITICAL — Zonder framework = elke week nieuwe ads zonder learning. Creative refresh elke 14 dgn (f4-4) heeft framework nodig.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
-        },
-        {
-          "id": "f2-21",
-          "name": "Review velocity opzetten (Judge.me + photo review incentive)",
-          "owner": "hermes",
-          "day": "D22",
-          "done": "",
-          "notes": "CRITICAL — Geen reviews = geen conversion op ads. Wave 1 €35/d dood geld zonder 50+ reviews per SKU.",
           "created_at": "2026-09-10T14:43:54.667670Z"
         },
         {
