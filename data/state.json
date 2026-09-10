@@ -265,14 +265,6 @@
           "day": "D-2",
           "done": "Backup identified",
           "notes": "Risk mitigation"
-        },
-        {
-          "id": "task_test_add_1789023350750",
-          "name": "TEST: Playwright add (edited)",
-          "owner": "ali",
-          "day": "D3",
-          "done": "Verification",
-          "notes": "Created via test"
         }
       ]
     },
