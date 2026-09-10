@@ -109,7 +109,7 @@
         {
           "id": "f0-13",
           "name": "About, Contact, FAQ pages",
-          "owner": "hermes",
+          "owner": "ali",
           "day": "D-2",
           "done": "Pages live",
           "notes": "Multi-language ready"
@@ -149,7 +149,7 @@
         {
           "id": "f0-18",
           "name": "Cookie Policy + GDPR banner (7 talen)",
-          "owner": "hermes",
+          "owner": "ali",
           "day": "D-3",
           "done": "Live",
           "notes": "10 talen EU"
@@ -157,7 +157,7 @@
         {
           "id": "f0-19",
           "name": "Returns policy (14 dgn, wij betalen)",
-          "owner": "hermes",
+          "owner": "ali",
           "day": "D-3",
           "done": "Live",
           "notes": "EU wettelijk minimum"
@@ -189,7 +189,7 @@
         {
           "id": "f0-23",
           "name": "Email deliverability (SPF/DKIM/DMARC)",
-          "owner": "hermes",
+          "owner": "ali",
           "day": "D-2",
           "done": "DNS records live",
           "notes": "Voor Klaviyo + order emails"
@@ -213,7 +213,7 @@
         {
           "id": "f0-26",
           "name": "CS reply templates × 7 talen",
-          "owner": "hermes",
+          "owner": "ali",
           "day": "D-2",
           "done": "10 templates × 7 talen",
           "notes": "NL/EN/DE/FR/IT/ES/PL"
@@ -229,7 +229,7 @@
         {
           "id": "f0-28",
           "name": "GA4 + Meta Pixel setup",
-          "owner": "hermes",
+          "owner": "ali",
           "day": "D-2",
           "done": "Events firing",
           "notes": "Test purchase event"
