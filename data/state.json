@@ -16,7 +16,8 @@
           "owner": "kheibar",
           "day": "vrijdag 12 sept",
           "done": "Rekening actief, IBAN genoteerd",
-          "notes": "Eerste prioriteit vrijdag"
+          "notes": "Eerste prioriteit vrijdag",
+          "created_at": "2026-09-04T06:38:09Z"
         },
         {
           "id": "f0-2",
@@ -24,7 +25,8 @@
           "owner": "kheibar",
           "day": "vrijdag 12 sept",
           "done": "WISE live",
-          "notes": "Multi-currency payouts"
+          "notes": "Multi-currency payouts",
+          "created_at": "2026-09-04T04:38:09Z"
         },
         {
           "id": "f0-3",
@@ -32,7 +34,8 @@
           "owner": "kheibar",
           "day": "vrijdag 12 sept",
           "done": "Currency Ways live",
-          "notes": "Payout infrastructure"
+          "notes": "Payout infrastructure",
+          "created_at": "2026-09-04T02:38:09Z"
         },
         {
           "id": "f0-4",
@@ -40,7 +43,8 @@
           "owner": "kheibar",
           "day": "vrijdag 12 sept",
           "done": "HK entity registered",
-          "notes": "Sales of record = HK entity"
+          "notes": "Sales of record = HK entity",
+          "created_at": "2026-09-04T00:38:09Z"
         },
         {
           "id": "f0-5",
@@ -48,7 +52,8 @@
           "owner": "kheibar",
           "day": "D-5",
           "done": "Shopify Payments / Mollie / Stripe",
-          "notes": "Default Shopify Payments"
+          "notes": "Default Shopify Payments",
+          "created_at": "2026-09-03T22:38:09Z"
         },
         {
           "id": "f0-6",
@@ -56,7 +61,8 @@
           "owner": "kheibar",
           "day": "D-3",
           "done": "HK IBAN gekoppeld",
-          "notes": "Verify payout"
+          "notes": "Verify payout",
+          "created_at": "2026-09-03T20:38:09Z"
         },
         {
           "id": "f0-7",
@@ -64,7 +70,8 @@
           "owner": "kheibar",
           "day": "D-5",
           "done": "Strategy gedocumenteerd",
-          "notes": "HK seller + EU10 = douane-vragen"
+          "notes": "HK seller + EU10 = douane-vragen",
+          "created_at": "2026-09-03T18:38:09Z"
         },
         {
           "id": "f0-8",
@@ -72,175 +79,197 @@
           "owner": "kheibar",
           "day": "D-3",
           "done": "Strategy + tool",
-          "notes": "Exposure bij €100k+ volume"
+          "notes": "Exposure bij €100k+ volume",
+          "created_at": "2026-09-03T16:38:09Z"
         },
         {
           "id": "f0-9",
           "name": "Shopify master account aanmaken",
-          "owner": "kheibar",
+          "owner": "farshad",
           "day": "D-7",
           "done": "Account live",
-          "notes": "Email + bank verify"
+          "notes": "Email + bank verify",
+          "created_at": "2026-09-03T14:38:09Z"
         },
         {
           "id": "f0-10",
           "name": "Shopify Markets setup (EU10)",
-          "owner": "ali",
+          "owner": "farshad",
           "day": "D-6",
           "done": "10 landen actief",
-          "notes": "Multi-currency EUR + GBP"
+          "notes": "Multi-currency EUR + GBP",
+          "created_at": "2026-09-03T12:38:09Z"
         },
         {
           "id": "f0-11",
           "name": "Custom theme design (Farshad's designer)",
-          "owner": "ali",
+          "owner": "designer",
           "day": "D-5 → D-1",
           "done": "Theme live",
-          "notes": "Eigenaar = Farshad's designer"
+          "notes": "Eigenaar = Farshad's designer",
+          "created_at": "2026-09-03T10:38:09Z"
         },
         {
           "id": "f0-12",
           "name": "Homepage design + copy",
-          "owner": "ali",
+          "owner": "designer",
           "day": "D-3",
           "done": "Page live",
-          "notes": "Brand voice input van Ali"
+          "notes": "Brand voice input van Ali",
+          "created_at": "2026-09-03T08:38:09Z"
         },
         {
           "id": "f0-13",
           "name": "About, Contact, FAQ pages",
-          "owner": "ali",
+          "owner": "designer",
           "day": "D-2",
           "done": "Pages live",
-          "notes": "Multi-language ready"
+          "notes": "Multi-language ready",
+          "created_at": "2026-09-03T06:38:09Z"
         },
         {
           "id": "f0-14",
           "name": "Trust badges + design elements",
-          "owner": "ali",
+          "owner": "designer",
           "day": "D-2",
           "done": "Live",
-          "notes": "SSL, returns, secure checkout"
+          "notes": "SSL, returns, secure checkout",
+          "created_at": "2026-09-03T04:38:09Z"
         },
         {
           "id": "f0-15",
           "name": "GPSR Responsible Person service kiezen",
-          "owner": "kheibar",
+          "owner": "ali",
           "day": "D-5",
           "done": "Service getekend",
-          "notes": "Verplicht EU 2024"
+          "notes": "Verplicht EU 2024",
+          "created_at": "2026-09-03T02:38:09Z"
         },
         {
           "id": "f0-16",
           "name": "Privacy Policy (Shopify + Hermes)",
-          "owner": "ali",
+          "owner": "hermes",
           "day": "D-3",
           "done": "Live",
-          "notes": "HK seller + EU10 klanten"
+          "notes": "HK seller + EU10 klanten",
+          "created_at": "2026-09-03T00:38:09Z"
         },
         {
           "id": "f0-17",
           "name": "Terms of Service (HK seller disclaimers)",
-          "owner": "kheibar",
+          "owner": "hermes",
           "day": "D-3",
           "done": "Live",
-          "notes": "Dropship disclaimer"
+          "notes": "Dropship disclaimer",
+          "created_at": "2026-09-02T22:38:09Z"
         },
         {
           "id": "f0-18",
           "name": "Cookie Policy + GDPR banner (7 talen)",
-          "owner": "ali",
+          "owner": "hermes",
           "day": "D-3",
           "done": "Live",
-          "notes": "10 talen EU"
+          "notes": "10 talen EU",
+          "created_at": "2026-09-02T20:38:09Z"
         },
         {
           "id": "f0-19",
           "name": "Returns policy (14 dgn, wij betalen)",
-          "owner": "ali",
+          "owner": "hermes",
           "day": "D-3",
           "done": "Live",
-          "notes": "EU wettelijk minimum"
+          "notes": "EU wettelijk minimum",
+          "created_at": "2026-09-02T18:38:09Z"
         },
         {
           "id": "f0-20",
           "name": "AVB verzekering (food-contact keukengerij)",
-          "owner": "kheibar",
+          "owner": "ali",
           "day": "D-3",
           "done": "Polis actief",
-          "notes": "€2M dekking aanbevolen"
+          "notes": "€2M dekking aanbevolen",
+          "created_at": "2026-09-02T16:38:09Z"
         },
         {
           "id": "f0-21",
           "name": "Trademark search (EUIPO + WIPO + categorie)",
-          "owner": "kheibar",
+          "owner": "ali",
           "day": "D-2",
           "done": "Geen conflicten",
-          "notes": "Vóór brand naam lock-in"
+          "notes": "Vóór brand naam lock-in",
+          "created_at": "2026-09-02T14:38:09Z"
         },
         {
           "id": "f0-22",
           "name": "Domain WHOIS privacy setup",
-          "owner": "kheibar",
+          "owner": "ali",
           "day": "D-2",
           "done": "Privacy enabled",
-          "notes": "HK adres niet publiek"
+          "notes": "HK adres niet publiek",
+          "created_at": "2026-09-02T12:38:09Z"
         },
         {
           "id": "f0-23",
           "name": "Email deliverability (SPF/DKIM/DMARC)",
-          "owner": "ali",
+          "owner": "hermes",
           "day": "D-2",
           "done": "DNS records live",
-          "notes": "Voor Klaviyo + order emails"
+          "notes": "Voor Klaviyo + order emails",
+          "created_at": "2026-09-02T10:38:09Z"
         },
         {
           "id": "f0-24",
           "name": "Dispute/chargeback handling SOP",
-          "owner": "kheibar",
+          "owner": "ali",
           "day": "D-1",
           "done": "SOP + owner aangewezen",
-          "notes": "Wie doet wat binnen 24h"
+          "notes": "Wie doet wat binnen 24h",
+          "created_at": "2026-09-02T08:38:09Z"
         },
         {
           "id": "f0-25",
           "name": "Shopify Inbox setup + chatbot widget",
-          "owner": "kheibar",
+          "owner": "ali",
           "day": "D-2",
           "done": "Chat widget live",
-          "notes": "Multi-language templates"
+          "notes": "Multi-language templates",
+          "created_at": "2026-09-02T06:38:09Z"
         },
         {
           "id": "f0-26",
           "name": "CS reply templates × 7 talen",
-          "owner": "ali",
+          "owner": "hermes",
           "day": "D-2",
           "done": "10 templates × 7 talen",
-          "notes": "NL/EN/DE/FR/IT/ES/PL"
+          "notes": "NL/EN/DE/FR/IT/ES/PL",
+          "created_at": "2026-09-02T04:38:09Z"
         },
         {
           "id": "f0-27",
           "name": "24h ticket response SLA instellen",
-          "owner": "kheibar",
+          "owner": "ali",
           "day": "D-1",
           "done": "Policy live",
-          "notes": "Ali/Kheibar/Farshad rotation"
+          "notes": "Ali/Kheibar/Farshad rotation",
+          "created_at": "2026-09-02T02:38:09Z"
         },
         {
           "id": "f0-28",
           "name": "GA4 + Meta Pixel setup",
-          "owner": "ali",
+          "owner": "hermes",
           "day": "D-2",
           "done": "Events firing",
-          "notes": "Test purchase event"
+          "notes": "Test purchase event",
+          "created_at": "2026-09-02T00:38:09Z"
         },
         {
           "id": "f0-29",
           "name": "Klaviyo account + signup forms",
-          "owner": "kheibar",
+          "owner": "ali",
           "day": "D-1",
           "done": "Forms live",
-          "notes": "Free tier eerst"
+          "notes": "Free tier eerst",
+          "created_at": "2026-09-01T22:38:09Z"
         },
         {
           "id": "f0-30",
@@ -248,7 +277,8 @@
           "owner": "farshad",
           "day": "ma 15 sept",
           "done": "Supplier identified",
-          "notes": "Direct contact"
+          "notes": "Direct contact",
+          "created_at": "2026-09-01T20:38:09Z"
         },
         {
           "id": "f0-31",
@@ -256,7 +286,8 @@
           "owner": "farshad",
           "day": "D-1",
           "done": "SOP klaar",
-          "notes": "Order flow + quality check"
+          "notes": "Order flow + quality check",
+          "created_at": "2026-09-01T18:38:09Z"
         },
         {
           "id": "f0-32",
@@ -264,15 +295,8 @@
           "owner": "farshad",
           "day": "D-2",
           "done": "Backup identified",
-          "notes": "Risk mitigation"
-        },
-        {
-          "id": "task_mtv7k3dm",
-          "name": "AUDIT TEST TASK",
-          "owner": "ali",
-          "day": "D1",
-          "done": "—",
-          "notes": ""
+          "notes": "Risk mitigation",
+          "created_at": "2026-09-01T16:38:09Z"
         }
       ]
     },
@@ -289,7 +313,8 @@
           "owner": "ali",
           "day": "D0",
           "done": "Pinterest/moodboard klaar",
-          "notes": "Vóór logo design"
+          "notes": "Vóór logo design",
+          "created_at": "2026-09-05T06:38:09Z"
         },
         {
           "id": "f1-2",
@@ -297,7 +322,8 @@
           "owner": "ali",
           "day": "D0",
           "done": "1-pager + 5 examples",
-          "notes": "Keukengerij positioning"
+          "notes": "Keukengerij positioning",
+          "created_at": "2026-09-05T04:38:09Z"
         },
         {
           "id": "f1-3",
@@ -305,31 +331,35 @@
           "owner": "ali",
           "day": "D0",
           "done": "Emotional narrative",
-          "notes": "Wie/wat/waarom"
+          "notes": "Wie/wat/waarom",
+          "created_at": "2026-09-05T02:38:09Z"
         },
         {
           "id": "f1-4",
-          "name": "FINAL TEST",
-          "owner": "kheibar",
+          "name": "Brand naam brainstorm (60 namen)",
+          "owner": "ali",
           "day": "D0-D1",
           "done": "Top 10 shortlist",
-          "notes": "<8 chars, pronounceable, EU"
+          "notes": "<8 chars, pronounceable, EU",
+          "created_at": "2026-09-05T00:38:09Z"
         },
         {
           "id": "f1-5",
-          "name": "FINAL TEST",
-          "owner": "kheibar",
+          "name": "Merknaam .nl domein check",
+          "owner": "ali",
           "day": "D1",
           "done": "Beschikbaar",
-          "notes": "Na EUIPO search"
+          "notes": "Na EUIPO search",
+          "created_at": "2026-09-04T22:38:09Z"
         },
         {
           "id": "f1-6",
           "name": "EUIPO + WIPO trademark search × 60",
-          "owner": "kheibar",
+          "owner": "ali",
           "day": "D1",
           "done": "Geen conflicten",
-          "notes": "Merk + categorie-woorden"
+          "notes": "Merk + categorie-woorden",
+          "created_at": "2026-09-04T20:38:09Z"
         },
         {
           "id": "f1-7",
@@ -337,15 +367,17 @@
           "owner": "ali",
           "day": "D1",
           "done": "Beschikbaar",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-04T18:38:09Z"
         },
         {
           "id": "f1-8",
           "name": "Brand naam lock-in (top 1)",
-          "owner": "kheibar",
+          "owner": "ali",
           "day": "D2",
           "done": "Naam vastgelegd",
-          "notes": "Ali + Farshad's designer input"
+          "notes": "Ali + Farshad's designer input",
+          "created_at": "2026-09-04T16:38:09Z"
         },
         {
           "id": "f1-9",
@@ -353,7 +385,8 @@
           "owner": "designer",
           "day": "D2-D5",
           "done": "3 logos + keuze",
-          "notes": "Ali kiest definitief"
+          "notes": "Ali kiest definitief",
+          "created_at": "2026-09-04T14:38:09Z"
         },
         {
           "id": "f1-10",
@@ -361,7 +394,8 @@
           "owner": "designer",
           "day": "D5",
           "done": "Style guide klaar",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-04T12:38:09Z"
         },
         {
           "id": "f1-11",
@@ -369,7 +403,8 @@
           "owner": "ali",
           "day": "D5",
           "done": "Bios live",
-          "notes": "IG/TikTok/X consistent"
+          "notes": "IG/TikTok/X consistent",
+          "created_at": "2026-09-04T10:38:09Z"
         },
         {
           "id": "f1-12",
@@ -377,15 +412,17 @@
           "owner": "ali",
           "day": "D7",
           "done": "Application submitted",
-          "notes": "Of na launch beslissen"
+          "notes": "Of na launch beslissen",
+          "created_at": "2026-09-04T08:38:09Z"
         },
         {
           "id": "f1-13",
           "name": "Product onderzoek (10 producten)",
-          "owner": "kheibar",
+          "owner": "ali",
           "day": "vrijdag 12 sept",
           "done": "Top 10 gekozen",
-          "notes": "Vrijdag research deadline"
+          "notes": "Vrijdag research deadline",
+          "created_at": "2026-09-04T06:38:09Z"
         },
         {
           "id": "f1-14",
@@ -393,15 +430,17 @@
           "owner": "ali",
           "day": "D2",
           "done": "Score sheet klaar",
-          "notes": "Winning-product-checklist"
+          "notes": "Winning-product-checklist",
+          "created_at": "2026-09-04T04:38:09Z"
         },
         {
           "id": "f1-15",
           "name": "Amazon scrape (per segment)",
-          "owner": "ali",
+          "owner": "hermes",
           "day": "D2",
           "done": "30+ gescraped",
-          "notes": "Ali beslist segment vrijdag"
+          "notes": "Ali beslist segment vrijdag",
+          "created_at": "2026-09-04T02:38:09Z"
         },
         {
           "id": "f1-16",
@@ -409,7 +448,8 @@
           "owner": "farshad",
           "day": "D3-D5",
           "done": "Top 3 suppliers/SKU",
-          "notes": "Trade Assurance + reviews"
+          "notes": "Trade Assurance + reviews",
+          "created_at": "2026-09-04T00:38:09Z"
         },
         {
           "id": "f1-17",
@@ -417,7 +457,8 @@
           "owner": "farshad",
           "day": "D5",
           "done": "10 samples ordered",
-          "notes": "€15-25/SKU + ship"
+          "notes": "€15-25/SKU + ship",
+          "created_at": "2026-09-03T22:38:09Z"
         },
         {
           "id": "f1-18",
@@ -425,7 +466,8 @@
           "owner": "farshad",
           "day": "D10-D14",
           "done": "Pass/fail per SKU",
-          "notes": "Vóór listings"
+          "notes": "Vóór listings",
+          "created_at": "2026-09-03T20:38:09Z"
         },
         {
           "id": "f1-19",
@@ -433,7 +475,8 @@
           "owner": "ali",
           "day": "D3",
           "done": "Top 3 concurrenten per SKU",
-          "notes": "Pricing + positioning"
+          "notes": "Pricing + positioning",
+          "created_at": "2026-09-03T18:38:09Z"
         },
         {
           "id": "f1-20",
@@ -441,7 +484,8 @@
           "owner": "ali",
           "day": "D7",
           "done": "10 SKUs passed",
-          "notes": "Keukengerij = food contact"
+          "notes": "Keukengerij = food contact",
+          "created_at": "2026-09-03T16:38:09Z"
         },
         {
           "id": "f1-21",
@@ -449,7 +493,8 @@
           "owner": "farshad",
           "day": "D7",
           "done": "Per SKU genoteerd",
-          "notes": "Allergens per product"
+          "notes": "Allergens per product",
+          "created_at": "2026-09-03T14:38:09Z"
         },
         {
           "id": "f1-22",
@@ -457,7 +502,8 @@
           "owner": "farshad",
           "day": "D7",
           "done": "Marked",
-          "notes": "EU import requirement"
+          "notes": "EU import requirement",
+          "created_at": "2026-09-03T12:38:09Z"
         },
         {
           "id": "f1-23",
@@ -465,7 +511,8 @@
           "owner": "farshad",
           "day": "D7",
           "done": "Addressable",
-          "notes": "Op product/packaging"
+          "notes": "Op product/packaging",
+          "created_at": "2026-09-03T10:38:09Z"
         },
         {
           "id": "f1-24",
@@ -473,7 +520,8 @@
           "owner": "ali",
           "day": "D10",
           "done": "10 SKUs registered",
-          "notes": "€50-150/SKU/jaar"
+          "notes": "€50-150/SKU/jaar",
+          "created_at": "2026-09-03T08:38:09Z"
         },
         {
           "id": "f1-25",
@@ -481,7 +529,8 @@
           "owner": "designer",
           "day": "D10",
           "done": "Plan klaar",
-          "notes": "Sample arrival = D10"
+          "notes": "Sample arrival = D10",
+          "created_at": "2026-09-03T06:38:09Z"
         },
         {
           "id": "f1-26",
@@ -489,7 +538,8 @@
           "owner": "farshad",
           "day": "D10",
           "done": "Per SKU",
-          "notes": "Pannen, messen essentieel"
+          "notes": "Pannen, messen essentieel",
+          "created_at": "2026-09-03T04:38:09Z"
         },
         {
           "id": "f1-27",
@@ -497,7 +547,8 @@
           "owner": "ali",
           "day": "D10-D14",
           "done": "10 descriptions",
-          "notes": "Pain → Solution → Specs → FAQ"
+          "notes": "Pain → Solution → Specs → FAQ",
+          "created_at": "2026-09-03T02:38:09Z"
         },
         {
           "id": "f1-28",
@@ -505,7 +556,8 @@
           "owner": "ali",
           "day": "D12",
           "done": "5 bundles defined",
-          "notes": "Cross-sell basis"
+          "notes": "Cross-sell basis",
+          "created_at": "2026-09-03T00:38:09Z"
         }
       ]
     },
@@ -522,7 +574,8 @@
           "owner": "designer",
           "day": "D14-D18",
           "done": "50-80 photos live",
-          "notes": "Studio + lifestyle"
+          "notes": "Studio + lifestyle",
+          "created_at": "2026-09-06T06:38:09Z"
         },
         {
           "id": "f2-2",
@@ -530,7 +583,8 @@
           "owner": "designer",
           "day": "D15-D20",
           "done": "10 main + 10 demo",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-06T04:38:09Z"
         },
         {
           "id": "f2-3",
@@ -538,7 +592,8 @@
           "owner": "farshad",
           "day": "D18",
           "done": "10 listings live",
-          "notes": "Multi-language"
+          "notes": "Multi-language",
+          "created_at": "2026-09-06T02:38:09Z"
         },
         {
           "id": "f2-4",
@@ -546,7 +601,8 @@
           "owner": "hermes",
           "day": "D18",
           "done": "2 variants/SKU",
-          "notes": "Long vs short, emoji ja/nee"
+          "notes": "Long vs short, emoji ja/nee",
+          "created_at": "2026-09-06T00:38:09Z"
         },
         {
           "id": "f2-5",
@@ -554,7 +610,8 @@
           "owner": "ali",
           "day": "D18",
           "done": "10 prices vastgelegd",
-          "notes": "€15-80 range"
+          "notes": "€15-80 range",
+          "created_at": "2026-09-05T22:38:09Z"
         },
         {
           "id": "f2-6",
@@ -562,7 +619,8 @@
           "owner": "hermes",
           "day": "D19",
           "done": "FAQs live",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-05T20:38:09Z"
         },
         {
           "id": "f2-7",
@@ -570,7 +628,8 @@
           "owner": "designer",
           "day": "D20",
           "done": "Live",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-05T18:38:09Z"
         },
         {
           "id": "f2-8",
@@ -578,7 +637,8 @@
           "owner": "farshad",
           "day": "D22",
           "done": "Live",
-          "notes": "Cross-sell"
+          "notes": "Cross-sell",
+          "created_at": "2026-09-05T16:38:09Z"
         },
         {
           "id": "f2-9",
@@ -586,7 +646,8 @@
           "owner": "ali",
           "day": "D20",
           "done": "3-4 SKUs",
-          "notes": "Sterkste metrics verwacht"
+          "notes": "Sterkste metrics verwacht",
+          "created_at": "2026-09-05T14:38:09Z"
         },
         {
           "id": "f2-10",
@@ -594,7 +655,8 @@
           "owner": "ali",
           "day": "D20-D24",
           "done": "15-20 UGC videos",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-05T12:38:09Z"
         },
         {
           "id": "f2-11",
@@ -602,7 +664,8 @@
           "owner": "ali",
           "day": "D20-D24",
           "done": "15-20 AI videos",
-          "notes": "Multi-language ready"
+          "notes": "Multi-language ready",
+          "created_at": "2026-09-05T10:38:09Z"
         },
         {
           "id": "f2-12",
@@ -610,7 +673,8 @@
           "owner": "ali",
           "day": "D22",
           "done": "EU10 ad accounts",
-          "notes": "Meta BM central"
+          "notes": "Meta BM central",
+          "created_at": "2026-09-05T08:38:09Z"
         },
         {
           "id": "f2-13",
@@ -618,7 +682,8 @@
           "owner": "ali",
           "day": "D24",
           "done": "Account live",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-05T06:38:09Z"
         },
         {
           "id": "f2-14",
@@ -626,7 +691,8 @@
           "owner": "ali",
           "day": "D25",
           "done": "Wave 1 live",
-          "notes": "Verspreid over EU10"
+          "notes": "Verspreid over EU10",
+          "created_at": "2026-09-05T04:38:09Z"
         },
         {
           "id": "f2-15",
@@ -634,7 +700,8 @@
           "owner": "ali",
           "day": "D27",
           "done": "Wave 1 live",
-          "notes": "Search + Shopping later"
+          "notes": "Search + Shopping later",
+          "created_at": "2026-09-05T02:38:09Z"
         },
         {
           "id": "f2-16",
@@ -642,7 +709,8 @@
           "owner": "ali",
           "day": "D24",
           "done": "Flows live",
-          "notes": "Klaviyo"
+          "notes": "Klaviyo",
+          "created_at": "2026-09-05T00:38:09Z"
         },
         {
           "id": "f2-17",
@@ -650,7 +718,8 @@
           "owner": "hermes",
           "day": "D26",
           "done": "Dashboard live",
-          "notes": "Shopify API"
+          "notes": "Shopify API",
+          "created_at": "2026-09-04T22:38:09Z"
         },
         {
           "id": "f2-18",
@@ -658,7 +727,8 @@
           "owner": "ali",
           "day": "D25+",
           "done": "Ritueel vastgelegd",
-          "notes": "Ali/Kheibar/Farshad"
+          "notes": "Ali/Kheibar/Farshad",
+          "created_at": "2026-09-04T20:38:09Z"
         },
         {
           "id": "f2-19",
@@ -666,7 +736,8 @@
           "owner": "ali",
           "day": "D39",
           "done": "Decision per SKU",
-          "notes": "Kill/keep/scale"
+          "notes": "Kill/keep/scale",
+          "created_at": "2026-09-04T18:38:09Z"
         }
       ]
     },
@@ -683,7 +754,8 @@
           "owner": "ali",
           "day": "D40",
           "done": "3-4 SKUs",
-          "notes": "Anders segment dan W1"
+          "notes": "Anders segment dan W1",
+          "created_at": "2026-09-07T06:38:09Z"
         },
         {
           "id": "f3-2",
@@ -691,7 +763,8 @@
           "owner": "farshad",
           "day": "D42",
           "done": "Live",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-07T04:38:09Z"
         },
         {
           "id": "f3-3",
@@ -699,7 +772,8 @@
           "owner": "ali",
           "day": "D40-D44",
           "done": "30-40 videos",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-07T02:38:09Z"
         },
         {
           "id": "f3-4",
@@ -707,7 +781,8 @@
           "owner": "ali",
           "day": "D45",
           "done": "Live",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-07T00:38:09Z"
         },
         {
           "id": "f3-5",
@@ -715,7 +790,8 @@
           "owner": "ali",
           "day": "D59",
           "done": "Decision per SKU",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-06T22:38:09Z"
         },
         {
           "id": "f3-6",
@@ -723,7 +799,8 @@
           "owner": "ali",
           "day": "D51",
           "done": "3-4 SKUs",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-06T20:38:09Z"
         },
         {
           "id": "f3-7",
@@ -731,7 +808,8 @@
           "owner": "farshad",
           "day": "D53",
           "done": "Live",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-06T18:38:09Z"
         },
         {
           "id": "f3-8",
@@ -739,7 +817,8 @@
           "owner": "ali",
           "day": "D51-D55",
           "done": "30-40 videos",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-06T16:38:09Z"
         },
         {
           "id": "f3-9",
@@ -747,7 +826,8 @@
           "owner": "ali",
           "day": "D56",
           "done": "Live",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-06T14:38:09Z"
         },
         {
           "id": "f3-10",
@@ -755,7 +835,8 @@
           "owner": "ali",
           "day": "D70",
           "done": "Decision per SKU",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-06T12:38:09Z"
         },
         {
           "id": "f3-11",
@@ -763,7 +844,8 @@
           "owner": "hermes",
           "day": "D36",
           "done": "Script live",
-          "notes": "ROAS <2.0 na €500 spend"
+          "notes": "ROAS <2.0 na €500 spend",
+          "created_at": "2026-09-06T10:38:09Z"
         },
         {
           "id": "f3-12",
@@ -771,7 +853,8 @@
           "owner": "hermes",
           "day": "D38",
           "done": "Dashboard live",
-          "notes": "Spend/ATC/Purch/ROAS/CM2"
+          "notes": "Spend/ATC/Purch/ROAS/CM2",
+          "created_at": "2026-09-06T08:38:09Z"
         },
         {
           "id": "f3-13",
@@ -779,7 +862,8 @@
           "owner": "hermes",
           "day": "D50",
           "done": "Tool live",
-          "notes": "LTV:CAC berekening"
+          "notes": "LTV:CAC berekening",
+          "created_at": "2026-09-06T06:38:09Z"
         },
         {
           "id": "f3-14",
@@ -787,7 +871,8 @@
           "owner": "ali",
           "day": "D55",
           "done": "Survey live",
-          "notes": "Klaviyo"
+          "notes": "Klaviyo",
+          "created_at": "2026-09-06T04:38:09Z"
         },
         {
           "id": "f3-15",
@@ -795,7 +880,8 @@
           "owner": "ali",
           "day": "D40+",
           "done": "Weekly rapport",
-          "notes": "Wat doen zij"
+          "notes": "Wat doen zij",
+          "created_at": "2026-09-06T02:38:09Z"
         },
         {
           "id": "f3-16",
@@ -803,7 +889,8 @@
           "owner": "ali",
           "day": "D45",
           "done": "Inbox + tagging",
-          "notes": "Voor product insights"
+          "notes": "Voor product insights",
+          "created_at": "2026-09-06T00:38:09Z"
         },
         {
           "id": "f3-17",
@@ -811,7 +898,8 @@
           "owner": "hermes",
           "day": "D42",
           "done": "Framework live",
-          "notes": "Welke creative wint"
+          "notes": "Welke creative wint",
+          "created_at": "2026-09-05T22:38:09Z"
         },
         {
           "id": "f3-18",
@@ -819,7 +907,8 @@
           "owner": "ali",
           "day": "D36+",
           "done": "Weekly",
-          "notes": "Ali + Kheibar + Farshad"
+          "notes": "Ali + Kheibar + Farshad",
+          "created_at": "2026-09-05T20:38:09Z"
         },
         {
           "id": "f3-19",
@@ -827,7 +916,8 @@
           "owner": "ali",
           "day": "D36+",
           "done": "Log bijgehouden",
-          "notes": "sku_pipeline_state.json"
+          "notes": "sku_pipeline_state.json",
+          "created_at": "2026-09-05T18:38:09Z"
         }
       ]
     },
@@ -844,7 +934,8 @@
           "owner": "ali",
           "day": "D65",
           "done": "3 winners",
-          "notes": "1 SKU/segment focus"
+          "notes": "1 SKU/segment focus",
+          "created_at": "2026-09-08T06:38:09Z"
         },
         {
           "id": "f4-2",
@@ -852,7 +943,8 @@
           "owner": "ali",
           "day": "D67",
           "done": "€300/dag totaal",
-          "notes": "Verhoog na winner-ID"
+          "notes": "Verhoog na winner-ID",
+          "created_at": "2026-09-08T04:38:09Z"
         },
         {
           "id": "f4-3",
@@ -860,7 +952,8 @@
           "owner": "ali",
           "day": "D68",
           "done": "Audiences live",
-          "notes": "Niet ATC maar purchasers"
+          "notes": "Niet ATC maar purchasers",
+          "created_at": "2026-09-08T02:38:09Z"
         },
         {
           "id": "f4-4",
@@ -868,7 +961,8 @@
           "owner": "ali",
           "day": "D70+",
           "done": "Doorlopend",
-          "notes": "Ad fatigue counter"
+          "notes": "Ad fatigue counter",
+          "created_at": "2026-09-08T00:38:09Z"
         },
         {
           "id": "f4-5",
@@ -876,7 +970,8 @@
           "owner": "ali",
           "day": "D72",
           "done": "PMax live",
-          "notes": "Non-brand demand"
+          "notes": "Non-brand demand",
+          "created_at": "2026-09-07T22:38:09Z"
         },
         {
           "id": "f4-6",
@@ -884,7 +979,8 @@
           "owner": "ali",
           "day": "D75",
           "done": "Flow live",
-          "notes": "Repeat halo"
+          "notes": "Repeat halo",
+          "created_at": "2026-09-07T20:38:09Z"
         },
         {
           "id": "f4-7",
@@ -892,7 +988,8 @@
           "owner": "ali",
           "day": "D78",
           "done": "Flow live",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-07T18:38:09Z"
         },
         {
           "id": "f4-8",
@@ -900,7 +997,8 @@
           "owner": "ali",
           "day": "D75",
           "done": "Test live",
-          "notes": "Cross-product bundles"
+          "notes": "Cross-product bundles",
+          "created_at": "2026-09-07T16:38:09Z"
         },
         {
           "id": "f4-9",
@@ -908,7 +1006,8 @@
           "owner": "hermes",
           "day": "D80",
           "done": "Live in Shopify",
-          "notes": "AI suggest"
+          "notes": "AI suggest",
+          "created_at": "2026-09-07T14:38:09Z"
         },
         {
           "id": "f4-10",
@@ -916,7 +1015,8 @@
           "owner": "hermes",
           "day": "D78",
           "done": "Live",
-          "notes": "Meta vs Google vs Email"
+          "notes": "Meta vs Google vs Email",
+          "created_at": "2026-09-07T12:38:09Z"
         },
         {
           "id": "f4-11",
@@ -924,7 +1024,8 @@
           "owner": "hermes",
           "day": "D82",
           "done": "Dashboard live",
-          "notes": "Target 25%+ kitchen"
+          "notes": "Target 25%+ kitchen",
+          "created_at": "2026-09-07T10:38:09Z"
         },
         {
           "id": "f4-12",
@@ -932,7 +1033,8 @@
           "owner": "hermes",
           "day": "D80",
           "done": "Analyse klaar",
-          "notes": "Welke week herhaal-aankoop"
+          "notes": "Welke week herhaal-aankoop",
+          "created_at": "2026-09-07T08:38:09Z"
         },
         {
           "id": "f4-13",
@@ -940,7 +1042,8 @@
           "owner": "ali",
           "day": "D82",
           "done": "Decision: ja/nee",
-          "notes": "Voor consumables"
+          "notes": "Voor consumables",
+          "created_at": "2026-09-07T06:38:09Z"
         },
         {
           "id": "f4-14",
@@ -948,7 +1051,8 @@
           "owner": "ali",
           "day": "D85",
           "done": "Puntenstructuur",
-          "notes": "Post-launch implementatie"
+          "notes": "Post-launch implementatie",
+          "created_at": "2026-09-07T04:38:09Z"
         },
         {
           "id": "f4-15",
@@ -956,7 +1060,8 @@
           "owner": "kheibar",
           "day": "D85",
           "done": "Forecast update",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-07T02:38:09Z"
         }
       ]
     },
@@ -973,7 +1078,8 @@
           "owner": "ali",
           "day": "D87",
           "done": "Dashboard review",
-          "notes": "GROWTH targets"
+          "notes": "GROWTH targets",
+          "created_at": "2026-09-09T06:38:09Z"
         },
         {
           "id": "f5-2",
@@ -981,7 +1087,8 @@
           "owner": "ali",
           "day": "D88",
           "done": "5-pager",
-          "notes": "Wat werkte, wat niet"
+          "notes": "Wat werkte, wat niet",
+          "created_at": "2026-09-09T04:38:09Z"
         },
         {
           "id": "f5-3",
@@ -989,7 +1096,8 @@
           "owner": "hermes",
           "day": "D89",
           "done": "Doc klaar",
-          "notes": "Voor 2e iteratie"
+          "notes": "Voor 2e iteratie",
+          "created_at": "2026-09-09T02:38:09Z"
         },
         {
           "id": "f5-4",
@@ -997,7 +1105,8 @@
           "owner": "farshad",
           "day": "D88",
           "done": "Scorecard",
-          "notes": "Voor renego"
+          "notes": "Voor renego",
+          "created_at": "2026-09-09T00:38:09Z"
         },
         {
           "id": "f5-5",
@@ -1005,7 +1114,8 @@
           "owner": "ali",
           "day": "D89",
           "done": "Themes doc",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-08T22:38:09Z"
         },
         {
           "id": "f5-6",
@@ -1013,7 +1123,8 @@
           "owner": "ali",
           "day": "D89",
           "done": "Audit rapport",
-          "notes": "GPSR + EU"
+          "notes": "GPSR + EU",
+          "created_at": "2026-09-08T20:38:09Z"
         },
         {
           "id": "f5-7",
@@ -1021,7 +1132,8 @@
           "owner": "kheibar",
           "day": "D90",
           "done": "P&L statement",
-          "notes": ""
+          "notes": "",
+          "created_at": "2026-09-08T18:38:09Z"
         },
         {
           "id": "f5-8",
@@ -1029,7 +1141,8 @@
           "owner": "ali",
           "day": "D90",
           "done": "1-pager",
-          "notes": "Voor investor pitch"
+          "notes": "Voor investor pitch",
+          "created_at": "2026-09-08T16:38:09Z"
         },
         {
           "id": "f5-9",
@@ -1037,7 +1150,8 @@
           "owner": "ali",
           "day": "D90+",
           "done": "Consult gehad",
-          "notes": "Aanbevolen voor F5+"
+          "notes": "Aanbevolen voor F5+",
+          "created_at": "2026-09-08T14:38:09Z"
         },
         {
           "id": "f5-10",
@@ -1045,7 +1159,8 @@
           "owner": "ali",
           "day": "D90+",
           "done": "Plan klaar",
-          "notes": "Niet in 90-dgn scope"
+          "notes": "Niet in 90-dgn scope",
+          "created_at": "2026-09-08T12:38:09Z"
         },
         {
           "id": "f5-11",
@@ -1053,7 +1168,8 @@
           "owner": "ali",
           "day": "D90+",
           "done": "SOPs gebundeld",
-          "notes": "Voor toekomstige hires"
+          "notes": "Voor toekomstige hires",
+          "created_at": "2026-09-08T10:38:09Z"
         },
         {
           "id": "f5-12",
@@ -1061,7 +1177,8 @@
           "owner": "ali",
           "day": "D90+",
           "done": "Recall/chargeback/supplier failure",
-          "notes": "Voor team"
+          "notes": "Voor team",
+          "created_at": "2026-09-08T08:38:09Z"
         },
         {
           "id": "f5-13",
@@ -1069,7 +1186,8 @@
           "owner": "ali",
           "day": "D90+",
           "done": "1-pager",
-          "notes": "€30k → €100k trajectory"
+          "notes": "€30k → €100k trajectory",
+          "created_at": "2026-09-08T06:38:09Z"
         },
         {
           "id": "f5-14",
@@ -1077,7 +1195,8 @@
           "owner": "hermes",
           "day": "D88",
           "done": "Template klaar",
-          "notes": "Voor maandelijkse cycles"
+          "notes": "Voor maandelijkse cycles",
+          "created_at": "2026-09-08T04:38:09Z"
         },
         {
           "id": "f5-15",
@@ -1085,7 +1204,8 @@
           "owner": "ali",
           "day": "D90+",
           "done": "Deck klaar",
-          "notes": "Voor fundraising optie"
+          "notes": "Voor fundraising optie",
+          "created_at": "2026-09-08T02:38:09Z"
         }
       ]
     }
