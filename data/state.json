@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "web-toggle-done",
-  "lastSavedAt": "2026-09-10T22:51:57.257Z",
+  "lastSavedBy": "kasori-reset-test-done",
+  "lastSavedAt": "2026-09-10T22:50:00Z",
   "phases": [
     {
       "id": "f0",
@@ -404,7 +404,7 @@
           "name": "Brand moodboard (Ali)",
           "owner": "ali",
           "day": "D0",
-          "done": true,
+          "done": false,
           "notes": "Vóór logo design\n[Status: Pinterest/moodboard klaar]",
           "created_at": "2026-09-05T06:38:09Z",
           "doneNote": "Pinterest/moodboard klaar"
