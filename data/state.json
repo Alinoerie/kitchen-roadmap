@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "knowledge-bytes-pipeline",
-  "lastSavedAt": "2026-09-10T17:50:00Z",
+  "lastSavedBy": "knowledge-bytes-pipeline-v2-yt",
+  "lastSavedAt": "2026-09-10T19:50:00Z",
   "phases": [
     {
       "id": "f0",
@@ -971,6 +971,246 @@
           "done": "Pipeline live",
           "notes": "Source: roslanofficial. KB cluster-002.",
           "created_at": "2026-09-10T17:50:00Z"
+        },
+        {
+          "id": "f2-kb-chase-3-campaign-structure",
+          "phase": "f2",
+          "name": "Build 3-campaign structure: Interest + Creative + Retargeting",
+          "owner": "ali",
+          "day": "D25-D30",
+          "done": "Campaigns live",
+          "notes": "Source: Chase Chappell (YT-_jqhFeUu8QE). KB cluster-168 (creative_campaign_ad). '3 campaigns: interest testing + creative testing + retargeting'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-chase-5-unique-creatives",
+          "phase": "f2",
+          "name": "Per ad set: 5 totally unique ad creatives (no variation templates)",
+          "owner": "ali",
+          "day": "D22-D26",
+          "done": "5 creatives live",
+          "notes": "Source: Chase Chappell. KB cluster-168. '5 unique creatives, no two alike — Andromeda requirement'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-chase-rotate-winners",
+          "phase": "f2",
+          "name": "Rotate winning creatives from Creative Testing → Interest Testing weekly",
+          "owner": "ali",
+          "day": "D27+",
+          "done": "Rotation routine",
+          "notes": "Source: Chase Chappell. KB cluster-168. 'Proven winners move to scaling campaign'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-chase-5-ad-copy-angles",
+          "phase": "f2",
+          "name": "Every ad = 5 unique primary text + 5 headlines + 5 descriptions",
+          "owner": "ali",
+          "day": "D22-D26",
+          "done": "Copy matrix live",
+          "notes": "Source: Chase Chappell. KB cluster-168. 'Long/medium/short + features/benefits/review/lifestyle'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-chase-5-ad-sets",
+          "phase": "f2",
+          "name": "Duplicate ad set 5x with different audiences (no overlap)",
+          "owner": "ali",
+          "day": "D25-D30",
+          "done": "5 ad sets live",
+          "notes": "Source: Chase Chappell. KB cluster-168. 'Same ads in 5 audiences = full context coverage'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-funnel-strategy",
+          "phase": "f2",
+          "name": "Map creatives to funnel positions (top/mid/bottom)",
+          "owner": "ali",
+          "day": "D26-D30",
+          "done": "Funnel map live",
+          "notes": "Source: Maryanne Damarzo + Charley T. KB cluster-159. Top=curiosity/shock, mid=benefit/us-vs-them, bottom=proof/offer",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-curiosity-hooks",
+          "phase": "f2",
+          "name": "Hook formula: curiosity + initial shock + specific benefit",
+          "owner": "ali",
+          "day": "D22-D26",
+          "done": "Hook template",
+          "notes": "Source: Chase Chappell. KB cluster-159. 'Drive curiosity, deliver shock, give benefit'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-mid-funnel-benefits",
+          "phase": "f2",
+          "name": "Mid-funnel ads focused on benefits + us-vs-them angle",
+          "owner": "ali",
+          "day": "D26-D30",
+          "done": "Mid-funnel set live",
+          "notes": "Source: Maryanne Damarzo. KB cluster-159. 'Mid-funnel = super straightforward benefit ad'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-ads-freshness",
+          "phase": "f2",
+          "name": "Add fresh ads every 7-10 days (fatigue prevention)",
+          "owner": "ali",
+          "day": "D23+",
+          "done": "Routine live",
+          "notes": "Source: Charley T. KB cluster-159. 'CPM + frequency = fatigue signal. Rotate before fatigue hits'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-headline-first",
+          "phase": "f2",
+          "name": "Headline = stop-the-scroll weapon (sub-headline expands offer)",
+          "owner": "ali",
+          "day": "D22-D26",
+          "done": "Copy structure",
+          "notes": "Source: Copy That!. KB cluster-109. 'Headline first, sub-headline next — same intent, different words'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-opening-sentence",
+          "phase": "f2",
+          "name": "Opening sentence must work standalone (without headline)",
+          "owner": "ali",
+          "day": "D22-D26",
+          "done": "Copy structure",
+          "notes": "Source: Copy That!. KB cluster-109. 'First sentence does the heavy lifting'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-target-audience-specificity",
+          "phase": "f2",
+          "name": "Headline targets a niche segment, not 'everyone'",
+          "owner": "ali",
+          "day": "D22-D26",
+          "done": "Specificity rule",
+          "notes": "Source: Copy That!. KB cluster-109. 'Goal is not to grab the world's attention'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-conversion-rate-first",
+          "phase": "f2",
+          "name": "Optimize conversion rate BEFORE scaling ads",
+          "owner": "ali",
+          "day": "D28-D32",
+          "done": "CRO baseline",
+          "notes": "Source: Charley T. KB cluster-145. 'CRO gets negated when you change ads'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-7-day-click-window",
+          "phase": "f2",
+          "name": "Optimize on 7-day click conversions (real purchase signal)",
+          "owner": "ali",
+          "day": "D24-D28",
+          "done": "Attribution window",
+          "notes": "Source: Chase Chappell. KB cluster-145. '7-day click > 1-day for purchase decisions'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-differentiate-from-competitors",
+          "phase": "f2",
+          "name": "Don't copy competitor ads 1:1 — you'll get worse results",
+          "owner": "ali",
+          "day": "D24-D30",
+          "done": "Differentiation audit",
+          "notes": "Source: Charley T. KB cluster-145. 'If you rip off everyone, you do worse than them'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-deck-of-cards-math",
+          "phase": "f2",
+          "name": "Flexible ads math: 3×2×2 = 12 combinations per ad",
+          "owner": "ali",
+          "day": "D26-D30",
+          "done": "Math template",
+          "notes": "Source: Charley T. KB cluster-169. '5 flexible ads × 12 = 60 combinations (deck of cards strategy)'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-flexible-ads-vs-ad-sets",
+          "phase": "f2",
+          "name": "Use flexible ads inside ad sets (less fragmentation)",
+          "owner": "ali",
+          "day": "D26-D30",
+          "done": "Structure chosen",
+          "notes": "Source: Charley T. KB cluster-169. 'Multiple flexible ads > multiple ad sets'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-blended-cpa-tracking",
+          "phase": "f2",
+          "name": "Track blended CPA (not per-ad CPA)",
+          "owner": "ali",
+          "day": "D24-D28",
+          "done": "Dashboard live",
+          "notes": "Source: Charley T. KB cluster-110. '$85 ad at 105 AOV may be better than $92 ad at 160 AOV'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-ltv-multiplier",
+          "phase": "f2",
+          "name": "LTV math: 10K customers × $1K LTV = $10M LTV pool",
+          "owner": "ali",
+          "day": "D25-D30",
+          "done": "LTV model",
+          "notes": "Source: Charley T. KB cluster-110. 'LTV pool = ceiling for ad spend'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-aov-tiered-offers",
+          "phase": "f2",
+          "name": "Test 3 offer tiers (low/mid/high AOV)",
+          "owner": "ali",
+          "day": "D28-D32",
+          "done": "Tiers live",
+          "notes": "Source: Charley T. KB cluster-110. '$100/$150/$300 offers = blended AOV growth'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-roas-benchmarks",
+          "phase": "f2",
+          "name": "ROAS benchmarks: 3.09 average @ €78k spend (Chase case)",
+          "owner": "ali",
+          "day": "D24-D28",
+          "done": "Benchmarks doc",
+          "notes": "Source: Chase Chappell. KB cluster-161. '86.8% ROAS increase from fixing account structure'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-budget-cut-rescue",
+          "phase": "f2",
+          "name": "Cutting spend 35% can rescue losing campaign",
+          "owner": "ali",
+          "day": "D30-D35",
+          "done": "Rescue playbook",
+          "notes": "Source: Chase Chappell. KB cluster-161. '$94k → $91k swing unprofitable → profitable'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-native-ads-disguised",
+          "phase": "f2",
+          "name": "Native-style ads (zero text overlay) outperform explicit ads",
+          "owner": "ali",
+          "day": "D26-D30",
+          "done": "Native ad set",
+          "notes": "Source: Maryanne Damarzo. KB cluster-124. 'Disguised content beats banner-style ads'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f2-kb-stop-scroll-purpose",
+          "phase": "f2",
+          "name": "Every ad has ONE purpose: stop the scroll",
+          "owner": "ali",
+          "day": "D22-D26",
+          "done": "Single-purpose rule",
+          "notes": "Source: Chase Chappell. KB cluster-124. 'Design from the constraint of one purpose'",
+          "created_at": "2026-09-10T19:50:00Z"
         }
       ]
     },
@@ -1207,6 +1447,76 @@
           "done": "Routine live",
           "notes": "Source: roslanofficial. KB cluster-001.",
           "created_at": "2026-09-10T17:50:00Z"
+        },
+        {
+          "id": "f3-kb-20pct-budget-stepup",
+          "phase": "f3",
+          "name": "Scale winners in 20% step-ups (Charley methodology)",
+          "owner": "ali",
+          "day": "D36+",
+          "done": "Step-up routine",
+          "notes": "Source: Charley T. KB cluster-161. 'Gradual increase maintains performance; jumps break the algorithm'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f3-kb-email-relationship-building",
+          "phase": "f3",
+          "name": "Email = build relationship (readers look forward to receiving)",
+          "owner": "ali",
+          "day": "D40+",
+          "done": "Email philosophy",
+          "notes": "Source: Copy That!. KB cluster-137. 'Build relationship, not broadcast'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f3-kb-email-value-first",
+          "phase": "f3",
+          "name": "Every email = value-packed story FIRST, then ask for sale",
+          "owner": "ali",
+          "day": "D42+",
+          "done": "Email template",
+          "notes": "Source: Copy That!. KB cluster-137. 'Story before ask — never both at once'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f3-kb-email-cadence-weekly",
+          "phase": "f3",
+          "name": "Weekly or daily newsletter cadence",
+          "owner": "ali",
+          "day": "D42+",
+          "done": "Cadence live",
+          "notes": "Source: Copy That!. KB cluster-137. '7-day engagement cycle wins'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f3-kb-email-sequencing",
+          "phase": "f3",
+          "name": "Email sequences: welcome + abandoned cart + post-purchase",
+          "owner": "ali",
+          "day": "D44+",
+          "done": "Sequences live",
+          "notes": "Source: Copy That!. KB cluster-137. 'Build relationships with weekly engagement'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f3-kb-cohort-ltv-cac",
+          "phase": "f3",
+          "name": "Cohort LTV:CAC analysis (track repeat buyers by acquisition month)",
+          "owner": "ali",
+          "day": "D46+",
+          "done": "Cohort dashboard",
+          "notes": "Source: Charley T. KB cluster-110. '10K customers × $1K LTV = $10M pool'",
+          "created_at": "2026-09-10T19:50:00Z"
+        },
+        {
+          "id": "f3-kb-repeat-buyer-tracking",
+          "phase": "f3",
+          "name": "Track repeat-buyer cohorts separately from one-time buyers",
+          "owner": "ali",
+          "day": "D48+",
+          "done": "Segment in CRM",
+          "notes": "Source: Charley T. KB cluster-110. 'Dividing by repeat vs first-time reveals true CAC'",
+          "created_at": "2026-09-10T19:50:00Z"
         }
       ]
     },
