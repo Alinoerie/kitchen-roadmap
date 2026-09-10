@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "system",
-  "lastSavedAt": "2026-09-10T00:00:00Z",
+  "lastSavedBy": "hermes-audit",
+  "lastSavedAt": "2026-09-10T14:43:54.667670Z",
   "phases": [
     {
       "id": "f0",
@@ -297,6 +297,96 @@
           "done": "Backup identified",
           "notes": "Risk mitigation",
           "created_at": "2026-09-01T16:38:09Z"
+        },
+        {
+          "id": "f0-33",
+          "name": "ICP / buyer persona × 3 segmenten (EU25-45 home cook)",
+          "owner": "ali",
+          "day": "D-3",
+          "done": "",
+          "notes": "CRITICAL — Geen doelgroep = geen ads die werken. Voedt ad copy, supplier pick, listing volgorde.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f0-34",
+          "name": "Brand promise / value prop (1 zin, <12 woorden)",
+          "owner": "ali",
+          "day": "D-3",
+          "done": "",
+          "notes": "CRITICAL — Zonder dit kan logo/design/copy niet gemaakt worden. Alles hangt af van 1 zin.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f0-35",
+          "name": "Logistics 3PL shortlist (PostNL / DHL / 3PL hub NL)",
+          "owner": "kheibar",
+          "day": "D-3",
+          "done": "",
+          "notes": "HIGH — Drop ship China = 7-14d. 3PL buffer of EU warehouse is table stakes voor €10k/mnd.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f0-36",
+          "name": "Carrier SLA onderzoek (transit times, fail rate, returns ease)",
+          "owner": "kheibar",
+          "day": "D-5",
+          "done": "",
+          "notes": "HIGH — Wave 1 €35/d = direct afhankelijk van conversion rate; carrier fail = negatieve reviews na 2 orders.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f0-37",
+          "name": "HACCP / food-contact compliance per materiaal (LFGB / FDA)",
+          "owner": "ali",
+          "day": "D-5",
+          "done": "",
+          "notes": "CRITICAL — AVB verzekering f0-20 dekt aansprakelijkheid, maar HACCP/LFGB materiaal-cert is verplicht voor food-contact keukengerij. Zonder = recall risico.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f0-38",
+          "name": "Returns portal opzetten (Returnless / Loop / Shopify Afterpay)",
+          "owner": "hermes",
+          "day": "D-3",
+          "done": "",
+          "notes": "HIGH — 14d retour recht EU; zonder geautomatiseerd portaal wordt dit manueel werk en negatieve reviews.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f0-39",
+          "name": "CX tool keuze (Gorgias vs Zendesk vs Shopify Inbox alleen)",
+          "owner": "ali",
+          "day": "D-2",
+          "done": "",
+          "notes": "HIGH — Inbox widget f0-25 staat, maar geen tool-decision. 7 talen → Gorgias macros bespaart 4u/dag.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f0-40",
+          "name": "Tracking & UTM taxonomy (source/medium/campaign/content standaard)",
+          "owner": "hermes",
+          "day": "D-3",
+          "done": "",
+          "notes": "CRITICAL — Zonder UTM discipline is attribution onmogelijk; kill rules werken niet. Wave 1 budget €35/d weggegooid geld.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f0-41",
+          "name": "Pixel event taxonomy (ViewContent / AddToCart / InitiateCheckout / Purchase + CAPI)",
+          "owner": "hermes",
+          "day": "D-3",
+          "done": "",
+          "notes": "CRITICAL — iOS 14.5+ = CAPI vereist voor Meta ads. Zonder server-side events trainen ads op junk.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f0-42",
+          "name": "Insurance scope review (product liability + carriage + cyber)",
+          "owner": "ali",
+          "day": "D-2",
+          "done": "",
+          "notes": "HIGH — AVB f0-20 alleen. HK → EU drop ship heeft carriage liability risico; cyber voor Shopify/Klaviyo data.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
         }
       ]
     },
@@ -558,6 +648,78 @@
           "done": "5 bundles defined",
           "notes": "Cross-sell basis",
           "created_at": "2026-09-03T00:38:09Z"
+        },
+        {
+          "id": "f1-29",
+          "name": "Competitor prijspeil per SKU (5 concurrents, €/marge check)",
+          "owner": "ali",
+          "day": "D3",
+          "done": "",
+          "notes": "CRITICAL — Pricing f2-5 kan pas als competitor prijzen bekend zijn. Anders margin niet te bepalen.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f1-30",
+          "name": "Marketing angle stack × 10 SKUs (3 angles/SKU, hook + body)",
+          "owner": "hermes",
+          "day": "D2",
+          "done": "",
+          "notes": "CRITICAL — Zonder angle stack is UGC/video creatie (f2-10/11) rammen in het donker.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f1-31",
+          "name": "Founder-led content kalender (Ali face-to-camera, 3/wk start D2)",
+          "owner": "ali",
+          "day": "D2",
+          "done": "",
+          "notes": "HIGH — HEARTH/keuken-merk zonder founder presence = anoniem. Organisch groeit niet mee met ads.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f1-32",
+          "name": "Influencer seeding wave 0 (10 micro-influencers, gratis product)",
+          "owner": "farshad",
+          "day": "D7",
+          "done": "",
+          "notes": "HIGH — Voor Wave 1 ads heb je social proof. 10 micro-influencers met 5-50K volgers = UGC + credibility.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f1-33",
+          "name": "User research: 8 interviews met NL/BE/DU home cooks",
+          "owner": "ali",
+          "day": "D5",
+          "done": "",
+          "notes": "HIGH — Vervangt ICP aannames met echte taal + pain points. Voedt angle stack en copy.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f1-34",
+          "name": "Brand ambassadeurs program setup (15% korting + unieke link)",
+          "owner": "hermes",
+          "day": "D10",
+          "done": "",
+          "notes": "MEDIUM — Stook retention + laag-CAC kanaal naast Meta.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f1-35",
+          "name": "Catalog feed setup (Google Merchant Center + Meta catalog)",
+          "owner": "hermes",
+          "day": "D7",
+          "done": "",
+          "notes": "CRITICAL — Voor Google Ads f2-15 EN Meta dynamic ads. Zonder feed kun je niet targeten op product-viewers.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f1-36",
+          "name": "SEO content plan (10 P0 keywords, 5 cornerstone blogs D14)",
+          "owner": "ali",
+          "day": "D7",
+          "done": "",
+          "notes": "HIGH — Paid ads alleen = CAC stijgt. SEO content voor long-tail is compounding channel.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
         }
       ]
     },
@@ -738,6 +900,60 @@
           "done": "Decision per SKU",
           "notes": "Kill/keep/scale",
           "created_at": "2026-09-04T18:38:09Z"
+        },
+        {
+          "id": "f2-20",
+          "name": "Creative testing framework (3 hooks × 3 bodies per ad, kill rule)",
+          "owner": "hermes",
+          "day": "D20",
+          "done": "",
+          "notes": "CRITICAL — Zonder framework = elke week nieuwe ads zonder learning. Creative refresh elke 14 dgn (f4-4) heeft framework nodig.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f2-21",
+          "name": "Review velocity opzetten (Judge.me + photo review incentive)",
+          "owner": "hermes",
+          "day": "D22",
+          "done": "",
+          "notes": "CRITICAL — Geen reviews = geen conversion op ads. Wave 1 €35/d dood geld zonder 50+ reviews per SKU.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f2-22",
+          "name": "Trustpilot profiel openen (uitnodigingsflow na delivery)",
+          "owner": "ali",
+          "day": "D24",
+          "done": "",
+          "notes": "HIGH — Externe trust badge naast Judge.me; Google Seller Ratings in ads.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f2-23",
+          "name": "WhatsApp / SMS abandonment flow (naast email)",
+          "owner": "hermes",
+          "day": "D24",
+          "done": "",
+          "notes": "HIGH — EU cart abandonment via SMS/WhatsApp >40% open vs email 15%.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f2-24",
+          "name": "Inventory / SKU ops dashboard (daily stock per SKU, backorder alerts)",
+          "owner": "hermes",
+          "day": "D25",
+          "done": "",
+          "notes": "HIGH — Dropship + Wave 1 = real-time stock visibility nodig. Anders ad naar OOS = wasted spend.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f2-25",
+          "name": "Logistieke first-mile audit (China supplier → 3PL → klant lead times)",
+          "owner": "farshad",
+          "day": "D26",
+          "done": "",
+          "notes": "HIGH — Beloofde delivery in listing vs realiteit. Gap = 1-star reviews.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
         }
       ]
     },
@@ -918,6 +1134,42 @@
           "done": "Log bijgehouden",
           "notes": "sku_pipeline_state.json",
           "created_at": "2026-09-05T18:38:09Z"
+        },
+        {
+          "id": "f3-20",
+          "name": "Cohort LTV analyse per traffic source (Meta vs Google vs Organic vs Direct)",
+          "owner": "hermes",
+          "day": "D50",
+          "done": "",
+          "notes": "HIGH — LTV:CAC beslissing (f4-2 scale) hangt af van source-quality, niet alleen SKU-winners.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f3-21",
+          "name": "CRO scan homepage + PDP, 1 conversion lift actie",
+          "owner": "hermes",
+          "day": "D50",
+          "done": "",
+          "notes": "MEDIUM — CRO lift 10-20% > nieuwe ads. Onderbenut.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f3-22",
+          "name": "Prijs-elasticiteit test per top-3 SKU (€X / €X+2 / €X-2)",
+          "owner": "ali",
+          "day": "D55",
+          "done": "",
+          "notes": "HIGH — Sommige SKUs zijn +€5-premium-positie, andere -€5-budget. Geen test = blinde pricing.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f3-23",
+          "name": "Crisis comms runbook (recall, supplier fail, ad disapprove wave, chargeback spike)",
+          "owner": "ali",
+          "day": "D50",
+          "done": "",
+          "notes": "CRITICAL — F5-12 staat op D90+ maar 1 chargeback-golf in Wave 1 zonder runbook = 1 week paniek.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
         }
       ]
     },
@@ -1062,6 +1314,33 @@
           "done": "Forecast update",
           "notes": "",
           "created_at": "2026-09-07T02:38:09Z"
+        },
+        {
+          "id": "f4-16",
+          "name": "Wholesale / B2B pilot onderzoek (5 lokale winkels, NL/BE/DU)",
+          "owner": "ali",
+          "day": "D75",
+          "done": "",
+          "notes": "MEDIUM — Na 90 dgn traction is wholesale vaak 2x LTV met lagere CAC. Onderzocht, niet gecommit.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f4-17",
+          "name": "EU uitbreiding pack (vertalingen, douane, lokale payment)",
+          "owner": "hermes",
+          "day": "D80",
+          "done": "",
+          "notes": "MEDIUM — EU10 shopify markets staat, maar operationele EU-uitrol is niet gepland.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f4-18",
+          "name": "Brand extension brainstorm (HEARTH-adjacent: badkamer, tuin, dining)",
+          "owner": "hermes",
+          "day": "D82",
+          "done": "",
+          "notes": "LOW — Voor year-2 visie.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
         }
       ]
     },
@@ -1206,6 +1485,24 @@
           "done": "Deck klaar",
           "notes": "Voor fundraising optie",
           "created_at": "2026-09-08T02:38:09Z"
+        },
+        {
+          "id": "f5-16",
+          "name": "Mentor / advisor call (iemand die 2x €10k/mnd heeft gedaan)",
+          "owner": "ali",
+          "day": "D89",
+          "done": "",
+          "notes": "HIGH — Lessons learned heeft externe check nodig, anders herhaal je dezelfde fouten.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f5-17",
+          "name": "Persoonlijke health check (Ali - burnout signals, founder mode)",
+          "owner": "ali",
+          "day": "D90",
+          "done": "",
+          "notes": "HIGH — 90 dgn launch = burnout risico. Post-launch assessment voor jaar 2.",
+          "created_at": "2026-09-10T14:43:54.667670Z"
         }
       ]
     }
