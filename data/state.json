@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "kasori-reset-test-done",
-  "lastSavedAt": "2026-09-10T22:50:00Z",
+  "lastSavedBy": "kasori-fill-phase-field",
+  "lastSavedAt": "2026-09-10T23:00:00Z",
   "phases": [
     {
       "id": "f0",
@@ -18,7 +18,8 @@
           "done": false,
           "notes": "Sales of record = HK entity | MERGED 2026-09-10 (audit): includes HK bank (f0-1), WISE (f0-2), Currency Ways (f0-3). 4 accounts openen op vrijdag 12 sept in deze volgorde: HK entity → HK bank → WISE → Currency Ways. Owner: Kheibar.\n[Status: HK entity registered]",
           "created_at": "2026-09-04T00:38:09Z",
-          "doneNote": "HK entity registered"
+          "doneNote": "HK entity registered",
+          "phase": "f0"
         },
         {
           "id": "f0-5",
@@ -28,7 +29,8 @@
           "done": false,
           "notes": "Default Shopify Payments\n[Status: Shopify Payments / Mollie / Stripe]",
           "created_at": "2026-09-03T22:38:09Z",
-          "doneNote": "Shopify Payments / Mollie / Stripe"
+          "doneNote": "Shopify Payments / Mollie / Stripe",
+          "phase": "f0"
         },
         {
           "id": "f0-6",
@@ -38,7 +40,8 @@
           "done": false,
           "notes": "Verify payout\n[Status: HK IBAN gekoppeld]",
           "created_at": "2026-09-03T20:38:09Z",
-          "doneNote": "HK IBAN gekoppeld"
+          "doneNote": "HK IBAN gekoppeld",
+          "phase": "f0"
         },
         {
           "id": "f0-7",
@@ -48,7 +51,8 @@
           "done": false,
           "notes": "HK seller + EU10 = douane-vragen\n[Status: Strategy gedocumenteerd]",
           "created_at": "2026-09-03T18:38:09Z",
-          "doneNote": "Strategy gedocumenteerd"
+          "doneNote": "Strategy gedocumenteerd",
+          "phase": "f0"
         },
         {
           "id": "f0-8",
@@ -58,7 +62,8 @@
           "done": false,
           "notes": "Exposure bij €100k+ volume\n[Status: Strategy + tool]",
           "created_at": "2026-09-03T16:38:09Z",
-          "doneNote": "Strategy + tool"
+          "doneNote": "Strategy + tool",
+          "phase": "f0"
         },
         {
           "id": "f0-9",
@@ -68,7 +73,8 @@
           "done": false,
           "notes": "Email + bank verify\n[Status: Account live]",
           "created_at": "2026-09-03T14:38:09Z",
-          "doneNote": "Account live"
+          "doneNote": "Account live",
+          "phase": "f0"
         },
         {
           "id": "f0-10",
@@ -78,7 +84,8 @@
           "done": false,
           "notes": "Multi-currency EUR + GBP\n[Status: 10 landen actief]",
           "created_at": "2026-09-03T12:38:09Z",
-          "doneNote": "10 landen actief"
+          "doneNote": "10 landen actief",
+          "phase": "f0"
         },
         {
           "id": "f0-11",
@@ -88,7 +95,8 @@
           "done": false,
           "notes": "Eigenaar = Farshad's designer\n[Status: Theme live]",
           "created_at": "2026-09-03T10:38:09Z",
-          "doneNote": "Theme live"
+          "doneNote": "Theme live",
+          "phase": "f0"
         },
         {
           "id": "f0-12",
@@ -98,7 +106,8 @@
           "done": false,
           "notes": "Brand voice input van Ali\n[Status: Page live]",
           "created_at": "2026-09-03T08:38:09Z",
-          "doneNote": "Page live"
+          "doneNote": "Page live",
+          "phase": "f0"
         },
         {
           "id": "f0-13",
@@ -108,7 +117,8 @@
           "done": false,
           "notes": "Multi-language ready\n[Status: Pages live]",
           "created_at": "2026-09-03T06:38:09Z",
-          "doneNote": "Pages live"
+          "doneNote": "Pages live",
+          "phase": "f0"
         },
         {
           "id": "f0-14",
@@ -118,7 +128,8 @@
           "done": false,
           "notes": "SSL, returns, secure checkout\n[Status: Live]",
           "created_at": "2026-09-03T04:38:09Z",
-          "doneNote": "Live"
+          "doneNote": "Live",
+          "phase": "f0"
         },
         {
           "id": "f0-15",
@@ -128,7 +139,8 @@
           "done": false,
           "notes": "Verplicht EU 2024\n[Status: Service getekend]",
           "created_at": "2026-09-03T02:38:09Z",
-          "doneNote": "Service getekend"
+          "doneNote": "Service getekend",
+          "phase": "f0"
         },
         {
           "id": "f0-16",
@@ -138,7 +150,8 @@
           "done": false,
           "notes": "HK seller + EU10 klanten\n[Status: Live]",
           "created_at": "2026-09-03T00:38:09Z",
-          "doneNote": "Live"
+          "doneNote": "Live",
+          "phase": "f0"
         },
         {
           "id": "f0-17",
@@ -148,7 +161,8 @@
           "done": false,
           "notes": "Dropship disclaimer\n[Status: Live]",
           "created_at": "2026-09-02T22:38:09Z",
-          "doneNote": "Live"
+          "doneNote": "Live",
+          "phase": "f0"
         },
         {
           "id": "f0-18",
@@ -158,7 +172,8 @@
           "done": false,
           "notes": "10 talen EU\n[Status: Live]",
           "created_at": "2026-09-02T20:38:09Z",
-          "doneNote": "Live"
+          "doneNote": "Live",
+          "phase": "f0"
         },
         {
           "id": "f0-19",
@@ -168,7 +183,8 @@
           "done": false,
           "notes": "EU wettelijk minimum | MERGED 2026-09-10 (audit): omvat returns policy 14 dgn (origineel f0-19) + returns portal opzetten Returnless/Loop/Shopify Afterpay (f0-38). Eén workflow: policy opstellen + portal activeren. Owner: Hermes.\n[Status: Live]",
           "created_at": "2026-09-02T18:38:09Z",
-          "doneNote": "Live"
+          "doneNote": "Live",
+          "phase": "f0"
         },
         {
           "id": "f0-20",
@@ -178,7 +194,8 @@
           "done": false,
           "notes": "€2M dekking aanbevolen\n[Status: Polis actief]",
           "created_at": "2026-09-02T16:38:09Z",
-          "doneNote": "Polis actief"
+          "doneNote": "Polis actief",
+          "phase": "f0"
         },
         {
           "id": "f0-21",
@@ -188,7 +205,8 @@
           "done": false,
           "notes": "Vóór brand naam lock-in\n[Status: Geen conflicten]",
           "created_at": "2026-09-02T14:38:09Z",
-          "doneNote": "Geen conflicten"
+          "doneNote": "Geen conflicten",
+          "phase": "f0"
         },
         {
           "id": "f0-22",
@@ -198,7 +216,8 @@
           "done": false,
           "notes": "HK adres niet publiek\n[Status: Privacy enabled]",
           "created_at": "2026-09-02T12:38:09Z",
-          "doneNote": "Privacy enabled"
+          "doneNote": "Privacy enabled",
+          "phase": "f0"
         },
         {
           "id": "f0-23",
@@ -208,7 +227,8 @@
           "done": false,
           "notes": "Voor Klaviyo + order emails\n[Status: DNS records live]",
           "created_at": "2026-09-02T10:38:09Z",
-          "doneNote": "DNS records live"
+          "doneNote": "DNS records live",
+          "phase": "f0"
         },
         {
           "id": "f0-24",
@@ -218,7 +238,8 @@
           "done": false,
           "notes": "Wie doet wat binnen 24h\n[Status: SOP + owner aangewezen]",
           "created_at": "2026-09-02T08:38:09Z",
-          "doneNote": "SOP + owner aangewezen"
+          "doneNote": "SOP + owner aangewezen",
+          "phase": "f0"
         },
         {
           "id": "f0-25",
@@ -228,7 +249,8 @@
           "done": false,
           "notes": "Multi-language templates\n[Status: Chat widget live]",
           "created_at": "2026-09-02T06:38:09Z",
-          "doneNote": "Chat widget live"
+          "doneNote": "Chat widget live",
+          "phase": "f0"
         },
         {
           "id": "f0-26",
@@ -238,7 +260,8 @@
           "done": false,
           "notes": "NL/EN/DE/FR/IT/ES/PL\n[Status: 10 templates × 7 talen]",
           "created_at": "2026-09-02T04:38:09Z",
-          "doneNote": "10 templates × 7 talen"
+          "doneNote": "10 templates × 7 talen",
+          "phase": "f0"
         },
         {
           "id": "f0-27",
@@ -248,7 +271,8 @@
           "done": false,
           "notes": "Ali/Kheibar/Farshad rotation\n[Status: Policy live]",
           "created_at": "2026-09-02T02:38:09Z",
-          "doneNote": "Policy live"
+          "doneNote": "Policy live",
+          "phase": "f0"
         },
         {
           "id": "f0-28",
@@ -258,7 +282,8 @@
           "done": false,
           "notes": "Test purchase event\n[Status: Events firing]",
           "created_at": "2026-09-02T00:38:09Z",
-          "doneNote": "Events firing"
+          "doneNote": "Events firing",
+          "phase": "f0"
         },
         {
           "id": "f0-29",
@@ -268,7 +293,8 @@
           "done": false,
           "notes": "Free tier eerst\n[Status: Forms live]",
           "created_at": "2026-09-01T22:38:09Z",
-          "doneNote": "Forms live"
+          "doneNote": "Forms live",
+          "phase": "f0"
         },
         {
           "id": "f0-30",
@@ -278,7 +304,8 @@
           "done": false,
           "notes": "Direct contact\n[Status: Supplier identified]",
           "created_at": "2026-09-01T20:38:09Z",
-          "doneNote": "Supplier identified"
+          "doneNote": "Supplier identified",
+          "phase": "f0"
         },
         {
           "id": "f0-31",
@@ -288,7 +315,8 @@
           "done": false,
           "notes": "Order flow + quality check\n[Status: SOP klaar]",
           "created_at": "2026-09-01T18:38:09Z",
-          "doneNote": "SOP klaar"
+          "doneNote": "SOP klaar",
+          "phase": "f0"
         },
         {
           "id": "f0-32",
@@ -298,7 +326,8 @@
           "done": false,
           "notes": "Risk mitigation\n[Status: Backup identified]",
           "created_at": "2026-09-01T16:38:09Z",
-          "doneNote": "Backup identified"
+          "doneNote": "Backup identified",
+          "phase": "f0"
         },
         {
           "id": "f0-33",
@@ -308,7 +337,8 @@
           "done": false,
           "notes": "CRITICAL — Geen doelgroep = geen ads die werken. Voedt ad copy, supplier pick, listing volgorde.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f0"
         },
         {
           "id": "f0-34",
@@ -318,7 +348,8 @@
           "done": false,
           "notes": "CRITICAL — Zonder dit kan logo/design/copy niet gemaakt worden. Alles hangt af van 1 zin.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f0"
         },
         {
           "id": "f0-35",
@@ -328,7 +359,8 @@
           "done": false,
           "notes": "HIGH — Drop ship China = 7-14d. 3PL buffer of EU warehouse is table stakes voor €10k/mnd.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f0"
         },
         {
           "id": "f0-36",
@@ -338,7 +370,8 @@
           "done": false,
           "notes": "HIGH — Wave 1 €35/d = direct afhankelijk van conversion rate; carrier fail = negatieve reviews na 2 orders.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f0"
         },
         {
           "id": "f0-37",
@@ -348,7 +381,8 @@
           "done": false,
           "notes": "CRITICAL — AVB verzekering f0-20 dekt aansprakelijkheid, maar HACCP/LFGB materiaal-cert is verplicht voor food-contact keukengerij. Zonder = recall risico.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f0"
         },
         {
           "id": "f0-39",
@@ -358,7 +392,8 @@
           "done": false,
           "notes": "HIGH — Inbox widget f0-25 staat, maar geen tool-decision. 7 talen → Gorgias macros bespaart 4u/dag.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f0"
         },
         {
           "id": "f0-40",
@@ -368,7 +403,8 @@
           "done": false,
           "notes": "CRITICAL — Zonder UTM discipline is attribution onmogelijk; kill rules werken niet. Wave 1 budget €35/d weggegooid geld.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f0"
         },
         {
           "id": "f0-41",
@@ -378,7 +414,8 @@
           "done": false,
           "notes": "CRITICAL — iOS 14.5+ = CAPI vereist voor Meta ads. Zonder server-side events trainen ads op junk.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f0"
         },
         {
           "id": "f0-42",
@@ -388,9 +425,11 @@
           "done": false,
           "notes": "HIGH — AVB f0-20 alleen. HK → EU drop ship heeft carriage liability risico; cyber voor Shopify/Klaviyo data.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f0"
         }
-      ]
+      ],
+      "name": "Foundations"
     },
     {
       "id": "f1",
@@ -407,7 +446,8 @@
           "done": false,
           "notes": "Vóór logo design\n[Status: Pinterest/moodboard klaar]",
           "created_at": "2026-09-05T06:38:09Z",
-          "doneNote": "Pinterest/moodboard klaar"
+          "doneNote": "Pinterest/moodboard klaar",
+          "phase": "f1"
         },
         {
           "id": "f1-2",
@@ -417,7 +457,8 @@
           "done": false,
           "notes": "Keukengerij positioning\n[Status: 1-pager + 5 examples]",
           "created_at": "2026-09-05T04:38:09Z",
-          "doneNote": "1-pager + 5 examples"
+          "doneNote": "1-pager + 5 examples",
+          "phase": "f1"
         },
         {
           "id": "f1-3",
@@ -427,7 +468,8 @@
           "done": false,
           "notes": "Wie/wat/waarom\n[Status: Emotional narrative]",
           "created_at": "2026-09-05T02:38:09Z",
-          "doneNote": "Emotional narrative"
+          "doneNote": "Emotional narrative",
+          "phase": "f1"
         },
         {
           "id": "f1-4",
@@ -437,7 +479,8 @@
           "done": false,
           "notes": "<8 chars, pronounceable, EU\n[Status: Top 10 shortlist]",
           "created_at": "2026-09-05T00:38:09Z",
-          "doneNote": "Top 10 shortlist"
+          "doneNote": "Top 10 shortlist",
+          "phase": "f1"
         },
         {
           "id": "f1-5",
@@ -447,7 +490,8 @@
           "done": false,
           "notes": "Na EUIPO search\n[Status: Beschikbaar]",
           "created_at": "2026-09-04T22:38:09Z",
-          "doneNote": "Beschikbaar"
+          "doneNote": "Beschikbaar",
+          "phase": "f1"
         },
         {
           "id": "f1-6",
@@ -457,7 +501,8 @@
           "done": false,
           "notes": "Merk + categorie-woorden\n[Status: Geen conflicten]",
           "created_at": "2026-09-04T20:38:09Z",
-          "doneNote": "Geen conflicten"
+          "doneNote": "Geen conflicten",
+          "phase": "f1"
         },
         {
           "id": "f1-7",
@@ -467,7 +512,8 @@
           "done": false,
           "notes": "[Status: Beschikbaar]",
           "created_at": "2026-09-04T18:38:09Z",
-          "doneNote": "Beschikbaar"
+          "doneNote": "Beschikbaar",
+          "phase": "f1"
         },
         {
           "id": "f1-8",
@@ -477,7 +523,8 @@
           "done": false,
           "notes": "Ali + Farshad's designer input\n[Status: Naam vastgelegd]",
           "created_at": "2026-09-04T16:38:09Z",
-          "doneNote": "Naam vastgelegd"
+          "doneNote": "Naam vastgelegd",
+          "phase": "f1"
         },
         {
           "id": "f1-9",
@@ -487,7 +534,8 @@
           "done": false,
           "notes": "Ali kiest definitief\n[Status: 3 logos + keuze]",
           "created_at": "2026-09-04T14:38:09Z",
-          "doneNote": "3 logos + keuze"
+          "doneNote": "3 logos + keuze",
+          "phase": "f1"
         },
         {
           "id": "f1-10",
@@ -497,7 +545,8 @@
           "done": false,
           "notes": "[Status: Style guide klaar]",
           "created_at": "2026-09-04T12:38:09Z",
-          "doneNote": "Style guide klaar"
+          "doneNote": "Style guide klaar",
+          "phase": "f1"
         },
         {
           "id": "f1-11",
@@ -507,7 +556,8 @@
           "done": false,
           "notes": "IG/TikTok/X consistent\n[Status: Bios live]",
           "created_at": "2026-09-04T10:38:09Z",
-          "doneNote": "Bios live"
+          "doneNote": "Bios live",
+          "phase": "f1"
         },
         {
           "id": "f1-12",
@@ -517,7 +567,8 @@
           "done": false,
           "notes": "Of na launch beslissen\n[Status: Application submitted]",
           "created_at": "2026-09-04T08:38:09Z",
-          "doneNote": "Application submitted"
+          "doneNote": "Application submitted",
+          "phase": "f1"
         },
         {
           "id": "f1-13",
@@ -527,7 +578,8 @@
           "done": false,
           "notes": "Vrijdag research deadline\n[Status: Top 10 gekozen maar moet nog researchen.]",
           "created_at": "2026-09-04T06:38:09Z",
-          "doneNote": "Top 10 gekozen maar moet nog researchen."
+          "doneNote": "Top 10 gekozen maar moet nog researchen.",
+          "phase": "f1"
         },
         {
           "id": "f1-14",
@@ -537,7 +589,8 @@
           "done": false,
           "notes": "Winning-product-checklist\n[Status: Score sheet klaar]",
           "created_at": "2026-09-04T04:38:09Z",
-          "doneNote": "Score sheet klaar"
+          "doneNote": "Score sheet klaar",
+          "phase": "f1"
         },
         {
           "id": "f1-15",
@@ -547,7 +600,8 @@
           "done": false,
           "notes": "Ali beslist segment vrijdag\n[Status: 30+ gescraped]",
           "created_at": "2026-09-04T02:38:09Z",
-          "doneNote": "30+ gescraped"
+          "doneNote": "30+ gescraped",
+          "phase": "f1"
         },
         {
           "id": "f1-16",
@@ -557,7 +611,8 @@
           "done": false,
           "notes": "Trade Assurance + reviews\n[Status: Top 3 suppliers/SKU]",
           "created_at": "2026-09-04T00:38:09Z",
-          "doneNote": "Top 3 suppliers/SKU"
+          "doneNote": "Top 3 suppliers/SKU",
+          "phase": "f1"
         },
         {
           "id": "f1-17",
@@ -567,7 +622,8 @@
           "done": false,
           "notes": "€15-25/SKU + ship\n[Status: 10 samples ordered]",
           "created_at": "2026-09-03T22:38:09Z",
-          "doneNote": "10 samples ordered"
+          "doneNote": "10 samples ordered",
+          "phase": "f1"
         },
         {
           "id": "f1-18",
@@ -577,7 +633,8 @@
           "done": false,
           "notes": "Vóór listings\n[Status: Pass/fail per SKU]",
           "created_at": "2026-09-03T20:38:09Z",
-          "doneNote": "Pass/fail per SKU"
+          "doneNote": "Pass/fail per SKU",
+          "phase": "f1"
         },
         {
           "id": "f1-19",
@@ -587,7 +644,8 @@
           "done": false,
           "notes": "Pricing + positioning\n[Status: Top 3 concurrenten per SKU]",
           "created_at": "2026-09-03T18:38:09Z",
-          "doneNote": "Top 3 concurrenten per SKU"
+          "doneNote": "Top 3 concurrenten per SKU",
+          "phase": "f1"
         },
         {
           "id": "f1-20",
@@ -597,7 +655,8 @@
           "done": false,
           "notes": "Keukengerij = food contact\n[Status: 10 SKUs passed]",
           "created_at": "2026-09-03T16:38:09Z",
-          "doneNote": "10 SKUs passed"
+          "doneNote": "10 SKUs passed",
+          "phase": "f1"
         },
         {
           "id": "f1-21",
@@ -607,7 +666,8 @@
           "done": false,
           "notes": "Allergens per product | MERGED 2026-09-10 (audit): omvat material composition (origineel f1-21), country of origin marking (f1-22), manufacturer address (f1-23). Eén spreadsheet artifact per SKU. Owner: Farshad.\n[Status: Per SKU genoteerd]",
           "created_at": "2026-09-03T14:38:09Z",
-          "doneNote": "Per SKU genoteerd"
+          "doneNote": "Per SKU genoteerd",
+          "phase": "f1"
         },
         {
           "id": "f1-24",
@@ -617,7 +677,8 @@
           "done": false,
           "notes": "€50-150/SKU/jaar\n[Status: 10 SKUs registered]",
           "created_at": "2026-09-03T08:38:09Z",
-          "doneNote": "10 SKUs registered"
+          "doneNote": "10 SKUs registered",
+          "phase": "f1"
         },
         {
           "id": "f1-25",
@@ -627,7 +688,8 @@
           "done": false,
           "notes": "Sample arrival = D10\n[Status: Plan klaar]",
           "created_at": "2026-09-03T06:38:09Z",
-          "doneNote": "Plan klaar"
+          "doneNote": "Plan klaar",
+          "phase": "f1"
         },
         {
           "id": "f1-26",
@@ -637,7 +699,8 @@
           "done": false,
           "notes": "Pannen, messen essentieel\n[Status: Per SKU]",
           "created_at": "2026-09-03T04:38:09Z",
-          "doneNote": "Per SKU"
+          "doneNote": "Per SKU",
+          "phase": "f1"
         },
         {
           "id": "f1-27",
@@ -647,7 +710,8 @@
           "done": false,
           "notes": "Pain → Solution → Specs → FAQ\n[Status: 10 descriptions]",
           "created_at": "2026-09-03T02:38:09Z",
-          "doneNote": "10 descriptions"
+          "doneNote": "10 descriptions",
+          "phase": "f1"
         },
         {
           "id": "f1-28",
@@ -657,7 +721,8 @@
           "done": false,
           "notes": "Cross-sell basis\n[Status: 5 bundles defined]",
           "created_at": "2026-09-03T00:38:09Z",
-          "doneNote": "5 bundles defined"
+          "doneNote": "5 bundles defined",
+          "phase": "f1"
         },
         {
           "id": "f1-29",
@@ -667,7 +732,8 @@
           "done": false,
           "notes": "CRITICAL — Pricing f2-5 kan pas als competitor prijzen bekend zijn. Anders margin niet te bepalen.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f1"
         },
         {
           "id": "f1-30",
@@ -677,7 +743,8 @@
           "done": false,
           "notes": "CRITICAL — Zonder angle stack is UGC/video creatie (f2-10/11) rammen in het donker.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f1"
         },
         {
           "id": "f1-31",
@@ -687,7 +754,8 @@
           "done": false,
           "notes": "HIGH — Kasori/keuken-merk zonder founder presence = anoniem. Organisch groeit niet mee met ads.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f1"
         },
         {
           "id": "f1-32",
@@ -697,7 +765,8 @@
           "done": false,
           "notes": "HIGH — Voor Wave 1 ads heb je social proof. 10 micro-influencers met 5-50K volgers = UGC + credibility.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f1"
         },
         {
           "id": "f1-33",
@@ -707,7 +776,8 @@
           "done": false,
           "notes": "HIGH — Vervangt ICP aannames met echte taal + pain points. Voedt angle stack en copy.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f1"
         },
         {
           "id": "f1-34",
@@ -717,7 +787,8 @@
           "done": false,
           "notes": "MEDIUM — Stook retention + laag-CAC kanaal naast Meta.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f1"
         },
         {
           "id": "f1-35",
@@ -727,7 +798,8 @@
           "done": false,
           "notes": "CRITICAL — Voor Google Ads f2-15 EN Meta dynamic ads. Zonder feed kun je niet targeten op product-viewers.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f1"
         },
         {
           "id": "f1-36",
@@ -737,9 +809,11 @@
           "done": false,
           "notes": "HIGH — Paid ads alleen = CAC stijgt. SEO content voor long-tail is compounding channel.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f1"
         }
-      ]
+      ],
+      "name": "Brand & Voice"
     },
     {
       "id": "f2",
@@ -756,7 +830,8 @@
           "done": false,
           "notes": "Studio + lifestyle\n[Status: 50-80 photos live]",
           "created_at": "2026-09-06T06:38:09Z",
-          "doneNote": "50-80 photos live"
+          "doneNote": "50-80 photos live",
+          "phase": "f2"
         },
         {
           "id": "f2-2",
@@ -766,7 +841,8 @@
           "done": false,
           "notes": "[Status: 10 main + 10 demo]",
           "created_at": "2026-09-06T04:38:09Z",
-          "doneNote": "10 main + 10 demo"
+          "doneNote": "10 main + 10 demo",
+          "phase": "f2"
         },
         {
           "id": "f2-3",
@@ -776,7 +852,8 @@
           "done": false,
           "notes": "Multi-language\n[Status: 10 listings live]",
           "created_at": "2026-09-06T02:38:09Z",
-          "doneNote": "10 listings live"
+          "doneNote": "10 listings live",
+          "phase": "f2"
         },
         {
           "id": "f2-4",
@@ -786,7 +863,8 @@
           "done": false,
           "notes": "Long vs short, emoji ja/nee\n[Status: 2 variants/SKU]",
           "created_at": "2026-09-06T00:38:09Z",
-          "doneNote": "2 variants/SKU"
+          "doneNote": "2 variants/SKU",
+          "phase": "f2"
         },
         {
           "id": "f2-5",
@@ -796,7 +874,8 @@
           "done": false,
           "notes": "€15-80 range\n[Status: 10 prices vastgelegd]",
           "created_at": "2026-09-05T22:38:09Z",
-          "doneNote": "10 prices vastgelegd"
+          "doneNote": "10 prices vastgelegd",
+          "phase": "f2"
         },
         {
           "id": "f2-6",
@@ -806,7 +885,8 @@
           "done": false,
           "notes": "[Status: FAQs live]",
           "created_at": "2026-09-05T20:38:09Z",
-          "doneNote": "FAQs live"
+          "doneNote": "FAQs live",
+          "phase": "f2"
         },
         {
           "id": "f2-7",
@@ -816,7 +896,8 @@
           "done": false,
           "notes": "MERGED 2026-09-10 (audit): omvat Trust badges + reviews app Judge.me install (origineel f2-7) + review velocity setup (f2-21). Owner: Designer (install) + Hermes (velocity automation).\n[Status: Live]",
           "created_at": "2026-09-05T18:38:09Z",
-          "doneNote": "Live"
+          "doneNote": "Live",
+          "phase": "f2"
         },
         {
           "id": "f2-8",
@@ -826,7 +907,8 @@
           "done": false,
           "notes": "Cross-sell\n[Status: Live]",
           "created_at": "2026-09-05T16:38:09Z",
-          "doneNote": "Live"
+          "doneNote": "Live",
+          "phase": "f2"
         },
         {
           "id": "f2-9",
@@ -836,7 +918,8 @@
           "done": false,
           "notes": "Sterkste metrics verwacht\n[Status: 3-4 SKUs]",
           "created_at": "2026-09-05T14:38:09Z",
-          "doneNote": "3-4 SKUs"
+          "doneNote": "3-4 SKUs",
+          "phase": "f2"
         },
         {
           "id": "f2-10",
@@ -846,7 +929,8 @@
           "done": false,
           "notes": "[Status: 15-20 UGC videos]",
           "created_at": "2026-09-05T12:38:09Z",
-          "doneNote": "15-20 UGC videos"
+          "doneNote": "15-20 UGC videos",
+          "phase": "f2"
         },
         {
           "id": "f2-11",
@@ -856,7 +940,8 @@
           "done": false,
           "notes": "Multi-language ready\n[Status: 15-20 AI videos]",
           "created_at": "2026-09-05T10:38:09Z",
-          "doneNote": "15-20 AI videos"
+          "doneNote": "15-20 AI videos",
+          "phase": "f2"
         },
         {
           "id": "f2-12",
@@ -866,7 +951,8 @@
           "done": false,
           "notes": "Meta BM central\n[Status: EU10 ad accounts]",
           "created_at": "2026-09-05T08:38:09Z",
-          "doneNote": "EU10 ad accounts"
+          "doneNote": "EU10 ad accounts",
+          "phase": "f2"
         },
         {
           "id": "f2-13",
@@ -876,7 +962,8 @@
           "done": false,
           "notes": "[Status: Account live]",
           "created_at": "2026-09-05T06:38:09Z",
-          "doneNote": "Account live"
+          "doneNote": "Account live",
+          "phase": "f2"
         },
         {
           "id": "f2-14",
@@ -886,7 +973,8 @@
           "done": false,
           "notes": "Verspreid over EU10\n[Status: Wave 1 live]",
           "created_at": "2026-09-05T04:38:09Z",
-          "doneNote": "Wave 1 live"
+          "doneNote": "Wave 1 live",
+          "phase": "f2"
         },
         {
           "id": "f2-15",
@@ -896,7 +984,8 @@
           "done": false,
           "notes": "Search + Shopping later\n[Status: Wave 1 live]",
           "created_at": "2026-09-05T02:38:09Z",
-          "doneNote": "Wave 1 live"
+          "doneNote": "Wave 1 live",
+          "phase": "f2"
         },
         {
           "id": "f2-16",
@@ -906,7 +995,8 @@
           "done": false,
           "notes": "Klaviyo\n[Status: Flows live]",
           "created_at": "2026-09-05T00:38:09Z",
-          "doneNote": "Flows live"
+          "doneNote": "Flows live",
+          "phase": "f2"
         },
         {
           "id": "f2-17",
@@ -916,7 +1006,8 @@
           "done": false,
           "notes": "Shopify API\n[Status: Dashboard live]",
           "created_at": "2026-09-04T22:38:09Z",
-          "doneNote": "Dashboard live"
+          "doneNote": "Dashboard live",
+          "phase": "f2"
         },
         {
           "id": "f2-18",
@@ -926,7 +1017,8 @@
           "done": false,
           "notes": "Ali/Kheibar/Farshad\n[Status: Ritueel vastgelegd]",
           "created_at": "2026-09-04T20:38:09Z",
-          "doneNote": "Ritueel vastgelegd"
+          "doneNote": "Ritueel vastgelegd",
+          "phase": "f2"
         },
         {
           "id": "f2-19",
@@ -936,7 +1028,8 @@
           "done": false,
           "notes": "Kill/keep/scale\n[Status: Decision per SKU]",
           "created_at": "2026-09-04T18:38:09Z",
-          "doneNote": "Decision per SKU"
+          "doneNote": "Decision per SKU",
+          "phase": "f2"
         },
         {
           "id": "f2-20",
@@ -946,7 +1039,8 @@
           "done": false,
           "notes": "CRITICAL — Zonder framework = elke week nieuwe ads zonder learning. Creative refresh elke 14 dgn (f4-4) heeft framework nodig.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f2"
         },
         {
           "id": "f2-22",
@@ -956,7 +1050,8 @@
           "done": false,
           "notes": "HIGH — Externe trust badge naast Judge.me; Google Seller Ratings in ads.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f2"
         },
         {
           "id": "f2-23",
@@ -966,7 +1061,8 @@
           "done": false,
           "notes": "HIGH — EU cart abandonment via SMS/WhatsApp >40% open vs email 15%.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f2"
         },
         {
           "id": "f2-24",
@@ -976,7 +1072,8 @@
           "done": false,
           "notes": "HIGH — Dropship + Wave 1 = real-time stock visibility nodig. Anders ad naar OOS = wasted spend.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f2"
         },
         {
           "id": "f2-25",
@@ -986,7 +1083,8 @@
           "done": false,
           "notes": "HIGH — Beloofde delivery in listing vs realiteit. Gap = 1-star reviews.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f2"
         },
         {
           "id": "f2-kb-andromeda-100vs5",
@@ -1340,7 +1438,8 @@
           "created_at": "2026-09-10T19:50:00Z",
           "doneNote": "Single-purpose rule"
         }
-      ]
+      ],
+      "name": "Creative & Testing"
     },
     {
       "id": "f3",
@@ -1357,7 +1456,8 @@
           "done": false,
           "notes": "Anders segment dan W1\n[Status: 3-4 SKUs]",
           "created_at": "2026-09-07T06:38:09Z",
-          "doneNote": "3-4 SKUs"
+          "doneNote": "3-4 SKUs",
+          "phase": "f3"
         },
         {
           "id": "f3-2",
@@ -1367,7 +1467,8 @@
           "done": false,
           "notes": "[Status: Live]",
           "created_at": "2026-09-07T04:38:09Z",
-          "doneNote": "Live"
+          "doneNote": "Live",
+          "phase": "f3"
         },
         {
           "id": "f3-3",
@@ -1377,7 +1478,8 @@
           "done": false,
           "notes": "[Status: 30-40 videos]",
           "created_at": "2026-09-07T02:38:09Z",
-          "doneNote": "30-40 videos"
+          "doneNote": "30-40 videos",
+          "phase": "f3"
         },
         {
           "id": "f3-4",
@@ -1387,7 +1489,8 @@
           "done": false,
           "notes": "[Status: Live]",
           "created_at": "2026-09-07T00:38:09Z",
-          "doneNote": "Live"
+          "doneNote": "Live",
+          "phase": "f3"
         },
         {
           "id": "f3-5",
@@ -1397,7 +1500,8 @@
           "done": false,
           "notes": "[Status: Decision per SKU]",
           "created_at": "2026-09-06T22:38:09Z",
-          "doneNote": "Decision per SKU"
+          "doneNote": "Decision per SKU",
+          "phase": "f3"
         },
         {
           "id": "f3-6",
@@ -1407,7 +1511,8 @@
           "done": false,
           "notes": "[Status: 3-4 SKUs]",
           "created_at": "2026-09-06T20:38:09Z",
-          "doneNote": "3-4 SKUs"
+          "doneNote": "3-4 SKUs",
+          "phase": "f3"
         },
         {
           "id": "f3-7",
@@ -1417,7 +1522,8 @@
           "done": false,
           "notes": "[Status: Live]",
           "created_at": "2026-09-06T18:38:09Z",
-          "doneNote": "Live"
+          "doneNote": "Live",
+          "phase": "f3"
         },
         {
           "id": "f3-8",
@@ -1427,7 +1533,8 @@
           "done": false,
           "notes": "[Status: 30-40 videos]",
           "created_at": "2026-09-06T16:38:09Z",
-          "doneNote": "30-40 videos"
+          "doneNote": "30-40 videos",
+          "phase": "f3"
         },
         {
           "id": "f3-9",
@@ -1437,7 +1544,8 @@
           "done": false,
           "notes": "[Status: Live]",
           "created_at": "2026-09-06T14:38:09Z",
-          "doneNote": "Live"
+          "doneNote": "Live",
+          "phase": "f3"
         },
         {
           "id": "f3-10",
@@ -1447,7 +1555,8 @@
           "done": false,
           "notes": "[Status: Decision per SKU]",
           "created_at": "2026-09-06T12:38:09Z",
-          "doneNote": "Decision per SKU"
+          "doneNote": "Decision per SKU",
+          "phase": "f3"
         },
         {
           "id": "f3-11",
@@ -1457,7 +1566,8 @@
           "done": false,
           "notes": "ROAS <2.0 na €500 spend\n[Status: Script live]",
           "created_at": "2026-09-06T10:38:09Z",
-          "doneNote": "Script live"
+          "doneNote": "Script live",
+          "phase": "f3"
         },
         {
           "id": "f3-12",
@@ -1467,7 +1577,8 @@
           "done": false,
           "notes": "Spend/ATC/Purch/ROAS/CM2\n[Status: Dashboard live]",
           "created_at": "2026-09-06T08:38:09Z",
-          "doneNote": "Dashboard live"
+          "doneNote": "Dashboard live",
+          "phase": "f3"
         },
         {
           "id": "f3-13",
@@ -1477,7 +1588,8 @@
           "done": false,
           "notes": "LTV:CAC berekening\n[Status: Tool live]",
           "created_at": "2026-09-06T06:38:09Z",
-          "doneNote": "Tool live"
+          "doneNote": "Tool live",
+          "phase": "f3"
         },
         {
           "id": "f3-14",
@@ -1487,7 +1599,8 @@
           "done": false,
           "notes": "Klaviyo\n[Status: Survey live]",
           "created_at": "2026-09-06T04:38:09Z",
-          "doneNote": "Survey live"
+          "doneNote": "Survey live",
+          "phase": "f3"
         },
         {
           "id": "f3-15",
@@ -1497,7 +1610,8 @@
           "done": false,
           "notes": "Wat doen zij\n[Status: Weekly rapport]",
           "created_at": "2026-09-06T02:38:09Z",
-          "doneNote": "Weekly rapport"
+          "doneNote": "Weekly rapport",
+          "phase": "f3"
         },
         {
           "id": "f3-16",
@@ -1507,7 +1621,8 @@
           "done": false,
           "notes": "Voor product insights\n[Status: Inbox + tagging]",
           "created_at": "2026-09-06T00:38:09Z",
-          "doneNote": "Inbox + tagging"
+          "doneNote": "Inbox + tagging",
+          "phase": "f3"
         },
         {
           "id": "f3-17",
@@ -1517,7 +1632,8 @@
           "done": false,
           "notes": "Welke creative wint\n[Status: Framework live]",
           "created_at": "2026-09-05T22:38:09Z",
-          "doneNote": "Framework live"
+          "doneNote": "Framework live",
+          "phase": "f3"
         },
         {
           "id": "f3-18",
@@ -1527,7 +1643,8 @@
           "done": false,
           "notes": "Ali + Kheibar + Farshad\n[Status: Weekly]",
           "created_at": "2026-09-05T20:38:09Z",
-          "doneNote": "Weekly"
+          "doneNote": "Weekly",
+          "phase": "f3"
         },
         {
           "id": "f3-19",
@@ -1537,7 +1654,8 @@
           "done": false,
           "notes": "sku_pipeline_state.json\n[Status: Log bijgehouden]",
           "created_at": "2026-09-05T18:38:09Z",
-          "doneNote": "Log bijgehouden"
+          "doneNote": "Log bijgehouden",
+          "phase": "f3"
         },
         {
           "id": "f3-20",
@@ -1547,7 +1665,8 @@
           "done": false,
           "notes": "HIGH — LTV:CAC beslissing (f4-2 scale) hangt af van source-quality, niet alleen SKU-winners.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f3"
         },
         {
           "id": "f3-21",
@@ -1557,7 +1676,8 @@
           "done": false,
           "notes": "MEDIUM — CRO lift 10-20% > nieuwe ads. Onderbenut.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f3"
         },
         {
           "id": "f3-22",
@@ -1567,7 +1687,8 @@
           "done": false,
           "notes": "HIGH — Sommige SKUs zijn +€5-premium-positie, andere -€5-budget. Geen test = blinde pricing.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f3"
         },
         {
           "id": "f3-23",
@@ -1577,7 +1698,8 @@
           "done": false,
           "notes": "CRITICAL — F5-12 staat op D90+ maar 1 chargeback-golf in Wave 1 zonder runbook = 1 week paniek.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f3"
         },
         {
           "id": "f3-kb-cbo-scaling-template",
@@ -1678,7 +1800,8 @@
           "created_at": "2026-09-10T19:50:00Z",
           "doneNote": "Segment in CRM"
         }
-      ]
+      ],
+      "name": "Scaling"
     },
     {
       "id": "f4",
@@ -1695,7 +1818,8 @@
           "done": false,
           "notes": "1 SKU/segment focus\n[Status: 3 winners]",
           "created_at": "2026-09-08T06:38:09Z",
-          "doneNote": "3 winners"
+          "doneNote": "3 winners",
+          "phase": "f4"
         },
         {
           "id": "f4-2",
@@ -1705,7 +1829,8 @@
           "done": false,
           "notes": "Verhoog na winner-ID\n[Status: €300/dag totaal]",
           "created_at": "2026-09-08T04:38:09Z",
-          "doneNote": "€300/dag totaal"
+          "doneNote": "€300/dag totaal",
+          "phase": "f4"
         },
         {
           "id": "f4-3",
@@ -1715,7 +1840,8 @@
           "done": false,
           "notes": "Niet ATC maar purchasers\n[Status: Audiences live]",
           "created_at": "2026-09-08T02:38:09Z",
-          "doneNote": "Audiences live"
+          "doneNote": "Audiences live",
+          "phase": "f4"
         },
         {
           "id": "f4-4",
@@ -1725,7 +1851,8 @@
           "done": false,
           "notes": "Ad fatigue counter\n[Status: Doorlopend]",
           "created_at": "2026-09-08T00:38:09Z",
-          "doneNote": "Doorlopend"
+          "doneNote": "Doorlopend",
+          "phase": "f4"
         },
         {
           "id": "f4-5",
@@ -1735,7 +1862,8 @@
           "done": false,
           "notes": "Non-brand demand\n[Status: PMax live]",
           "created_at": "2026-09-07T22:38:09Z",
-          "doneNote": "PMax live"
+          "doneNote": "PMax live",
+          "phase": "f4"
         },
         {
           "id": "f4-6",
@@ -1745,7 +1873,8 @@
           "done": false,
           "notes": "Repeat halo\n[Status: Flow live]",
           "created_at": "2026-09-07T20:38:09Z",
-          "doneNote": "Flow live"
+          "doneNote": "Flow live",
+          "phase": "f4"
         },
         {
           "id": "f4-7",
@@ -1755,7 +1884,8 @@
           "done": false,
           "notes": "[Status: Flow live]",
           "created_at": "2026-09-07T18:38:09Z",
-          "doneNote": "Flow live"
+          "doneNote": "Flow live",
+          "phase": "f4"
         },
         {
           "id": "f4-8",
@@ -1765,7 +1895,8 @@
           "done": false,
           "notes": "Cross-product bundles\n[Status: Test live]",
           "created_at": "2026-09-07T16:38:09Z",
-          "doneNote": "Test live"
+          "doneNote": "Test live",
+          "phase": "f4"
         },
         {
           "id": "f4-9",
@@ -1775,7 +1906,8 @@
           "done": false,
           "notes": "AI suggest\n[Status: Live in Shopify]",
           "created_at": "2026-09-07T14:38:09Z",
-          "doneNote": "Live in Shopify"
+          "doneNote": "Live in Shopify",
+          "phase": "f4"
         },
         {
           "id": "f4-10",
@@ -1785,7 +1917,8 @@
           "done": false,
           "notes": "Meta vs Google vs Email\n[Status: Live]",
           "created_at": "2026-09-07T12:38:09Z",
-          "doneNote": "Live"
+          "doneNote": "Live",
+          "phase": "f4"
         },
         {
           "id": "f4-11",
@@ -1795,7 +1928,8 @@
           "done": false,
           "notes": "Target 25%+ kitchen\n[Status: Dashboard live]",
           "created_at": "2026-09-07T10:38:09Z",
-          "doneNote": "Dashboard live"
+          "doneNote": "Dashboard live",
+          "phase": "f4"
         },
         {
           "id": "f4-12",
@@ -1805,7 +1939,8 @@
           "done": false,
           "notes": "Welke week herhaal-aankoop\n[Status: Analyse klaar]",
           "created_at": "2026-09-07T08:38:09Z",
-          "doneNote": "Analyse klaar"
+          "doneNote": "Analyse klaar",
+          "phase": "f4"
         },
         {
           "id": "f4-13",
@@ -1815,7 +1950,8 @@
           "done": false,
           "notes": "Voor consumables\n[Status: Decision: ja/nee]",
           "created_at": "2026-09-07T06:38:09Z",
-          "doneNote": "Decision: ja/nee"
+          "doneNote": "Decision: ja/nee",
+          "phase": "f4"
         },
         {
           "id": "f4-14",
@@ -1825,7 +1961,8 @@
           "done": false,
           "notes": "Post-launch implementatie\n[Status: Puntenstructuur]",
           "created_at": "2026-09-07T04:38:09Z",
-          "doneNote": "Puntenstructuur"
+          "doneNote": "Puntenstructuur",
+          "phase": "f4"
         },
         {
           "id": "f4-15",
@@ -1835,7 +1972,8 @@
           "done": false,
           "notes": "[Status: Forecast update]",
           "created_at": "2026-09-07T02:38:09Z",
-          "doneNote": "Forecast update"
+          "doneNote": "Forecast update",
+          "phase": "f4"
         },
         {
           "id": "f4-16",
@@ -1845,7 +1983,8 @@
           "done": false,
           "notes": "MEDIUM — Na 90 dgn traction is wholesale vaak 2x LTV met lagere CAC. Onderzocht, niet gecommit.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f4"
         },
         {
           "id": "f4-17",
@@ -1855,7 +1994,8 @@
           "done": false,
           "notes": "MEDIUM — EU10 shopify markets staat, maar operationele EU-uitrol is niet gepland.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f4"
         },
         {
           "id": "f4-18",
@@ -1865,9 +2005,11 @@
           "done": false,
           "notes": "LOW — Voor year-2 visie.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f4"
         }
-      ]
+      ],
+      "name": "Expansion"
     },
     {
       "id": "f5",
@@ -1884,7 +2026,8 @@
           "done": false,
           "notes": "GROWTH targets\n[Status: Dashboard review]",
           "created_at": "2026-09-09T06:38:09Z",
-          "doneNote": "Dashboard review"
+          "doneNote": "Dashboard review",
+          "phase": "f5"
         },
         {
           "id": "f5-2",
@@ -1894,7 +2037,8 @@
           "done": false,
           "notes": "Wat werkte, wat niet\n[Status: 5-pager]",
           "created_at": "2026-09-09T04:38:09Z",
-          "doneNote": "5-pager"
+          "doneNote": "5-pager",
+          "phase": "f5"
         },
         {
           "id": "f5-3",
@@ -1904,7 +2048,8 @@
           "done": false,
           "notes": "Voor 2e iteratie\n[Status: Doc klaar]",
           "created_at": "2026-09-09T02:38:09Z",
-          "doneNote": "Doc klaar"
+          "doneNote": "Doc klaar",
+          "phase": "f5"
         },
         {
           "id": "f5-4",
@@ -1914,7 +2059,8 @@
           "done": false,
           "notes": "Voor renego\n[Status: Scorecard]",
           "created_at": "2026-09-09T00:38:09Z",
-          "doneNote": "Scorecard"
+          "doneNote": "Scorecard",
+          "phase": "f5"
         },
         {
           "id": "f5-5",
@@ -1924,7 +2070,8 @@
           "done": false,
           "notes": "[Status: Themes doc]",
           "created_at": "2026-09-08T22:38:09Z",
-          "doneNote": "Themes doc"
+          "doneNote": "Themes doc",
+          "phase": "f5"
         },
         {
           "id": "f5-6",
@@ -1934,7 +2081,8 @@
           "done": false,
           "notes": "GPSR + EU\n[Status: Audit rapport]",
           "created_at": "2026-09-08T20:38:09Z",
-          "doneNote": "Audit rapport"
+          "doneNote": "Audit rapport",
+          "phase": "f5"
         },
         {
           "id": "f5-7",
@@ -1944,7 +2092,8 @@
           "done": false,
           "notes": "[Status: P&L statement]",
           "created_at": "2026-09-08T18:38:09Z",
-          "doneNote": "P&L statement"
+          "doneNote": "P&L statement",
+          "phase": "f5"
         },
         {
           "id": "f5-8",
@@ -1954,7 +2103,8 @@
           "done": false,
           "notes": "Voor investor pitch\n[Status: 1-pager]",
           "created_at": "2026-09-08T16:38:09Z",
-          "doneNote": "1-pager"
+          "doneNote": "1-pager",
+          "phase": "f5"
         },
         {
           "id": "f5-9",
@@ -1964,7 +2114,8 @@
           "done": false,
           "notes": "Aanbevolen voor F5+\n[Status: Consult gehad]",
           "created_at": "2026-09-08T14:38:09Z",
-          "doneNote": "Consult gehad"
+          "doneNote": "Consult gehad",
+          "phase": "f5"
         },
         {
           "id": "f5-10",
@@ -1974,7 +2125,8 @@
           "done": false,
           "notes": "Niet in 90-dgn scope\n[Status: Plan klaar]",
           "created_at": "2026-09-08T12:38:09Z",
-          "doneNote": "Plan klaar"
+          "doneNote": "Plan klaar",
+          "phase": "f5"
         },
         {
           "id": "f5-11",
@@ -1984,7 +2136,8 @@
           "done": false,
           "notes": "Voor toekomstige hires\n[Status: SOPs gebundeld]",
           "created_at": "2026-09-08T10:38:09Z",
-          "doneNote": "SOPs gebundeld"
+          "doneNote": "SOPs gebundeld",
+          "phase": "f5"
         },
         {
           "id": "f5-12",
@@ -1994,7 +2147,8 @@
           "done": false,
           "notes": "Voor team\n[Status: Recall/chargeback/supplier failure]",
           "created_at": "2026-09-08T08:38:09Z",
-          "doneNote": "Recall/chargeback/supplier failure"
+          "doneNote": "Recall/chargeback/supplier failure",
+          "phase": "f5"
         },
         {
           "id": "f5-13",
@@ -2004,7 +2158,8 @@
           "done": false,
           "notes": "€30k → €100k trajectory\n[Status: 1-pager]",
           "created_at": "2026-09-08T06:38:09Z",
-          "doneNote": "1-pager"
+          "doneNote": "1-pager",
+          "phase": "f5"
         },
         {
           "id": "f5-14",
@@ -2014,7 +2169,8 @@
           "done": false,
           "notes": "Voor maandelijkse cycles\n[Status: Template klaar]",
           "created_at": "2026-09-08T04:38:09Z",
-          "doneNote": "Template klaar"
+          "doneNote": "Template klaar",
+          "phase": "f5"
         },
         {
           "id": "f5-15",
@@ -2024,7 +2180,8 @@
           "done": false,
           "notes": "Voor fundraising optie\n[Status: Deck klaar]",
           "created_at": "2026-09-08T02:38:09Z",
-          "doneNote": "Deck klaar"
+          "doneNote": "Deck klaar",
+          "phase": "f5"
         },
         {
           "id": "f5-16",
@@ -2034,7 +2191,8 @@
           "done": false,
           "notes": "HIGH — Lessons learned heeft externe check nodig, anders herhaal je dezelfde fouten.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f5"
         },
         {
           "id": "f5-17",
@@ -2044,9 +2202,11 @@
           "done": false,
           "notes": "HIGH — 90 dgn launch = burnout risico. Post-launch assessment voor jaar 2.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": ""
+          "doneNote": "",
+          "phase": "f5"
         }
-      ]
+      ],
+      "name": "Compounding"
     }
   ]
 }
