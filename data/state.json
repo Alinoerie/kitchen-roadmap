@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "knowledge-bytes-pipeline-v2-yt",
-  "lastSavedAt": "2026-09-10T19:50:00Z",
+  "lastSavedBy": "kasori-knowledge-bytes-pipeline-v2-yt",
+  "lastSavedAt": "2026-09-10T21:30:00Z",
   "phases": [
     {
       "id": "f0",
@@ -619,7 +619,7 @@
           "owner": "ali",
           "day": "D2",
           "done": "",
-          "notes": "HIGH — HEARTH/keuken-merk zonder founder presence = anoniem. Organisch groeit niet mee met ads.",
+          "notes": "HIGH — Kasori/keuken-merk zonder founder presence = anoniem. Organisch groeit niet mee met ads.",
           "created_at": "2026-09-10T14:43:54.667670Z"
         },
         {
@@ -1682,7 +1682,7 @@
         },
         {
           "id": "f4-18",
-          "name": "Brand extension brainstorm (HEARTH-adjacent: badkamer, tuin, dining)",
+          "name": "Brand extension brainstorm (Kasori-adjacent: badkamer, tuin, dining)",
           "owner": "hermes",
           "day": "D82",
           "done": "",
