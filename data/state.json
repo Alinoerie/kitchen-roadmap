@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "hermes-merge-1",
-  "lastSavedAt": "2026-09-10T15:24:58.419682Z",
+  "lastSavedBy": "knowledge-bytes-pipeline",
+  "lastSavedAt": "2026-09-10T17:50:00Z",
   "phases": [
     {
       "id": "f0",
@@ -891,6 +891,86 @@
           "done": "",
           "notes": "HIGH — Beloofde delivery in listing vs realiteit. Gap = 1-star reviews.",
           "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f2-kb-andromeda-100vs5",
+          "phase": "f2",
+          "name": "Andromeda test: 100 AI creatives vs 5 hand-crafted",
+          "owner": "ali",
+          "day": "D20-D24",
+          "done": "Test results",
+          "notes": "Source: roslanofficial (DXZrPcRAAZk). KB cluster-001. '100 AI generated now beat 5 hand-crafted'",
+          "created_at": "2026-09-10T17:50:00Z"
+        },
+        {
+          "id": "f2-kb-abo-testing-structuur",
+          "phase": "f2",
+          "name": "ABO testing campaign: per segment, 3-7 dagen",
+          "owner": "ali",
+          "day": "D25",
+          "done": "ABO live",
+          "notes": "Source: roslanofficial. KB cluster-001.",
+          "created_at": "2026-09-10T17:50:00Z"
+        },
+        {
+          "id": "f2-kb-minus-ai-dashboard",
+          "phase": "f2",
+          "name": "Minus AI dashboard voor spend/CPA",
+          "owner": "ali",
+          "day": "D24",
+          "done": "Live",
+          "notes": "Source: roslanofficial. KB cluster-001.",
+          "created_at": "2026-09-10T17:50:00Z"
+        },
+        {
+          "id": "f2-kb-targeting-creative-level",
+          "phase": "f2",
+          "name": "Targeting: creative-level ipv ad-set-level",
+          "owner": "ali",
+          "day": "D25",
+          "done": "Targeting live",
+          "notes": "Source: roslanofficial. KB cluster-001.",
+          "created_at": "2026-09-10T17:50:00Z"
+        },
+        {
+          "id": "f2-kb-indirect-sales-template",
+          "phase": "f2",
+          "name": "Indirect sales template: product in context (koken)",
+          "owner": "ali",
+          "day": "D20-D24",
+          "done": "Template klaar",
+          "notes": "Source: roslanofficial. KB cluster-001. 'People hate offer right away'",
+          "created_at": "2026-09-10T17:50:00Z"
+        },
+        {
+          "id": "f2-kb-creative-diversity-checklist",
+          "phase": "f2",
+          "name": "Creative diversity checklist: geen overlap",
+          "owner": "ali",
+          "day": "D20",
+          "done": "Checklist live",
+          "notes": "Source: roslanofficial. KB cluster-001. 'Every creative completely different'",
+          "created_at": "2026-09-10T17:50:00Z"
+        },
+        {
+          "id": "f2-kb-mockup-workflow",
+          "phase": "f2",
+          "name": "Mockup workflow: floating video + Zara-style",
+          "owner": "ali",
+          "day": "D20-D24",
+          "done": "Workflow klaar",
+          "notes": "Source: roslanofficial. KB cluster-000. 'Exhute AI for mass production'",
+          "created_at": "2026-09-10T17:50:00Z"
+        },
+        {
+          "id": "f2-kb-ai-mass-pipeline",
+          "phase": "f2",
+          "name": "AI mass-production pipeline (24/7)",
+          "owner": "ali",
+          "day": "D20-D24",
+          "done": "Pipeline live",
+          "notes": "Source: roslanofficial. KB cluster-002.",
+          "created_at": "2026-09-10T17:50:00Z"
         }
       ]
     },
@@ -1107,6 +1187,26 @@
           "done": "",
           "notes": "CRITICAL — F5-12 staat op D90+ maar 1 chargeback-golf in Wave 1 zonder runbook = 1 week paniek.",
           "created_at": "2026-09-10T14:43:54.667670Z"
+        },
+        {
+          "id": "f3-kb-cbo-scaling-template",
+          "phase": "f3",
+          "name": "CBO scaling campaign: alleen winners",
+          "owner": "ali",
+          "day": "D40",
+          "done": "CBO live",
+          "notes": "Source: roslanofficial. KB cluster-001. 'CBO grows only stronger'",
+          "created_at": "2026-09-10T17:50:00Z"
+        },
+        {
+          "id": "f3-kb-weekly-kill-focus",
+          "phase": "f3",
+          "name": "Weekly review: kill vs focus routine",
+          "owner": "ali",
+          "day": "D36+",
+          "done": "Routine live",
+          "notes": "Source: roslanofficial. KB cluster-001.",
+          "created_at": "2026-09-10T17:50:00Z"
         }
       ]
     },
