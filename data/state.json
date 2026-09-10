@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "kasori-knowledge-bytes-pipeline-v2-yt",
-  "lastSavedAt": "2026-09-10T21:30:00Z",
+  "lastSavedBy": "kasori-data-fix-done-boolean",
+  "lastSavedAt": "2026-09-10T22:00:00Z",
   "phases": [
     {
       "id": "f0",
@@ -15,342 +15,380 @@
           "name": "HK bedrijf oprichten",
           "owner": "kheibar",
           "day": "vrijdag 12 sept",
-          "done": "HK entity registered",
-          "notes": "Sales of record = HK entity | MERGED 2026-09-10 (audit): includes HK bank (f0-1), WISE (f0-2), Currency Ways (f0-3). 4 accounts openen op vrijdag 12 sept in deze volgorde: HK entity → HK bank → WISE → Currency Ways. Owner: Kheibar.",
-          "created_at": "2026-09-04T00:38:09Z"
+          "done": false,
+          "notes": "Sales of record = HK entity | MERGED 2026-09-10 (audit): includes HK bank (f0-1), WISE (f0-2), Currency Ways (f0-3). 4 accounts openen op vrijdag 12 sept in deze volgorde: HK entity → HK bank → WISE → Currency Ways. Owner: Kheibar.\n[Status: HK entity registered]",
+          "created_at": "2026-09-04T00:38:09Z",
+          "doneNote": "HK entity registered"
         },
         {
           "id": "f0-5",
           "name": "Payment provider keuze (na HK setup)",
           "owner": "kheibar",
           "day": "D-5",
-          "done": "Shopify Payments / Mollie / Stripe",
-          "notes": "Default Shopify Payments",
-          "created_at": "2026-09-03T22:38:09Z"
+          "done": false,
+          "notes": "Default Shopify Payments\n[Status: Shopify Payments / Mollie / Stripe]",
+          "created_at": "2026-09-03T22:38:09Z",
+          "doneNote": "Shopify Payments / Mollie / Stripe"
         },
         {
           "id": "f0-6",
           "name": "Shopify Payments activeren",
           "owner": "kheibar",
           "day": "D-3",
-          "done": "HK IBAN gekoppeld",
-          "notes": "Verify payout",
-          "created_at": "2026-09-03T20:38:09Z"
+          "done": false,
+          "notes": "Verify payout\n[Status: HK IBAN gekoppeld]",
+          "created_at": "2026-09-03T20:38:09Z",
+          "doneNote": "HK IBAN gekoppeld"
         },
         {
           "id": "f0-7",
           "name": "VAT/IOSS check voor EU verkopen",
           "owner": "kheibar",
           "day": "D-5",
-          "done": "Strategy gedocumenteerd",
-          "notes": "HK seller + EU10 = douane-vragen",
-          "created_at": "2026-09-03T18:38:09Z"
+          "done": false,
+          "notes": "HK seller + EU10 = douane-vragen\n[Status: Strategy gedocumenteerd]",
+          "created_at": "2026-09-03T18:38:09Z",
+          "doneNote": "Strategy gedocumenteerd"
         },
         {
           "id": "f0-8",
           "name": "Currency hedging EUR/HKD/CNY",
           "owner": "kheibar",
           "day": "D-3",
-          "done": "Strategy + tool",
-          "notes": "Exposure bij €100k+ volume",
-          "created_at": "2026-09-03T16:38:09Z"
+          "done": false,
+          "notes": "Exposure bij €100k+ volume\n[Status: Strategy + tool]",
+          "created_at": "2026-09-03T16:38:09Z",
+          "doneNote": "Strategy + tool"
         },
         {
           "id": "f0-9",
           "name": "Shopify master account aanmaken",
           "owner": "farshad",
           "day": "D-7",
-          "done": "Account live",
-          "notes": "Email + bank verify",
-          "created_at": "2026-09-03T14:38:09Z"
+          "done": false,
+          "notes": "Email + bank verify\n[Status: Account live]",
+          "created_at": "2026-09-03T14:38:09Z",
+          "doneNote": "Account live"
         },
         {
           "id": "f0-10",
           "name": "Shopify Markets setup (EU10)",
           "owner": "farshad",
           "day": "D-6",
-          "done": "10 landen actief",
-          "notes": "Multi-currency EUR + GBP",
-          "created_at": "2026-09-03T12:38:09Z"
+          "done": false,
+          "notes": "Multi-currency EUR + GBP\n[Status: 10 landen actief]",
+          "created_at": "2026-09-03T12:38:09Z",
+          "doneNote": "10 landen actief"
         },
         {
           "id": "f0-11",
           "name": "Custom theme design (Farshad's designer)",
           "owner": "designer",
           "day": "D-5 → D-1",
-          "done": "Theme live",
-          "notes": "Eigenaar = Farshad's designer",
-          "created_at": "2026-09-03T10:38:09Z"
+          "done": false,
+          "notes": "Eigenaar = Farshad's designer\n[Status: Theme live]",
+          "created_at": "2026-09-03T10:38:09Z",
+          "doneNote": "Theme live"
         },
         {
           "id": "f0-12",
           "name": "Homepage design + copy",
           "owner": "designer",
           "day": "D-3",
-          "done": "Page live",
-          "notes": "Brand voice input van Ali",
-          "created_at": "2026-09-03T08:38:09Z"
+          "done": false,
+          "notes": "Brand voice input van Ali\n[Status: Page live]",
+          "created_at": "2026-09-03T08:38:09Z",
+          "doneNote": "Page live"
         },
         {
           "id": "f0-13",
           "name": "About, Contact, FAQ pages",
           "owner": "designer",
           "day": "D-2",
-          "done": "Pages live",
-          "notes": "Multi-language ready",
-          "created_at": "2026-09-03T06:38:09Z"
+          "done": false,
+          "notes": "Multi-language ready\n[Status: Pages live]",
+          "created_at": "2026-09-03T06:38:09Z",
+          "doneNote": "Pages live"
         },
         {
           "id": "f0-14",
           "name": "Trust badges + design elements",
           "owner": "designer",
           "day": "D-2",
-          "done": "Live",
-          "notes": "SSL, returns, secure checkout",
-          "created_at": "2026-09-03T04:38:09Z"
+          "done": false,
+          "notes": "SSL, returns, secure checkout\n[Status: Live]",
+          "created_at": "2026-09-03T04:38:09Z",
+          "doneNote": "Live"
         },
         {
           "id": "f0-15",
           "name": "GPSR Responsible Person service kiezen",
           "owner": "kheibar",
           "day": "D-5",
-          "done": "Service getekend",
-          "notes": "Verplicht EU 2024",
-          "created_at": "2026-09-03T02:38:09Z"
+          "done": false,
+          "notes": "Verplicht EU 2024\n[Status: Service getekend]",
+          "created_at": "2026-09-03T02:38:09Z",
+          "doneNote": "Service getekend"
         },
         {
           "id": "f0-16",
           "name": "Privacy Policy (Shopify + Hermes)",
           "owner": "hermes",
           "day": "D-3",
-          "done": "Live",
-          "notes": "HK seller + EU10 klanten",
-          "created_at": "2026-09-03T00:38:09Z"
+          "done": false,
+          "notes": "HK seller + EU10 klanten\n[Status: Live]",
+          "created_at": "2026-09-03T00:38:09Z",
+          "doneNote": "Live"
         },
         {
           "id": "f0-17",
           "name": "Terms of Service (HK seller disclaimers)",
           "owner": "hermes",
           "day": "D-3",
-          "done": "Live",
-          "notes": "Dropship disclaimer",
-          "created_at": "2026-09-02T22:38:09Z"
+          "done": false,
+          "notes": "Dropship disclaimer\n[Status: Live]",
+          "created_at": "2026-09-02T22:38:09Z",
+          "doneNote": "Live"
         },
         {
           "id": "f0-18",
           "name": "Cookie Policy + GDPR banner (7 talen)",
           "owner": "hermes",
           "day": "D-3",
-          "done": "Live",
-          "notes": "10 talen EU",
-          "created_at": "2026-09-02T20:38:09Z"
+          "done": false,
+          "notes": "10 talen EU\n[Status: Live]",
+          "created_at": "2026-09-02T20:38:09Z",
+          "doneNote": "Live"
         },
         {
           "id": "f0-19",
           "name": "Returns policy (14 dgn, wij betalen)",
           "owner": "hermes",
           "day": "D-3",
-          "done": "Live",
-          "notes": "EU wettelijk minimum | MERGED 2026-09-10 (audit): omvat returns policy 14 dgn (origineel f0-19) + returns portal opzetten Returnless/Loop/Shopify Afterpay (f0-38). Eén workflow: policy opstellen + portal activeren. Owner: Hermes.",
-          "created_at": "2026-09-02T18:38:09Z"
+          "done": false,
+          "notes": "EU wettelijk minimum | MERGED 2026-09-10 (audit): omvat returns policy 14 dgn (origineel f0-19) + returns portal opzetten Returnless/Loop/Shopify Afterpay (f0-38). Eén workflow: policy opstellen + portal activeren. Owner: Hermes.\n[Status: Live]",
+          "created_at": "2026-09-02T18:38:09Z",
+          "doneNote": "Live"
         },
         {
           "id": "f0-20",
           "name": "AVB verzekering (food-contact keukengerij)",
           "owner": "kheibar",
           "day": "D-3",
-          "done": "Polis actief",
-          "notes": "€2M dekking aanbevolen",
-          "created_at": "2026-09-02T16:38:09Z"
+          "done": false,
+          "notes": "€2M dekking aanbevolen\n[Status: Polis actief]",
+          "created_at": "2026-09-02T16:38:09Z",
+          "doneNote": "Polis actief"
         },
         {
           "id": "f0-21",
           "name": "Trademark search (EUIPO + WIPO + categorie)",
           "owner": "kheibar",
           "day": "D-2",
-          "done": "Geen conflicten",
-          "notes": "Vóór brand naam lock-in",
-          "created_at": "2026-09-02T14:38:09Z"
+          "done": false,
+          "notes": "Vóór brand naam lock-in\n[Status: Geen conflicten]",
+          "created_at": "2026-09-02T14:38:09Z",
+          "doneNote": "Geen conflicten"
         },
         {
           "id": "f0-22",
           "name": "Domain WHOIS privacy setup",
           "owner": "ali",
           "day": "D-2",
-          "done": "Privacy enabled",
-          "notes": "HK adres niet publiek",
-          "created_at": "2026-09-02T12:38:09Z"
+          "done": false,
+          "notes": "HK adres niet publiek\n[Status: Privacy enabled]",
+          "created_at": "2026-09-02T12:38:09Z",
+          "doneNote": "Privacy enabled"
         },
         {
           "id": "f0-23",
           "name": "Email deliverability (SPF/DKIM/DMARC)",
           "owner": "hermes",
           "day": "D-2",
-          "done": "DNS records live",
-          "notes": "Voor Klaviyo + order emails",
-          "created_at": "2026-09-02T10:38:09Z"
+          "done": false,
+          "notes": "Voor Klaviyo + order emails\n[Status: DNS records live]",
+          "created_at": "2026-09-02T10:38:09Z",
+          "doneNote": "DNS records live"
         },
         {
           "id": "f0-24",
           "name": "Dispute/chargeback handling SOP",
           "owner": "ali",
           "day": "D-1",
-          "done": "SOP + owner aangewezen",
-          "notes": "Wie doet wat binnen 24h",
-          "created_at": "2026-09-02T08:38:09Z"
+          "done": false,
+          "notes": "Wie doet wat binnen 24h\n[Status: SOP + owner aangewezen]",
+          "created_at": "2026-09-02T08:38:09Z",
+          "doneNote": "SOP + owner aangewezen"
         },
         {
           "id": "f0-25",
           "name": "Shopify Inbox setup + chatbot widget",
           "owner": "ali",
           "day": "D-2",
-          "done": "Chat widget live",
-          "notes": "Multi-language templates",
-          "created_at": "2026-09-02T06:38:09Z"
+          "done": false,
+          "notes": "Multi-language templates\n[Status: Chat widget live]",
+          "created_at": "2026-09-02T06:38:09Z",
+          "doneNote": "Chat widget live"
         },
         {
           "id": "f0-26",
           "name": "CS reply templates × 7 talen",
           "owner": "hermes",
           "day": "D-2",
-          "done": "10 templates × 7 talen",
-          "notes": "NL/EN/DE/FR/IT/ES/PL",
-          "created_at": "2026-09-02T04:38:09Z"
+          "done": false,
+          "notes": "NL/EN/DE/FR/IT/ES/PL\n[Status: 10 templates × 7 talen]",
+          "created_at": "2026-09-02T04:38:09Z",
+          "doneNote": "10 templates × 7 talen"
         },
         {
           "id": "f0-27",
           "name": "24h ticket response SLA instellen",
           "owner": "ali",
           "day": "D-1",
-          "done": "Policy live",
-          "notes": "Ali/Kheibar/Farshad rotation",
-          "created_at": "2026-09-02T02:38:09Z"
+          "done": false,
+          "notes": "Ali/Kheibar/Farshad rotation\n[Status: Policy live]",
+          "created_at": "2026-09-02T02:38:09Z",
+          "doneNote": "Policy live"
         },
         {
           "id": "f0-28",
           "name": "GA4 + Meta Pixel setup",
           "owner": "hermes",
           "day": "D-2",
-          "done": "Events firing",
-          "notes": "Test purchase event",
-          "created_at": "2026-09-02T00:38:09Z"
+          "done": false,
+          "notes": "Test purchase event\n[Status: Events firing]",
+          "created_at": "2026-09-02T00:38:09Z",
+          "doneNote": "Events firing"
         },
         {
           "id": "f0-29",
           "name": "Klaviyo account + signup forms",
           "owner": "ali",
           "day": "D-1",
-          "done": "Forms live",
-          "notes": "Free tier eerst",
-          "created_at": "2026-09-01T22:38:09Z"
+          "done": false,
+          "notes": "Free tier eerst\n[Status: Forms live]",
+          "created_at": "2026-09-01T22:38:09Z",
+          "doneNote": "Forms live"
         },
         {
           "id": "f0-30",
           "name": "Introductie Farshad's China supplier (maandag)",
           "owner": "farshad",
           "day": "ma 15 sept",
-          "done": "Supplier identified",
-          "notes": "Direct contact",
-          "created_at": "2026-09-01T20:38:09Z"
+          "done": false,
+          "notes": "Direct contact\n[Status: Supplier identified]",
+          "created_at": "2026-09-01T20:38:09Z",
+          "doneNote": "Supplier identified"
         },
         {
           "id": "f0-31",
           "name": "Dropship workflow SOP",
           "owner": "farshad",
           "day": "D-1",
-          "done": "SOP klaar",
-          "notes": "Order flow + quality check",
-          "created_at": "2026-09-01T18:38:09Z"
+          "done": false,
+          "notes": "Order flow + quality check\n[Status: SOP klaar]",
+          "created_at": "2026-09-01T18:38:09Z",
+          "doneNote": "SOP klaar"
         },
         {
           "id": "f0-32",
           "name": "Backup supplier per top-3 SKU",
           "owner": "farshad",
           "day": "D-2",
-          "done": "Backup identified",
-          "notes": "Risk mitigation",
-          "created_at": "2026-09-01T16:38:09Z"
+          "done": false,
+          "notes": "Risk mitigation\n[Status: Backup identified]",
+          "created_at": "2026-09-01T16:38:09Z",
+          "doneNote": "Backup identified"
         },
         {
           "id": "f0-33",
           "name": "ICP / buyer persona × 3 segmenten (EU25-45 home cook)",
           "owner": "ali",
           "day": "D-3",
-          "done": "",
-          "notes": "CRITICAL — Geen doelgroep = geen ads die werken. Voedt ad copy, supplier pick, listing volgorde.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "CRITICAL — Geen doelgroep = geen ads die werken. Voedt ad copy, supplier pick, listing volgorde.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f0-34",
           "name": "Brand promise / value prop (1 zin, <12 woorden)",
           "owner": "ali",
           "day": "D-3",
-          "done": "",
-          "notes": "CRITICAL — Zonder dit kan logo/design/copy niet gemaakt worden. Alles hangt af van 1 zin.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "CRITICAL — Zonder dit kan logo/design/copy niet gemaakt worden. Alles hangt af van 1 zin.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f0-35",
           "name": "Logistics 3PL shortlist (PostNL / DHL / 3PL hub NL)",
           "owner": "kheibar",
           "day": "D-3",
-          "done": "",
-          "notes": "HIGH — Drop ship China = 7-14d. 3PL buffer of EU warehouse is table stakes voor €10k/mnd.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — Drop ship China = 7-14d. 3PL buffer of EU warehouse is table stakes voor €10k/mnd.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f0-36",
           "name": "Carrier SLA onderzoek (transit times, fail rate, returns ease)",
           "owner": "kheibar",
           "day": "D-5",
-          "done": "",
-          "notes": "HIGH — Wave 1 €35/d = direct afhankelijk van conversion rate; carrier fail = negatieve reviews na 2 orders.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — Wave 1 €35/d = direct afhankelijk van conversion rate; carrier fail = negatieve reviews na 2 orders.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f0-37",
           "name": "HACCP / food-contact compliance per materiaal (LFGB / FDA)",
           "owner": "kheibar",
           "day": "D-5",
-          "done": "",
-          "notes": "CRITICAL — AVB verzekering f0-20 dekt aansprakelijkheid, maar HACCP/LFGB materiaal-cert is verplicht voor food-contact keukengerij. Zonder = recall risico.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "CRITICAL — AVB verzekering f0-20 dekt aansprakelijkheid, maar HACCP/LFGB materiaal-cert is verplicht voor food-contact keukengerij. Zonder = recall risico.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f0-39",
           "name": "CX tool keuze (Gorgias vs Zendesk vs Shopify Inbox alleen)",
           "owner": "ali",
           "day": "D-2",
-          "done": "",
-          "notes": "HIGH — Inbox widget f0-25 staat, maar geen tool-decision. 7 talen → Gorgias macros bespaart 4u/dag.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — Inbox widget f0-25 staat, maar geen tool-decision. 7 talen → Gorgias macros bespaart 4u/dag.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f0-40",
           "name": "Tracking & UTM taxonomy (source/medium/campaign/content standaard)",
           "owner": "hermes",
           "day": "D-3",
-          "done": "",
-          "notes": "CRITICAL — Zonder UTM discipline is attribution onmogelijk; kill rules werken niet. Wave 1 budget €35/d weggegooid geld.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "CRITICAL — Zonder UTM discipline is attribution onmogelijk; kill rules werken niet. Wave 1 budget €35/d weggegooid geld.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f0-41",
           "name": "Pixel event taxonomy (ViewContent / AddToCart / InitiateCheckout / Purchase + CAPI)",
           "owner": "hermes",
           "day": "D-3",
-          "done": "",
-          "notes": "CRITICAL — iOS 14.5+ = CAPI vereist voor Meta ads. Zonder server-side events trainen ads op junk.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "CRITICAL — iOS 14.5+ = CAPI vereist voor Meta ads. Zonder server-side events trainen ads op junk.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f0-42",
           "name": "Insurance scope review (product liability + carriage + cyber)",
           "owner": "ali",
           "day": "D-2",
-          "done": "",
-          "notes": "HIGH — AVB f0-20 alleen. HK → EU drop ship heeft carriage liability risico; cyber voor Shopify/Klaviyo data.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — AVB f0-20 alleen. HK → EU drop ship heeft carriage liability risico; cyber voor Shopify/Klaviyo data.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         }
       ]
     },
@@ -366,306 +404,340 @@
           "name": "Brand moodboard (Ali)",
           "owner": "ali",
           "day": "D0",
-          "done": "Pinterest/moodboard klaar",
-          "notes": "Vóór logo design",
-          "created_at": "2026-09-05T06:38:09Z"
+          "done": false,
+          "notes": "Vóór logo design\n[Status: Pinterest/moodboard klaar]",
+          "created_at": "2026-09-05T06:38:09Z",
+          "doneNote": "Pinterest/moodboard klaar"
         },
         {
           "id": "f1-2",
           "name": "Brand voice document (Ali, 1 dag)",
           "owner": "ali",
           "day": "D0",
-          "done": "1-pager + 5 examples",
-          "notes": "Keukengerij positioning",
-          "created_at": "2026-09-05T04:38:09Z"
+          "done": false,
+          "notes": "Keukengerij positioning\n[Status: 1-pager + 5 examples]",
+          "created_at": "2026-09-05T04:38:09Z",
+          "doneNote": "1-pager + 5 examples"
         },
         {
           "id": "f1-3",
           "name": "Brand story / About page draft",
           "owner": "ali",
           "day": "D0",
-          "done": "Emotional narrative",
-          "notes": "Wie/wat/waarom",
-          "created_at": "2026-09-05T02:38:09Z"
+          "done": false,
+          "notes": "Wie/wat/waarom\n[Status: Emotional narrative]",
+          "created_at": "2026-09-05T02:38:09Z",
+          "doneNote": "Emotional narrative"
         },
         {
           "id": "f1-4",
           "name": "Brand naam brainstorm (60 namen)",
           "owner": "ali",
           "day": "D0-D1",
-          "done": "Top 10 shortlist",
-          "notes": "<8 chars, pronounceable, EU",
-          "created_at": "2026-09-05T00:38:09Z"
+          "done": false,
+          "notes": "<8 chars, pronounceable, EU\n[Status: Top 10 shortlist]",
+          "created_at": "2026-09-05T00:38:09Z",
+          "doneNote": "Top 10 shortlist"
         },
         {
           "id": "f1-5",
           "name": "Merknaam .nl domein check",
           "owner": "ali",
           "day": "D1",
-          "done": "Beschikbaar",
-          "notes": "Na EUIPO search",
-          "created_at": "2026-09-04T22:38:09Z"
+          "done": false,
+          "notes": "Na EUIPO search\n[Status: Beschikbaar]",
+          "created_at": "2026-09-04T22:38:09Z",
+          "doneNote": "Beschikbaar"
         },
         {
           "id": "f1-6",
           "name": "EUIPO + WIPO trademark search × 60",
           "owner": "ali",
           "day": "D1",
-          "done": "Geen conflicten",
-          "notes": "Merk + categorie-woorden",
-          "created_at": "2026-09-04T20:38:09Z"
+          "done": false,
+          "notes": "Merk + categorie-woorden\n[Status: Geen conflicten]",
+          "created_at": "2026-09-04T20:38:09Z",
+          "doneNote": "Geen conflicten"
         },
         {
           "id": "f1-7",
           "name": "Social handle check × 60 (IG/TikTok/X)",
           "owner": "ali",
           "day": "D1",
-          "done": "Beschikbaar",
-          "notes": "",
-          "created_at": "2026-09-04T18:38:09Z"
+          "done": false,
+          "notes": "[Status: Beschikbaar]",
+          "created_at": "2026-09-04T18:38:09Z",
+          "doneNote": "Beschikbaar"
         },
         {
           "id": "f1-8",
           "name": "Brand naam lock-in (top 1)",
           "owner": "ali",
           "day": "D2",
-          "done": "Naam vastgelegd",
-          "notes": "Ali + Farshad's designer input",
-          "created_at": "2026-09-04T16:38:09Z"
+          "done": false,
+          "notes": "Ali + Farshad's designer input\n[Status: Naam vastgelegd]",
+          "created_at": "2026-09-04T16:38:09Z",
+          "doneNote": "Naam vastgelegd"
         },
         {
           "id": "f1-9",
           "name": "Logo design (3 variants → 1 final)",
           "owner": "designer",
           "day": "D2-D5",
-          "done": "3 logos + keuze",
-          "notes": "Ali kiest definitief",
-          "created_at": "2026-09-04T14:38:09Z"
+          "done": false,
+          "notes": "Ali kiest definitief\n[Status: 3 logos + keuze]",
+          "created_at": "2026-09-04T14:38:09Z",
+          "doneNote": "3 logos + keuze"
         },
         {
           "id": "f1-10",
           "name": "Kleurenpalet + typography",
           "owner": "designer",
           "day": "D5",
-          "done": "Style guide klaar",
-          "notes": "",
-          "created_at": "2026-09-04T12:38:09Z"
+          "done": false,
+          "notes": "[Status: Style guide klaar]",
+          "created_at": "2026-09-04T12:38:09Z",
+          "doneNote": "Style guide klaar"
         },
         {
           "id": "f1-11",
           "name": "Social bio alignment × 3 platforms",
           "owner": "ali",
           "day": "D5",
-          "done": "Bios live",
-          "notes": "IG/TikTok/X consistent",
-          "created_at": "2026-09-04T10:38:09Z"
+          "done": false,
+          "notes": "IG/TikTok/X consistent\n[Status: Bios live]",
+          "created_at": "2026-09-04T10:38:09Z",
+          "doneNote": "Bios live"
         },
         {
           "id": "f1-12",
           "name": "Trademark filing (EU TM, €850)",
           "owner": "ali",
           "day": "D7",
-          "done": "Application submitted",
-          "notes": "Of na launch beslissen",
-          "created_at": "2026-09-04T08:38:09Z"
+          "done": false,
+          "notes": "Of na launch beslissen\n[Status: Application submitted]",
+          "created_at": "2026-09-04T08:38:09Z",
+          "doneNote": "Application submitted"
         },
         {
           "id": "f1-13",
           "name": "Product onderzoek (10 producten)",
           "owner": "ali",
           "day": "vrijdag 12 sept",
-          "done": "Top 10 gekozen maar moet nog researchen.",
-          "notes": "Vrijdag research deadline",
-          "created_at": "2026-09-04T06:38:09Z"
+          "done": false,
+          "notes": "Vrijdag research deadline\n[Status: Top 10 gekozen maar moet nog researchen.]",
+          "created_at": "2026-09-04T06:38:09Z",
+          "doneNote": "Top 10 gekozen maar moet nog researchen."
         },
         {
           "id": "f1-14",
           "name": "Pain/Diff/Ad-ability score × 10",
           "owner": "ali",
           "day": "D2",
-          "done": "Score sheet klaar",
-          "notes": "Winning-product-checklist",
-          "created_at": "2026-09-04T04:38:09Z"
+          "done": false,
+          "notes": "Winning-product-checklist\n[Status: Score sheet klaar]",
+          "created_at": "2026-09-04T04:38:09Z",
+          "doneNote": "Score sheet klaar"
         },
         {
           "id": "f1-15",
           "name": "Amazon scrape (per segment)",
           "owner": "hermes",
           "day": "D2",
-          "done": "30+ gescraped",
-          "notes": "Ali beslist segment vrijdag",
-          "created_at": "2026-09-04T02:38:09Z"
+          "done": false,
+          "notes": "Ali beslist segment vrijdag\n[Status: 30+ gescraped]",
+          "created_at": "2026-09-04T02:38:09Z",
+          "doneNote": "30+ gescraped"
         },
         {
           "id": "f1-16",
           "name": "Supplier shortlist per SKU",
           "owner": "farshad",
           "day": "D3-D5",
-          "done": "Top 3 suppliers/SKU",
-          "notes": "Trade Assurance + reviews",
-          "created_at": "2026-09-04T00:38:09Z"
+          "done": false,
+          "notes": "Trade Assurance + reviews\n[Status: Top 3 suppliers/SKU]",
+          "created_at": "2026-09-04T00:38:09Z",
+          "doneNote": "Top 3 suppliers/SKU"
         },
         {
           "id": "f1-17",
           "name": "Sample aanvragen × 10 SKUs",
           "owner": "farshad",
           "day": "D5",
-          "done": "10 samples ordered",
-          "notes": "€15-25/SKU + ship",
-          "created_at": "2026-09-03T22:38:09Z"
+          "done": false,
+          "notes": "€15-25/SKU + ship\n[Status: 10 samples ordered]",
+          "created_at": "2026-09-03T22:38:09Z",
+          "doneNote": "10 samples ordered"
         },
         {
           "id": "f1-18",
           "name": "Sample quality check (Farshad's agent)",
           "owner": "farshad",
           "day": "D10-D14",
-          "done": "Pass/fail per SKU",
-          "notes": "Vóór listings",
-          "created_at": "2026-09-03T20:38:09Z"
+          "done": false,
+          "notes": "Vóór listings\n[Status: Pass/fail per SKU]",
+          "created_at": "2026-09-03T20:38:09Z",
+          "doneNote": "Pass/fail per SKU"
         },
         {
           "id": "f1-19",
           "name": "Competitor scan (per SKU)",
           "owner": "ali",
           "day": "D3",
-          "done": "Top 3 concurrenten per SKU",
-          "notes": "Pricing + positioning",
-          "created_at": "2026-09-03T18:38:09Z"
+          "done": false,
+          "notes": "Pricing + positioning\n[Status: Top 3 concurrenten per SKU]",
+          "created_at": "2026-09-03T18:38:09Z",
+          "doneNote": "Top 3 concurrenten per SKU"
         },
         {
           "id": "f1-20",
           "name": "Per-product compliance check (food-safe)",
           "owner": "ali",
           "day": "D7",
-          "done": "10 SKUs passed",
-          "notes": "Keukengerij = food contact",
-          "created_at": "2026-09-03T16:38:09Z"
+          "done": false,
+          "notes": "Keukengerij = food contact\n[Status: 10 SKUs passed]",
+          "created_at": "2026-09-03T16:38:09Z",
+          "doneNote": "10 SKUs passed"
         },
         {
           "id": "f1-21",
           "name": "Material composition disclosure per SKU",
           "owner": "farshad",
           "day": "D7",
-          "done": "Per SKU genoteerd",
-          "notes": "Allergens per product | MERGED 2026-09-10 (audit): omvat material composition (origineel f1-21), country of origin marking (f1-22), manufacturer address (f1-23). Eén spreadsheet artifact per SKU. Owner: Farshad.",
-          "created_at": "2026-09-03T14:38:09Z"
+          "done": false,
+          "notes": "Allergens per product | MERGED 2026-09-10 (audit): omvat material composition (origineel f1-21), country of origin marking (f1-22), manufacturer address (f1-23). Eén spreadsheet artifact per SKU. Owner: Farshad.\n[Status: Per SKU genoteerd]",
+          "created_at": "2026-09-03T14:38:09Z",
+          "doneNote": "Per SKU genoteerd"
         },
         {
           "id": "f1-24",
           "name": "GPSR Responsible Person × 10 SKUs",
           "owner": "ali",
           "day": "D10",
-          "done": "10 SKUs registered",
-          "notes": "€50-150/SKU/jaar",
-          "created_at": "2026-09-03T08:38:09Z"
+          "done": false,
+          "notes": "€50-150/SKU/jaar\n[Status: 10 SKUs registered]",
+          "created_at": "2026-09-03T08:38:09Z",
+          "doneNote": "10 SKUs registered"
         },
         {
           "id": "f1-25",
           "name": "Per-SKU foto plan (scenes/props/lighting)",
           "owner": "designer",
           "day": "D10",
-          "done": "Plan klaar",
-          "notes": "Sample arrival = D10",
-          "created_at": "2026-09-03T06:38:09Z"
+          "done": false,
+          "notes": "Sample arrival = D10\n[Status: Plan klaar]",
+          "created_at": "2026-09-03T06:38:09Z",
+          "doneNote": "Plan klaar"
         },
         {
           "id": "f1-26",
           "name": "Per-SKU size chart / dimensions",
           "owner": "farshad",
           "day": "D10",
-          "done": "Per SKU",
-          "notes": "Pannen, messen essentieel",
-          "created_at": "2026-09-03T04:38:09Z"
+          "done": false,
+          "notes": "Pannen, messen essentieel\n[Status: Per SKU]",
+          "created_at": "2026-09-03T04:38:09Z",
+          "doneNote": "Per SKU"
         },
         {
           "id": "f1-27",
           "name": "Product page copy × 10 (AI-assisted)",
           "owner": "ali",
           "day": "D10-D14",
-          "done": "10 descriptions",
-          "notes": "Pain → Solution → Specs → FAQ",
-          "created_at": "2026-09-03T02:38:09Z"
+          "done": false,
+          "notes": "Pain → Solution → Specs → FAQ\n[Status: 10 descriptions]",
+          "created_at": "2026-09-03T02:38:09Z",
+          "doneNote": "10 descriptions"
         },
         {
           "id": "f1-28",
           "name": "Bundle definition (2-product combos)",
           "owner": "ali",
           "day": "D12",
-          "done": "5 bundles defined",
-          "notes": "Cross-sell basis",
-          "created_at": "2026-09-03T00:38:09Z"
+          "done": false,
+          "notes": "Cross-sell basis\n[Status: 5 bundles defined]",
+          "created_at": "2026-09-03T00:38:09Z",
+          "doneNote": "5 bundles defined"
         },
         {
           "id": "f1-29",
           "name": "Competitor prijspeil per SKU (5 concurrents, €/marge check)",
           "owner": "ali",
           "day": "D3",
-          "done": "",
-          "notes": "CRITICAL — Pricing f2-5 kan pas als competitor prijzen bekend zijn. Anders margin niet te bepalen.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "CRITICAL — Pricing f2-5 kan pas als competitor prijzen bekend zijn. Anders margin niet te bepalen.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f1-30",
           "name": "Marketing angle stack × 10 SKUs (3 angles/SKU, hook + body)",
           "owner": "hermes",
           "day": "D2",
-          "done": "",
-          "notes": "CRITICAL — Zonder angle stack is UGC/video creatie (f2-10/11) rammen in het donker.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "CRITICAL — Zonder angle stack is UGC/video creatie (f2-10/11) rammen in het donker.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f1-31",
           "name": "Founder-led content kalender (Ali face-to-camera, 3/wk start D2)",
           "owner": "ali",
           "day": "D2",
-          "done": "",
-          "notes": "HIGH — Kasori/keuken-merk zonder founder presence = anoniem. Organisch groeit niet mee met ads.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — Kasori/keuken-merk zonder founder presence = anoniem. Organisch groeit niet mee met ads.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f1-32",
           "name": "Influencer seeding wave 0 (10 micro-influencers, gratis product)",
           "owner": "farshad",
           "day": "D7",
-          "done": "",
-          "notes": "HIGH — Voor Wave 1 ads heb je social proof. 10 micro-influencers met 5-50K volgers = UGC + credibility.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — Voor Wave 1 ads heb je social proof. 10 micro-influencers met 5-50K volgers = UGC + credibility.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f1-33",
           "name": "User research: 8 interviews met NL/BE/DU home cooks",
           "owner": "ali",
           "day": "D5",
-          "done": "",
-          "notes": "HIGH — Vervangt ICP aannames met echte taal + pain points. Voedt angle stack en copy.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — Vervangt ICP aannames met echte taal + pain points. Voedt angle stack en copy.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f1-34",
           "name": "Brand ambassadeurs program setup (15% korting + unieke link)",
           "owner": "hermes",
           "day": "D10",
-          "done": "",
-          "notes": "MEDIUM — Stook retention + laag-CAC kanaal naast Meta.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "MEDIUM — Stook retention + laag-CAC kanaal naast Meta.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f1-35",
           "name": "Catalog feed setup (Google Merchant Center + Meta catalog)",
           "owner": "hermes",
           "day": "D7",
-          "done": "",
-          "notes": "CRITICAL — Voor Google Ads f2-15 EN Meta dynamic ads. Zonder feed kun je niet targeten op product-viewers.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "CRITICAL — Voor Google Ads f2-15 EN Meta dynamic ads. Zonder feed kun je niet targeten op product-viewers.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f1-36",
           "name": "SEO content plan (10 P0 keywords, 5 cornerstone blogs D14)",
           "owner": "ali",
           "day": "D7",
-          "done": "",
-          "notes": "HIGH — Paid ads alleen = CAC stijgt. SEO content voor long-tail is compounding channel.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — Paid ads alleen = CAC stijgt. SEO content voor long-tail is compounding channel.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         }
       ]
     },
@@ -681,216 +753,240 @@
           "name": "Product photos × 10 SKUs (5-8/product)",
           "owner": "designer",
           "day": "D14-D18",
-          "done": "50-80 photos live",
-          "notes": "Studio + lifestyle",
-          "created_at": "2026-09-06T06:38:09Z"
+          "done": false,
+          "notes": "Studio + lifestyle\n[Status: 50-80 photos live]",
+          "created_at": "2026-09-06T06:38:09Z",
+          "doneNote": "50-80 photos live"
         },
         {
           "id": "f2-2",
           "name": "Product videos × 10 SKUs",
           "owner": "designer",
           "day": "D15-D20",
-          "done": "10 main + 10 demo",
-          "notes": "",
-          "created_at": "2026-09-06T04:38:09Z"
+          "done": false,
+          "notes": "[Status: 10 main + 10 demo]",
+          "created_at": "2026-09-06T04:38:09Z",
+          "doneNote": "10 main + 10 demo"
         },
         {
           "id": "f2-3",
           "name": "Listings live op Shopify × 10",
           "owner": "farshad",
           "day": "D18",
-          "done": "10 listings live",
-          "notes": "Multi-language",
-          "created_at": "2026-09-06T02:38:09Z"
+          "done": false,
+          "notes": "Multi-language\n[Status: 10 listings live]",
+          "created_at": "2026-09-06T02:38:09Z",
+          "doneNote": "10 listings live"
         },
         {
           "id": "f2-4",
           "name": "A/B test: title formats × 10 SKUs",
           "owner": "hermes",
           "day": "D18",
-          "done": "2 variants/SKU",
-          "notes": "Long vs short, emoji ja/nee",
-          "created_at": "2026-09-06T00:38:09Z"
+          "done": false,
+          "notes": "Long vs short, emoji ja/nee\n[Status: 2 variants/SKU]",
+          "created_at": "2026-09-06T00:38:09Z",
+          "doneNote": "2 variants/SKU"
         },
         {
           "id": "f2-5",
           "name": "Pricing per SKU (mix budget/mid/premium)",
           "owner": "ali",
           "day": "D18",
-          "done": "10 prices vastgelegd",
-          "notes": "€15-80 range",
-          "created_at": "2026-09-05T22:38:09Z"
+          "done": false,
+          "notes": "€15-80 range\n[Status: 10 prices vastgelegd]",
+          "created_at": "2026-09-05T22:38:09Z",
+          "doneNote": "10 prices vastgelegd"
         },
         {
           "id": "f2-6",
           "name": "FAQ × 10 SKUs (5-7 vragen elk)",
           "owner": "hermes",
           "day": "D19",
-          "done": "FAQs live",
-          "notes": "",
-          "created_at": "2026-09-05T20:38:09Z"
+          "done": false,
+          "notes": "[Status: FAQs live]",
+          "created_at": "2026-09-05T20:38:09Z",
+          "doneNote": "FAQs live"
         },
         {
           "id": "f2-7",
           "name": "Trust badges + reviews app (Judge.me)",
           "owner": "designer",
           "day": "D20",
-          "done": "Live",
-          "notes": "MERGED 2026-09-10 (audit): omvat Trust badges + reviews app Judge.me install (origineel f2-7) + review velocity setup (f2-21). Owner: Designer (install) + Hermes (velocity automation).",
-          "created_at": "2026-09-05T18:38:09Z"
+          "done": false,
+          "notes": "MERGED 2026-09-10 (audit): omvat Trust badges + reviews app Judge.me install (origineel f2-7) + review velocity setup (f2-21). Owner: Designer (install) + Hermes (velocity automation).\n[Status: Live]",
+          "created_at": "2026-09-05T18:38:09Z",
+          "doneNote": "Live"
         },
         {
           "id": "f2-8",
           "name": "Bundle listings live (5 bundles)",
           "owner": "farshad",
           "day": "D22",
-          "done": "Live",
-          "notes": "Cross-sell",
-          "created_at": "2026-09-05T16:38:09Z"
+          "done": false,
+          "notes": "Cross-sell\n[Status: Live]",
+          "created_at": "2026-09-05T16:38:09Z",
+          "doneNote": "Live"
         },
         {
           "id": "f2-9",
           "name": "Wave 1 selectie (3-4 SKUs)",
           "owner": "ali",
           "day": "D20",
-          "done": "3-4 SKUs",
-          "notes": "Sterkste metrics verwacht",
-          "created_at": "2026-09-05T14:38:09Z"
+          "done": false,
+          "notes": "Sterkste metrics verwacht\n[Status: 3-4 SKUs]",
+          "created_at": "2026-09-05T14:38:09Z",
+          "doneNote": "3-4 SKUs"
         },
         {
           "id": "f2-10",
           "name": "UGC video creatie × 5/selected SKU",
           "owner": "ali",
           "day": "D20-D24",
-          "done": "15-20 UGC videos",
-          "notes": "",
-          "created_at": "2026-09-05T12:38:09Z"
+          "done": false,
+          "notes": "[Status: 15-20 UGC videos]",
+          "created_at": "2026-09-05T12:38:09Z",
+          "doneNote": "15-20 UGC videos"
         },
         {
           "id": "f2-11",
           "name": "AI Higgsfield video's × 5/selected SKU",
           "owner": "ali",
           "day": "D20-D24",
-          "done": "15-20 AI videos",
-          "notes": "Multi-language ready",
-          "created_at": "2026-09-05T10:38:09Z"
+          "done": false,
+          "notes": "Multi-language ready\n[Status: 15-20 AI videos]",
+          "created_at": "2026-09-05T10:38:09Z",
+          "doneNote": "15-20 AI videos"
         },
         {
           "id": "f2-12",
           "name": "Meta Ads account setup (per land)",
           "owner": "ali",
           "day": "D22",
-          "done": "EU10 ad accounts",
-          "notes": "Meta BM central",
-          "created_at": "2026-09-05T08:38:09Z"
+          "done": false,
+          "notes": "Meta BM central\n[Status: EU10 ad accounts]",
+          "created_at": "2026-09-05T08:38:09Z",
+          "doneNote": "EU10 ad accounts"
         },
         {
           "id": "f2-13",
           "name": "Google Ads account setup",
           "owner": "ali",
           "day": "D24",
-          "done": "Account live",
-          "notes": "",
-          "created_at": "2026-09-05T06:38:09Z"
+          "done": false,
+          "notes": "[Status: Account live]",
+          "created_at": "2026-09-05T06:38:09Z",
+          "doneNote": "Account live"
         },
         {
           "id": "f2-14",
           "name": "Meta Ads Wave 1 launch (€35/dag)",
           "owner": "ali",
           "day": "D25",
-          "done": "Wave 1 live",
-          "notes": "Verspreid over EU10",
-          "created_at": "2026-09-05T04:38:09Z"
+          "done": false,
+          "notes": "Verspreid over EU10\n[Status: Wave 1 live]",
+          "created_at": "2026-09-05T04:38:09Z",
+          "doneNote": "Wave 1 live"
         },
         {
           "id": "f2-15",
           "name": "Google Ads Wave 1 launch (€15/dag)",
           "owner": "ali",
           "day": "D27",
-          "done": "Wave 1 live",
-          "notes": "Search + Shopping later",
-          "created_at": "2026-09-05T02:38:09Z"
+          "done": false,
+          "notes": "Search + Shopping later\n[Status: Wave 1 live]",
+          "created_at": "2026-09-05T02:38:09Z",
+          "doneNote": "Wave 1 live"
         },
         {
           "id": "f2-16",
           "name": "Email flows live (welcome + abandoned cart)",
           "owner": "ali",
           "day": "D24",
-          "done": "Flows live",
-          "notes": "Klaviyo",
-          "created_at": "2026-09-05T00:38:09Z"
+          "done": false,
+          "notes": "Klaviyo\n[Status: Flows live]",
+          "created_at": "2026-09-05T00:38:09Z",
+          "doneNote": "Flows live"
         },
         {
           "id": "f2-17",
           "name": "Daily metrics dashboard (Hermes)",
           "owner": "hermes",
           "day": "D26",
-          "done": "Dashboard live",
-          "notes": "Shopify API",
-          "created_at": "2026-09-04T22:38:09Z"
+          "done": false,
+          "notes": "Shopify API\n[Status: Dashboard live]",
+          "created_at": "2026-09-04T22:38:09Z",
+          "doneNote": "Dashboard live"
         },
         {
           "id": "f2-18",
           "name": "Daily standup ritme (Telegram 5min)",
           "owner": "ali",
           "day": "D25+",
-          "done": "Ritueel vastgelegd",
-          "notes": "Ali/Kheibar/Farshad",
-          "created_at": "2026-09-04T20:38:09Z"
+          "done": false,
+          "notes": "Ali/Kheibar/Farshad\n[Status: Ritueel vastgelegd]",
+          "created_at": "2026-09-04T20:38:09Z",
+          "doneNote": "Ritueel vastgelegd"
         },
         {
           "id": "f2-19",
           "name": "Wave 1 review (D+14)",
           "owner": "ali",
           "day": "D39",
-          "done": "Decision per SKU",
-          "notes": "Kill/keep/scale",
-          "created_at": "2026-09-04T18:38:09Z"
+          "done": false,
+          "notes": "Kill/keep/scale\n[Status: Decision per SKU]",
+          "created_at": "2026-09-04T18:38:09Z",
+          "doneNote": "Decision per SKU"
         },
         {
           "id": "f2-20",
           "name": "Creative testing framework (3 hooks × 3 bodies per ad, kill rule)",
           "owner": "hermes",
           "day": "D20",
-          "done": "",
-          "notes": "CRITICAL — Zonder framework = elke week nieuwe ads zonder learning. Creative refresh elke 14 dgn (f4-4) heeft framework nodig.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "CRITICAL — Zonder framework = elke week nieuwe ads zonder learning. Creative refresh elke 14 dgn (f4-4) heeft framework nodig.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f2-22",
           "name": "Trustpilot profiel openen (uitnodigingsflow na delivery)",
           "owner": "ali",
           "day": "D24",
-          "done": "",
-          "notes": "HIGH — Externe trust badge naast Judge.me; Google Seller Ratings in ads.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — Externe trust badge naast Judge.me; Google Seller Ratings in ads.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f2-23",
           "name": "WhatsApp / SMS abandonment flow (naast email)",
           "owner": "hermes",
           "day": "D24",
-          "done": "",
-          "notes": "HIGH — EU cart abandonment via SMS/WhatsApp >40% open vs email 15%.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — EU cart abandonment via SMS/WhatsApp >40% open vs email 15%.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f2-24",
           "name": "Inventory / SKU ops dashboard (daily stock per SKU, backorder alerts)",
           "owner": "hermes",
           "day": "D25",
-          "done": "",
-          "notes": "HIGH — Dropship + Wave 1 = real-time stock visibility nodig. Anders ad naar OOS = wasted spend.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — Dropship + Wave 1 = real-time stock visibility nodig. Anders ad naar OOS = wasted spend.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f2-25",
           "name": "Logistieke first-mile audit (China supplier → 3PL → klant lead times)",
           "owner": "farshad",
           "day": "D26",
-          "done": "",
-          "notes": "HIGH — Beloofde delivery in listing vs realiteit. Gap = 1-star reviews.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — Beloofde delivery in listing vs realiteit. Gap = 1-star reviews.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f2-kb-andromeda-100vs5",
@@ -898,9 +994,10 @@
           "name": "Andromeda test: 100 AI creatives vs 5 hand-crafted",
           "owner": "ali",
           "day": "D20-D24",
-          "done": "Test results",
-          "notes": "Source: roslanofficial (DXZrPcRAAZk). KB cluster-001. '100 AI generated now beat 5 hand-crafted'",
-          "created_at": "2026-09-10T17:50:00Z"
+          "done": false,
+          "notes": "Source: roslanofficial (DXZrPcRAAZk). KB cluster-001. '100 AI generated now beat 5 hand-crafted'\n[Status: Test results]",
+          "created_at": "2026-09-10T17:50:00Z",
+          "doneNote": "Test results"
         },
         {
           "id": "f2-kb-abo-testing-structuur",
@@ -908,9 +1005,10 @@
           "name": "ABO testing campaign: per segment, 3-7 dagen",
           "owner": "ali",
           "day": "D25",
-          "done": "ABO live",
-          "notes": "Source: roslanofficial. KB cluster-001.",
-          "created_at": "2026-09-10T17:50:00Z"
+          "done": false,
+          "notes": "Source: roslanofficial. KB cluster-001.\n[Status: ABO live]",
+          "created_at": "2026-09-10T17:50:00Z",
+          "doneNote": "ABO live"
         },
         {
           "id": "f2-kb-minus-ai-dashboard",
@@ -918,9 +1016,10 @@
           "name": "Minus AI dashboard voor spend/CPA",
           "owner": "ali",
           "day": "D24",
-          "done": "Live",
-          "notes": "Source: roslanofficial. KB cluster-001.",
-          "created_at": "2026-09-10T17:50:00Z"
+          "done": false,
+          "notes": "Source: roslanofficial. KB cluster-001.\n[Status: Live]",
+          "created_at": "2026-09-10T17:50:00Z",
+          "doneNote": "Live"
         },
         {
           "id": "f2-kb-targeting-creative-level",
@@ -928,9 +1027,10 @@
           "name": "Targeting: creative-level ipv ad-set-level",
           "owner": "ali",
           "day": "D25",
-          "done": "Targeting live",
-          "notes": "Source: roslanofficial. KB cluster-001.",
-          "created_at": "2026-09-10T17:50:00Z"
+          "done": false,
+          "notes": "Source: roslanofficial. KB cluster-001.\n[Status: Targeting live]",
+          "created_at": "2026-09-10T17:50:00Z",
+          "doneNote": "Targeting live"
         },
         {
           "id": "f2-kb-indirect-sales-template",
@@ -938,9 +1038,10 @@
           "name": "Indirect sales template: product in context (koken)",
           "owner": "ali",
           "day": "D20-D24",
-          "done": "Template klaar",
-          "notes": "Source: roslanofficial. KB cluster-001. 'People hate offer right away'",
-          "created_at": "2026-09-10T17:50:00Z"
+          "done": false,
+          "notes": "Source: roslanofficial. KB cluster-001. 'People hate offer right away'\n[Status: Template klaar]",
+          "created_at": "2026-09-10T17:50:00Z",
+          "doneNote": "Template klaar"
         },
         {
           "id": "f2-kb-creative-diversity-checklist",
@@ -948,9 +1049,10 @@
           "name": "Creative diversity checklist: geen overlap",
           "owner": "ali",
           "day": "D20",
-          "done": "Checklist live",
-          "notes": "Source: roslanofficial. KB cluster-001. 'Every creative completely different'",
-          "created_at": "2026-09-10T17:50:00Z"
+          "done": false,
+          "notes": "Source: roslanofficial. KB cluster-001. 'Every creative completely different'\n[Status: Checklist live]",
+          "created_at": "2026-09-10T17:50:00Z",
+          "doneNote": "Checklist live"
         },
         {
           "id": "f2-kb-mockup-workflow",
@@ -958,9 +1060,10 @@
           "name": "Mockup workflow: floating video + Zara-style",
           "owner": "ali",
           "day": "D20-D24",
-          "done": "Workflow klaar",
-          "notes": "Source: roslanofficial. KB cluster-000. 'Exhute AI for mass production'",
-          "created_at": "2026-09-10T17:50:00Z"
+          "done": false,
+          "notes": "Source: roslanofficial. KB cluster-000. 'Exhute AI for mass production'\n[Status: Workflow klaar]",
+          "created_at": "2026-09-10T17:50:00Z",
+          "doneNote": "Workflow klaar"
         },
         {
           "id": "f2-kb-ai-mass-pipeline",
@@ -968,9 +1071,10 @@
           "name": "AI mass-production pipeline (24/7)",
           "owner": "ali",
           "day": "D20-D24",
-          "done": "Pipeline live",
-          "notes": "Source: roslanofficial. KB cluster-002.",
-          "created_at": "2026-09-10T17:50:00Z"
+          "done": false,
+          "notes": "Source: roslanofficial. KB cluster-002.\n[Status: Pipeline live]",
+          "created_at": "2026-09-10T17:50:00Z",
+          "doneNote": "Pipeline live"
         },
         {
           "id": "f2-kb-chase-3-campaign-structure",
@@ -978,9 +1082,10 @@
           "name": "Build 3-campaign structure: Interest + Creative + Retargeting",
           "owner": "ali",
           "day": "D25-D30",
-          "done": "Campaigns live",
-          "notes": "Source: Chase Chappell (YT-_jqhFeUu8QE). KB cluster-168 (creative_campaign_ad). '3 campaigns: interest testing + creative testing + retargeting'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Chase Chappell (YT-_jqhFeUu8QE). KB cluster-168 (creative_campaign_ad). '3 campaigns: interest testing + creative testing + retargeting'\n[Status: Campaigns live]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Campaigns live"
         },
         {
           "id": "f2-kb-chase-5-unique-creatives",
@@ -988,9 +1093,10 @@
           "name": "Per ad set: 5 totally unique ad creatives (no variation templates)",
           "owner": "ali",
           "day": "D22-D26",
-          "done": "5 creatives live",
-          "notes": "Source: Chase Chappell. KB cluster-168. '5 unique creatives, no two alike — Andromeda requirement'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Chase Chappell. KB cluster-168. '5 unique creatives, no two alike — Andromeda requirement'\n[Status: 5 creatives live]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "5 creatives live"
         },
         {
           "id": "f2-kb-chase-rotate-winners",
@@ -998,9 +1104,10 @@
           "name": "Rotate winning creatives from Creative Testing → Interest Testing weekly",
           "owner": "ali",
           "day": "D27+",
-          "done": "Rotation routine",
-          "notes": "Source: Chase Chappell. KB cluster-168. 'Proven winners move to scaling campaign'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Chase Chappell. KB cluster-168. 'Proven winners move to scaling campaign'\n[Status: Rotation routine]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Rotation routine"
         },
         {
           "id": "f2-kb-chase-5-ad-copy-angles",
@@ -1008,9 +1115,10 @@
           "name": "Every ad = 5 unique primary text + 5 headlines + 5 descriptions",
           "owner": "ali",
           "day": "D22-D26",
-          "done": "Copy matrix live",
-          "notes": "Source: Chase Chappell. KB cluster-168. 'Long/medium/short + features/benefits/review/lifestyle'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Chase Chappell. KB cluster-168. 'Long/medium/short + features/benefits/review/lifestyle'\n[Status: Copy matrix live]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Copy matrix live"
         },
         {
           "id": "f2-kb-chase-5-ad-sets",
@@ -1018,9 +1126,10 @@
           "name": "Duplicate ad set 5x with different audiences (no overlap)",
           "owner": "ali",
           "day": "D25-D30",
-          "done": "5 ad sets live",
-          "notes": "Source: Chase Chappell. KB cluster-168. 'Same ads in 5 audiences = full context coverage'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Chase Chappell. KB cluster-168. 'Same ads in 5 audiences = full context coverage'\n[Status: 5 ad sets live]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "5 ad sets live"
         },
         {
           "id": "f2-kb-funnel-strategy",
@@ -1028,9 +1137,10 @@
           "name": "Map creatives to funnel positions (top/mid/bottom)",
           "owner": "ali",
           "day": "D26-D30",
-          "done": "Funnel map live",
-          "notes": "Source: Maryanne Damarzo + Charley T. KB cluster-159. Top=curiosity/shock, mid=benefit/us-vs-them, bottom=proof/offer",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Maryanne Damarzo + Charley T. KB cluster-159. Top=curiosity/shock, mid=benefit/us-vs-them, bottom=proof/offer\n[Status: Funnel map live]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Funnel map live"
         },
         {
           "id": "f2-kb-curiosity-hooks",
@@ -1038,9 +1148,10 @@
           "name": "Hook formula: curiosity + initial shock + specific benefit",
           "owner": "ali",
           "day": "D22-D26",
-          "done": "Hook template",
-          "notes": "Source: Chase Chappell. KB cluster-159. 'Drive curiosity, deliver shock, give benefit'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Chase Chappell. KB cluster-159. 'Drive curiosity, deliver shock, give benefit'\n[Status: Hook template]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Hook template"
         },
         {
           "id": "f2-kb-mid-funnel-benefits",
@@ -1048,9 +1159,10 @@
           "name": "Mid-funnel ads focused on benefits + us-vs-them angle",
           "owner": "ali",
           "day": "D26-D30",
-          "done": "Mid-funnel set live",
-          "notes": "Source: Maryanne Damarzo. KB cluster-159. 'Mid-funnel = super straightforward benefit ad'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Maryanne Damarzo. KB cluster-159. 'Mid-funnel = super straightforward benefit ad'\n[Status: Mid-funnel set live]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Mid-funnel set live"
         },
         {
           "id": "f2-kb-ads-freshness",
@@ -1058,9 +1170,10 @@
           "name": "Add fresh ads every 7-10 days (fatigue prevention)",
           "owner": "ali",
           "day": "D23+",
-          "done": "Routine live",
-          "notes": "Source: Charley T. KB cluster-159. 'CPM + frequency = fatigue signal. Rotate before fatigue hits'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Charley T. KB cluster-159. 'CPM + frequency = fatigue signal. Rotate before fatigue hits'\n[Status: Routine live]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Routine live"
         },
         {
           "id": "f2-kb-headline-first",
@@ -1068,9 +1181,10 @@
           "name": "Headline = stop-the-scroll weapon (sub-headline expands offer)",
           "owner": "ali",
           "day": "D22-D26",
-          "done": "Copy structure",
-          "notes": "Source: Copy That!. KB cluster-109. 'Headline first, sub-headline next — same intent, different words'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Copy That!. KB cluster-109. 'Headline first, sub-headline next — same intent, different words'\n[Status: Copy structure]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Copy structure"
         },
         {
           "id": "f2-kb-opening-sentence",
@@ -1078,9 +1192,10 @@
           "name": "Opening sentence must work standalone (without headline)",
           "owner": "ali",
           "day": "D22-D26",
-          "done": "Copy structure",
-          "notes": "Source: Copy That!. KB cluster-109. 'First sentence does the heavy lifting'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Copy That!. KB cluster-109. 'First sentence does the heavy lifting'\n[Status: Copy structure]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Copy structure"
         },
         {
           "id": "f2-kb-target-audience-specificity",
@@ -1088,9 +1203,10 @@
           "name": "Headline targets a niche segment, not 'everyone'",
           "owner": "ali",
           "day": "D22-D26",
-          "done": "Specificity rule",
-          "notes": "Source: Copy That!. KB cluster-109. 'Goal is not to grab the world's attention'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Copy That!. KB cluster-109. 'Goal is not to grab the world's attention'\n[Status: Specificity rule]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Specificity rule"
         },
         {
           "id": "f2-kb-conversion-rate-first",
@@ -1098,9 +1214,10 @@
           "name": "Optimize conversion rate BEFORE scaling ads",
           "owner": "ali",
           "day": "D28-D32",
-          "done": "CRO baseline",
-          "notes": "Source: Charley T. KB cluster-145. 'CRO gets negated when you change ads'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Charley T. KB cluster-145. 'CRO gets negated when you change ads'\n[Status: CRO baseline]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "CRO baseline"
         },
         {
           "id": "f2-kb-7-day-click-window",
@@ -1108,9 +1225,10 @@
           "name": "Optimize on 7-day click conversions (real purchase signal)",
           "owner": "ali",
           "day": "D24-D28",
-          "done": "Attribution window",
-          "notes": "Source: Chase Chappell. KB cluster-145. '7-day click > 1-day for purchase decisions'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Chase Chappell. KB cluster-145. '7-day click > 1-day for purchase decisions'\n[Status: Attribution window]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Attribution window"
         },
         {
           "id": "f2-kb-differentiate-from-competitors",
@@ -1118,9 +1236,10 @@
           "name": "Don't copy competitor ads 1:1 — you'll get worse results",
           "owner": "ali",
           "day": "D24-D30",
-          "done": "Differentiation audit",
-          "notes": "Source: Charley T. KB cluster-145. 'If you rip off everyone, you do worse than them'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Charley T. KB cluster-145. 'If you rip off everyone, you do worse than them'\n[Status: Differentiation audit]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Differentiation audit"
         },
         {
           "id": "f2-kb-deck-of-cards-math",
@@ -1128,9 +1247,10 @@
           "name": "Flexible ads math: 3×2×2 = 12 combinations per ad",
           "owner": "ali",
           "day": "D26-D30",
-          "done": "Math template",
-          "notes": "Source: Charley T. KB cluster-169. '5 flexible ads × 12 = 60 combinations (deck of cards strategy)'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Charley T. KB cluster-169. '5 flexible ads × 12 = 60 combinations (deck of cards strategy)'\n[Status: Math template]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Math template"
         },
         {
           "id": "f2-kb-flexible-ads-vs-ad-sets",
@@ -1138,9 +1258,10 @@
           "name": "Use flexible ads inside ad sets (less fragmentation)",
           "owner": "ali",
           "day": "D26-D30",
-          "done": "Structure chosen",
-          "notes": "Source: Charley T. KB cluster-169. 'Multiple flexible ads > multiple ad sets'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Charley T. KB cluster-169. 'Multiple flexible ads > multiple ad sets'\n[Status: Structure chosen]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Structure chosen"
         },
         {
           "id": "f2-kb-blended-cpa-tracking",
@@ -1148,9 +1269,10 @@
           "name": "Track blended CPA (not per-ad CPA)",
           "owner": "ali",
           "day": "D24-D28",
-          "done": "Dashboard live",
-          "notes": "Source: Charley T. KB cluster-110. '$85 ad at 105 AOV may be better than $92 ad at 160 AOV'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Charley T. KB cluster-110. '$85 ad at 105 AOV may be better than $92 ad at 160 AOV'\n[Status: Dashboard live]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Dashboard live"
         },
         {
           "id": "f2-kb-ltv-multiplier",
@@ -1158,9 +1280,10 @@
           "name": "LTV math: 10K customers × $1K LTV = $10M LTV pool",
           "owner": "ali",
           "day": "D25-D30",
-          "done": "LTV model",
-          "notes": "Source: Charley T. KB cluster-110. 'LTV pool = ceiling for ad spend'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Charley T. KB cluster-110. 'LTV pool = ceiling for ad spend'\n[Status: LTV model]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "LTV model"
         },
         {
           "id": "f2-kb-aov-tiered-offers",
@@ -1168,9 +1291,10 @@
           "name": "Test 3 offer tiers (low/mid/high AOV)",
           "owner": "ali",
           "day": "D28-D32",
-          "done": "Tiers live",
-          "notes": "Source: Charley T. KB cluster-110. '$100/$150/$300 offers = blended AOV growth'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Charley T. KB cluster-110. '$100/$150/$300 offers = blended AOV growth'\n[Status: Tiers live]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Tiers live"
         },
         {
           "id": "f2-kb-roas-benchmarks",
@@ -1178,9 +1302,10 @@
           "name": "ROAS benchmarks: 3.09 average @ €78k spend (Chase case)",
           "owner": "ali",
           "day": "D24-D28",
-          "done": "Benchmarks doc",
-          "notes": "Source: Chase Chappell. KB cluster-161. '86.8% ROAS increase from fixing account structure'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Chase Chappell. KB cluster-161. '86.8% ROAS increase from fixing account structure'\n[Status: Benchmarks doc]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Benchmarks doc"
         },
         {
           "id": "f2-kb-budget-cut-rescue",
@@ -1188,9 +1313,10 @@
           "name": "Cutting spend 35% can rescue losing campaign",
           "owner": "ali",
           "day": "D30-D35",
-          "done": "Rescue playbook",
-          "notes": "Source: Chase Chappell. KB cluster-161. '$94k → $91k swing unprofitable → profitable'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Chase Chappell. KB cluster-161. '$94k → $91k swing unprofitable → profitable'\n[Status: Rescue playbook]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Rescue playbook"
         },
         {
           "id": "f2-kb-native-ads-disguised",
@@ -1198,9 +1324,10 @@
           "name": "Native-style ads (zero text overlay) outperform explicit ads",
           "owner": "ali",
           "day": "D26-D30",
-          "done": "Native ad set",
-          "notes": "Source: Maryanne Damarzo. KB cluster-124. 'Disguised content beats banner-style ads'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Maryanne Damarzo. KB cluster-124. 'Disguised content beats banner-style ads'\n[Status: Native ad set]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Native ad set"
         },
         {
           "id": "f2-kb-stop-scroll-purpose",
@@ -1208,9 +1335,10 @@
           "name": "Every ad has ONE purpose: stop the scroll",
           "owner": "ali",
           "day": "D22-D26",
-          "done": "Single-purpose rule",
-          "notes": "Source: Chase Chappell. KB cluster-124. 'Design from the constraint of one purpose'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Chase Chappell. KB cluster-124. 'Design from the constraint of one purpose'\n[Status: Single-purpose rule]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Single-purpose rule"
         }
       ]
     },
@@ -1226,207 +1354,230 @@
           "name": "Wave 2 selectie (3-4 nieuwe SKUs)",
           "owner": "ali",
           "day": "D40",
-          "done": "3-4 SKUs",
-          "notes": "Anders segment dan W1",
-          "created_at": "2026-09-07T06:38:09Z"
+          "done": false,
+          "notes": "Anders segment dan W1\n[Status: 3-4 SKUs]",
+          "created_at": "2026-09-07T06:38:09Z",
+          "doneNote": "3-4 SKUs"
         },
         {
           "id": "f3-2",
           "name": "Wave 2 listings live",
           "owner": "farshad",
           "day": "D42",
-          "done": "Live",
-          "notes": "",
-          "created_at": "2026-09-07T04:38:09Z"
+          "done": false,
+          "notes": "[Status: Live]",
+          "created_at": "2026-09-07T04:38:09Z",
+          "doneNote": "Live"
         },
         {
           "id": "f3-3",
           "name": "Wave 2 UGC + AI video's × 10/SKU",
           "owner": "ali",
           "day": "D40-D44",
-          "done": "30-40 videos",
-          "notes": "",
-          "created_at": "2026-09-07T02:38:09Z"
+          "done": false,
+          "notes": "[Status: 30-40 videos]",
+          "created_at": "2026-09-07T02:38:09Z",
+          "doneNote": "30-40 videos"
         },
         {
           "id": "f3-4",
           "name": "Wave 2 ads launch (€35/dag)",
           "owner": "ali",
           "day": "D45",
-          "done": "Live",
-          "notes": "",
-          "created_at": "2026-09-07T00:38:09Z"
+          "done": false,
+          "notes": "[Status: Live]",
+          "created_at": "2026-09-07T00:38:09Z",
+          "doneNote": "Live"
         },
         {
           "id": "f3-5",
           "name": "Wave 2 review (D+14)",
           "owner": "ali",
           "day": "D59",
-          "done": "Decision per SKU",
-          "notes": "",
-          "created_at": "2026-09-06T22:38:09Z"
+          "done": false,
+          "notes": "[Status: Decision per SKU]",
+          "created_at": "2026-09-06T22:38:09Z",
+          "doneNote": "Decision per SKU"
         },
         {
           "id": "f3-6",
           "name": "Wave 3 selectie (3-4 final SKUs)",
           "owner": "ali",
           "day": "D51",
-          "done": "3-4 SKUs",
-          "notes": "",
-          "created_at": "2026-09-06T20:38:09Z"
+          "done": false,
+          "notes": "[Status: 3-4 SKUs]",
+          "created_at": "2026-09-06T20:38:09Z",
+          "doneNote": "3-4 SKUs"
         },
         {
           "id": "f3-7",
           "name": "Wave 3 listings live",
           "owner": "farshad",
           "day": "D53",
-          "done": "Live",
-          "notes": "",
-          "created_at": "2026-09-06T18:38:09Z"
+          "done": false,
+          "notes": "[Status: Live]",
+          "created_at": "2026-09-06T18:38:09Z",
+          "doneNote": "Live"
         },
         {
           "id": "f3-8",
           "name": "Wave 3 UGC + AI video's × 10/SKU",
           "owner": "ali",
           "day": "D51-D55",
-          "done": "30-40 videos",
-          "notes": "",
-          "created_at": "2026-09-06T16:38:09Z"
+          "done": false,
+          "notes": "[Status: 30-40 videos]",
+          "created_at": "2026-09-06T16:38:09Z",
+          "doneNote": "30-40 videos"
         },
         {
           "id": "f3-9",
           "name": "Wave 3 ads launch (€35/dag)",
           "owner": "ali",
           "day": "D56",
-          "done": "Live",
-          "notes": "",
-          "created_at": "2026-09-06T14:38:09Z"
+          "done": false,
+          "notes": "[Status: Live]",
+          "created_at": "2026-09-06T14:38:09Z",
+          "doneNote": "Live"
         },
         {
           "id": "f3-10",
           "name": "Wave 3 review (D+14)",
           "owner": "ali",
           "day": "D70",
-          "done": "Decision per SKU",
-          "notes": "",
-          "created_at": "2026-09-06T12:38:09Z"
+          "done": false,
+          "notes": "[Status: Decision per SKU]",
+          "created_at": "2026-09-06T12:38:09Z",
+          "doneNote": "Decision per SKU"
         },
         {
           "id": "f3-11",
           "name": "Kill rules automation script (D7/14/21/30)",
           "owner": "hermes",
           "day": "D36",
-          "done": "Script live",
-          "notes": "ROAS <2.0 na €500 spend",
-          "created_at": "2026-09-06T10:38:09Z"
+          "done": false,
+          "notes": "ROAS <2.0 na €500 spend\n[Status: Script live]",
+          "created_at": "2026-09-06T10:38:09Z",
+          "doneNote": "Script live"
         },
         {
           "id": "f3-12",
           "name": "Wave dashboard per SKU",
           "owner": "hermes",
           "day": "D38",
-          "done": "Dashboard live",
-          "notes": "Spend/ATC/Purch/ROAS/CM2",
-          "created_at": "2026-09-06T08:38:09Z"
+          "done": false,
+          "notes": "Spend/ATC/Purch/ROAS/CM2\n[Status: Dashboard live]",
+          "created_at": "2026-09-06T08:38:09Z",
+          "doneNote": "Dashboard live"
         },
         {
           "id": "f3-13",
           "name": "Cohort analysis tooling",
           "owner": "hermes",
           "day": "D50",
-          "done": "Tool live",
-          "notes": "LTV:CAC berekening",
-          "created_at": "2026-09-06T06:38:09Z"
+          "done": false,
+          "notes": "LTV:CAC berekening\n[Status: Tool live]",
+          "created_at": "2026-09-06T06:38:09Z",
+          "doneNote": "Tool live"
         },
         {
           "id": "f3-14",
           "name": "Customer survey post-purchase NPS",
           "owner": "ali",
           "day": "D55",
-          "done": "Survey live",
-          "notes": "Klaviyo",
-          "created_at": "2026-09-06T04:38:09Z"
+          "done": false,
+          "notes": "Klaviyo\n[Status: Survey live]",
+          "created_at": "2026-09-06T04:38:09Z",
+          "doneNote": "Survey live"
         },
         {
           "id": "f3-15",
           "name": "Competitor monitoring (weekly)",
           "owner": "ali",
           "day": "D40+",
-          "done": "Weekly rapport",
-          "notes": "Wat doen zij",
-          "created_at": "2026-09-06T02:38:09Z"
+          "done": false,
+          "notes": "Wat doen zij\n[Status: Weekly rapport]",
+          "created_at": "2026-09-06T02:38:09Z",
+          "doneNote": "Weekly rapport"
         },
         {
           "id": "f3-16",
           "name": "Customer feedback inbox (separate)",
           "owner": "ali",
           "day": "D45",
-          "done": "Inbox + tagging",
-          "notes": "Voor product insights",
-          "created_at": "2026-09-06T00:38:09Z"
+          "done": false,
+          "notes": "Voor product insights\n[Status: Inbox + tagging]",
+          "created_at": "2026-09-06T00:38:09Z",
+          "doneNote": "Inbox + tagging"
         },
         {
           "id": "f3-17",
           "name": "A/B test framework voor ads",
           "owner": "hermes",
           "day": "D42",
-          "done": "Framework live",
-          "notes": "Welke creative wint",
-          "created_at": "2026-09-05T22:38:09Z"
+          "done": false,
+          "notes": "Welke creative wint\n[Status: Framework live]",
+          "created_at": "2026-09-05T22:38:09Z",
+          "doneNote": "Framework live"
         },
         {
           "id": "f3-18",
           "name": "Weekly review meetings (Di 14:00)",
           "owner": "ali",
           "day": "D36+",
-          "done": "Weekly",
-          "notes": "Ali + Kheibar + Farshad",
-          "created_at": "2026-09-05T20:38:09Z"
+          "done": false,
+          "notes": "Ali + Kheibar + Farshad\n[Status: Weekly]",
+          "created_at": "2026-09-05T20:38:09Z",
+          "doneNote": "Weekly"
         },
         {
           "id": "f3-19",
           "name": "Decision log per SKU",
           "owner": "ali",
           "day": "D36+",
-          "done": "Log bijgehouden",
-          "notes": "sku_pipeline_state.json",
-          "created_at": "2026-09-05T18:38:09Z"
+          "done": false,
+          "notes": "sku_pipeline_state.json\n[Status: Log bijgehouden]",
+          "created_at": "2026-09-05T18:38:09Z",
+          "doneNote": "Log bijgehouden"
         },
         {
           "id": "f3-20",
           "name": "Cohort LTV analyse per traffic source (Meta vs Google vs Organic vs Direct)",
           "owner": "hermes",
           "day": "D50",
-          "done": "",
-          "notes": "HIGH — LTV:CAC beslissing (f4-2 scale) hangt af van source-quality, niet alleen SKU-winners.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — LTV:CAC beslissing (f4-2 scale) hangt af van source-quality, niet alleen SKU-winners.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f3-21",
           "name": "CRO scan homepage + PDP, 1 conversion lift actie",
           "owner": "hermes",
           "day": "D50",
-          "done": "",
-          "notes": "MEDIUM — CRO lift 10-20% > nieuwe ads. Onderbenut.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "MEDIUM — CRO lift 10-20% > nieuwe ads. Onderbenut.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f3-22",
           "name": "Prijs-elasticiteit test per top-3 SKU (€X / €X+2 / €X-2)",
           "owner": "ali",
           "day": "D55",
-          "done": "",
-          "notes": "HIGH — Sommige SKUs zijn +€5-premium-positie, andere -€5-budget. Geen test = blinde pricing.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — Sommige SKUs zijn +€5-premium-positie, andere -€5-budget. Geen test = blinde pricing.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f3-23",
           "name": "Crisis comms runbook (recall, supplier fail, ad disapprove wave, chargeback spike)",
           "owner": "ali",
           "day": "D50",
-          "done": "",
-          "notes": "CRITICAL — F5-12 staat op D90+ maar 1 chargeback-golf in Wave 1 zonder runbook = 1 week paniek.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "CRITICAL — F5-12 staat op D90+ maar 1 chargeback-golf in Wave 1 zonder runbook = 1 week paniek.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f3-kb-cbo-scaling-template",
@@ -1434,9 +1585,10 @@
           "name": "CBO scaling campaign: alleen winners",
           "owner": "ali",
           "day": "D40",
-          "done": "CBO live",
-          "notes": "Source: roslanofficial. KB cluster-001. 'CBO grows only stronger'",
-          "created_at": "2026-09-10T17:50:00Z"
+          "done": false,
+          "notes": "Source: roslanofficial. KB cluster-001. 'CBO grows only stronger'\n[Status: CBO live]",
+          "created_at": "2026-09-10T17:50:00Z",
+          "doneNote": "CBO live"
         },
         {
           "id": "f3-kb-weekly-kill-focus",
@@ -1444,9 +1596,10 @@
           "name": "Weekly review: kill vs focus routine",
           "owner": "ali",
           "day": "D36+",
-          "done": "Routine live",
-          "notes": "Source: roslanofficial. KB cluster-001.",
-          "created_at": "2026-09-10T17:50:00Z"
+          "done": false,
+          "notes": "Source: roslanofficial. KB cluster-001.\n[Status: Routine live]",
+          "created_at": "2026-09-10T17:50:00Z",
+          "doneNote": "Routine live"
         },
         {
           "id": "f3-kb-20pct-budget-stepup",
@@ -1454,9 +1607,10 @@
           "name": "Scale winners in 20% step-ups (Charley methodology)",
           "owner": "ali",
           "day": "D36+",
-          "done": "Step-up routine",
-          "notes": "Source: Charley T. KB cluster-161. 'Gradual increase maintains performance; jumps break the algorithm'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Charley T. KB cluster-161. 'Gradual increase maintains performance; jumps break the algorithm'\n[Status: Step-up routine]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Step-up routine"
         },
         {
           "id": "f3-kb-email-relationship-building",
@@ -1464,9 +1618,10 @@
           "name": "Email = build relationship (readers look forward to receiving)",
           "owner": "ali",
           "day": "D40+",
-          "done": "Email philosophy",
-          "notes": "Source: Copy That!. KB cluster-137. 'Build relationship, not broadcast'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Copy That!. KB cluster-137. 'Build relationship, not broadcast'\n[Status: Email philosophy]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Email philosophy"
         },
         {
           "id": "f3-kb-email-value-first",
@@ -1474,9 +1629,10 @@
           "name": "Every email = value-packed story FIRST, then ask for sale",
           "owner": "ali",
           "day": "D42+",
-          "done": "Email template",
-          "notes": "Source: Copy That!. KB cluster-137. 'Story before ask — never both at once'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Copy That!. KB cluster-137. 'Story before ask — never both at once'\n[Status: Email template]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Email template"
         },
         {
           "id": "f3-kb-email-cadence-weekly",
@@ -1484,9 +1640,10 @@
           "name": "Weekly or daily newsletter cadence",
           "owner": "ali",
           "day": "D42+",
-          "done": "Cadence live",
-          "notes": "Source: Copy That!. KB cluster-137. '7-day engagement cycle wins'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Copy That!. KB cluster-137. '7-day engagement cycle wins'\n[Status: Cadence live]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Cadence live"
         },
         {
           "id": "f3-kb-email-sequencing",
@@ -1494,9 +1651,10 @@
           "name": "Email sequences: welcome + abandoned cart + post-purchase",
           "owner": "ali",
           "day": "D44+",
-          "done": "Sequences live",
-          "notes": "Source: Copy That!. KB cluster-137. 'Build relationships with weekly engagement'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Copy That!. KB cluster-137. 'Build relationships with weekly engagement'\n[Status: Sequences live]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Sequences live"
         },
         {
           "id": "f3-kb-cohort-ltv-cac",
@@ -1504,9 +1662,10 @@
           "name": "Cohort LTV:CAC analysis (track repeat buyers by acquisition month)",
           "owner": "ali",
           "day": "D46+",
-          "done": "Cohort dashboard",
-          "notes": "Source: Charley T. KB cluster-110. '10K customers × $1K LTV = $10M pool'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Charley T. KB cluster-110. '10K customers × $1K LTV = $10M pool'\n[Status: Cohort dashboard]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Cohort dashboard"
         },
         {
           "id": "f3-kb-repeat-buyer-tracking",
@@ -1514,9 +1673,10 @@
           "name": "Track repeat-buyer cohorts separately from one-time buyers",
           "owner": "ali",
           "day": "D48+",
-          "done": "Segment in CRM",
-          "notes": "Source: Charley T. KB cluster-110. 'Dividing by repeat vs first-time reveals true CAC'",
-          "created_at": "2026-09-10T19:50:00Z"
+          "done": false,
+          "notes": "Source: Charley T. KB cluster-110. 'Dividing by repeat vs first-time reveals true CAC'\n[Status: Segment in CRM]",
+          "created_at": "2026-09-10T19:50:00Z",
+          "doneNote": "Segment in CRM"
         }
       ]
     },
@@ -1532,162 +1692,180 @@
           "name": "Winners definitief (top 30% van 10)",
           "owner": "ali",
           "day": "D65",
-          "done": "3 winners",
-          "notes": "1 SKU/segment focus",
-          "created_at": "2026-09-08T06:38:09Z"
+          "done": false,
+          "notes": "1 SKU/segment focus\n[Status: 3 winners]",
+          "created_at": "2026-09-08T06:38:09Z",
+          "doneNote": "3 winners"
         },
         {
           "id": "f4-2",
           "name": "Scale budget winners (€100/dag/winner)",
           "owner": "ali",
           "day": "D67",
-          "done": "€300/dag totaal",
-          "notes": "Verhoog na winner-ID",
-          "created_at": "2026-09-08T04:38:09Z"
+          "done": false,
+          "notes": "Verhoog na winner-ID\n[Status: €300/dag totaal]",
+          "created_at": "2026-09-08T04:38:09Z",
+          "doneNote": "€300/dag totaal"
         },
         {
           "id": "f4-3",
           "name": "Lookalikes op kopers (1/3/5%)",
           "owner": "ali",
           "day": "D68",
-          "done": "Audiences live",
-          "notes": "Niet ATC maar purchasers",
-          "created_at": "2026-09-08T02:38:09Z"
+          "done": false,
+          "notes": "Niet ATC maar purchasers\n[Status: Audiences live]",
+          "created_at": "2026-09-08T02:38:09Z",
+          "doneNote": "Audiences live"
         },
         {
           "id": "f4-4",
           "name": "Creative refresh elke 14 dgn",
           "owner": "ali",
           "day": "D70+",
-          "done": "Doorlopend",
-          "notes": "Ad fatigue counter",
-          "created_at": "2026-09-08T00:38:09Z"
+          "done": false,
+          "notes": "Ad fatigue counter\n[Status: Doorlopend]",
+          "created_at": "2026-09-08T00:38:09Z",
+          "doneNote": "Doorlopend"
         },
         {
           "id": "f4-5",
           "name": "Google Performance Max (PMax) campaigns",
           "owner": "ali",
           "day": "D72",
-          "done": "PMax live",
-          "notes": "Non-brand demand",
-          "created_at": "2026-09-07T22:38:09Z"
+          "done": false,
+          "notes": "Non-brand demand\n[Status: PMax live]",
+          "created_at": "2026-09-07T22:38:09Z",
+          "doneNote": "PMax live"
         },
         {
           "id": "f4-6",
           "name": "Email flow: post-purchase upsell",
           "owner": "ali",
           "day": "D75",
-          "done": "Flow live",
-          "notes": "Repeat halo",
-          "created_at": "2026-09-07T20:38:09Z"
+          "done": false,
+          "notes": "Repeat halo\n[Status: Flow live]",
+          "created_at": "2026-09-07T20:38:09Z",
+          "doneNote": "Flow live"
         },
         {
           "id": "f4-7",
           "name": "Email flow: win-back (60d inactive)",
           "owner": "ali",
           "day": "D78",
-          "done": "Flow live",
-          "notes": "",
-          "created_at": "2026-09-07T18:38:09Z"
+          "done": false,
+          "notes": "[Status: Flow live]",
+          "created_at": "2026-09-07T18:38:09Z",
+          "doneNote": "Flow live"
         },
         {
           "id": "f4-8",
           "name": "Bundle pricing tests",
           "owner": "ali",
           "day": "D75",
-          "done": "Test live",
-          "notes": "Cross-product bundles",
-          "created_at": "2026-09-07T16:38:09Z"
+          "done": false,
+          "notes": "Cross-product bundles\n[Status: Test live]",
+          "created_at": "2026-09-07T16:38:09Z",
+          "doneNote": "Test live"
         },
         {
           "id": "f4-9",
           "name": "Cross-brand/cross-SKU recommendations",
           "owner": "hermes",
           "day": "D80",
-          "done": "Live in Shopify",
-          "notes": "AI suggest",
-          "created_at": "2026-09-07T14:38:09Z"
+          "done": false,
+          "notes": "AI suggest\n[Status: Live in Shopify]",
+          "created_at": "2026-09-07T14:38:09Z",
+          "doneNote": "Live in Shopify"
         },
         {
           "id": "f4-10",
           "name": "LTV:CAC dashboard per channel",
           "owner": "hermes",
           "day": "D78",
-          "done": "Live",
-          "notes": "Meta vs Google vs Email",
-          "created_at": "2026-09-07T12:38:09Z"
+          "done": false,
+          "notes": "Meta vs Google vs Email\n[Status: Live]",
+          "created_at": "2026-09-07T12:38:09Z",
+          "doneNote": "Live"
         },
         {
           "id": "f4-11",
           "name": "Repeat-buyer cohort analyse",
           "owner": "hermes",
           "day": "D82",
-          "done": "Dashboard live",
-          "notes": "Target 25%+ kitchen",
-          "created_at": "2026-09-07T10:38:09Z"
+          "done": false,
+          "notes": "Target 25%+ kitchen\n[Status: Dashboard live]",
+          "created_at": "2026-09-07T10:38:09Z",
+          "doneNote": "Dashboard live"
         },
         {
           "id": "f4-12",
           "name": "Cohort retention analysis (week-N)",
           "owner": "hermes",
           "day": "D80",
-          "done": "Analyse klaar",
-          "notes": "Welke week herhaal-aankoop",
-          "created_at": "2026-09-07T08:38:09Z"
+          "done": false,
+          "notes": "Welke week herhaal-aankoop\n[Status: Analyse klaar]",
+          "created_at": "2026-09-07T08:38:09Z",
+          "doneNote": "Analyse klaar"
         },
         {
           "id": "f4-13",
           "name": "Subscription mogelijkheid onderzoek",
           "owner": "ali",
           "day": "D82",
-          "done": "Decision: ja/nee",
-          "notes": "Voor consumables",
-          "created_at": "2026-09-07T06:38:09Z"
+          "done": false,
+          "notes": "Voor consumables\n[Status: Decision: ja/nee]",
+          "created_at": "2026-09-07T06:38:09Z",
+          "doneNote": "Decision: ja/nee"
         },
         {
           "id": "f4-14",
           "name": "Loyalty program design",
           "owner": "ali",
           "day": "D85",
-          "done": "Puntenstructuur",
-          "notes": "Post-launch implementatie",
-          "created_at": "2026-09-07T04:38:09Z"
+          "done": false,
+          "notes": "Post-launch implementatie\n[Status: Puntenstructuur]",
+          "created_at": "2026-09-07T04:38:09Z",
+          "doneNote": "Puntenstructuur"
         },
         {
           "id": "f4-15",
           "name": "Cash forecast 4-weken runway",
           "owner": "kheibar",
           "day": "D85",
-          "done": "Forecast update",
-          "notes": "",
-          "created_at": "2026-09-07T02:38:09Z"
+          "done": false,
+          "notes": "[Status: Forecast update]",
+          "created_at": "2026-09-07T02:38:09Z",
+          "doneNote": "Forecast update"
         },
         {
           "id": "f4-16",
           "name": "Wholesale / B2B pilot onderzoek (5 lokale winkels, NL/BE/DU)",
           "owner": "ali",
           "day": "D75",
-          "done": "",
-          "notes": "MEDIUM — Na 90 dgn traction is wholesale vaak 2x LTV met lagere CAC. Onderzocht, niet gecommit.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "MEDIUM — Na 90 dgn traction is wholesale vaak 2x LTV met lagere CAC. Onderzocht, niet gecommit.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f4-17",
           "name": "EU uitbreiding pack (vertalingen, douane, lokale payment)",
           "owner": "hermes",
           "day": "D80",
-          "done": "",
-          "notes": "MEDIUM — EU10 shopify markets staat, maar operationele EU-uitrol is niet gepland.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "MEDIUM — EU10 shopify markets staat, maar operationele EU-uitrol is niet gepland.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f4-18",
           "name": "Brand extension brainstorm (Kasori-adjacent: badkamer, tuin, dining)",
           "owner": "hermes",
           "day": "D82",
-          "done": "",
-          "notes": "LOW — Voor year-2 visie.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "LOW — Voor year-2 visie.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         }
       ]
     },
@@ -1703,153 +1881,170 @@
           "name": "Eindstand metrics review",
           "owner": "ali",
           "day": "D87",
-          "done": "Dashboard review",
-          "notes": "GROWTH targets",
-          "created_at": "2026-09-09T06:38:09Z"
+          "done": false,
+          "notes": "GROWTH targets\n[Status: Dashboard review]",
+          "created_at": "2026-09-09T06:38:09Z",
+          "doneNote": "Dashboard review"
         },
         {
           "id": "f5-2",
           "name": "Lessons learned doc (90 dgn)",
           "owner": "ali",
           "day": "D88",
-          "done": "5-pager",
-          "notes": "Wat werkte, wat niet",
-          "created_at": "2026-09-09T04:38:09Z"
+          "done": false,
+          "notes": "Wat werkte, wat niet\n[Status: 5-pager]",
+          "created_at": "2026-09-09T04:38:09Z",
+          "doneNote": "5-pager"
         },
         {
           "id": "f5-3",
           "name": "Updated roadmap v2.0 (volgende 90 dgn)",
           "owner": "hermes",
           "day": "D89",
-          "done": "Doc klaar",
-          "notes": "Voor 2e iteratie",
-          "created_at": "2026-09-09T02:38:09Z"
+          "done": false,
+          "notes": "Voor 2e iteratie\n[Status: Doc klaar]",
+          "created_at": "2026-09-09T02:38:09Z",
+          "doneNote": "Doc klaar"
         },
         {
           "id": "f5-4",
           "name": "Supplier scorecard (3 top)",
           "owner": "farshad",
           "day": "D88",
-          "done": "Scorecard",
-          "notes": "Voor renego",
-          "created_at": "2026-09-09T00:38:09Z"
+          "done": false,
+          "notes": "Voor renego\n[Status: Scorecard]",
+          "created_at": "2026-09-09T00:38:09Z",
+          "doneNote": "Scorecard"
         },
         {
           "id": "f5-5",
           "name": "Customer feedback analysis",
           "owner": "ali",
           "day": "D89",
-          "done": "Themes doc",
-          "notes": "",
-          "created_at": "2026-09-08T22:38:09Z"
+          "done": false,
+          "notes": "[Status: Themes doc]",
+          "created_at": "2026-09-08T22:38:09Z",
+          "doneNote": "Themes doc"
         },
         {
           "id": "f5-6",
           "name": "Compliance audit (volledige review)",
           "owner": "ali",
           "day": "D89",
-          "done": "Audit rapport",
-          "notes": "GPSR + EU",
-          "created_at": "2026-09-08T20:38:09Z"
+          "done": false,
+          "notes": "GPSR + EU\n[Status: Audit rapport]",
+          "created_at": "2026-09-08T20:38:09Z",
+          "doneNote": "Audit rapport"
         },
         {
           "id": "f5-7",
           "name": "Financial close-out (90 dgn P&L)",
           "owner": "kheibar",
           "day": "D90",
-          "done": "P&L statement",
-          "notes": "",
-          "created_at": "2026-09-08T18:38:09Z"
+          "done": false,
+          "notes": "[Status: P&L statement]",
+          "created_at": "2026-09-08T18:38:09Z",
+          "doneNote": "P&L statement"
         },
         {
           "id": "f5-8",
           "name": "Exit-potentieel assessment",
           "owner": "ali",
           "day": "D90",
-          "done": "1-pager",
-          "notes": "Voor investor pitch",
-          "created_at": "2026-09-08T16:38:09Z"
+          "done": false,
+          "notes": "Voor investor pitch\n[Status: 1-pager]",
+          "created_at": "2026-09-08T16:38:09Z",
+          "doneNote": "1-pager"
         },
         {
           "id": "f5-9",
           "name": "NL-belastingadvies call (DAC7)",
           "owner": "ali",
           "day": "D90+",
-          "done": "Consult gehad",
-          "notes": "Aanbevolen voor F5+",
-          "created_at": "2026-09-08T14:38:09Z"
+          "done": false,
+          "notes": "Aanbevolen voor F5+\n[Status: Consult gehad]",
+          "created_at": "2026-09-08T14:38:09Z",
+          "doneNote": "Consult gehad"
         },
         {
           "id": "f5-10",
           "name": "Influencer strategy (post-90 dgn)",
           "owner": "ali",
           "day": "D90+",
-          "done": "Plan klaar",
-          "notes": "Niet in 90-dgn scope",
-          "created_at": "2026-09-08T12:38:09Z"
+          "done": false,
+          "notes": "Niet in 90-dgn scope\n[Status: Plan klaar]",
+          "created_at": "2026-09-08T12:38:09Z",
+          "doneNote": "Plan klaar"
         },
         {
           "id": "f5-11",
           "name": "Operations playbook voor VA",
           "owner": "ali",
           "day": "D90+",
-          "done": "SOPs gebundeld",
-          "notes": "Voor toekomstige hires",
-          "created_at": "2026-09-08T10:38:09Z"
+          "done": false,
+          "notes": "Voor toekomstige hires\n[Status: SOPs gebundeld]",
+          "created_at": "2026-09-08T10:38:09Z",
+          "doneNote": "SOPs gebundeld"
         },
         {
           "id": "f5-12",
           "name": "Crisis runbook",
           "owner": "ali",
           "day": "D90+",
-          "done": "Recall/chargeback/supplier failure",
-          "notes": "Voor team",
-          "created_at": "2026-09-08T08:38:09Z"
+          "done": false,
+          "notes": "Voor team\n[Status: Recall/chargeback/supplier failure]",
+          "created_at": "2026-09-08T08:38:09Z",
+          "doneNote": "Recall/chargeback/supplier failure"
         },
         {
           "id": "f5-13",
           "name": "Year-2 strategic plan",
           "owner": "ali",
           "day": "D90+",
-          "done": "1-pager",
-          "notes": "€30k → €100k trajectory",
-          "created_at": "2026-09-08T06:38:09Z"
+          "done": false,
+          "notes": "€30k → €100k trajectory\n[Status: 1-pager]",
+          "created_at": "2026-09-08T06:38:09Z",
+          "doneNote": "1-pager"
         },
         {
           "id": "f5-14",
           "name": "Monthly business review template",
           "owner": "hermes",
           "day": "D88",
-          "done": "Template klaar",
-          "notes": "Voor maandelijkse cycles",
-          "created_at": "2026-09-08T04:38:09Z"
+          "done": false,
+          "notes": "Voor maandelijkse cycles\n[Status: Template klaar]",
+          "created_at": "2026-09-08T04:38:09Z",
+          "doneNote": "Template klaar"
         },
         {
           "id": "f5-15",
           "name": "Investor pitch deck v2 (post-traction)",
           "owner": "ali",
           "day": "D90+",
-          "done": "Deck klaar",
-          "notes": "Voor fundraising optie",
-          "created_at": "2026-09-08T02:38:09Z"
+          "done": false,
+          "notes": "Voor fundraising optie\n[Status: Deck klaar]",
+          "created_at": "2026-09-08T02:38:09Z",
+          "doneNote": "Deck klaar"
         },
         {
           "id": "f5-16",
           "name": "Mentor / advisor call (iemand die 2x €10k/mnd heeft gedaan)",
           "owner": "ali",
           "day": "D89",
-          "done": "",
-          "notes": "HIGH — Lessons learned heeft externe check nodig, anders herhaal je dezelfde fouten.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — Lessons learned heeft externe check nodig, anders herhaal je dezelfde fouten.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         },
         {
           "id": "f5-17",
           "name": "Persoonlijke health check (Ali - burnout signals, founder mode)",
           "owner": "ali",
           "day": "D90",
-          "done": "",
-          "notes": "HIGH — 90 dgn launch = burnout risico. Post-launch assessment voor jaar 2.",
-          "created_at": "2026-09-10T14:43:54.667670Z"
+          "done": false,
+          "notes": "HIGH — 90 dgn launch = burnout risico. Post-launch assessment voor jaar 2.\n[Status: ]",
+          "created_at": "2026-09-10T14:43:54.667670Z",
+          "doneNote": ""
         }
       ]
     }
