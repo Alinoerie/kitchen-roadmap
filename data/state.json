@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T09:42:18.729Z",
+  "lastSavedAt": "2026-09-11T09:42:20.200Z",
   "phases": [
     {
       "id": "f0",
@@ -95,7 +95,7 @@
             {
               "id": "st10",
               "text": "Documenteer alle credentials veilig in 1Password of Bitwarden: HK BR-nummer, incorporation number, bank login, secretary contact, IRD file number. Tag met \"Kasori HK Corp\". Gedeelde toegang voor alle 3 founders.",
-              "done": true,
+              "done": false,
               "title": "Documenteer credentials in 1Password"
             }
           ],
