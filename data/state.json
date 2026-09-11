@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "web-toggle-done",
-  "lastSavedAt": "2026-09-11T08:32:32.996Z",
+  "lastSavedBy": "web-set-task-owner",
+  "lastSavedAt": "2026-09-11T08:34:03.319Z",
   "phases": [
     {
       "id": "f0",
@@ -103,7 +103,7 @@
         {
           "id": "f0-9",
           "name": "Shopify master account aanmaken",
-          "owner": "farshad",
+          "owner": "ali",
           "day": "D0",
           "done": false,
           "notes": "Email + bank verify\n[Status: Account live]",
