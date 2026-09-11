@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "web-cycle-owner",
-  "lastSavedAt": "2026-09-11T07:27:13.918Z",
+  "lastSavedBy": "web-set-task-owner",
+  "lastSavedAt": "2026-09-11T07:42:53.499Z",
   "phases": [
     {
       "id": "f0",
@@ -27,7 +27,7 @@
         {
           "id": "f0-5",
           "name": "Payment provider keuze (na HK setup)",
-          "owner": "kheibar",
+          "owner": "farshad",
           "day": "D0",
           "done": false,
           "notes": "Default Shopify Payments\n[Status: Shopify Payments / Mollie / Stripe]",
