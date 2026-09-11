@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "web-set-task-owner",
-  "lastSavedAt": "2026-09-11T08:34:03.319Z",
+  "lastSavedBy": "web-new-task-modal",
+  "lastSavedAt": "2026-09-11T08:39:09.942Z",
   "phases": [
     {
       "id": "f0",
@@ -716,6 +716,15 @@
           ],
           "lastDayShiftedBy": "auto-rollforward",
           "lastDayShiftedAt": "2026-09-10T23:48:57.211Z"
+        },
+        {
+          "id": "f0-fy46",
+          "phase": "f0",
+          "name": "Test taak vanuit FAB",
+          "owner": "ali",
+          "day": "vandaag",
+          "done": false,
+          "dayHistory": []
         }
       ],
       "name": "Foundations"
