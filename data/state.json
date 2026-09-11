@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "kasori-enrich-all-195",
-  "lastSavedAt": "2026-09-11T18:00:00Z",
+  "lastSavedBy": "web-toggle-subtask",
+  "lastSavedAt": "2026-09-11T10:09:34.296Z",
   "phases": [
     {
       "id": "f0",
@@ -29,7 +29,7 @@
               "text": "Bepaal bedrijfsvorm: BR (Besloten Vennootschap) is standaard voor e-commerce — biedt aansprakelijkheidsbescherming en schaalbare equity-structuur. Sole proprietorship (eenmanszaak) is goedkoper maar persoonlijke aansprakelijkheid.",
               "url": "https://www.gov.hk/en/business/registration/",
               "urlLabel": "GovHK Business Registration",
-              "done": false,
+              "done": true,
               "title": "Bepaal bedrijfsvorm (BR vs eenmanszaak)"
             },
             {
@@ -37,14 +37,14 @@
               "text": "Check bedrijfsnaam beschikbaarheid via Hong Kong Companies Registry — unieke naam verplicht, geen overlap met bestaande entiteiten.",
               "url": "https://www.cr.gov.hk/crportal/cgi-bin/crlicname/regname.cgi",
               "urlLabel": "CR Name Search",
-              "done": false,
+              "done": true,
               "title": "Check bedrijfsnaam beschikbaarheid"
             },
             {
               "id": "st3",
               "text": "Verzamel documenten voor incorporation: paspoortkopieën van alle directors/shareholders, bewijs van geregistreerd adres in Hong Kong (geen postbus — fysiek adres vereist), en oprichtingsdocumenten (Articles of Association).",
               "doc": "Benodigd: paspoortkopieën van alle drie co-founders (Ali, Kheibar, Farshad), adresbewijs (huurcontract of utility bill HK), business description (~100 woorden).",
-              "done": false,
+              "done": true,
               "title": "Verzamel documenten voor incorporation"
             },
             {
@@ -8030,5 +8030,6 @@
       ],
       "name": "Compounding"
     }
-  ]
+  ],
+  "_rollforwardMoved": 35
 }
