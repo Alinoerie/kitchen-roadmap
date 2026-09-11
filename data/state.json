@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T09:42:16.771Z",
+  "lastSavedAt": "2026-09-11T09:42:18.729Z",
   "phases": [
     {
       "id": "f0",
@@ -89,7 +89,7 @@
             {
               "id": "st9",
               "text": "Setup corporate seal + company chops (round + signature chop) — wettelijk vereist voor officiële documenten in HK.",
-              "done": true,
+              "done": false,
               "title": "Setup corporate seal + chops"
             },
             {
