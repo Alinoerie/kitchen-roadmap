@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "kasori-step3-doc-fix",
-  "lastSavedAt": "2026-09-11T15:30:00Z",
+  "lastSavedBy": "kasori-bubble-titles",
+  "lastSavedAt": "2026-09-11T16:00:00Z",
   "phases": [
     {
       "id": "f0",
@@ -29,64 +29,74 @@
               "text": "Bepaal bedrijfsvorm: BR (Besloten Vennootschap) is standaard voor e-commerce — biedt aansprakelijkheidsbescherming en schaalbare equity-structuur. Sole proprietorship (eenmanszaak) is goedkoper maar persoonlijke aansprakelijkheid.",
               "url": "https://www.gov.hk/en/business/registration/",
               "urlLabel": "GovHK Business Registration",
-              "done": false
+              "done": false,
+              "title": "Bepaal bedrijfsvorm (BR vs eenmanszaak)"
             },
             {
               "id": "st2",
               "text": "Check bedrijfsnaam beschikbaarheid via Hong Kong Companies Registry — unieke naam verplicht, geen overlap met bestaande entiteiten.",
               "url": "https://www.cr.gov.hk/crportal/cgi-bin/crlicname/regname.cgi",
               "urlLabel": "CR Name Search",
-              "done": false
+              "done": false,
+              "title": "Check bedrijfsnaam beschikbaarheid"
             },
             {
               "id": "st3",
               "text": "Verzamel documenten voor incorporation: paspoortkopieën van alle directors/shareholders, bewijs van geregistreerd adres in Hong Kong (geen postbus — fysiek adres vereist), en oprichtingsdocumenten (Articles of Association).",
               "doc": "Benodigd: paspoortkopieën van alle drie co-founders (Ali, Kheibar, Farshad), adresbewijs (huurcontract of utility bill HK), business description (~100 woorden).",
-              "done": false
+              "done": false,
+              "title": "Verzamel documenten voor incorporation"
             },
             {
               "id": "st4",
               "text": "Schakel een Hong Kong company secretary in — verplicht vanaf oprichting. Aanbevolen: TMF Group, Tricor, of GetCo. Budget €800-2000/jaar. Alle drie co-founders tekenen het aanvraagformulier.",
               "url": "https://www.tmf-group.com/en/services/corporate-services/hong-kong-company-secretarial-services",
               "urlLabel": "TMF Group HK",
-              "done": false
+              "done": false,
+              "title": "Schakel Hong Kong company secretary in"
             },
             {
               "id": "st5",
               "text": "Open zakelijke bankrekening in Hong Kong — HSBC Business, Hang Seng, of DBS. Verwacht 4-8 weken doorlooptijd, vaak persoonlijk bezoek vereist voor KYC. Alle drie co-founders moeten aanwezig zijn bij eerste account opening.",
               "doc": "Benodigd: incorporation certificate, business registration certificate, articles of association, paspoort Ali, residence proof.",
-              "done": false
+              "done": false,
+              "title": "Open zakelijke bankrekening in Hong Kong"
             },
             {
               "id": "st6",
               "text": "Registreer voor Business Registration Certificate (BR) bij Inland Revenue Department binnen 1 maand na incorporation — anders boete.",
               "url": "https://www.ird.gov.hk/eng/tax/breg.htm",
               "urlLabel": "IRD Business Registration",
-              "done": false
+              "done": false,
+              "title": "Registreer Business Registration Certificate"
             },
             {
               "id": "st7",
               "text": "Vraag Profits Tax / Salaries Tax registration aan bij IRD — elke HK entiteit moet file, ook als 0 omzet. Eerste return 18 maanden na oprichting.",
               "url": "https://www.ird.gov.hk/eng/tax/pst.htm",
               "urlLabel": "IRD Profits Tax",
-              "done": false
+              "done": false,
+              "title": "Registreer voor Profits Tax / Salaries Tax"
             },
             {
               "id": "st8",
               "text": "Activeer MPF (Mandatory Provident Fund) als je werknemers aanneemt — 5% werknemer + 5% werkgever bijdrage, cap HK$1500/maand per persoon. Of wacht tot F0-7 / F1 Hire fase.",
               "url": "https://www.mpfahk.org/",
               "urlLabel": "MPFA",
-              "done": false
+              "done": false,
+              "title": "Activeer MPF (als je werknemers aanneemt)"
             },
             {
               "id": "st9",
               "text": "Setup corporate seal + company chops (round + signature chop) — wettelijk vereist voor officiële documenten in HK.",
-              "done": false
+              "done": false,
+              "title": "Setup corporate seal + chops"
             },
             {
               "id": "st10",
               "text": "Documenteer alle credentials veilig in 1Password of Bitwarden: HK BR-nummer, incorporation number, bank login, secretary contact, IRD file number. Tag met \"Kasori HK Corp\". Gedeelde toegang voor alle 3 founders.",
-              "done": false
+              "done": false,
+              "title": "Documenteer credentials in 1Password"
             }
           ],
           "subtasksDocs": [
@@ -101,159 +111,144 @@
           "id": "f0-5",
           "name": "Payment provider keuze (na HK setup)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-5",
           "done": false,
           "notes": "Default Shopify Payments\n[Status: Shopify Payments / Mollie / Stripe]",
           "created_at": "2026-09-03T22:38:09Z",
           "doneNote": "Shopify Payments / Mollie / Stripe",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-5",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-6",
           "name": "Shopify Payments activeren",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "Verify payout\n[Status: HK IBAN gekoppeld]",
           "created_at": "2026-09-03T20:38:09Z",
           "doneNote": "HK IBAN gekoppeld",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-7",
           "name": "VAT/IOSS check voor EU verkopen",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-5",
           "done": false,
           "notes": "HK seller + EU10 = douane-vragen\n[Status: Strategy gedocumenteerd]",
           "created_at": "2026-09-03T18:38:09Z",
           "doneNote": "Strategy gedocumenteerd",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-5",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-8",
           "name": "Currency hedging EUR/HKD/CNY",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "Exposure bij €100k+ volume\n[Status: Strategy + tool]",
           "created_at": "2026-09-03T16:38:09Z",
           "doneNote": "Strategy + tool",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-9",
           "name": "Shopify master account aanmaken",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-7",
           "done": false,
           "notes": "Email + bank verify\n[Status: Account live]",
           "created_at": "2026-09-03T14:38:09Z",
           "doneNote": "Account live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-7",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
               "text": "Ga naar Shopify.com en klik \"Start free trial\" — vul kasori-cookware.myshopify.com of een ander beschikbaar subdomein in.",
               "url": "https://www.shopify.com/free-trial",
               "urlLabel": "Shopify startpagina",
-              "done": false
+              "done": false,
+              "title": "Start Shopify free trial"
             },
             {
               "id": "st2",
               "text": "Kies regio: Nederland (EU) → currency EUR, talen: Nederlands + Engels. Dit bepaalt later btw-regels en shipping zones.",
-              "done": false
+              "done": false,
+              "title": "Kies regio (NL/EU) + currency"
             },
             {
               "id": "st3",
               "text": "Vul bedrijfsgegevens in (Stap 3/4 van setup wizard): bedrijfsnaam = \"Kasori Cookware\", adres = het HK BR-adres of je NL-werkadres, telefoonnummer Ali (primary contact voor SMS-2FA tijdens setup).",
               "doc": "Benodigd: HK BR-nummer (uit F0-4), vestigingsadres, telefoonnummer voor SMS-2FA.",
-              "done": false
+              "done": false,
+              "title": "Vul bedrijfsgegevens in"
             },
             {
               "id": "st4",
               "text": "Activeer 2FA via SMS + Authenticator app (1Password TOTP) — verplicht voor admin accounts. Sla backup codes op.",
               "url": "https://help.shopify.com/en/manual/your-account/account-settings/security",
               "urlLabel": "Shopify Security Settings",
-              "done": false
+              "done": false,
+              "title": "Activeer 2FA (SMS + Authenticator)"
             },
             {
               "id": "st5",
               "text": "Setup staff accounts voor alle drie co-founders (Ali, Kheibar, Farshad). Rol: Admin voor founders. Stuur uitnodiging via Settings → Team.",
               "url": "https://admin.shopify.com/settings/team",
               "urlLabel": "Shopify Team",
-              "done": false
+              "done": false,
+              "title": "Setup staff accounts voor 3 co-founders"
             },
             {
               "id": "st6",
               "text": "Kies Shopify plan: Basic Shopify €39/mnd (geschikt voor <10k orders/maand) of Shopify €105/mnd voor staff accounts + gift cards. Begin met Basic, upgrade bij 100+ orders/dag.",
               "url": "https://www.shopify.com/pricing",
               "urlLabel": "Shopify Plans",
-              "done": false
+              "done": false,
+              "title": "Kies Shopify plan (Basic of Shopify)"
             },
             {
               "id": "st7",
               "text": "Configureer Shopify Payments als betaalprovider — vereist Stripe Connect setup met HK bedrijf (of NL bankrekening). Kies iDEAL + Bancontact + creditcard voor EU.",
               "url": "https://help.shopify.com/en/manual/payments/shopify-payments",
               "urlLabel": "Shopify Payments Setup",
-              "done": false
+              "done": false,
+              "title": "Configureer Shopify Payments"
             },
             {
               "id": "st8",
               "text": "Activeer Markets voor EU + UK + US — bij F2 launch voor internationale verzending. Vraagt om btw-nummers per EU-land (zie F0-7 VAT/IOSS).",
               "url": "https://help.shopify.com/en/manual/markets",
               "urlLabel": "Shopify Markets",
-              "done": false
+              "done": false,
+              "title": "Activeer Markets (EU + UK + US)"
             },
             {
               "id": "st9",
               "text": "Setup staff permissions: Ali (Co-Founder · Product) = full Admin, Farshad (Co-Founder · Operations) = Products + Inventory, Kheibar (Co-Founder · Finance) = Reports + Finances only. Hermes (AI Co-founder) = geen staff account, alleen API access.",
-              "done": false
+              "done": false,
+              "title": "Setup staff permissions per rol"
             },
             {
               "id": "st10",
               "text": "Documenteer in 1Password: admin.shopify.com URL, alle staff logins, API token (te genereren in Settings → Apps), store ID, plan expiry. Tag \"Kasori Shopify Admin\".",
-              "done": false
+              "done": false,
+              "title": "Documenteer admin credentials in 1Password"
             }
           ],
           "subtasksDocs": [
@@ -269,20 +264,15 @@
           "id": "f0-10",
           "name": "Shopify Markets setup (EU10)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-6",
           "done": false,
           "notes": "Multi-currency EUR + GBP\n[Status: 10 landen actief]",
           "created_at": "2026-09-03T12:38:09Z",
           "doneNote": "10 landen actief",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-6",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-11",
@@ -302,343 +292,253 @@
           "id": "f0-12",
           "name": "Homepage design + copy",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "Brand voice input van Ali\n[Status: Page live]",
           "created_at": "2026-09-03T08:38:09Z",
           "doneNote": "Page live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-13",
           "name": "About, Contact, FAQ pages",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "Multi-language ready\n[Status: Pages live]",
           "created_at": "2026-09-03T06:38:09Z",
           "doneNote": "Pages live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-14",
           "name": "Trust badges + design elements",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "SSL, returns, secure checkout\n[Status: Live]",
           "created_at": "2026-09-03T04:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-15",
           "name": "GPSR Responsible Person service kiezen",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-5",
           "done": false,
           "notes": "Verplicht EU 2024\n[Status: Service getekend]",
           "created_at": "2026-09-03T02:38:09Z",
           "doneNote": "Service getekend",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-5",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-16",
           "name": "Privacy Policy (Shopify + Hermes)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "HK seller + EU10 klanten\n[Status: Live]",
           "created_at": "2026-09-03T00:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-17",
           "name": "Terms of Service (HK seller disclaimers)",
           "owner": "ali",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "Dropship disclaimer\n[Status: Live]",
           "created_at": "2026-09-02T22:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-18",
           "name": "Cookie Policy + GDPR banner (7 talen)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "10 talen EU\n[Status: Live]",
           "created_at": "2026-09-02T20:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-19",
           "name": "Returns policy (14 dgn, wij betalen)",
           "owner": "ali",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "EU wettelijk minimum | MERGED 2026-09-10 (audit): omvat returns policy 14 dgn (origineel f0-19) + returns portal opzetten Returnless/Loop/Shopify Afterpay (f0-38). Eén workflow: policy opstellen + portal activeren. Owner: Hermes.\n[Status: Live]",
           "created_at": "2026-09-02T18:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-20",
           "name": "AVB verzekering (food-contact keukengerij)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "€2M dekking aanbevolen\n[Status: Polis actief]",
           "created_at": "2026-09-02T16:38:09Z",
           "doneNote": "Polis actief",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-21",
           "name": "Trademark search (EUIPO + WIPO + categorie)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "Vóór brand naam lock-in\n[Status: Geen conflicten]",
           "created_at": "2026-09-02T14:38:09Z",
           "doneNote": "Geen conflicten",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-22",
           "name": "Domain WHOIS privacy setup",
           "owner": "hermes",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "HK adres niet publiek\n[Status: Privacy enabled]",
           "created_at": "2026-09-02T12:38:09Z",
           "doneNote": "Privacy enabled",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-23",
           "name": "Email deliverability (SPF/DKIM/DMARC)",
           "owner": "hermes",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "Voor Klaviyo + order emails\n[Status: DNS records live]",
           "created_at": "2026-09-02T10:38:09Z",
           "doneNote": "DNS records live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-24",
           "name": "Dispute/chargeback handling SOP",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-1",
           "done": false,
           "notes": "Wie doet wat binnen 24h\n[Status: SOP + owner aangewezen]",
           "created_at": "2026-09-02T08:38:09Z",
           "doneNote": "SOP + owner aangewezen",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-1",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-25",
           "name": "Shopify Inbox setup + chatbot widget",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "Multi-language templates\n[Status: Chat widget live]",
           "created_at": "2026-09-02T06:38:09Z",
           "doneNote": "Chat widget live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-26",
           "name": "CS reply templates × 7 talen",
           "owner": "hermes",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "NL/EN/DE/FR/IT/ES/PL\n[Status: 10 templates × 7 talen]",
           "created_at": "2026-09-02T04:38:09Z",
           "doneNote": "10 templates × 7 talen",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-27",
           "name": "24h ticket response SLA instellen",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-1",
           "done": false,
           "notes": "Ali/Kheibar/Farshad rotation\n[Status: Policy live]",
           "created_at": "2026-09-02T02:38:09Z",
           "doneNote": "Policy live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-1",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-28",
           "name": "GA4 + Meta Pixel setup",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "Test purchase event\n[Status: Events firing]",
           "created_at": "2026-09-02T00:38:09Z",
           "doneNote": "Events firing",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-29",
           "name": "Klaviyo account + signup forms",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-1",
           "done": false,
           "notes": "Free tier eerst\n[Status: Forms live]",
           "created_at": "2026-09-01T22:38:09Z",
           "doneNote": "Forms live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-1",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-30",
@@ -658,210 +558,155 @@
           "id": "f0-31",
           "name": "Dropship workflow SOP",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-1",
           "done": false,
           "notes": "Order flow + quality check\n[Status: SOP klaar]",
           "created_at": "2026-09-01T18:38:09Z",
           "doneNote": "SOP klaar",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-1",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-32",
           "name": "Backup supplier per top-3 SKU",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "Risk mitigation\n[Status: Backup identified]",
           "created_at": "2026-09-01T16:38:09Z",
           "doneNote": "Backup identified",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-33",
           "name": "ICP / buyer persona × 3 segmenten (EU25-45 home cook)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "CRITICAL — Geen doelgroep = geen ads die werken. Voedt ad copy, supplier pick, listing volgorde.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-34",
           "name": "Brand promise / value prop (1 zin, <12 woorden)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "CRITICAL — Zonder dit kan logo/design/copy niet gemaakt worden. Alles hangt af van 1 zin.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-35",
           "name": "Logistics 3PL shortlist (PostNL / DHL / 3PL hub NL)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "HIGH — Drop ship China = 7-14d. 3PL buffer of EU warehouse is table stakes voor €10k/mnd.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-36",
           "name": "Carrier SLA onderzoek (transit times, fail rate, returns ease)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-5",
           "done": false,
           "notes": "HIGH — Wave 1 €35/d = direct afhankelijk van conversion rate; carrier fail = negatieve reviews na 2 orders.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-5",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-37",
           "name": "HACCP / food-contact compliance per materiaal (LFGB / FDA)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-5",
           "done": false,
           "notes": "CRITICAL — AVB verzekering f0-20 dekt aansprakelijkheid, maar HACCP/LFGB materiaal-cert is verplicht voor food-contact keukengerij. Zonder = recall risico.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-5",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-39",
           "name": "CX tool keuze (Gorgias vs Zendesk vs Shopify Inbox alleen)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "HIGH — Inbox widget f0-25 staat, maar geen tool-decision. 7 talen → Gorgias macros bespaart 4u/dag.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-40",
           "name": "Tracking & UTM taxonomy (source/medium/campaign/content standaard)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "CRITICAL — Zonder UTM discipline is attribution onmogelijk; kill rules werken niet. Wave 1 budget €35/d weggegooid geld.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-41",
           "name": "Pixel event taxonomy (ViewContent / AddToCart / InitiateCheckout / Purchase + CAPI)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "CRITICAL — iOS 14.5+ = CAPI vereist voor Meta ads. Zonder server-side events trainen ads op junk.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         },
         {
           "id": "f0-42",
           "name": "Insurance scope review (product liability + carriage + cyber)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "HIGH — AVB f0-20 alleen. HK → EU drop ship heeft carriage liability risico; cyber voor Shopify/Klaviyo data.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T09:20:10.910Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T09:20:10.910Z"
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null
         }
       ],
       "name": "Foundations"
@@ -892,50 +737,58 @@
               "text": "Open Figma board \"Kasori Brand V1\" — verzamel 30-50 visuele referenties: materialen (gietijzer, roestvrij staal, hout), keukenfoto's (natural light, candid), kleurenpaletten (warm earth tones + neutrals). Gebruik Pinterest moodboard \"Cookware Inspiration\" als basis.",
               "url": "https://www.figma.com/",
               "urlLabel": "Figma",
-              "done": false
+              "done": false,
+              "title": "Verzamel visuele referenties in Figma"
             },
             {
               "id": "st2",
               "text": "Bestudeer top-5 concurrenten: Our Place, Made In, Misen, Great Jones, Field Company. Analyseer hun hero-product photography, kleurverhoudingen, typography, en copy voice. Schrijf 1-pagina insights doc.",
               "url": "https://www.fromourplace.com/",
               "urlLabel": "Our Place",
-              "done": false
+              "done": false,
+              "title": "Bestudeer top-5 concurrenten"
             },
             {
               "id": "st3",
               "text": "Bepaal kleurenpalet (3-5 kleuren): primary HEARTH gold (#C99A3B), neutrals (warm cream #FBFBFA, charcoal #1B1C1A), accent (terra-cotta of olive). Test kleurcontrast voor product photography.",
-              "done": false
+              "done": false,
+              "title": "Bepaal kleurenpalet (3-5 kleuren)"
             },
             {
               "id": "st4",
               "text": "Kies typography pairing: display font (bijv. Cabinet Grotesk of Cormorant Garamond) voor headings + body font (DM Sans of Inter) voor product copy + JetBrains Mono voor specs. Test leesbaarheid op 16px en 32px.",
               "url": "https://fonts.google.com/",
               "urlLabel": "Google Fonts",
-              "done": false
+              "done": false,
+              "title": "Kies typography pairing"
             },
             {
               "id": "st5",
               "text": "Schrijf brand voice document (1-2 pagina): toon (warm, knowledgeable, no-BS), 10 voorbeeld-zinnen, 5 anti-patterns. Bijv. \"Built for the long cook\" als tagline alternatief voor \"Premium Cookware\".",
-              "done": false
+              "done": false,
+              "title": "Schrijf brand voice document"
             },
             {
               "id": "st6",
               "text": "Maak moodboard collage in Figma — 3 slides: (1) Materialen & textuur, (2) Kleur & sfeer, (3) Photography stijl. Voeg 3-5 beelden per slide toe met korte annotaties (\"matte black, overhead, daylight\").",
               "url": "https://www.figma.com/templates/",
               "urlLabel": "Figma templates",
-              "done": false
+              "done": false,
+              "title": "Maak moodboard collage in Figma"
             },
             {
               "id": "st7",
               "text": "Review met Farshad (Ops) + Designer — verzamel feedback in Figma comments, doe 1-2 iteraties. Deadline: einde week.",
-              "done": false
+              "done": false,
+              "title": "Review met Farshad + Designer"
             },
             {
               "id": "st8",
               "text": "Exporteer finale moodboard als PDF — deel in Notion pagina \"Kasori Brand Book V1\" met link naar Figma board. Tag voor team.",
               "url": "https://www.notion.so/",
               "urlLabel": "Notion",
-              "done": false
+              "done": false,
+              "title": "Exporteer finale moodboard als PDF"
             }
           ],
           "subtasksDocs": [
