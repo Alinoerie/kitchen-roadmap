@@ -111,15 +111,20 @@
           "id": "f0-5",
           "name": "Payment provider keuze (na HK setup)",
           "owner": "kheibar",
-          "day": "D-5",
+          "day": "D0",
           "done": false,
           "notes": "Default Shopify Payments\n[Status: Shopify Payments / Mollie / Stripe]",
           "created_at": "2026-09-03T22:38:09Z",
           "doneNote": "Shopify Payments / Mollie / Stripe",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-5",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -169,15 +174,20 @@
           "id": "f0-6",
           "name": "Shopify Payments activeren",
           "owner": "kheibar",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "Verify payout\n[Status: HK IBAN gekoppeld]",
           "created_at": "2026-09-03T20:38:09Z",
           "doneNote": "HK IBAN gekoppeld",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -215,15 +225,20 @@
           "id": "f0-7",
           "name": "VAT/IOSS check voor EU verkopen",
           "owner": "kheibar",
-          "day": "D-5",
+          "day": "D0",
           "done": false,
           "notes": "HK seller + EU10 = douane-vragen\n[Status: Strategy gedocumenteerd]",
           "created_at": "2026-09-03T18:38:09Z",
           "doneNote": "Strategy gedocumenteerd",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-5",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -273,15 +288,20 @@
           "id": "f0-8",
           "name": "Currency hedging EUR/HKD/CNY",
           "owner": "farshad",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "Exposure bij €100k+ volume\n[Status: Strategy + tool]",
           "created_at": "2026-09-03T16:38:09Z",
           "doneNote": "Strategy + tool",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -319,15 +339,20 @@
           "id": "f0-9",
           "name": "Shopify master account aanmaken",
           "owner": "farshad",
-          "day": "D-7",
+          "day": "D0",
           "done": false,
           "notes": "Email + bank verify\n[Status: Account live]",
           "created_at": "2026-09-03T14:38:09Z",
           "doneNote": "Account live",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-7",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -416,15 +441,20 @@
           "id": "f0-10",
           "name": "Shopify Markets setup (EU10)",
           "owner": "farshad",
-          "day": "D-6",
+          "day": "D0",
           "done": false,
           "notes": "Multi-currency EUR + GBP\n[Status: 10 landen actief]",
           "created_at": "2026-09-03T12:38:09Z",
           "doneNote": "10 landen actief",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-6",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -520,15 +550,20 @@
           "id": "f0-12",
           "name": "Homepage design + copy",
           "owner": "kheibar",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "Brand voice input van Ali\n[Status: Page live]",
           "created_at": "2026-09-03T08:38:09Z",
           "doneNote": "Page live",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -572,15 +607,20 @@
           "id": "f0-13",
           "name": "About, Contact, FAQ pages",
           "owner": "kheibar",
-          "day": "D-2",
+          "day": "D0",
           "done": false,
           "notes": "Multi-language ready\n[Status: Pages live]",
           "created_at": "2026-09-03T06:38:09Z",
           "doneNote": "Pages live",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-2",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -618,15 +658,20 @@
           "id": "f0-14",
           "name": "Trust badges + design elements",
           "owner": "kheibar",
-          "day": "D-2",
+          "day": "D0",
           "done": false,
           "notes": "SSL, returns, secure checkout\n[Status: Live]",
           "created_at": "2026-09-03T04:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-2",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -664,15 +709,20 @@
           "id": "f0-15",
           "name": "GPSR Responsible Person service kiezen",
           "owner": "farshad",
-          "day": "D-5",
+          "day": "D0",
           "done": false,
           "notes": "Verplicht EU 2024\n[Status: Service getekend]",
           "created_at": "2026-09-03T02:38:09Z",
           "doneNote": "Service getekend",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-5",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -722,15 +772,20 @@
           "id": "f0-16",
           "name": "Privacy Policy (Shopify + Hermes)",
           "owner": "farshad",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "HK seller + EU10 klanten\n[Status: Live]",
           "created_at": "2026-09-03T00:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -780,15 +835,20 @@
           "id": "f0-17",
           "name": "Terms of Service (HK seller disclaimers)",
           "owner": "ali",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "Dropship disclaimer\n[Status: Live]",
           "created_at": "2026-09-02T22:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -832,15 +892,20 @@
           "id": "f0-18",
           "name": "Cookie Policy + GDPR banner (7 talen)",
           "owner": "farshad",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "10 talen EU\n[Status: Live]",
           "created_at": "2026-09-02T20:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -884,15 +949,20 @@
           "id": "f0-19",
           "name": "Returns policy (14 dgn, wij betalen)",
           "owner": "ali",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "EU wettelijk minimum | MERGED 2026-09-10 (audit): omvat returns policy 14 dgn (origineel f0-19) + returns portal opzetten Returnless/Loop/Shopify Afterpay (f0-38). Eén workflow: policy opstellen + portal activeren. Owner: Hermes.\n[Status: Live]",
           "created_at": "2026-09-02T18:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -936,15 +1006,20 @@
           "id": "f0-20",
           "name": "AVB verzekering (food-contact keukengerij)",
           "owner": "kheibar",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "€2M dekking aanbevolen\n[Status: Polis actief]",
           "created_at": "2026-09-02T16:38:09Z",
           "doneNote": "Polis actief",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -994,15 +1069,20 @@
           "id": "f0-21",
           "name": "Trademark search (EUIPO + WIPO + categorie)",
           "owner": "kheibar",
-          "day": "D-2",
+          "day": "D0",
           "done": false,
           "notes": "Vóór brand naam lock-in\n[Status: Geen conflicten]",
           "created_at": "2026-09-02T14:38:09Z",
           "doneNote": "Geen conflicten",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-2",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1052,15 +1132,20 @@
           "id": "f0-22",
           "name": "Domain WHOIS privacy setup",
           "owner": "hermes",
-          "day": "D-2",
+          "day": "D0",
           "done": false,
           "notes": "HK adres niet publiek\n[Status: Privacy enabled]",
           "created_at": "2026-09-02T12:38:09Z",
           "doneNote": "Privacy enabled",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-2",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1098,15 +1183,20 @@
           "id": "f0-23",
           "name": "Email deliverability (SPF/DKIM/DMARC)",
           "owner": "hermes",
-          "day": "D-2",
+          "day": "D0",
           "done": false,
           "notes": "Voor Klaviyo + order emails\n[Status: DNS records live]",
           "created_at": "2026-09-02T10:38:09Z",
           "doneNote": "DNS records live",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-2",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1150,15 +1240,20 @@
           "id": "f0-24",
           "name": "Dispute/chargeback handling SOP",
           "owner": "kheibar",
-          "day": "D-1",
+          "day": "D0",
           "done": false,
           "notes": "Wie doet wat binnen 24h\n[Status: SOP + owner aangewezen]",
           "created_at": "2026-09-02T08:38:09Z",
           "doneNote": "SOP + owner aangewezen",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-1",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1202,15 +1297,20 @@
           "id": "f0-25",
           "name": "Shopify Inbox setup + chatbot widget",
           "owner": "farshad",
-          "day": "D-2",
+          "day": "D0",
           "done": false,
           "notes": "Multi-language templates\n[Status: Chat widget live]",
           "created_at": "2026-09-02T06:38:09Z",
           "doneNote": "Chat widget live",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-2",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1254,15 +1354,20 @@
           "id": "f0-26",
           "name": "CS reply templates × 7 talen",
           "owner": "hermes",
-          "day": "D-2",
+          "day": "D0",
           "done": false,
           "notes": "NL/EN/DE/FR/IT/ES/PL\n[Status: 10 templates × 7 talen]",
           "created_at": "2026-09-02T04:38:09Z",
           "doneNote": "10 templates × 7 talen",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-2",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1306,15 +1411,20 @@
           "id": "f0-27",
           "name": "24h ticket response SLA instellen",
           "owner": "kheibar",
-          "day": "D-1",
+          "day": "D0",
           "done": false,
           "notes": "Ali/Kheibar/Farshad rotation\n[Status: Policy live]",
           "created_at": "2026-09-02T02:38:09Z",
           "doneNote": "Policy live",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-1",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1358,15 +1468,20 @@
           "id": "f0-28",
           "name": "GA4 + Meta Pixel setup",
           "owner": "kheibar",
-          "day": "D-2",
+          "day": "D0",
           "done": false,
           "notes": "Test purchase event\n[Status: Events firing]",
           "created_at": "2026-09-02T00:38:09Z",
           "doneNote": "Events firing",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-2",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1416,15 +1531,20 @@
           "id": "f0-29",
           "name": "Klaviyo account + signup forms",
           "owner": "kheibar",
-          "day": "D-1",
+          "day": "D0",
           "done": false,
           "notes": "Free tier eerst\n[Status: Forms live]",
           "created_at": "2026-09-01T22:38:09Z",
           "doneNote": "Forms live",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-1",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1532,15 +1652,20 @@
           "id": "f0-31",
           "name": "Dropship workflow SOP",
           "owner": "farshad",
-          "day": "D-1",
+          "day": "D0",
           "done": false,
           "notes": "Order flow + quality check\n[Status: SOP klaar]",
           "created_at": "2026-09-01T18:38:09Z",
           "doneNote": "SOP klaar",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-1",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1590,15 +1715,20 @@
           "id": "f0-32",
           "name": "Backup supplier per top-3 SKU",
           "owner": "farshad",
-          "day": "D-2",
+          "day": "D0",
           "done": false,
           "notes": "Risk mitigation\n[Status: Backup identified]",
           "created_at": "2026-09-01T16:38:09Z",
           "doneNote": "Backup identified",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-2",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1642,15 +1772,20 @@
           "id": "f0-33",
           "name": "ICP / buyer persona × 3 segmenten (EU25-45 home cook)",
           "owner": "farshad",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "CRITICAL — Geen doelgroep = geen ads die werken. Voedt ad copy, supplier pick, listing volgorde.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1694,15 +1829,20 @@
           "id": "f0-34",
           "name": "Brand promise / value prop (1 zin, <12 woorden)",
           "owner": "kheibar",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "CRITICAL — Zonder dit kan logo/design/copy niet gemaakt worden. Alles hangt af van 1 zin.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1740,15 +1880,20 @@
           "id": "f0-35",
           "name": "Logistics 3PL shortlist (PostNL / DHL / 3PL hub NL)",
           "owner": "farshad",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "HIGH — Drop ship China = 7-14d. 3PL buffer of EU warehouse is table stakes voor €10k/mnd.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1792,15 +1937,20 @@
           "id": "f0-36",
           "name": "Carrier SLA onderzoek (transit times, fail rate, returns ease)",
           "owner": "farshad",
-          "day": "D-5",
+          "day": "D0",
           "done": false,
           "notes": "HIGH — Wave 1 €35/d = direct afhankelijk van conversion rate; carrier fail = negatieve reviews na 2 orders.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-5",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1844,15 +1994,20 @@
           "id": "f0-37",
           "name": "HACCP / food-contact compliance per materiaal (LFGB / FDA)",
           "owner": "kheibar",
-          "day": "D-5",
+          "day": "D0",
           "done": false,
           "notes": "CRITICAL — AVB verzekering f0-20 dekt aansprakelijkheid, maar HACCP/LFGB materiaal-cert is verplicht voor food-contact keukengerij. Zonder = recall risico.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-5",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1902,15 +2057,20 @@
           "id": "f0-39",
           "name": "CX tool keuze (Gorgias vs Zendesk vs Shopify Inbox alleen)",
           "owner": "kheibar",
-          "day": "D-2",
+          "day": "D0",
           "done": false,
           "notes": "HIGH — Inbox widget f0-25 staat, maar geen tool-decision. 7 talen → Gorgias macros bespaart 4u/dag.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-2",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -1954,15 +2114,20 @@
           "id": "f0-40",
           "name": "Tracking & UTM taxonomy (source/medium/campaign/content standaard)",
           "owner": "farshad",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "CRITICAL — Zonder UTM discipline is attribution onmogelijk; kill rules werken niet. Wave 1 budget €35/d weggegooid geld.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -2012,15 +2177,20 @@
           "id": "f0-41",
           "name": "Pixel event taxonomy (ViewContent / AddToCart / InitiateCheckout / Purchase + CAPI)",
           "owner": "kheibar",
-          "day": "D-3",
+          "day": "D0",
           "done": false,
           "notes": "CRITICAL — iOS 14.5+ = CAPI vereist voor Meta ads. Zonder server-side events trainen ads op junk.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-3",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
@@ -2070,15 +2240,20 @@
           "id": "f0-42",
           "name": "Insurance scope review (product liability + carriage + cyber)",
           "owner": "farshad",
-          "day": "D-2",
+          "day": "D0",
           "done": false,
           "notes": "HIGH — AVB f0-20 alleen. HK → EU drop ship heeft carriage liability risico; cyber voor Shopify/Klaviyo data.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [],
-          "lastDayShiftedBy": null,
-          "lastDayShiftedAt": null,
+          "dayHistory": [
+            {
+              "from": "D-2",
+              "at": "2026-09-11T10:09:08.048Z"
+            }
+          ],
+          "lastDayShiftedBy": "auto-rollforward",
+          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
           "subtasks": [
             {
               "id": "st1",
