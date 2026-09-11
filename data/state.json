@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T09:36:20.427Z",
+  "lastSavedAt": "2026-09-11T09:42:12.833Z",
   "phases": [
     {
       "id": "f0",
@@ -67,7 +67,7 @@
               "text": "Registreer voor Business Registration Certificate (BR) bij Inland Revenue Department binnen 1 maand na incorporation — anders boete.",
               "url": "https://www.ird.gov.hk/eng/tax/breg.htm",
               "urlLabel": "IRD Business Registration",
-              "done": true,
+              "done": false,
               "title": "Registreer Business Registration Certificate"
             },
             {
