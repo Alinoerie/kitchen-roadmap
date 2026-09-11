@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T09:34:42.908Z",
+  "lastSavedAt": "2026-09-11T09:36:16.904Z",
   "phases": [
     {
       "id": "f0",
@@ -59,7 +59,7 @@
               "id": "st5",
               "text": "Open zakelijke bankrekening in Hong Kong — HSBC Business, Hang Seng, of DBS. Verwacht 4-8 weken doorlooptijd, vaak persoonlijk bezoek vereist voor KYC. Alle drie co-founders moeten aanwezig zijn bij eerste account opening.",
               "doc": "Benodigd: incorporation certificate, business registration certificate, articles of association, paspoort Ali, residence proof.",
-              "done": true,
+              "done": false,
               "title": "Open zakelijke bankrekening in Hong Kong"
             },
             {
