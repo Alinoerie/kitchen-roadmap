@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-cycle-owner",
-  "lastSavedAt": "2026-09-11T07:27:12.756Z",
+  "lastSavedAt": "2026-09-11T07:27:13.918Z",
   "phases": [
     {
       "id": "f0",
@@ -459,7 +459,7 @@
         {
           "id": "f0-28",
           "name": "GA4 + Meta Pixel setup",
-          "owner": "designer",
+          "owner": "ali",
           "day": "D0",
           "done": false,
           "notes": "Test purchase event\n[Status: Events firing]",
