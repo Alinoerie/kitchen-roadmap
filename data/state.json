@@ -107,7 +107,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "kza0bx"
         },
         {
           "id": "f0-5",
@@ -167,7 +168,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "mxzy8b"
         },
         {
           "id": "f0-6",
@@ -215,7 +217,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "mc0c9a"
         },
         {
           "id": "f0-7",
@@ -272,7 +275,9 @@
             "BTW-nummers per EU-land (na lokale registratie)",
             "Maandelijkse omzet per EU-land voor aangifte",
             "Verzendadressen klanten (bewijs van bestemming)"
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "t12kf4"
         },
         {
           "id": "f0-8",
@@ -320,7 +325,8 @@
           ],
           "linkedKnowledgeBytes": [
             "123"
-          ]
+          ],
+          "conceptHash": "b3l9mk"
         },
         {
           "id": "f0-9",
@@ -420,7 +426,8 @@
           "linkedKnowledgeBytes": [
             "54",
             "6"
-          ]
+          ],
+          "conceptHash": "bs5ko1"
         },
         {
           "id": "f0-10",
@@ -474,7 +481,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "lfjwry"
         },
         {
           "id": "f0-11",
@@ -528,7 +536,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "uuezvh"
         },
         {
           "id": "f0-12",
@@ -582,7 +591,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "xp27k"
         },
         {
           "id": "f0-13",
@@ -630,7 +640,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "ext36l"
         },
         {
           "id": "f0-14",
@@ -678,7 +689,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "c6vsum"
         },
         {
           "id": "f0-15",
@@ -738,7 +750,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "qhwxzu"
         },
         {
           "id": "f0-16",
@@ -798,7 +811,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "rgdq8o"
         },
         {
           "id": "f0-17",
@@ -852,7 +866,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "h4betk"
         },
         {
           "id": "f0-18",
@@ -906,7 +921,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "fya3ym"
         },
         {
           "id": "f0-19",
@@ -960,7 +976,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "bz4ysl"
         },
         {
           "id": "f0-20",
@@ -1020,7 +1037,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "qaz56j"
         },
         {
           "id": "f0-21",
@@ -1080,7 +1098,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "f0mz4g"
         },
         {
           "id": "f0-22",
@@ -1128,7 +1147,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "r52nif"
         },
         {
           "id": "f0-23",
@@ -1182,7 +1202,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "64e7cz"
         },
         {
           "id": "f0-24",
@@ -1236,7 +1257,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "s4a1xz"
         },
         {
           "id": "f0-25",
@@ -1290,7 +1312,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "4h56g9"
         },
         {
           "id": "f0-26",
@@ -1344,7 +1367,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "xcids1"
         },
         {
           "id": "f0-27",
@@ -1398,7 +1422,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "tut8u7"
         },
         {
           "id": "f0-28",
@@ -1458,7 +1483,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "uvasbr"
         },
         {
           "id": "f0-29",
@@ -1518,7 +1544,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "x0dmec"
         },
         {
           "id": "f0-30",
@@ -1578,7 +1605,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "7l504u"
         },
         {
           "id": "f0-31",
@@ -1638,7 +1666,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "si7yny"
         },
         {
           "id": "f0-32",
@@ -1692,7 +1721,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "18niph"
         },
         {
           "id": "f0-33",
@@ -1746,7 +1776,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "h5rxv7"
         },
         {
           "id": "f0-34",
@@ -1794,7 +1825,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "ixb1kb"
         },
         {
           "id": "f0-35",
@@ -1849,7 +1881,8 @@
           "linkedKnowledgeBytes": [
             "54",
             "6"
-          ]
+          ],
+          "conceptHash": "7xso1f"
         },
         {
           "id": "f0-36",
@@ -1903,7 +1936,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "99urnu"
         },
         {
           "id": "f0-37",
@@ -1963,7 +1997,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "ps68s3"
         },
         {
           "id": "f0-39",
@@ -2017,7 +2052,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "s5qgs1"
         },
         {
           "id": "f0-40",
@@ -2077,7 +2113,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "m6jwix"
         },
         {
           "id": "f0-41",
@@ -2137,7 +2174,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "z88723"
         },
         {
           "id": "f0-42",
@@ -2191,7 +2229,8 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ]
+          ],
+          "conceptHash": "uc7r38"
         }
       ],
       "name": "Foundations"
@@ -2284,7 +2323,8 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ]
+          ],
+          "conceptHash": "80v78i"
         },
         {
           "id": "f1-2",
@@ -2339,7 +2379,8 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ]
+          ],
+          "conceptHash": "a7uo6t"
         },
         {
           "id": "f1-3",
@@ -2400,7 +2441,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "wkgr8t"
         },
         {
           "id": "f1-4",
@@ -2455,7 +2497,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "163zby"
         },
         {
           "id": "f1-5",
@@ -2498,7 +2541,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "ibxq09"
         },
         {
           "id": "f1-6",
@@ -2553,7 +2597,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "5ti9f3"
         },
         {
           "id": "f1-7",
@@ -2608,7 +2653,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "9jsc0i"
         },
         {
           "id": "f1-8",
@@ -2663,7 +2709,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "wh49b3"
         },
         {
           "id": "f1-9",
@@ -2718,7 +2765,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "mxx7jl"
         },
         {
           "id": "f1-10",
@@ -2773,7 +2821,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "emmaqv"
         },
         {
           "id": "f1-11",
@@ -2834,7 +2883,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "mhnma1"
         },
         {
           "id": "f1-12",
@@ -2901,7 +2951,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "t2vdti"
         },
         {
           "id": "f1-13",
@@ -2938,7 +2989,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "m1nfb7"
         },
         {
           "id": "f1-14",
@@ -2981,7 +3033,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "4on7oa"
         },
         {
           "id": "f1-15",
@@ -3024,7 +3077,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "n2zkre"
         },
         {
           "id": "f1-16",
@@ -3061,7 +3115,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "x358r9"
         },
         {
           "id": "f1-17",
@@ -3098,7 +3153,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "mh6ajq"
         },
         {
           "id": "f1-18",
@@ -3135,7 +3191,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "ldyy3b"
         },
         {
           "id": "f1-19",
@@ -3172,7 +3229,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "jn3l8j"
         },
         {
           "id": "f1-20",
@@ -3215,7 +3273,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "x1bazy"
         },
         {
           "id": "f1-21",
@@ -3252,7 +3311,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "8nswzv"
         },
         {
           "id": "f1-24",
@@ -3295,7 +3355,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "kw44ii"
         },
         {
           "id": "f1-25",
@@ -3338,7 +3399,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "gwm94r"
         },
         {
           "id": "f1-26",
@@ -3393,7 +3455,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "de391d"
         },
         {
           "id": "f1-27",
@@ -3454,7 +3517,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "1j30r8"
         },
         {
           "id": "f1-28",
@@ -3515,7 +3579,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "3cxzxo"
         },
         {
           "id": "f1-29",
@@ -3576,7 +3641,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "2ksqrw"
         },
         {
           "id": "f1-30",
@@ -3631,7 +3697,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "g33zhs"
         },
         {
           "id": "f1-31",
@@ -3692,7 +3759,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "5d2scz"
         },
         {
           "id": "f1-32",
@@ -3753,7 +3821,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "bda1ic"
         },
         {
           "id": "f1-33",
@@ -3814,7 +3883,8 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ]
+          ],
+          "conceptHash": "48rxr5"
         },
         {
           "id": "f1-34",
@@ -3875,7 +3945,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "p0apvw"
         },
         {
           "id": "f1-35",
@@ -3936,7 +4007,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "lgfjvp"
         },
         {
           "id": "f1-36",
@@ -4003,7 +4075,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "vha8p"
         }
       ],
       "name": "Brand & Voice"
@@ -4062,7 +4135,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "ny57tx"
         },
         {
           "id": "f2-2",
@@ -4111,7 +4185,8 @@
           "linkedKnowledgeBytes": [
             "981",
             "906"
-          ]
+          ],
+          "conceptHash": "wek3p1"
         },
         {
           "id": "f2-3",
@@ -4160,7 +4235,8 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ]
+          ],
+          "conceptHash": "ejifv6"
         },
         {
           "id": "f2-4",
@@ -4203,7 +4279,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "wc2zhq"
         },
         {
           "id": "f2-5",
@@ -4252,7 +4329,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "bq1aff"
         },
         {
           "id": "f2-6",
@@ -4295,7 +4373,8 @@
           "linkedKnowledgeBytes": [
             "981",
             "906"
-          ]
+          ],
+          "conceptHash": "fm6u5b"
         },
         {
           "id": "f2-7",
@@ -4350,7 +4429,8 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ]
+          ],
+          "conceptHash": "mkq69l"
         },
         {
           "id": "f2-8",
@@ -4393,7 +4473,8 @@
           "linkedKnowledgeBytes": [
             "924",
             "934"
-          ]
+          ],
+          "conceptHash": "xpettu"
         },
         {
           "id": "f2-9",
@@ -4436,7 +4517,8 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ]
+          ],
+          "conceptHash": "vx4mj9"
         },
         {
           "id": "f2-10",
@@ -4485,7 +4567,8 @@
           "linkedKnowledgeBytes": [
             "933",
             "907"
-          ]
+          ],
+          "conceptHash": "g16jaa"
         },
         {
           "id": "f2-11",
@@ -4534,7 +4617,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "8locjc"
         },
         {
           "id": "f2-12",
@@ -4589,7 +4673,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "8woheg"
         },
         {
           "id": "f2-13",
@@ -4638,7 +4723,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "z2w4ih"
         },
         {
           "id": "f2-14",
@@ -4681,7 +4767,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "auv8ze"
         },
         {
           "id": "f2-15",
@@ -4724,7 +4811,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "v1wgdo"
         },
         {
           "id": "f2-16",
@@ -4767,7 +4855,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "f50as5"
         },
         {
           "id": "f2-17",
@@ -4810,7 +4899,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "h2egap"
         },
         {
           "id": "f2-18",
@@ -4853,7 +4943,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "lansns"
         },
         {
           "id": "f2-19",
@@ -4896,7 +4987,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "sld7r1"
         },
         {
           "id": "f2-20",
@@ -4939,7 +5031,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "y6rgqp"
         },
         {
           "id": "f2-22",
@@ -4982,7 +5075,8 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ]
+          ],
+          "conceptHash": "pypnzs"
         },
         {
           "id": "f2-23",
@@ -5025,7 +5119,8 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ]
+          ],
+          "conceptHash": "jwbbid"
         },
         {
           "id": "f2-24",
@@ -5067,7 +5162,8 @@
           ],
           "linkedKnowledgeBytes": [
             "911"
-          ]
+          ],
+          "conceptHash": "77g0bq"
         },
         {
           "id": "f2-25",
@@ -5122,7 +5218,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "ikwixu"
         },
         {
           "id": "f2-kb-andromeda-100vs5",
@@ -5159,7 +5256,8 @@
           "linkedKnowledgeBytes": [
             "933",
             "907"
-          ]
+          ],
+          "conceptHash": "hy47gt"
         },
         {
           "id": "f2-kb-abo-testing-structuur",
@@ -5196,7 +5294,8 @@
           "linkedKnowledgeBytes": [
             "86",
             "105"
-          ]
+          ],
+          "conceptHash": "w75gfs"
         },
         {
           "id": "f2-kb-minus-ai-dashboard",
@@ -5233,7 +5332,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "7k84k9"
         },
         {
           "id": "f2-kb-targeting-creative-level",
@@ -5264,7 +5364,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "yocs95"
         },
         {
           "id": "f2-kb-indirect-sales-template",
@@ -5295,7 +5396,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "wknh4w"
         },
         {
           "id": "f2-kb-creative-diversity-checklist",
@@ -5326,7 +5428,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "siwvt6"
         },
         {
           "id": "f2-kb-mockup-workflow",
@@ -5357,7 +5460,8 @@
           "linkedKnowledgeBytes": [
             "933",
             "907"
-          ]
+          ],
+          "conceptHash": "qgu4de"
         },
         {
           "id": "f2-kb-ai-mass-pipeline",
@@ -5388,7 +5492,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "xcsu03"
         },
         {
           "id": "f2-kb-chase-3-campaign-structure",
@@ -5419,7 +5524,8 @@
           "linkedKnowledgeBytes": [
             "86",
             "105"
-          ]
+          ],
+          "conceptHash": "7cfptq"
         },
         {
           "id": "f2-kb-chase-5-unique-creatives",
@@ -5450,7 +5556,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "i3dqx2"
         },
         {
           "id": "f2-kb-chase-rotate-winners",
@@ -5481,7 +5588,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "vdtotr"
         },
         {
           "id": "f2-kb-chase-5-ad-copy-angles",
@@ -5512,7 +5620,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "yuu7c"
         },
         {
           "id": "f2-kb-chase-5-ad-sets",
@@ -5543,7 +5652,8 @@
           "linkedKnowledgeBytes": [
             "86",
             "105"
-          ]
+          ],
+          "conceptHash": "lphvt4"
         },
         {
           "id": "f2-kb-funnel-strategy",
@@ -5574,7 +5684,8 @@
           "linkedKnowledgeBytes": [
             "86",
             "105"
-          ]
+          ],
+          "conceptHash": "23t86c"
         },
         {
           "id": "f2-kb-curiosity-hooks",
@@ -5605,7 +5716,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "3xngj3"
         },
         {
           "id": "f2-kb-mid-funnel-benefits",
@@ -5636,7 +5748,8 @@
           "linkedKnowledgeBytes": [
             "86",
             "105"
-          ]
+          ],
+          "conceptHash": "hjed16"
         },
         {
           "id": "f2-kb-ads-freshness",
@@ -5667,7 +5780,8 @@
           "linkedKnowledgeBytes": [
             "933",
             "907"
-          ]
+          ],
+          "conceptHash": "93wpu8"
         },
         {
           "id": "f2-kb-headline-first",
@@ -5698,7 +5812,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "ximvqw"
         },
         {
           "id": "f2-kb-opening-sentence",
@@ -5729,7 +5844,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "aejxvt"
         },
         {
           "id": "f2-kb-target-audience-specificity",
@@ -5760,7 +5876,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "1vpixz"
         },
         {
           "id": "f2-kb-conversion-rate-first",
@@ -5791,7 +5908,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "8t8ail"
         },
         {
           "id": "f2-kb-7-day-click-window",
@@ -5822,7 +5940,8 @@
           "linkedKnowledgeBytes": [
             "924",
             "934"
-          ]
+          ],
+          "conceptHash": "t101ct"
         },
         {
           "id": "f2-kb-differentiate-from-competitors",
@@ -5853,7 +5972,8 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ]
+          ],
+          "conceptHash": "7subgh"
         },
         {
           "id": "f2-kb-deck-of-cards-math",
@@ -5884,7 +6004,8 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ]
+          ],
+          "conceptHash": "clc1z0"
         },
         {
           "id": "f2-kb-flexible-ads-vs-ad-sets",
@@ -5915,7 +6036,8 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ]
+          ],
+          "conceptHash": "k11wv3"
         },
         {
           "id": "f2-kb-blended-cpa-tracking",
@@ -5946,7 +6068,8 @@
           "linkedKnowledgeBytes": [
             "86",
             "105"
-          ]
+          ],
+          "conceptHash": "dik1yq"
         },
         {
           "id": "f2-kb-ltv-multiplier",
@@ -5977,7 +6100,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "mlt189"
         },
         {
           "id": "f2-kb-aov-tiered-offers",
@@ -6008,7 +6132,8 @@
           "linkedKnowledgeBytes": [
             "973",
             "127"
-          ]
+          ],
+          "conceptHash": "6dx1l"
         },
         {
           "id": "f2-kb-roas-benchmarks",
@@ -6039,7 +6164,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "fgh1yd"
         },
         {
           "id": "f2-kb-budget-cut-rescue",
@@ -6070,7 +6196,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "evjf7g"
         },
         {
           "id": "f2-kb-native-ads-disguised",
@@ -6101,7 +6228,8 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ]
+          ],
+          "conceptHash": "c74xxo"
         },
         {
           "id": "f2-kb-stop-scroll-purpose",
@@ -6132,7 +6260,8 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ]
+          ],
+          "conceptHash": "r11rb6"
         }
       ],
       "name": "Creative & Testing"
@@ -6179,7 +6308,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "xmkj7q"
         },
         {
           "id": "f3-2",
@@ -6222,7 +6352,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "c7fjet"
         },
         {
           "id": "f3-3",
@@ -6265,7 +6396,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "x4qp5t"
         },
         {
           "id": "f3-4",
@@ -6302,7 +6434,8 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ]
+          ],
+          "conceptHash": "615j03"
         },
         {
           "id": "f3-5",
@@ -6338,7 +6471,8 @@
           ],
           "linkedKnowledgeBytes": [
             "34"
-          ]
+          ],
+          "conceptHash": "eml93x"
         },
         {
           "id": "f3-6",
@@ -6375,7 +6509,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "v576ua"
         },
         {
           "id": "f3-7",
@@ -6412,7 +6547,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "q67i2s"
         },
         {
           "id": "f3-8",
@@ -6449,7 +6585,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "w3ihum"
         },
         {
           "id": "f3-9",
@@ -6486,7 +6623,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "6jme1e"
         },
         {
           "id": "f3-10",
@@ -6523,7 +6661,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "ntafy"
         },
         {
           "id": "f3-11",
@@ -6560,7 +6699,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "hls2ds"
         },
         {
           "id": "f3-12",
@@ -6596,7 +6736,8 @@
           ],
           "linkedKnowledgeBytes": [
             "34"
-          ]
+          ],
+          "conceptHash": "s9w7k6"
         },
         {
           "id": "f3-13",
@@ -6633,7 +6774,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "beucrg"
         },
         {
           "id": "f3-14",
@@ -6669,7 +6811,8 @@
           ],
           "linkedKnowledgeBytes": [
             "979"
-          ]
+          ],
+          "conceptHash": "ht4wr6"
         },
         {
           "id": "f3-15",
@@ -6706,7 +6849,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "u6mu2x"
         },
         {
           "id": "f3-16",
@@ -6743,7 +6887,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "chzt5o"
         },
         {
           "id": "f3-17",
@@ -6774,7 +6919,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "5z7dj1"
         },
         {
           "id": "f3-18",
@@ -6811,7 +6957,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "l678fr"
         },
         {
           "id": "f3-19",
@@ -6842,7 +6989,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "e26kgd"
         },
         {
           "id": "f3-20",
@@ -6879,7 +7027,8 @@
           "linkedKnowledgeBytes": [
             "973",
             "127"
-          ]
+          ],
+          "conceptHash": "u99iws"
         },
         {
           "id": "f3-21",
@@ -6910,7 +7059,8 @@
           "linkedKnowledgeBytes": [
             "981",
             "906"
-          ]
+          ],
+          "conceptHash": "hq8inv"
         },
         {
           "id": "f3-22",
@@ -6947,7 +7097,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "p2tt4g"
         },
         {
           "id": "f3-23",
@@ -6984,7 +7135,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "oxdl5b"
         },
         {
           "id": "f3-kb-cbo-scaling-template",
@@ -7015,7 +7167,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "yxp4j"
         },
         {
           "id": "f3-kb-weekly-kill-focus",
@@ -7046,7 +7199,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "p2k575"
         },
         {
           "id": "f3-kb-20pct-budget-stepup",
@@ -7077,7 +7231,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "uvv74w"
         },
         {
           "id": "f3-kb-email-relationship-building",
@@ -7108,7 +7263,8 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ]
+          ],
+          "conceptHash": "peh6lu"
         },
         {
           "id": "f3-kb-email-value-first",
@@ -7139,7 +7295,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "l9hao2"
         },
         {
           "id": "f3-kb-email-cadence-weekly",
@@ -7170,7 +7327,8 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ]
+          ],
+          "conceptHash": "r321ge"
         },
         {
           "id": "f3-kb-email-sequencing",
@@ -7201,7 +7359,8 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ]
+          ],
+          "conceptHash": "epz741"
         },
         {
           "id": "f3-kb-cohort-ltv-cac",
@@ -7232,7 +7391,8 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ]
+          ],
+          "conceptHash": "ytemvi"
         },
         {
           "id": "f3-kb-repeat-buyer-tracking",
@@ -7263,7 +7423,8 @@
           "linkedKnowledgeBytes": [
             "924",
             "934"
-          ]
+          ],
+          "conceptHash": "x61ycz"
         }
       ],
       "name": "Scaling"
@@ -7300,7 +7461,9 @@
               "title": "Document winner criteria",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "111srx"
         },
         {
           "id": "f4-2",
@@ -7333,7 +7496,9 @@
               "title": "Duplicate winners with new audiences",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "qq5id8"
         },
         {
           "id": "f4-3",
@@ -7366,7 +7531,9 @@
               "title": "Refresh customer list monthly",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "toutoq"
         },
         {
           "id": "f4-4",
@@ -7393,7 +7560,9 @@
               "title": "Creative diversity library",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "2e21hl"
         },
         {
           "id": "f4-5",
@@ -7426,7 +7595,9 @@
               "title": "Monitor + optimize",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "ecyy9h"
         },
         {
           "id": "f4-6",
@@ -7453,7 +7624,9 @@
               "title": "Upsell in shipment packaging",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "8467gp"
         },
         {
           "id": "f4-7",
@@ -7484,7 +7657,8 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ]
+          ],
+          "conceptHash": "bqolq6"
         },
         {
           "id": "f4-8",
@@ -7511,7 +7685,9 @@
               "title": "Dynamic bundle recommendations",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "fghwh1"
         },
         {
           "id": "f4-9",
@@ -7542,7 +7718,8 @@
           "linkedKnowledgeBytes": [
             "973",
             "127"
-          ]
+          ],
+          "conceptHash": "u36413"
         },
         {
           "id": "f4-10",
@@ -7569,7 +7746,9 @@
               "title": "Cohort analysis per channel",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "sdjta7"
         },
         {
           "id": "f4-11",
@@ -7600,7 +7779,8 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ]
+          ],
+          "conceptHash": "q4b43r"
         },
         {
           "id": "f4-12",
@@ -7631,7 +7811,8 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ]
+          ],
+          "conceptHash": "lovcrv"
         },
         {
           "id": "f4-13",
@@ -7658,7 +7839,9 @@
               "title": "Subscription tech setup",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "x6iifc"
         },
         {
           "id": "f4-14",
@@ -7685,7 +7868,9 @@
               "title": "VIP perks + exclusivity",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "mavwii"
         },
         {
           "id": "f4-15",
@@ -7712,7 +7897,9 @@
               "title": "Cash buffer targets",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "1lvkkf"
         },
         {
           "id": "f4-16",
@@ -7739,7 +7926,9 @@
               "title": "B2B sales material",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "gq4bkb"
         },
         {
           "id": "f4-17",
@@ -7776,7 +7965,8 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ]
+          ],
+          "conceptHash": "mcexs3"
         },
         {
           "id": "f4-18",
@@ -7803,7 +7993,9 @@
               "title": "Validate demand + feasibility",
               "done": false
             }
-          ]
+          ],
+          "linkedKnowledgeBytes": [],
+          "conceptHash": "xz3ace"
         }
       ],
       "name": "Expansion"
@@ -7844,7 +8036,8 @@
           "linkedKnowledgeBytes": [
             "973",
             "127"
-          ]
+          ],
+          "conceptHash": "sk5svq"
         },
         {
           "id": "f5-2",
@@ -7875,7 +8068,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "edm6qi"
         },
         {
           "id": "f5-3",
@@ -7906,7 +8100,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "ds0679"
         },
         {
           "id": "f5-4",
@@ -7937,7 +8132,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "8a7bbs"
         },
         {
           "id": "f5-5",
@@ -7968,7 +8164,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "75fl22"
         },
         {
           "id": "f5-6",
@@ -7999,7 +8196,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "c273rn"
         },
         {
           "id": "f5-7",
@@ -8030,7 +8228,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "w08xvs"
         },
         {
           "id": "f5-8",
@@ -8061,7 +8260,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "8g5gff"
         },
         {
           "id": "f5-9",
@@ -8092,7 +8292,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "j7a9c1"
         },
         {
           "id": "f5-10",
@@ -8123,7 +8324,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "c2knhl"
         },
         {
           "id": "f5-11",
@@ -8154,7 +8356,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "36jmvj"
         },
         {
           "id": "f5-12",
@@ -8185,7 +8388,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "lokj6g"
         },
         {
           "id": "f5-13",
@@ -8216,7 +8420,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "yf4mt4"
         },
         {
           "id": "f5-14",
@@ -8247,7 +8452,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "6o3vh6"
         },
         {
           "id": "f5-15",
@@ -8278,7 +8484,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "6vh9v8"
         },
         {
           "id": "f5-16",
@@ -8309,7 +8516,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "cg5v5e"
         },
         {
           "id": "f5-17",
@@ -8340,7 +8548,8 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ]
+          ],
+          "conceptHash": "clht46"
         }
       ],
       "name": "Compounding"
