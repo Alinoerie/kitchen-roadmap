@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T08:58:40.549Z",
+  "lastSavedAt": "2026-09-11T08:59:31.902Z",
   "phases": [
     {
       "id": "f0",
@@ -179,10 +179,10 @@
           "name": "Shopify master account aanmaken",
           "owner": "farshad",
           "day": "D0",
-          "done": false,
+          "done": true,
           "notes": "Email + bank verify\n[Status: Account live]",
           "created_at": "2026-09-03T14:38:09Z",
-          "doneNote": "Account live",
+          "doneNote": "Auto-completed: alle subtaken zijn afgevinkt",
           "phase": "f0",
           "dayHistory": [
             {
@@ -198,63 +198,63 @@
               "text": "Ga naar Shopify.com en klik \"Start free trial\" — vul kasori-cookware.myshopify.com of een ander beschikbaar subdomein in.",
               "url": "https://www.shopify.com/free-trial",
               "urlLabel": "Shopify startpagina",
-              "done": false
+              "done": true
             },
             {
               "id": "st2",
               "text": "Kies regio: Nederland (EU) → currency EUR, talen: Nederlands + Engels. Dit bepaalt later btw-regels en shipping zones.",
-              "done": false
+              "done": true
             },
             {
               "id": "st3",
               "text": "Vul bedrijfsgegevens in (Stap 3/4 van setup wizard): bedrijfsnaam = \"Kasori Cookware\", adres = het HK BR-adres of je NL-werkadres, telefoon Ali.",
               "doc": "Benodigd: HK BR-nummer (uit F0-4), vestigingsadres, telefoonnummer voor SMS-2FA.",
-              "done": false
+              "done": true
             },
             {
               "id": "st4",
               "text": "Activeer 2FA via SMS + Authenticator app (1Password TOTP) — verplicht voor admin accounts. Sla backup codes op.",
               "url": "https://help.shopify.com/en/manual/your-account/account-settings/security",
               "urlLabel": "Shopify Security Settings",
-              "done": false
+              "done": true
             },
             {
               "id": "st5",
               "text": "Setup staff accounts voor Kheibar (Finance), Farshad (Ops), Ali (Owner). Rol: Admin. Stuur uitnodiging via Settings → Team.",
               "url": "https://admin.shopify.com/settings/team",
               "urlLabel": "Shopify Team",
-              "done": false
+              "done": true
             },
             {
               "id": "st6",
               "text": "Kies Shopify plan: Basic Shopify €39/mnd (geschikt voor <10k orders/maand) of Shopify €105/mnd voor staff accounts + gift cards. Begin met Basic, upgrade bij 100+ orders/dag.",
               "url": "https://www.shopify.com/pricing",
               "urlLabel": "Shopify Plans",
-              "done": false
+              "done": true
             },
             {
               "id": "st7",
               "text": "Configureer Shopify Payments als betaalprovider — vereist Stripe Connect setup met HK bedrijf (of NL bankrekening). Kies iDEAL + Bancontact + creditcard voor EU.",
               "url": "https://help.shopify.com/en/manual/payments/shopify-payments",
               "urlLabel": "Shopify Payments Setup",
-              "done": false
+              "done": true
             },
             {
               "id": "st8",
               "text": "Activeer Markets voor EU + UK + US — bij F2 launch voor internationale verzending. Vraagt om btw-nummers per EU-land (zie F0-7 VAT/IOSS).",
               "url": "https://help.shopify.com/en/manual/markets",
               "urlLabel": "Shopify Markets",
-              "done": false
+              "done": true
             },
             {
               "id": "st9",
               "text": "Setup staff permissions: Farshad = Products + Inventory, Kheibar = Reports + Finances only, Designer = Themes + Files only. Geef Ali = full Admin.",
-              "done": false
+              "done": true
             },
             {
               "id": "st10",
               "text": "Documenteer in 1Password: admin.shopify.com URL, alle staff logins, API token (te genereren in Settings → Apps), store ID, plan expiry. Tag \"Kasori Shopify Admin\".",
-              "done": false
+              "done": true
             }
           ],
           "subtasksDocs": [
@@ -263,7 +263,8 @@
             "Authenticator app (1Password of Authy)",
             "Bankrekeninggegevens voor Shopify Payments",
             "Btw-nummers per EU-land (zodra F0-7 is afgerond)"
-          ]
+          ],
+          "completedAt": "2026-09-11T08:59:31.902Z"
         },
         {
           "id": "f0-10",
