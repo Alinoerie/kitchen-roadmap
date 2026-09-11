@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T09:42:12.833Z",
+  "lastSavedAt": "2026-09-11T09:42:14.710Z",
   "phases": [
     {
       "id": "f0",
@@ -75,7 +75,7 @@
               "text": "Vraag Profits Tax / Salaries Tax registration aan bij IRD — elke HK entiteit moet file, ook als 0 omzet. Eerste return 18 maanden na oprichting.",
               "url": "https://www.ird.gov.hk/eng/tax/pst.htm",
               "urlLabel": "IRD Profits Tax",
-              "done": true,
+              "done": false,
               "title": "Registreer voor Profits Tax / Salaries Tax"
             },
             {
