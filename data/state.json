@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "web-set-task-owner",
-  "lastSavedAt": "2026-09-11T07:42:53.499Z",
+  "lastSavedBy": "web-toggle-done",
+  "lastSavedAt": "2026-09-11T08:32:32.996Z",
   "phases": [
     {
       "id": "f0",
@@ -29,7 +29,7 @@
           "name": "Payment provider keuze (na HK setup)",
           "owner": "farshad",
           "day": "D0",
-          "done": false,
+          "done": true,
           "notes": "Default Shopify Payments\n[Status: Shopify Payments / Mollie / Stripe]",
           "created_at": "2026-09-03T22:38:09Z",
           "doneNote": "Shopify Payments / Mollie / Stripe",
