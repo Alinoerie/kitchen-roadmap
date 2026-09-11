@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T08:57:31.873Z",
+  "lastSavedAt": "2026-09-11T08:57:42.060Z",
   "phases": [
     {
       "id": "f0",
@@ -29,64 +29,64 @@
               "text": "Bepaal bedrijfsvorm: BR (Besloten Vennootschap) is standaard voor e-commerce — biedt aansprakelijkheidsbescherming en schaalbare equity-structuur. Sole proprietorship (eenmanszaak) is goedkoper maar persoonlijke aansprakelijkheid.",
               "url": "https://www.gov.hk/en/business/registration/",
               "urlLabel": "GovHK Business Registration",
-              "done": true
+              "done": false
             },
             {
               "id": "st2",
               "text": "Check bedrijfsnaam beschikbaarheid via Hong Kong Companies Registry — unieke naam verplicht, geen overlap met bestaande entiteiten.",
               "url": "https://www.cr.gov.hk/crportal/cgi-bin/crlicname/regname.cgi",
               "urlLabel": "CR Name Search",
-              "done": false
+              "done": true
             },
             {
               "id": "st3",
               "text": "Verzamel documenten voor incorporation: paspoortkopieën van alle directors/shareholders, bewijs van geregistreerd adres in Hong Kong (geen postbus — fysiek adres vereist), en oprichtingsdocumenten (Articles of Association).",
               "doc": "Benodigd: paspoort Ali + eventuele mede-oprichters, adresbewijs (huurcontract of utility bill HK), business description (~100 woorden).",
-              "done": false
+              "done": true
             },
             {
               "id": "st4",
               "text": "Schakel een Hong Kong company secretary in — verplicht vanaf oprichting. Aanbevolen: TMF Group, Tricor, of GetCo. Budget €800-2000/jaar.",
               "url": "https://www.tmf-group.com/en/services/corporate-services/hong-kong-company-secretarial-services",
               "urlLabel": "TMF Group HK",
-              "done": false
+              "done": true
             },
             {
               "id": "st5",
               "text": "Open zakelijke bankrekening in Hong Kong — HSBC Business, Hang Seng, of DBS. Verwacht 4-8 weken doorlooptijd, vaak persoonlijk bezoek vereist voor KYC.",
               "doc": "Benodigd: incorporation certificate, business registration certificate, articles of association, paspoort Ali, residence proof.",
-              "done": false
+              "done": true
             },
             {
               "id": "st6",
               "text": "Registreer voor Business Registration Certificate (BR) bij Inland Revenue Department binnen 1 maand na incorporation — anders boete.",
               "url": "https://www.ird.gov.hk/eng/tax/breg.htm",
               "urlLabel": "IRD Business Registration",
-              "done": false
+              "done": true
             },
             {
               "id": "st7",
               "text": "Vraag Profits Tax / Salaries Tax registration aan bij IRD — elke HK entiteit moet file, ook als 0 omzet. Eerste return 18 maanden na oprichting.",
               "url": "https://www.ird.gov.hk/eng/tax/pst.htm",
               "urlLabel": "IRD Profits Tax",
-              "done": false
+              "done": true
             },
             {
               "id": "st8",
               "text": "Activeer MPF (Mandatory Provident Fund) als je werknemers aanneemt — 5% werknemer + 5% werkgever bijdrage, cap HK$1500/maand per persoon. Of wacht tot F0-7 / F1 Hire fase.",
               "url": "https://www.mpfahk.org/",
               "urlLabel": "MPFA",
-              "done": false
+              "done": true
             },
             {
               "id": "st9",
               "text": "Setup corporate seal + company chops (round + signature chop) — wettelijk vereist voor officiële documenten in HK.",
-              "done": false
+              "done": true
             },
             {
               "id": "st10",
               "text": "Documenteer alle credentials veilig in 1Password of Bitwarden: HK BR-nummer, incorporation number, bank login, secretary contact, IRD file number. Tag met \"Kasori HK Corp\".",
-              "done": false
+              "done": true
             }
           ],
           "subtasksDocs": [
