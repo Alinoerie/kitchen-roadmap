@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T09:47:35.101Z",
+  "lastSavedAt": "2026-09-11T09:50:16.609Z",
   "phases": [
     {
       "id": "f0",
@@ -83,19 +83,19 @@
               "text": "Activeer MPF (Mandatory Provident Fund) als je werknemers aanneemt — 5% werknemer + 5% werkgever bijdrage, cap HK$1500/maand per persoon. Of wacht tot F0-7 / F1 Hire fase.",
               "url": "https://www.mpfahk.org/",
               "urlLabel": "MPFA",
-              "done": true,
+              "done": false,
               "title": "Activeer MPF (als je werknemers aanneemt)"
             },
             {
               "id": "st9",
               "text": "Setup corporate seal + company chops (round + signature chop) — wettelijk vereist voor officiële documenten in HK.",
-              "done": true,
+              "done": false,
               "title": "Setup corporate seal + chops"
             },
             {
               "id": "st10",
               "text": "Documenteer alle credentials veilig in 1Password of Bitwarden: HK BR-nummer, incorporation number, bank login, secretary contact, IRD file number. Tag met \"Kasori HK Corp\". Gedeelde toegang voor alle 3 founders.",
-              "done": true,
+              "done": false,
               "title": "Documenteer credentials in 1Password"
             }
           ],
@@ -3201,5 +3201,5 @@
       "name": "Compounding"
     }
   ],
-  "_rollforwardMoved": 35
+  "_rollforwardMoved": 0
 }
