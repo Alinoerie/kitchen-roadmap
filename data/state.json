@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T09:50:17.893Z",
+  "lastSavedAt": "2026-09-11T09:50:19.027Z",
   "phases": [
     {
       "id": "f0",
@@ -52,7 +52,7 @@
               "text": "Schakel een Hong Kong company secretary in — verplicht vanaf oprichting. Aanbevolen: TMF Group, Tricor, of GetCo. Budget €800-2000/jaar. Alle drie co-founders tekenen het aanvraagformulier.",
               "url": "https://www.tmf-group.com/en/services/corporate-services/hong-kong-company-secretarial-services",
               "urlLabel": "TMF Group HK",
-              "done": true,
+              "done": false,
               "title": "Schakel Hong Kong company secretary in"
             },
             {
