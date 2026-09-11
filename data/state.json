@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "kasori-add-subtasks",
-  "lastSavedAt": "2026-09-11T14:30:00Z",
+  "lastSavedBy": "web-toggle-subtask",
+  "lastSavedAt": "2026-09-11T08:57:31.873Z",
   "phases": [
     {
       "id": "f0",
@@ -29,7 +29,7 @@
               "text": "Bepaal bedrijfsvorm: BR (Besloten Vennootschap) is standaard voor e-commerce — biedt aansprakelijkheidsbescherming en schaalbare equity-structuur. Sole proprietorship (eenmanszaak) is goedkoper maar persoonlijke aansprakelijkheid.",
               "url": "https://www.gov.hk/en/business/registration/",
               "urlLabel": "GovHK Business Registration",
-              "done": false
+              "done": true
             },
             {
               "id": "st2",
@@ -3171,5 +3171,6 @@
       ],
       "name": "Compounding"
     }
-  ]
+  ],
+  "_rollforwardMoved": 35
 }
