@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T09:06:06.593Z",
+  "lastSavedAt": "2026-09-11T09:06:09.356Z",
   "phases": [
     {
       "id": "f0",
@@ -36,7 +36,7 @@
               "text": "Check bedrijfsnaam beschikbaarheid via Hong Kong Companies Registry — unieke naam verplicht, geen overlap met bestaande entiteiten.",
               "url": "https://www.cr.gov.hk/crportal/cgi-bin/crlicname/regname.cgi",
               "urlLabel": "CR Name Search",
-              "done": false
+              "done": true
             },
             {
               "id": "st3",
