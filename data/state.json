@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "web-auto-complete-from-subtasks",
-  "lastSavedAt": "2026-09-11T08:57:43.417Z",
+  "lastSavedBy": "web-toggle-subtask",
+  "lastSavedAt": "2026-09-11T08:58:40.549Z",
   "phases": [
     {
       "id": "f0",
@@ -15,10 +15,10 @@
           "name": "HK bedrijf oprichten",
           "owner": "kheibar",
           "day": "vrijdag 12 sept",
-          "done": true,
+          "done": false,
           "notes": "Sales of record = HK entity | MERGED 2026-09-10 (audit): includes HK bank (f0-1), WISE (f0-2), Currency Ways (f0-3). 4 accounts openen op vrijdag 12 sept in deze volgorde: HK entity → HK bank → WISE → Currency Ways. Owner: Kheibar.\n[Status: HK entity registered]",
           "created_at": "2026-09-04T00:38:09Z",
-          "doneNote": "Auto-completed: alle subtaken zijn afgevinkt",
+          "doneNote": null,
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -29,7 +29,7 @@
               "text": "Bepaal bedrijfsvorm: BR (Besloten Vennootschap) is standaard voor e-commerce — biedt aansprakelijkheidsbescherming en schaalbare equity-structuur. Sole proprietorship (eenmanszaak) is goedkoper maar persoonlijke aansprakelijkheid.",
               "url": "https://www.gov.hk/en/business/registration/",
               "urlLabel": "GovHK Business Registration",
-              "done": false
+              "done": true
             },
             {
               "id": "st2",
@@ -42,7 +42,7 @@
               "id": "st3",
               "text": "Verzamel documenten voor incorporation: paspoortkopieën van alle directors/shareholders, bewijs van geregistreerd adres in Hong Kong (geen postbus — fysiek adres vereist), en oprichtingsdocumenten (Articles of Association).",
               "doc": "Benodigd: paspoort Ali + eventuele mede-oprichters, adresbewijs (huurcontract of utility bill HK), business description (~100 woorden).",
-              "done": true
+              "done": false
             },
             {
               "id": "st4",
@@ -96,7 +96,7 @@
             "Initiële kapitaalstorting bewijs (HK$1 nominal is voldoende voor BR)",
             "Articles of Association (opgesteld door company secretary)"
           ],
-          "completedAt": "2026-09-11T08:57:43.417Z"
+          "completedAt": null
         },
         {
           "id": "f0-5",
@@ -3173,5 +3173,5 @@
       "name": "Compounding"
     }
   ],
-  "_rollforwardMoved": 35
+  "_rollforwardMoved": 0
 }
