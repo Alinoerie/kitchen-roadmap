@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T09:36:17.720Z",
+  "lastSavedAt": "2026-09-11T09:36:20.427Z",
   "phases": [
     {
       "id": "f0",
@@ -75,7 +75,7 @@
               "text": "Vraag Profits Tax / Salaries Tax registration aan bij IRD — elke HK entiteit moet file, ook als 0 omzet. Eerste return 18 maanden na oprichting.",
               "url": "https://www.ird.gov.hk/eng/tax/pst.htm",
               "urlLabel": "IRD Profits Tax",
-              "done": false,
+              "done": true,
               "title": "Registreer voor Profits Tax / Salaries Tax"
             },
             {
@@ -83,19 +83,19 @@
               "text": "Activeer MPF (Mandatory Provident Fund) als je werknemers aanneemt — 5% werknemer + 5% werkgever bijdrage, cap HK$1500/maand per persoon. Of wacht tot F0-7 / F1 Hire fase.",
               "url": "https://www.mpfahk.org/",
               "urlLabel": "MPFA",
-              "done": false,
+              "done": true,
               "title": "Activeer MPF (als je werknemers aanneemt)"
             },
             {
               "id": "st9",
               "text": "Setup corporate seal + company chops (round + signature chop) — wettelijk vereist voor officiële documenten in HK.",
-              "done": false,
+              "done": true,
               "title": "Setup corporate seal + chops"
             },
             {
               "id": "st10",
               "text": "Documenteer alle credentials veilig in 1Password of Bitwarden: HK BR-nummer, incorporation number, bank login, secretary contact, IRD file number. Tag met \"Kasori HK Corp\". Gedeelde toegang voor alle 3 founders.",
-              "done": false,
+              "done": true,
               "title": "Documenteer credentials in 1Password"
             }
           ],
