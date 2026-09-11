@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "kasori-reset-bubble-test",
-  "lastSavedAt": "2026-09-11T16:30:00Z",
+  "lastSavedBy": "web-toggle-subtask",
+  "lastSavedAt": "2026-09-11T09:47:25.985Z",
   "phases": [
     {
       "id": "f0",
@@ -44,7 +44,7 @@
               "id": "st3",
               "text": "Verzamel documenten voor incorporation: paspoortkopieën van alle directors/shareholders, bewijs van geregistreerd adres in Hong Kong (geen postbus — fysiek adres vereist), en oprichtingsdocumenten (Articles of Association).",
               "doc": "Benodigd: paspoortkopieën van alle drie co-founders (Ali, Kheibar, Farshad), adresbewijs (huurcontract of utility bill HK), business description (~100 woorden).",
-              "done": false,
+              "done": true,
               "title": "Verzamel documenten voor incorporation"
             },
             {
@@ -3200,5 +3200,6 @@
       ],
       "name": "Compounding"
     }
-  ]
+  ],
+  "_rollforwardMoved": 35
 }
