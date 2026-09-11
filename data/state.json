@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T12:06:32.709Z",
+  "lastSavedBy": "hermes-audit-reset",
+  "lastSavedAt": "2026-09-11T21:00:00Z",
   "phases": [
     {
       "id": "f0",
@@ -18,7 +18,6 @@
           "done": false,
           "notes": "Sales of record = HK entity | MERGED 2026-09-10 (audit): includes HK bank (f0-1), WISE (f0-2), Currency Ways (f0-3). 4 accounts openen op vrijdag 12 sept in deze volgorde: HK entity → HK bank → WISE → Currency Ways. Owner: Kheibar.\n[Status: HK entity registered]",
           "created_at": "2026-09-04T00:38:09Z",
-          "doneNote": "HK entity registered",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -29,7 +28,7 @@
               "text": "Bepaal bedrijfsvorm: BR (Besloten Vennootschap) is standaard voor e-commerce — biedt aansprakelijkheidsbescherming en schaalbare equity-structuur. Sole proprietorship (eenmanszaak) is goedkoper maar persoonlijke aansprakelijkheid.",
               "url": "https://www.gov.hk/en/business/registration/",
               "urlLabel": "GovHK Business Registration",
-              "done": true,
+              "done": false,
               "title": "Bepaal bedrijfsvorm (BR vs eenmanszaak)"
             },
             {
@@ -108,8 +107,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "kza0bx"
+          ]
         },
         {
           "id": "f0-5",
@@ -119,7 +117,6 @@
           "done": false,
           "notes": "Default Shopify Payments\n[Status: Shopify Payments / Mollie / Stripe]",
           "created_at": "2026-09-03T22:38:09Z",
-          "doneNote": "Shopify Payments / Mollie / Stripe",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -170,8 +167,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "mxzy8b"
+          ]
         },
         {
           "id": "f0-6",
@@ -181,7 +177,6 @@
           "done": false,
           "notes": "Verify payout\n[Status: HK IBAN gekoppeld]",
           "created_at": "2026-09-03T20:38:09Z",
-          "doneNote": "HK IBAN gekoppeld",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -220,8 +215,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "mc0c9a"
+          ]
         },
         {
           "id": "f0-7",
@@ -231,7 +225,6 @@
           "done": false,
           "notes": "HK seller + EU10 = douane-vragen\n[Status: Strategy gedocumenteerd]",
           "created_at": "2026-09-03T18:38:09Z",
-          "doneNote": "Strategy gedocumenteerd",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -279,9 +272,7 @@
             "BTW-nummers per EU-land (na lokale registratie)",
             "Maandelijkse omzet per EU-land voor aangifte",
             "Verzendadressen klanten (bewijs van bestemming)"
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "t12kf4"
+          ]
         },
         {
           "id": "f0-8",
@@ -291,7 +282,6 @@
           "done": false,
           "notes": "Exposure bij €100k+ volume\n[Status: Strategy + tool]",
           "created_at": "2026-09-03T16:38:09Z",
-          "doneNote": "Strategy + tool",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -330,8 +320,7 @@
           ],
           "linkedKnowledgeBytes": [
             "123"
-          ],
-          "conceptHash": "b3l9mk"
+          ]
         },
         {
           "id": "f0-9",
@@ -341,7 +330,6 @@
           "done": false,
           "notes": "Email + bank verify\n[Status: Account live]",
           "created_at": "2026-09-03T14:38:09Z",
-          "doneNote": "Account live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -432,8 +420,7 @@
           "linkedKnowledgeBytes": [
             "54",
             "6"
-          ],
-          "conceptHash": "bs5ko1"
+          ]
         },
         {
           "id": "f0-10",
@@ -443,7 +430,6 @@
           "done": false,
           "notes": "Multi-currency EUR + GBP\n[Status: 10 landen actief]",
           "created_at": "2026-09-03T12:38:09Z",
-          "doneNote": "10 landen actief",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -488,8 +474,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "lfjwry"
+          ]
         },
         {
           "id": "f0-11",
@@ -499,7 +484,6 @@
           "done": false,
           "notes": "Eigenaar = Farshad's designer\n[Status: Theme live]",
           "created_at": "2026-09-03T10:38:09Z",
-          "doneNote": "Theme live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -544,8 +528,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "uuezvh"
+          ]
         },
         {
           "id": "f0-12",
@@ -555,7 +538,6 @@
           "done": false,
           "notes": "Brand voice input van Ali\n[Status: Page live]",
           "created_at": "2026-09-03T08:38:09Z",
-          "doneNote": "Page live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -600,8 +582,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "xp27k"
+          ]
         },
         {
           "id": "f0-13",
@@ -611,7 +592,6 @@
           "done": false,
           "notes": "Multi-language ready\n[Status: Pages live]",
           "created_at": "2026-09-03T06:38:09Z",
-          "doneNote": "Pages live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -650,8 +630,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "ext36l"
+          ]
         },
         {
           "id": "f0-14",
@@ -661,7 +640,6 @@
           "done": false,
           "notes": "SSL, returns, secure checkout\n[Status: Live]",
           "created_at": "2026-09-03T04:38:09Z",
-          "doneNote": "Live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -700,8 +678,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "c6vsum"
+          ]
         },
         {
           "id": "f0-15",
@@ -711,7 +688,6 @@
           "done": false,
           "notes": "Verplicht EU 2024\n[Status: Service getekend]",
           "created_at": "2026-09-03T02:38:09Z",
-          "doneNote": "Service getekend",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -762,8 +738,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "qhwxzu"
+          ]
         },
         {
           "id": "f0-16",
@@ -773,7 +748,6 @@
           "done": false,
           "notes": "HK seller + EU10 klanten\n[Status: Live]",
           "created_at": "2026-09-03T00:38:09Z",
-          "doneNote": "Live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -824,8 +798,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "rgdq8o"
+          ]
         },
         {
           "id": "f0-17",
@@ -835,7 +808,6 @@
           "done": false,
           "notes": "Dropship disclaimer\n[Status: Live]",
           "created_at": "2026-09-02T22:38:09Z",
-          "doneNote": "Live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -880,8 +852,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "h4betk"
+          ]
         },
         {
           "id": "f0-18",
@@ -891,7 +862,6 @@
           "done": false,
           "notes": "10 talen EU\n[Status: Live]",
           "created_at": "2026-09-02T20:38:09Z",
-          "doneNote": "Live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -936,8 +906,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "fya3ym"
+          ]
         },
         {
           "id": "f0-19",
@@ -947,7 +916,6 @@
           "done": false,
           "notes": "EU wettelijk minimum | MERGED 2026-09-10 (audit): omvat returns policy 14 dgn (origineel f0-19) + returns portal opzetten Returnless/Loop/Shopify Afterpay (f0-38). Eén workflow: policy opstellen + portal activeren. Owner: Hermes.\n[Status: Live]",
           "created_at": "2026-09-02T18:38:09Z",
-          "doneNote": "Live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -992,8 +960,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "bz4ysl"
+          ]
         },
         {
           "id": "f0-20",
@@ -1003,7 +970,6 @@
           "done": false,
           "notes": "€2M dekking aanbevolen\n[Status: Polis actief]",
           "created_at": "2026-09-02T16:38:09Z",
-          "doneNote": "Polis actief",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1054,8 +1020,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "qaz56j"
+          ]
         },
         {
           "id": "f0-21",
@@ -1065,7 +1030,6 @@
           "done": false,
           "notes": "Vóór brand naam lock-in\n[Status: Geen conflicten]",
           "created_at": "2026-09-02T14:38:09Z",
-          "doneNote": "Geen conflicten",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1116,8 +1080,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "f0mz4g"
+          ]
         },
         {
           "id": "f0-22",
@@ -1127,7 +1090,6 @@
           "done": false,
           "notes": "HK adres niet publiek\n[Status: Privacy enabled]",
           "created_at": "2026-09-02T12:38:09Z",
-          "doneNote": "Privacy enabled",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1166,8 +1128,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "r52nif"
+          ]
         },
         {
           "id": "f0-23",
@@ -1177,7 +1138,6 @@
           "done": false,
           "notes": "Voor Klaviyo + order emails\n[Status: DNS records live]",
           "created_at": "2026-09-02T10:38:09Z",
-          "doneNote": "DNS records live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1222,8 +1182,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "64e7cz"
+          ]
         },
         {
           "id": "f0-24",
@@ -1233,7 +1192,6 @@
           "done": false,
           "notes": "Wie doet wat binnen 24h\n[Status: SOP + owner aangewezen]",
           "created_at": "2026-09-02T08:38:09Z",
-          "doneNote": "SOP + owner aangewezen",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1278,8 +1236,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "s4a1xz"
+          ]
         },
         {
           "id": "f0-25",
@@ -1289,7 +1246,6 @@
           "done": false,
           "notes": "Multi-language templates\n[Status: Chat widget live]",
           "created_at": "2026-09-02T06:38:09Z",
-          "doneNote": "Chat widget live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1334,8 +1290,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "4h56g9"
+          ]
         },
         {
           "id": "f0-26",
@@ -1345,7 +1300,6 @@
           "done": false,
           "notes": "NL/EN/DE/FR/IT/ES/PL\n[Status: 10 templates × 7 talen]",
           "created_at": "2026-09-02T04:38:09Z",
-          "doneNote": "10 templates × 7 talen",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1390,8 +1344,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "xcids1"
+          ]
         },
         {
           "id": "f0-27",
@@ -1401,7 +1354,6 @@
           "done": false,
           "notes": "Ali/Kheibar/Farshad rotation\n[Status: Policy live]",
           "created_at": "2026-09-02T02:38:09Z",
-          "doneNote": "Policy live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1446,8 +1398,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "tut8u7"
+          ]
         },
         {
           "id": "f0-28",
@@ -1457,7 +1408,6 @@
           "done": false,
           "notes": "Test purchase event\n[Status: Events firing]",
           "created_at": "2026-09-02T00:38:09Z",
-          "doneNote": "Events firing",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1508,8 +1458,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "uvasbr"
+          ]
         },
         {
           "id": "f0-29",
@@ -1519,7 +1468,6 @@
           "done": false,
           "notes": "Free tier eerst\n[Status: Forms live]",
           "created_at": "2026-09-01T22:38:09Z",
-          "doneNote": "Forms live",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1570,8 +1518,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "x0dmec"
+          ]
         },
         {
           "id": "f0-30",
@@ -1581,7 +1528,6 @@
           "done": false,
           "notes": "Direct contact\n[Status: Supplier identified]",
           "created_at": "2026-09-01T20:38:09Z",
-          "doneNote": "Supplier identified",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1632,8 +1578,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "7l504u"
+          ]
         },
         {
           "id": "f0-31",
@@ -1643,7 +1588,6 @@
           "done": false,
           "notes": "Order flow + quality check\n[Status: SOP klaar]",
           "created_at": "2026-09-01T18:38:09Z",
-          "doneNote": "SOP klaar",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1694,8 +1638,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "si7yny"
+          ]
         },
         {
           "id": "f0-32",
@@ -1705,7 +1648,6 @@
           "done": false,
           "notes": "Risk mitigation\n[Status: Backup identified]",
           "created_at": "2026-09-01T16:38:09Z",
-          "doneNote": "Backup identified",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1750,8 +1692,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "18niph"
+          ]
         },
         {
           "id": "f0-33",
@@ -1761,7 +1702,6 @@
           "done": false,
           "notes": "CRITICAL — Geen doelgroep = geen ads die werken. Voedt ad copy, supplier pick, listing volgorde.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1806,8 +1746,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "h5rxv7"
+          ]
         },
         {
           "id": "f0-34",
@@ -1817,7 +1756,6 @@
           "done": false,
           "notes": "CRITICAL — Zonder dit kan logo/design/copy niet gemaakt worden. Alles hangt af van 1 zin.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1856,8 +1794,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "ixb1kb"
+          ]
         },
         {
           "id": "f0-35",
@@ -1867,7 +1804,6 @@
           "done": false,
           "notes": "HIGH — Drop ship China = 7-14d. 3PL buffer of EU warehouse is table stakes voor €10k/mnd.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1913,8 +1849,7 @@
           "linkedKnowledgeBytes": [
             "54",
             "6"
-          ],
-          "conceptHash": "7xso1f"
+          ]
         },
         {
           "id": "f0-36",
@@ -1924,7 +1859,6 @@
           "done": false,
           "notes": "HIGH — Wave 1 €35/d = direct afhankelijk van conversion rate; carrier fail = negatieve reviews na 2 orders.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -1969,8 +1903,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "99urnu"
+          ]
         },
         {
           "id": "f0-37",
@@ -1980,7 +1913,6 @@
           "done": false,
           "notes": "CRITICAL — AVB verzekering f0-20 dekt aansprakelijkheid, maar HACCP/LFGB materiaal-cert is verplicht voor food-contact keukengerij. Zonder = recall risico.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2031,8 +1963,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "ps68s3"
+          ]
         },
         {
           "id": "f0-39",
@@ -2042,7 +1973,6 @@
           "done": false,
           "notes": "HIGH — Inbox widget f0-25 staat, maar geen tool-decision. 7 talen → Gorgias macros bespaart 4u/dag.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2087,8 +2017,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "s5qgs1"
+          ]
         },
         {
           "id": "f0-40",
@@ -2098,7 +2027,6 @@
           "done": false,
           "notes": "CRITICAL — Zonder UTM discipline is attribution onmogelijk; kill rules werken niet. Wave 1 budget €35/d weggegooid geld.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2149,8 +2077,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "m6jwix"
+          ]
         },
         {
           "id": "f0-41",
@@ -2160,7 +2087,6 @@
           "done": false,
           "notes": "CRITICAL — iOS 14.5+ = CAPI vereist voor Meta ads. Zonder server-side events trainen ads op junk.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2211,8 +2137,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "z88723"
+          ]
         },
         {
           "id": "f0-42",
@@ -2222,7 +2147,6 @@
           "done": false,
           "notes": "HIGH — AVB f0-20 alleen. HK → EU drop ship heeft carriage liability risico; cyber voor Shopify/Klaviyo data.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2267,8 +2191,7 @@
           ],
           "linkedKnowledgeBytes": [
             "60"
-          ],
-          "conceptHash": "uc7r38"
+          ]
         }
       ],
       "name": "Foundations"
@@ -2288,7 +2211,6 @@
           "done": false,
           "notes": "Vóór logo design\n[Status: Pinterest/moodboard klaar]",
           "created_at": "2026-09-05T06:38:09Z",
-          "doneNote": "Pinterest/moodboard klaar",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2362,8 +2284,7 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ],
-          "conceptHash": "80v78i"
+          ]
         },
         {
           "id": "f1-2",
@@ -2373,7 +2294,6 @@
           "done": false,
           "notes": "Keukengerij positioning\n[Status: 1-pager + 5 examples]",
           "created_at": "2026-09-05T04:38:09Z",
-          "doneNote": "1-pager + 5 examples",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2419,8 +2339,7 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ],
-          "conceptHash": "a7uo6t"
+          ]
         },
         {
           "id": "f1-3",
@@ -2430,7 +2349,6 @@
           "done": false,
           "notes": "Wie/wat/waarom\n[Status: Emotional narrative]",
           "created_at": "2026-09-05T02:38:09Z",
-          "doneNote": "Emotional narrative",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2482,8 +2400,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "wkgr8t"
+          ]
         },
         {
           "id": "f1-4",
@@ -2493,7 +2410,6 @@
           "done": false,
           "notes": "<8 chars, pronounceable, EU\n[Status: Top 10 shortlist]",
           "created_at": "2026-09-05T00:38:09Z",
-          "doneNote": "Top 10 shortlist",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2539,8 +2455,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "163zby"
+          ]
         },
         {
           "id": "f1-5",
@@ -2550,7 +2465,6 @@
           "done": false,
           "notes": "Na EUIPO search\n[Status: Beschikbaar]",
           "created_at": "2026-09-04T22:38:09Z",
-          "doneNote": "Beschikbaar",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2584,8 +2498,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "ibxq09"
+          ]
         },
         {
           "id": "f1-6",
@@ -2595,7 +2508,6 @@
           "done": false,
           "notes": "Merk + categorie-woorden\n[Status: Geen conflicten]",
           "created_at": "2026-09-04T20:38:09Z",
-          "doneNote": "Geen conflicten",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2641,8 +2553,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "5ti9f3"
+          ]
         },
         {
           "id": "f1-7",
@@ -2652,7 +2563,6 @@
           "done": false,
           "notes": "[Status: Beschikbaar]",
           "created_at": "2026-09-04T18:38:09Z",
-          "doneNote": "Beschikbaar",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2698,8 +2608,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "9jsc0i"
+          ]
         },
         {
           "id": "f1-8",
@@ -2709,7 +2618,6 @@
           "done": false,
           "notes": "Ali + Farshad's designer input\n[Status: Naam vastgelegd]",
           "created_at": "2026-09-04T16:38:09Z",
-          "doneNote": "Naam vastgelegd",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2755,8 +2663,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "wh49b3"
+          ]
         },
         {
           "id": "f1-9",
@@ -2766,7 +2673,6 @@
           "done": false,
           "notes": "Ali kiest definitief\n[Status: 3 logos + keuze]",
           "created_at": "2026-09-04T14:38:09Z",
-          "doneNote": "3 logos + keuze",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2812,8 +2718,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "mxx7jl"
+          ]
         },
         {
           "id": "f1-10",
@@ -2823,7 +2728,6 @@
           "done": false,
           "notes": "[Status: Style guide klaar]",
           "created_at": "2026-09-04T12:38:09Z",
-          "doneNote": "Style guide klaar",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2869,8 +2773,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "emmaqv"
+          ]
         },
         {
           "id": "f1-11",
@@ -2880,7 +2783,6 @@
           "done": false,
           "notes": "IG/TikTok/X consistent\n[Status: Bios live]",
           "created_at": "2026-09-04T10:38:09Z",
-          "doneNote": "Bios live",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -2932,8 +2834,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "mhnma1"
+          ]
         },
         {
           "id": "f1-12",
@@ -2943,7 +2844,6 @@
           "done": false,
           "notes": "Of na launch beslissen\n[Status: Application submitted]",
           "created_at": "2026-09-04T08:38:09Z",
-          "doneNote": "Application submitted",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3001,8 +2901,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "t2vdti"
+          ]
         },
         {
           "id": "f1-13",
@@ -3012,7 +2911,6 @@
           "done": false,
           "notes": "Vrijdag research deadline\n[Status: Top 10 gekozen maar moet nog researchen.]",
           "created_at": "2026-09-04T06:38:09Z",
-          "doneNote": "Top 10 gekozen maar moet nog researchen.",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3040,8 +2938,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "m1nfb7"
+          ]
         },
         {
           "id": "f1-14",
@@ -3051,7 +2948,6 @@
           "done": false,
           "notes": "Winning-product-checklist\n[Status: Score sheet klaar]",
           "created_at": "2026-09-04T04:38:09Z",
-          "doneNote": "Score sheet klaar",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3085,8 +2981,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "4on7oa"
+          ]
         },
         {
           "id": "f1-15",
@@ -3096,7 +2991,6 @@
           "done": false,
           "notes": "Ali beslist segment vrijdag\n[Status: 30+ gescraped]",
           "created_at": "2026-09-04T02:38:09Z",
-          "doneNote": "30+ gescraped",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3130,8 +3024,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "n2zkre"
+          ]
         },
         {
           "id": "f1-16",
@@ -3141,7 +3034,6 @@
           "done": false,
           "notes": "Trade Assurance + reviews\n[Status: Top 3 suppliers/SKU]",
           "created_at": "2026-09-04T00:38:09Z",
-          "doneNote": "Top 3 suppliers/SKU",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3169,8 +3061,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "x358r9"
+          ]
         },
         {
           "id": "f1-17",
@@ -3180,7 +3071,6 @@
           "done": false,
           "notes": "€15-25/SKU + ship\n[Status: 10 samples ordered]",
           "created_at": "2026-09-03T22:38:09Z",
-          "doneNote": "10 samples ordered",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3208,8 +3098,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "mh6ajq"
+          ]
         },
         {
           "id": "f1-18",
@@ -3219,7 +3108,6 @@
           "done": false,
           "notes": "Vóór listings\n[Status: Pass/fail per SKU]",
           "created_at": "2026-09-03T20:38:09Z",
-          "doneNote": "Pass/fail per SKU",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3247,8 +3135,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "ldyy3b"
+          ]
         },
         {
           "id": "f1-19",
@@ -3258,7 +3145,6 @@
           "done": false,
           "notes": "Pricing + positioning\n[Status: Top 3 concurrenten per SKU]",
           "created_at": "2026-09-03T18:38:09Z",
-          "doneNote": "Top 3 concurrenten per SKU",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3286,8 +3172,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "jn3l8j"
+          ]
         },
         {
           "id": "f1-20",
@@ -3297,7 +3182,6 @@
           "done": false,
           "notes": "Keukengerij = food contact\n[Status: 10 SKUs passed]",
           "created_at": "2026-09-03T16:38:09Z",
-          "doneNote": "10 SKUs passed",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3331,8 +3215,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "x1bazy"
+          ]
         },
         {
           "id": "f1-21",
@@ -3342,7 +3225,6 @@
           "done": false,
           "notes": "Allergens per product | MERGED 2026-09-10 (audit): omvat material composition (origineel f1-21), country of origin marking (f1-22), manufacturer address (f1-23). Eén spreadsheet artifact per SKU. Owner: Farshad.\n[Status: Per SKU genoteerd]",
           "created_at": "2026-09-03T14:38:09Z",
-          "doneNote": "Per SKU genoteerd",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3370,8 +3252,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "8nswzv"
+          ]
         },
         {
           "id": "f1-24",
@@ -3381,7 +3262,6 @@
           "done": false,
           "notes": "€50-150/SKU/jaar\n[Status: 10 SKUs registered]",
           "created_at": "2026-09-03T08:38:09Z",
-          "doneNote": "10 SKUs registered",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3415,8 +3295,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "kw44ii"
+          ]
         },
         {
           "id": "f1-25",
@@ -3426,7 +3305,6 @@
           "done": false,
           "notes": "Sample arrival = D10\n[Status: Plan klaar]",
           "created_at": "2026-09-03T06:38:09Z",
-          "doneNote": "Plan klaar",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3460,8 +3338,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "gwm94r"
+          ]
         },
         {
           "id": "f1-26",
@@ -3471,7 +3348,6 @@
           "done": false,
           "notes": "Pannen, messen essentieel\n[Status: Per SKU]",
           "created_at": "2026-09-03T04:38:09Z",
-          "doneNote": "Per SKU",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3517,8 +3393,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "de391d"
+          ]
         },
         {
           "id": "f1-27",
@@ -3528,7 +3403,6 @@
           "done": false,
           "notes": "Pain → Solution → Specs → FAQ\n[Status: 10 descriptions]",
           "created_at": "2026-09-03T02:38:09Z",
-          "doneNote": "10 descriptions",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3580,8 +3454,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "1j30r8"
+          ]
         },
         {
           "id": "f1-28",
@@ -3591,7 +3464,6 @@
           "done": false,
           "notes": "Cross-sell basis\n[Status: 5 bundles defined]",
           "created_at": "2026-09-03T00:38:09Z",
-          "doneNote": "5 bundles defined",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3643,8 +3515,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "3cxzxo"
+          ]
         },
         {
           "id": "f1-29",
@@ -3654,7 +3525,6 @@
           "done": false,
           "notes": "CRITICAL — Pricing f2-5 kan pas als competitor prijzen bekend zijn. Anders margin niet te bepalen.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3706,8 +3576,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "2ksqrw"
+          ]
         },
         {
           "id": "f1-30",
@@ -3717,7 +3586,6 @@
           "done": false,
           "notes": "CRITICAL — Zonder angle stack is UGC/video creatie (f2-10/11) rammen in het donker.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3763,8 +3631,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "g33zhs"
+          ]
         },
         {
           "id": "f1-31",
@@ -3774,7 +3641,6 @@
           "done": false,
           "notes": "HIGH — Kasori/keuken-merk zonder founder presence = anoniem. Organisch groeit niet mee met ads.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3826,8 +3692,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "5d2scz"
+          ]
         },
         {
           "id": "f1-32",
@@ -3837,7 +3702,6 @@
           "done": false,
           "notes": "HIGH — Voor Wave 1 ads heb je social proof. 10 micro-influencers met 5-50K volgers = UGC + credibility.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3889,8 +3753,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "bda1ic"
+          ]
         },
         {
           "id": "f1-33",
@@ -3900,7 +3763,6 @@
           "done": false,
           "notes": "HIGH — Vervangt ICP aannames met echte taal + pain points. Voedt angle stack en copy.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -3952,8 +3814,7 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ],
-          "conceptHash": "48rxr5"
+          ]
         },
         {
           "id": "f1-34",
@@ -3963,7 +3824,6 @@
           "done": false,
           "notes": "MEDIUM — Stook retention + laag-CAC kanaal naast Meta.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4015,8 +3875,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "p0apvw"
+          ]
         },
         {
           "id": "f1-35",
@@ -4026,7 +3885,6 @@
           "done": false,
           "notes": "CRITICAL — Voor Google Ads f2-15 EN Meta dynamic ads. Zonder feed kun je niet targeten op product-viewers.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4078,8 +3936,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "lgfjvp"
+          ]
         },
         {
           "id": "f1-36",
@@ -4089,7 +3946,6 @@
           "done": false,
           "notes": "HIGH — Paid ads alleen = CAC stijgt. SEO content voor long-tail is compounding channel.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f1",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4147,8 +4003,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "vha8p"
+          ]
         }
       ],
       "name": "Brand & Voice"
@@ -4168,7 +4023,6 @@
           "done": false,
           "notes": "Studio + lifestyle\n[Status: 50-80 photos live]",
           "created_at": "2026-09-06T06:38:09Z",
-          "doneNote": "50-80 photos live",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4208,8 +4062,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "ny57tx"
+          ]
         },
         {
           "id": "f2-2",
@@ -4219,7 +4072,6 @@
           "done": false,
           "notes": "[Status: 10 main + 10 demo]",
           "created_at": "2026-09-06T04:38:09Z",
-          "doneNote": "10 main + 10 demo",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4259,8 +4111,7 @@
           "linkedKnowledgeBytes": [
             "981",
             "906"
-          ],
-          "conceptHash": "wek3p1"
+          ]
         },
         {
           "id": "f2-3",
@@ -4270,7 +4121,6 @@
           "done": false,
           "notes": "Multi-language\n[Status: 10 listings live]",
           "created_at": "2026-09-06T02:38:09Z",
-          "doneNote": "10 listings live",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4310,8 +4160,7 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ],
-          "conceptHash": "ejifv6"
+          ]
         },
         {
           "id": "f2-4",
@@ -4321,7 +4170,6 @@
           "done": false,
           "notes": "Long vs short, emoji ja/nee\n[Status: 2 variants/SKU]",
           "created_at": "2026-09-06T00:38:09Z",
-          "doneNote": "2 variants/SKU",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4355,8 +4203,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "wc2zhq"
+          ]
         },
         {
           "id": "f2-5",
@@ -4366,7 +4213,6 @@
           "done": false,
           "notes": "€15-80 range\n[Status: 10 prices vastgelegd]",
           "created_at": "2026-09-05T22:38:09Z",
-          "doneNote": "10 prices vastgelegd",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4406,8 +4252,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "bq1aff"
+          ]
         },
         {
           "id": "f2-6",
@@ -4417,7 +4262,6 @@
           "done": false,
           "notes": "[Status: FAQs live]",
           "created_at": "2026-09-05T20:38:09Z",
-          "doneNote": "FAQs live",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4451,8 +4295,7 @@
           "linkedKnowledgeBytes": [
             "981",
             "906"
-          ],
-          "conceptHash": "fm6u5b"
+          ]
         },
         {
           "id": "f2-7",
@@ -4462,7 +4305,6 @@
           "done": false,
           "notes": "MERGED 2026-09-10 (audit): omvat Trust badges + reviews app Judge.me install (origineel f2-7) + review velocity setup (f2-21). Owner: Designer (install) + Hermes (velocity automation).\n[Status: Live]",
           "created_at": "2026-09-05T18:38:09Z",
-          "doneNote": "Live",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4508,8 +4350,7 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ],
-          "conceptHash": "mkq69l"
+          ]
         },
         {
           "id": "f2-8",
@@ -4519,7 +4360,6 @@
           "done": false,
           "notes": "Cross-sell\n[Status: Live]",
           "created_at": "2026-09-05T16:38:09Z",
-          "doneNote": "Live",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4553,8 +4393,7 @@
           "linkedKnowledgeBytes": [
             "924",
             "934"
-          ],
-          "conceptHash": "xpettu"
+          ]
         },
         {
           "id": "f2-9",
@@ -4564,7 +4403,6 @@
           "done": false,
           "notes": "Sterkste metrics verwacht\n[Status: 3-4 SKUs]",
           "created_at": "2026-09-05T14:38:09Z",
-          "doneNote": "3-4 SKUs",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4598,8 +4436,7 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ],
-          "conceptHash": "vx4mj9"
+          ]
         },
         {
           "id": "f2-10",
@@ -4609,7 +4446,6 @@
           "done": false,
           "notes": "[Status: 15-20 UGC videos]",
           "created_at": "2026-09-05T12:38:09Z",
-          "doneNote": "15-20 UGC videos",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4649,8 +4485,7 @@
           "linkedKnowledgeBytes": [
             "933",
             "907"
-          ],
-          "conceptHash": "g16jaa"
+          ]
         },
         {
           "id": "f2-11",
@@ -4660,7 +4495,6 @@
           "done": false,
           "notes": "Multi-language ready\n[Status: 15-20 AI videos]",
           "created_at": "2026-09-05T10:38:09Z",
-          "doneNote": "15-20 AI videos",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4700,8 +4534,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "8locjc"
+          ]
         },
         {
           "id": "f2-12",
@@ -4711,7 +4544,6 @@
           "done": false,
           "notes": "Meta BM central\n[Status: EU10 ad accounts]",
           "created_at": "2026-09-05T08:38:09Z",
-          "doneNote": "EU10 ad accounts",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4757,8 +4589,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "8woheg"
+          ]
         },
         {
           "id": "f2-13",
@@ -4768,7 +4599,6 @@
           "done": false,
           "notes": "[Status: Account live]",
           "created_at": "2026-09-05T06:38:09Z",
-          "doneNote": "Account live",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4808,8 +4638,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "z2w4ih"
+          ]
         },
         {
           "id": "f2-14",
@@ -4819,7 +4648,6 @@
           "done": false,
           "notes": "Verspreid over EU10\n[Status: Wave 1 live]",
           "created_at": "2026-09-05T04:38:09Z",
-          "doneNote": "Wave 1 live",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4853,8 +4681,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "auv8ze"
+          ]
         },
         {
           "id": "f2-15",
@@ -4864,7 +4691,6 @@
           "done": false,
           "notes": "Search + Shopping later\n[Status: Wave 1 live]",
           "created_at": "2026-09-05T02:38:09Z",
-          "doneNote": "Wave 1 live",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4898,8 +4724,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "v1wgdo"
+          ]
         },
         {
           "id": "f2-16",
@@ -4909,7 +4734,6 @@
           "done": false,
           "notes": "Klaviyo\n[Status: Flows live]",
           "created_at": "2026-09-05T00:38:09Z",
-          "doneNote": "Flows live",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4943,8 +4767,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "f50as5"
+          ]
         },
         {
           "id": "f2-17",
@@ -4954,7 +4777,6 @@
           "done": false,
           "notes": "Shopify API\n[Status: Dashboard live]",
           "created_at": "2026-09-04T22:38:09Z",
-          "doneNote": "Dashboard live",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -4988,8 +4810,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "h2egap"
+          ]
         },
         {
           "id": "f2-18",
@@ -4999,7 +4820,6 @@
           "done": false,
           "notes": "Ali/Kheibar/Farshad\n[Status: Ritueel vastgelegd]",
           "created_at": "2026-09-04T20:38:09Z",
-          "doneNote": "Ritueel vastgelegd",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -5033,8 +4853,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "lansns"
+          ]
         },
         {
           "id": "f2-19",
@@ -5044,7 +4863,6 @@
           "done": false,
           "notes": "Kill/keep/scale\n[Status: Decision per SKU]",
           "created_at": "2026-09-04T18:38:09Z",
-          "doneNote": "Decision per SKU",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -5078,8 +4896,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "sld7r1"
+          ]
         },
         {
           "id": "f2-20",
@@ -5089,7 +4906,6 @@
           "done": false,
           "notes": "CRITICAL — Zonder framework = elke week nieuwe ads zonder learning. Creative refresh elke 14 dgn (f4-4) heeft framework nodig.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -5123,8 +4939,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "y6rgqp"
+          ]
         },
         {
           "id": "f2-22",
@@ -5134,7 +4949,6 @@
           "done": false,
           "notes": "HIGH — Externe trust badge naast Judge.me; Google Seller Ratings in ads.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -5168,8 +4982,7 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ],
-          "conceptHash": "pypnzs"
+          ]
         },
         {
           "id": "f2-23",
@@ -5179,7 +4992,6 @@
           "done": false,
           "notes": "HIGH — EU cart abandonment via SMS/WhatsApp >40% open vs email 15%.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -5213,8 +5025,7 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ],
-          "conceptHash": "jwbbid"
+          ]
         },
         {
           "id": "f2-24",
@@ -5224,7 +5035,6 @@
           "done": false,
           "notes": "HIGH — Dropship + Wave 1 = real-time stock visibility nodig. Anders ad naar OOS = wasted spend.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -5257,8 +5067,7 @@
           ],
           "linkedKnowledgeBytes": [
             "911"
-          ],
-          "conceptHash": "77g0bq"
+          ]
         },
         {
           "id": "f2-25",
@@ -5268,7 +5077,6 @@
           "done": false,
           "notes": "HIGH — Beloofde delivery in listing vs realiteit. Gap = 1-star reviews.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f2",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -5314,8 +5122,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "ikwixu"
+          ]
         },
         {
           "id": "f2-kb-andromeda-100vs5",
@@ -5326,7 +5133,6 @@
           "done": false,
           "notes": "Source: roslanofficial (DXZrPcRAAZk). KB cluster-001. '100 AI generated now beat 5 hand-crafted'\n[Status: Test results]",
           "created_at": "2026-09-10T17:50:00Z",
-          "doneNote": "Test results",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5353,8 +5159,7 @@
           "linkedKnowledgeBytes": [
             "933",
             "907"
-          ],
-          "conceptHash": "hy47gt"
+          ]
         },
         {
           "id": "f2-kb-abo-testing-structuur",
@@ -5365,7 +5170,6 @@
           "done": false,
           "notes": "Source: roslanofficial. KB cluster-001.\n[Status: ABO live]",
           "created_at": "2026-09-10T17:50:00Z",
-          "doneNote": "ABO live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5392,8 +5196,7 @@
           "linkedKnowledgeBytes": [
             "86",
             "105"
-          ],
-          "conceptHash": "w75gfs"
+          ]
         },
         {
           "id": "f2-kb-minus-ai-dashboard",
@@ -5404,7 +5207,6 @@
           "done": false,
           "notes": "Source: roslanofficial. KB cluster-001.\n[Status: Live]",
           "created_at": "2026-09-10T17:50:00Z",
-          "doneNote": "Live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5431,8 +5233,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "7k84k9"
+          ]
         },
         {
           "id": "f2-kb-targeting-creative-level",
@@ -5443,7 +5244,6 @@
           "done": false,
           "notes": "Source: roslanofficial. KB cluster-001.\n[Status: Targeting live]",
           "created_at": "2026-09-10T17:50:00Z",
-          "doneNote": "Targeting live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5464,8 +5264,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "yocs95"
+          ]
         },
         {
           "id": "f2-kb-indirect-sales-template",
@@ -5476,7 +5275,6 @@
           "done": false,
           "notes": "Source: roslanofficial. KB cluster-001. 'People hate offer right away'\n[Status: Template klaar]",
           "created_at": "2026-09-10T17:50:00Z",
-          "doneNote": "Template klaar",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5497,8 +5295,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "wknh4w"
+          ]
         },
         {
           "id": "f2-kb-creative-diversity-checklist",
@@ -5509,7 +5306,6 @@
           "done": false,
           "notes": "Source: roslanofficial. KB cluster-001. 'Every creative completely different'\n[Status: Checklist live]",
           "created_at": "2026-09-10T17:50:00Z",
-          "doneNote": "Checklist live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5530,8 +5326,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "siwvt6"
+          ]
         },
         {
           "id": "f2-kb-mockup-workflow",
@@ -5542,7 +5337,6 @@
           "done": false,
           "notes": "Source: roslanofficial. KB cluster-000. 'Exhute AI for mass production'\n[Status: Workflow klaar]",
           "created_at": "2026-09-10T17:50:00Z",
-          "doneNote": "Workflow klaar",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5563,8 +5357,7 @@
           "linkedKnowledgeBytes": [
             "933",
             "907"
-          ],
-          "conceptHash": "qgu4de"
+          ]
         },
         {
           "id": "f2-kb-ai-mass-pipeline",
@@ -5575,7 +5368,6 @@
           "done": false,
           "notes": "Source: roslanofficial. KB cluster-002.\n[Status: Pipeline live]",
           "created_at": "2026-09-10T17:50:00Z",
-          "doneNote": "Pipeline live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5596,8 +5388,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "xcsu03"
+          ]
         },
         {
           "id": "f2-kb-chase-3-campaign-structure",
@@ -5608,7 +5399,6 @@
           "done": false,
           "notes": "Source: Chase Chappell (YT-_jqhFeUu8QE). KB cluster-168 (creative_campaign_ad). '3 campaigns: interest testing + creative testing + retargeting'\n[Status: Campaigns live]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Campaigns live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5629,8 +5419,7 @@
           "linkedKnowledgeBytes": [
             "86",
             "105"
-          ],
-          "conceptHash": "7cfptq"
+          ]
         },
         {
           "id": "f2-kb-chase-5-unique-creatives",
@@ -5641,7 +5430,6 @@
           "done": false,
           "notes": "Source: Chase Chappell. KB cluster-168. '5 unique creatives, no two alike — Andromeda requirement'\n[Status: 5 creatives live]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "5 creatives live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5662,8 +5450,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "i3dqx2"
+          ]
         },
         {
           "id": "f2-kb-chase-rotate-winners",
@@ -5674,7 +5461,6 @@
           "done": false,
           "notes": "Source: Chase Chappell. KB cluster-168. 'Proven winners move to scaling campaign'\n[Status: Rotation routine]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Rotation routine",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5695,8 +5481,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "vdtotr"
+          ]
         },
         {
           "id": "f2-kb-chase-5-ad-copy-angles",
@@ -5707,7 +5492,6 @@
           "done": false,
           "notes": "Source: Chase Chappell. KB cluster-168. 'Long/medium/short + features/benefits/review/lifestyle'\n[Status: Copy matrix live]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Copy matrix live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5728,8 +5512,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "yuu7c"
+          ]
         },
         {
           "id": "f2-kb-chase-5-ad-sets",
@@ -5740,7 +5523,6 @@
           "done": false,
           "notes": "Source: Chase Chappell. KB cluster-168. 'Same ads in 5 audiences = full context coverage'\n[Status: 5 ad sets live]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "5 ad sets live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5761,8 +5543,7 @@
           "linkedKnowledgeBytes": [
             "86",
             "105"
-          ],
-          "conceptHash": "lphvt4"
+          ]
         },
         {
           "id": "f2-kb-funnel-strategy",
@@ -5773,7 +5554,6 @@
           "done": false,
           "notes": "Source: Maryanne Damarzo + Charley T. KB cluster-159. Top=curiosity/shock, mid=benefit/us-vs-them, bottom=proof/offer\n[Status: Funnel map live]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Funnel map live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5794,8 +5574,7 @@
           "linkedKnowledgeBytes": [
             "86",
             "105"
-          ],
-          "conceptHash": "23t86c"
+          ]
         },
         {
           "id": "f2-kb-curiosity-hooks",
@@ -5806,7 +5585,6 @@
           "done": false,
           "notes": "Source: Chase Chappell. KB cluster-159. 'Drive curiosity, deliver shock, give benefit'\n[Status: Hook template]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Hook template",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5827,8 +5605,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "3xngj3"
+          ]
         },
         {
           "id": "f2-kb-mid-funnel-benefits",
@@ -5839,7 +5616,6 @@
           "done": false,
           "notes": "Source: Maryanne Damarzo. KB cluster-159. 'Mid-funnel = super straightforward benefit ad'\n[Status: Mid-funnel set live]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Mid-funnel set live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5860,8 +5636,7 @@
           "linkedKnowledgeBytes": [
             "86",
             "105"
-          ],
-          "conceptHash": "hjed16"
+          ]
         },
         {
           "id": "f2-kb-ads-freshness",
@@ -5872,7 +5647,6 @@
           "done": false,
           "notes": "Source: Charley T. KB cluster-159. 'CPM + frequency = fatigue signal. Rotate before fatigue hits'\n[Status: Routine live]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Routine live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5893,8 +5667,7 @@
           "linkedKnowledgeBytes": [
             "933",
             "907"
-          ],
-          "conceptHash": "93wpu8"
+          ]
         },
         {
           "id": "f2-kb-headline-first",
@@ -5905,7 +5678,6 @@
           "done": false,
           "notes": "Source: Copy That!. KB cluster-109. 'Headline first, sub-headline next — same intent, different words'\n[Status: Copy structure]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Copy structure",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5926,8 +5698,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "ximvqw"
+          ]
         },
         {
           "id": "f2-kb-opening-sentence",
@@ -5938,7 +5709,6 @@
           "done": false,
           "notes": "Source: Copy That!. KB cluster-109. 'First sentence does the heavy lifting'\n[Status: Copy structure]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Copy structure",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5959,8 +5729,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "aejxvt"
+          ]
         },
         {
           "id": "f2-kb-target-audience-specificity",
@@ -5971,7 +5740,6 @@
           "done": false,
           "notes": "Source: Copy That!. KB cluster-109. 'Goal is not to grab the world's attention'\n[Status: Specificity rule]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Specificity rule",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -5992,8 +5760,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "1vpixz"
+          ]
         },
         {
           "id": "f2-kb-conversion-rate-first",
@@ -6004,7 +5771,6 @@
           "done": false,
           "notes": "Source: Charley T. KB cluster-145. 'CRO gets negated when you change ads'\n[Status: CRO baseline]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "CRO baseline",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -6025,8 +5791,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "8t8ail"
+          ]
         },
         {
           "id": "f2-kb-7-day-click-window",
@@ -6037,7 +5802,6 @@
           "done": false,
           "notes": "Source: Chase Chappell. KB cluster-145. '7-day click > 1-day for purchase decisions'\n[Status: Attribution window]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Attribution window",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -6058,8 +5822,7 @@
           "linkedKnowledgeBytes": [
             "924",
             "934"
-          ],
-          "conceptHash": "t101ct"
+          ]
         },
         {
           "id": "f2-kb-differentiate-from-competitors",
@@ -6070,7 +5833,6 @@
           "done": false,
           "notes": "Source: Charley T. KB cluster-145. 'If you rip off everyone, you do worse than them'\n[Status: Differentiation audit]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Differentiation audit",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -6091,8 +5853,7 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ],
-          "conceptHash": "7subgh"
+          ]
         },
         {
           "id": "f2-kb-deck-of-cards-math",
@@ -6103,7 +5864,6 @@
           "done": false,
           "notes": "Source: Charley T. KB cluster-169. '5 flexible ads × 12 = 60 combinations (deck of cards strategy)'\n[Status: Math template]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Math template",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -6124,8 +5884,7 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ],
-          "conceptHash": "clc1z0"
+          ]
         },
         {
           "id": "f2-kb-flexible-ads-vs-ad-sets",
@@ -6136,7 +5895,6 @@
           "done": false,
           "notes": "Source: Charley T. KB cluster-169. 'Multiple flexible ads > multiple ad sets'\n[Status: Structure chosen]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Structure chosen",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -6157,8 +5915,7 @@
           "linkedKnowledgeBytes": [
             "977",
             "935"
-          ],
-          "conceptHash": "k11wv3"
+          ]
         },
         {
           "id": "f2-kb-blended-cpa-tracking",
@@ -6169,7 +5926,6 @@
           "done": false,
           "notes": "Source: Charley T. KB cluster-110. '$85 ad at 105 AOV may be better than $92 ad at 160 AOV'\n[Status: Dashboard live]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Dashboard live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -6190,8 +5946,7 @@
           "linkedKnowledgeBytes": [
             "86",
             "105"
-          ],
-          "conceptHash": "dik1yq"
+          ]
         },
         {
           "id": "f2-kb-ltv-multiplier",
@@ -6202,7 +5957,6 @@
           "done": false,
           "notes": "Source: Charley T. KB cluster-110. 'LTV pool = ceiling for ad spend'\n[Status: LTV model]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "LTV model",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -6223,8 +5977,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "mlt189"
+          ]
         },
         {
           "id": "f2-kb-aov-tiered-offers",
@@ -6235,7 +5988,6 @@
           "done": false,
           "notes": "Source: Charley T. KB cluster-110. '$100/$150/$300 offers = blended AOV growth'\n[Status: Tiers live]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Tiers live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -6256,8 +6008,7 @@
           "linkedKnowledgeBytes": [
             "973",
             "127"
-          ],
-          "conceptHash": "6dx1l"
+          ]
         },
         {
           "id": "f2-kb-roas-benchmarks",
@@ -6268,7 +6019,6 @@
           "done": false,
           "notes": "Source: Chase Chappell. KB cluster-161. '86.8% ROAS increase from fixing account structure'\n[Status: Benchmarks doc]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Benchmarks doc",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -6289,8 +6039,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "fgh1yd"
+          ]
         },
         {
           "id": "f2-kb-budget-cut-rescue",
@@ -6301,7 +6050,6 @@
           "done": false,
           "notes": "Source: Chase Chappell. KB cluster-161. '$94k → $91k swing unprofitable → profitable'\n[Status: Rescue playbook]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Rescue playbook",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -6322,8 +6070,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "evjf7g"
+          ]
         },
         {
           "id": "f2-kb-native-ads-disguised",
@@ -6334,7 +6081,6 @@
           "done": false,
           "notes": "Source: Maryanne Damarzo. KB cluster-124. 'Disguised content beats banner-style ads'\n[Status: Native ad set]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Native ad set",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -6355,8 +6101,7 @@
           "linkedKnowledgeBytes": [
             "930",
             "919"
-          ],
-          "conceptHash": "c74xxo"
+          ]
         },
         {
           "id": "f2-kb-stop-scroll-purpose",
@@ -6367,7 +6112,6 @@
           "done": false,
           "notes": "Source: Chase Chappell. KB cluster-124. 'Design from the constraint of one purpose'\n[Status: Single-purpose rule]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Single-purpose rule",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -6388,8 +6132,7 @@
           "linkedKnowledgeBytes": [
             "926",
             "938"
-          ],
-          "conceptHash": "r11rb6"
+          ]
         }
       ],
       "name": "Creative & Testing"
@@ -6409,7 +6152,6 @@
           "done": false,
           "notes": "Anders segment dan W1\n[Status: 3-4 SKUs]",
           "created_at": "2026-09-07T06:38:09Z",
-          "doneNote": "3-4 SKUs",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6437,8 +6179,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "xmkj7q"
+          ]
         },
         {
           "id": "f3-2",
@@ -6448,7 +6189,6 @@
           "done": false,
           "notes": "[Status: Live]",
           "created_at": "2026-09-07T04:38:09Z",
-          "doneNote": "Live",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6482,8 +6222,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "c7fjet"
+          ]
         },
         {
           "id": "f3-3",
@@ -6493,7 +6232,6 @@
           "done": false,
           "notes": "[Status: 30-40 videos]",
           "created_at": "2026-09-07T02:38:09Z",
-          "doneNote": "30-40 videos",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6527,8 +6265,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "x4qp5t"
+          ]
         },
         {
           "id": "f3-4",
@@ -6538,7 +6275,6 @@
           "done": false,
           "notes": "[Status: Live]",
           "created_at": "2026-09-07T00:38:09Z",
-          "doneNote": "Live",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6566,8 +6302,7 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ],
-          "conceptHash": "615j03"
+          ]
         },
         {
           "id": "f3-5",
@@ -6577,7 +6312,6 @@
           "done": false,
           "notes": "[Status: Decision per SKU]",
           "created_at": "2026-09-06T22:38:09Z",
-          "doneNote": "Decision per SKU",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6604,8 +6338,7 @@
           ],
           "linkedKnowledgeBytes": [
             "34"
-          ],
-          "conceptHash": "eml93x"
+          ]
         },
         {
           "id": "f3-6",
@@ -6615,7 +6348,6 @@
           "done": false,
           "notes": "[Status: 3-4 SKUs]",
           "created_at": "2026-09-06T20:38:09Z",
-          "doneNote": "3-4 SKUs",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6643,8 +6375,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "v576ua"
+          ]
         },
         {
           "id": "f3-7",
@@ -6654,7 +6385,6 @@
           "done": false,
           "notes": "[Status: Live]",
           "created_at": "2026-09-06T18:38:09Z",
-          "doneNote": "Live",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6682,8 +6412,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "q67i2s"
+          ]
         },
         {
           "id": "f3-8",
@@ -6693,7 +6422,6 @@
           "done": false,
           "notes": "[Status: 30-40 videos]",
           "created_at": "2026-09-06T16:38:09Z",
-          "doneNote": "30-40 videos",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6721,8 +6449,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "w3ihum"
+          ]
         },
         {
           "id": "f3-9",
@@ -6732,7 +6459,6 @@
           "done": false,
           "notes": "[Status: Live]",
           "created_at": "2026-09-06T14:38:09Z",
-          "doneNote": "Live",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6760,8 +6486,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "6jme1e"
+          ]
         },
         {
           "id": "f3-10",
@@ -6771,7 +6496,6 @@
           "done": false,
           "notes": "[Status: Decision per SKU]",
           "created_at": "2026-09-06T12:38:09Z",
-          "doneNote": "Decision per SKU",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6799,8 +6523,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "ntafy"
+          ]
         },
         {
           "id": "f3-11",
@@ -6810,7 +6533,6 @@
           "done": false,
           "notes": "ROAS <2.0 na €500 spend\n[Status: Script live]",
           "created_at": "2026-09-06T10:38:09Z",
-          "doneNote": "Script live",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6838,8 +6560,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "hls2ds"
+          ]
         },
         {
           "id": "f3-12",
@@ -6849,7 +6570,6 @@
           "done": false,
           "notes": "Spend/ATC/Purch/ROAS/CM2\n[Status: Dashboard live]",
           "created_at": "2026-09-06T08:38:09Z",
-          "doneNote": "Dashboard live",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6876,8 +6596,7 @@
           ],
           "linkedKnowledgeBytes": [
             "34"
-          ],
-          "conceptHash": "s9w7k6"
+          ]
         },
         {
           "id": "f3-13",
@@ -6887,7 +6606,6 @@
           "done": false,
           "notes": "LTV:CAC berekening\n[Status: Tool live]",
           "created_at": "2026-09-06T06:38:09Z",
-          "doneNote": "Tool live",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6915,8 +6633,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "beucrg"
+          ]
         },
         {
           "id": "f3-14",
@@ -6926,7 +6643,6 @@
           "done": false,
           "notes": "Klaviyo\n[Status: Survey live]",
           "created_at": "2026-09-06T04:38:09Z",
-          "doneNote": "Survey live",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6953,8 +6669,7 @@
           ],
           "linkedKnowledgeBytes": [
             "979"
-          ],
-          "conceptHash": "ht4wr6"
+          ]
         },
         {
           "id": "f3-15",
@@ -6964,7 +6679,6 @@
           "done": false,
           "notes": "Wat doen zij\n[Status: Weekly rapport]",
           "created_at": "2026-09-06T02:38:09Z",
-          "doneNote": "Weekly rapport",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -6992,8 +6706,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "u6mu2x"
+          ]
         },
         {
           "id": "f3-16",
@@ -7003,7 +6716,6 @@
           "done": false,
           "notes": "Voor product insights\n[Status: Inbox + tagging]",
           "created_at": "2026-09-06T00:38:09Z",
-          "doneNote": "Inbox + tagging",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7031,8 +6743,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "chzt5o"
+          ]
         },
         {
           "id": "f3-17",
@@ -7042,7 +6753,6 @@
           "done": false,
           "notes": "Welke creative wint\n[Status: Framework live]",
           "created_at": "2026-09-05T22:38:09Z",
-          "doneNote": "Framework live",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7064,8 +6774,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "5z7dj1"
+          ]
         },
         {
           "id": "f3-18",
@@ -7075,7 +6784,6 @@
           "done": false,
           "notes": "Ali + Kheibar + Farshad\n[Status: Weekly]",
           "created_at": "2026-09-05T20:38:09Z",
-          "doneNote": "Weekly",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7103,8 +6811,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "l678fr"
+          ]
         },
         {
           "id": "f3-19",
@@ -7114,7 +6821,6 @@
           "done": false,
           "notes": "sku_pipeline_state.json\n[Status: Log bijgehouden]",
           "created_at": "2026-09-05T18:38:09Z",
-          "doneNote": "Log bijgehouden",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7136,8 +6842,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "e26kgd"
+          ]
         },
         {
           "id": "f3-20",
@@ -7147,7 +6852,6 @@
           "done": false,
           "notes": "HIGH — LTV:CAC beslissing (f4-2 scale) hangt af van source-quality, niet alleen SKU-winners.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7175,8 +6879,7 @@
           "linkedKnowledgeBytes": [
             "973",
             "127"
-          ],
-          "conceptHash": "u99iws"
+          ]
         },
         {
           "id": "f3-21",
@@ -7186,7 +6889,6 @@
           "done": false,
           "notes": "MEDIUM — CRO lift 10-20% > nieuwe ads. Onderbenut.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7208,8 +6910,7 @@
           "linkedKnowledgeBytes": [
             "981",
             "906"
-          ],
-          "conceptHash": "hq8inv"
+          ]
         },
         {
           "id": "f3-22",
@@ -7219,7 +6920,6 @@
           "done": false,
           "notes": "HIGH — Sommige SKUs zijn +€5-premium-positie, andere -€5-budget. Geen test = blinde pricing.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7247,8 +6947,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "p2tt4g"
+          ]
         },
         {
           "id": "f3-23",
@@ -7258,7 +6957,6 @@
           "done": false,
           "notes": "CRITICAL — F5-12 staat op D90+ maar 1 chargeback-golf in Wave 1 zonder runbook = 1 week paniek.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f3",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7286,8 +6984,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "oxdl5b"
+          ]
         },
         {
           "id": "f3-kb-cbo-scaling-template",
@@ -7298,7 +6995,6 @@
           "done": false,
           "notes": "Source: roslanofficial. KB cluster-001. 'CBO grows only stronger'\n[Status: CBO live]",
           "created_at": "2026-09-10T17:50:00Z",
-          "doneNote": "CBO live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -7319,8 +7015,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "yxp4j"
+          ]
         },
         {
           "id": "f3-kb-weekly-kill-focus",
@@ -7331,7 +7026,6 @@
           "done": false,
           "notes": "Source: roslanofficial. KB cluster-001.\n[Status: Routine live]",
           "created_at": "2026-09-10T17:50:00Z",
-          "doneNote": "Routine live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -7352,8 +7046,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "p2k575"
+          ]
         },
         {
           "id": "f3-kb-20pct-budget-stepup",
@@ -7364,7 +7057,6 @@
           "done": false,
           "notes": "Source: Charley T. KB cluster-161. 'Gradual increase maintains performance; jumps break the algorithm'\n[Status: Step-up routine]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Step-up routine",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -7385,8 +7077,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "uvv74w"
+          ]
         },
         {
           "id": "f3-kb-email-relationship-building",
@@ -7397,7 +7088,6 @@
           "done": false,
           "notes": "Source: Copy That!. KB cluster-137. 'Build relationship, not broadcast'\n[Status: Email philosophy]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Email philosophy",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -7418,8 +7108,7 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ],
-          "conceptHash": "peh6lu"
+          ]
         },
         {
           "id": "f3-kb-email-value-first",
@@ -7430,7 +7119,6 @@
           "done": false,
           "notes": "Source: Copy That!. KB cluster-137. 'Story before ask — never both at once'\n[Status: Email template]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Email template",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -7451,8 +7139,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "l9hao2"
+          ]
         },
         {
           "id": "f3-kb-email-cadence-weekly",
@@ -7463,7 +7150,6 @@
           "done": false,
           "notes": "Source: Copy That!. KB cluster-137. '7-day engagement cycle wins'\n[Status: Cadence live]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Cadence live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -7484,8 +7170,7 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ],
-          "conceptHash": "r321ge"
+          ]
         },
         {
           "id": "f3-kb-email-sequencing",
@@ -7496,7 +7181,6 @@
           "done": false,
           "notes": "Source: Copy That!. KB cluster-137. 'Build relationships with weekly engagement'\n[Status: Sequences live]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Sequences live",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -7517,8 +7201,7 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ],
-          "conceptHash": "epz741"
+          ]
         },
         {
           "id": "f3-kb-cohort-ltv-cac",
@@ -7529,7 +7212,6 @@
           "done": false,
           "notes": "Source: Charley T. KB cluster-110. '10K customers × $1K LTV = $10M pool'\n[Status: Cohort dashboard]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Cohort dashboard",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -7550,8 +7232,7 @@
           "linkedKnowledgeBytes": [
             "917",
             "918"
-          ],
-          "conceptHash": "ytemvi"
+          ]
         },
         {
           "id": "f3-kb-repeat-buyer-tracking",
@@ -7562,7 +7243,6 @@
           "done": false,
           "notes": "Source: Charley T. KB cluster-110. 'Dividing by repeat vs first-time reveals true CAC'\n[Status: Segment in CRM]",
           "created_at": "2026-09-10T19:50:00Z",
-          "doneNote": "Segment in CRM",
           "dayHistory": [],
           "lastDayShiftedBy": null,
           "lastDayShiftedAt": null,
@@ -7583,8 +7263,7 @@
           "linkedKnowledgeBytes": [
             "924",
             "934"
-          ],
-          "conceptHash": "x61ycz"
+          ]
         }
       ],
       "name": "Scaling"
@@ -7604,7 +7283,6 @@
           "done": false,
           "notes": "1 SKU/segment focus\n[Status: 3 winners]",
           "created_at": "2026-09-08T06:38:09Z",
-          "doneNote": "3 winners",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7622,9 +7300,7 @@
               "title": "Document winner criteria",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "111srx"
+          ]
         },
         {
           "id": "f4-2",
@@ -7634,7 +7310,6 @@
           "done": false,
           "notes": "Verhoog na winner-ID\n[Status: €300/dag totaal]",
           "created_at": "2026-09-08T04:38:09Z",
-          "doneNote": "€300/dag totaal",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7658,9 +7333,7 @@
               "title": "Duplicate winners with new audiences",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "qq5id8"
+          ]
         },
         {
           "id": "f4-3",
@@ -7670,7 +7343,6 @@
           "done": false,
           "notes": "Niet ATC maar purchasers\n[Status: Audiences live]",
           "created_at": "2026-09-08T02:38:09Z",
-          "doneNote": "Audiences live",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7694,9 +7366,7 @@
               "title": "Refresh customer list monthly",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "toutoq"
+          ]
         },
         {
           "id": "f4-4",
@@ -7706,7 +7376,6 @@
           "done": false,
           "notes": "Ad fatigue counter\n[Status: Doorlopend]",
           "created_at": "2026-09-08T00:38:09Z",
-          "doneNote": "Doorlopend",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7724,9 +7393,7 @@
               "title": "Creative diversity library",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "2e21hl"
+          ]
         },
         {
           "id": "f4-5",
@@ -7736,7 +7403,6 @@
           "done": false,
           "notes": "Non-brand demand\n[Status: PMax live]",
           "created_at": "2026-09-07T22:38:09Z",
-          "doneNote": "PMax live",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7760,9 +7426,7 @@
               "title": "Monitor + optimize",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "ecyy9h"
+          ]
         },
         {
           "id": "f4-6",
@@ -7772,7 +7436,6 @@
           "done": false,
           "notes": "Repeat halo\n[Status: Flow live]",
           "created_at": "2026-09-07T20:38:09Z",
-          "doneNote": "Flow live",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7790,9 +7453,7 @@
               "title": "Upsell in shipment packaging",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "8467gp"
+          ]
         },
         {
           "id": "f4-7",
@@ -7802,7 +7463,6 @@
           "done": false,
           "notes": "[Status: Flow live]",
           "created_at": "2026-09-07T18:38:09Z",
-          "doneNote": "Flow live",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7824,8 +7484,7 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ],
-          "conceptHash": "bqolq6"
+          ]
         },
         {
           "id": "f4-8",
@@ -7835,7 +7494,6 @@
           "done": false,
           "notes": "Cross-product bundles\n[Status: Test live]",
           "created_at": "2026-09-07T16:38:09Z",
-          "doneNote": "Test live",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7853,9 +7511,7 @@
               "title": "Dynamic bundle recommendations",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "fghwh1"
+          ]
         },
         {
           "id": "f4-9",
@@ -7865,7 +7521,6 @@
           "done": false,
           "notes": "AI suggest\n[Status: Live in Shopify]",
           "created_at": "2026-09-07T14:38:09Z",
-          "doneNote": "Live in Shopify",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7887,8 +7542,7 @@
           "linkedKnowledgeBytes": [
             "973",
             "127"
-          ],
-          "conceptHash": "u36413"
+          ]
         },
         {
           "id": "f4-10",
@@ -7898,7 +7552,6 @@
           "done": false,
           "notes": "Meta vs Google vs Email\n[Status: Live]",
           "created_at": "2026-09-07T12:38:09Z",
-          "doneNote": "Live",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7916,9 +7569,7 @@
               "title": "Cohort analysis per channel",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "sdjta7"
+          ]
         },
         {
           "id": "f4-11",
@@ -7928,7 +7579,6 @@
           "done": false,
           "notes": "Target 25%+ kitchen\n[Status: Dashboard live]",
           "created_at": "2026-09-07T10:38:09Z",
-          "doneNote": "Dashboard live",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7950,8 +7600,7 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ],
-          "conceptHash": "q4b43r"
+          ]
         },
         {
           "id": "f4-12",
@@ -7961,7 +7610,6 @@
           "done": false,
           "notes": "Welke week herhaal-aankoop\n[Status: Analyse klaar]",
           "created_at": "2026-09-07T08:38:09Z",
-          "doneNote": "Analyse klaar",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -7983,8 +7631,7 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ],
-          "conceptHash": "lovcrv"
+          ]
         },
         {
           "id": "f4-13",
@@ -7994,7 +7641,6 @@
           "done": false,
           "notes": "Voor consumables\n[Status: Decision: ja/nee]",
           "created_at": "2026-09-07T06:38:09Z",
-          "doneNote": "Decision: ja/nee",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8012,9 +7658,7 @@
               "title": "Subscription tech setup",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "x6iifc"
+          ]
         },
         {
           "id": "f4-14",
@@ -8024,7 +7668,6 @@
           "done": false,
           "notes": "Post-launch implementatie\n[Status: Puntenstructuur]",
           "created_at": "2026-09-07T04:38:09Z",
-          "doneNote": "Puntenstructuur",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8042,9 +7685,7 @@
               "title": "VIP perks + exclusivity",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "mavwii"
+          ]
         },
         {
           "id": "f4-15",
@@ -8054,7 +7695,6 @@
           "done": false,
           "notes": "[Status: Forecast update]",
           "created_at": "2026-09-07T02:38:09Z",
-          "doneNote": "Forecast update",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8072,9 +7712,7 @@
               "title": "Cash buffer targets",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "1lvkkf"
+          ]
         },
         {
           "id": "f4-16",
@@ -8084,7 +7722,6 @@
           "done": false,
           "notes": "MEDIUM — Na 90 dgn traction is wholesale vaak 2x LTV met lagere CAC. Onderzocht, niet gecommit.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8102,9 +7739,7 @@
               "title": "B2B sales material",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "gq4bkb"
+          ]
         },
         {
           "id": "f4-17",
@@ -8114,7 +7749,6 @@
           "done": false,
           "notes": "MEDIUM — EU10 shopify markets staat, maar operationele EU-uitrol is niet gepland.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8142,8 +7776,7 @@
           "linkedKnowledgeBytes": [
             "957",
             "961"
-          ],
-          "conceptHash": "mcexs3"
+          ]
         },
         {
           "id": "f4-18",
@@ -8153,7 +7786,6 @@
           "done": false,
           "notes": "LOW — Voor year-2 visie.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f4",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8171,9 +7803,7 @@
               "title": "Validate demand + feasibility",
               "done": false
             }
-          ],
-          "linkedKnowledgeBytes": [],
-          "conceptHash": "xz3ace"
+          ]
         }
       ],
       "name": "Expansion"
@@ -8193,7 +7823,6 @@
           "done": false,
           "notes": "GROWTH targets\n[Status: Dashboard review]",
           "created_at": "2026-09-09T06:38:09Z",
-          "doneNote": "Dashboard review",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8215,8 +7844,7 @@
           "linkedKnowledgeBytes": [
             "973",
             "127"
-          ],
-          "conceptHash": "sk5svq"
+          ]
         },
         {
           "id": "f5-2",
@@ -8226,7 +7854,6 @@
           "done": false,
           "notes": "Wat werkte, wat niet\n[Status: 5-pager]",
           "created_at": "2026-09-09T04:38:09Z",
-          "doneNote": "5-pager",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8248,8 +7875,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "edm6qi"
+          ]
         },
         {
           "id": "f5-3",
@@ -8259,7 +7885,6 @@
           "done": false,
           "notes": "Voor 2e iteratie\n[Status: Doc klaar]",
           "created_at": "2026-09-09T02:38:09Z",
-          "doneNote": "Doc klaar",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8281,8 +7906,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "ds0679"
+          ]
         },
         {
           "id": "f5-4",
@@ -8292,7 +7916,6 @@
           "done": false,
           "notes": "Voor renego\n[Status: Scorecard]",
           "created_at": "2026-09-09T00:38:09Z",
-          "doneNote": "Scorecard",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8314,8 +7937,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "8a7bbs"
+          ]
         },
         {
           "id": "f5-5",
@@ -8325,7 +7947,6 @@
           "done": false,
           "notes": "[Status: Themes doc]",
           "created_at": "2026-09-08T22:38:09Z",
-          "doneNote": "Themes doc",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8347,8 +7968,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "75fl22"
+          ]
         },
         {
           "id": "f5-6",
@@ -8358,7 +7978,6 @@
           "done": false,
           "notes": "GPSR + EU\n[Status: Audit rapport]",
           "created_at": "2026-09-08T20:38:09Z",
-          "doneNote": "Audit rapport",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8380,8 +7999,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "c273rn"
+          ]
         },
         {
           "id": "f5-7",
@@ -8391,7 +8009,6 @@
           "done": false,
           "notes": "[Status: P&L statement]",
           "created_at": "2026-09-08T18:38:09Z",
-          "doneNote": "P&L statement",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8413,8 +8030,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "w08xvs"
+          ]
         },
         {
           "id": "f5-8",
@@ -8424,7 +8040,6 @@
           "done": false,
           "notes": "Voor investor pitch\n[Status: 1-pager]",
           "created_at": "2026-09-08T16:38:09Z",
-          "doneNote": "1-pager",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8446,8 +8061,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "8g5gff"
+          ]
         },
         {
           "id": "f5-9",
@@ -8457,7 +8071,6 @@
           "done": false,
           "notes": "Aanbevolen voor F5+\n[Status: Consult gehad]",
           "created_at": "2026-09-08T14:38:09Z",
-          "doneNote": "Consult gehad",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8479,8 +8092,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "j7a9c1"
+          ]
         },
         {
           "id": "f5-10",
@@ -8490,7 +8102,6 @@
           "done": false,
           "notes": "Niet in 90-dgn scope\n[Status: Plan klaar]",
           "created_at": "2026-09-08T12:38:09Z",
-          "doneNote": "Plan klaar",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8512,8 +8123,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "c2knhl"
+          ]
         },
         {
           "id": "f5-11",
@@ -8523,7 +8133,6 @@
           "done": false,
           "notes": "Voor toekomstige hires\n[Status: SOPs gebundeld]",
           "created_at": "2026-09-08T10:38:09Z",
-          "doneNote": "SOPs gebundeld",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8545,8 +8154,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "36jmvj"
+          ]
         },
         {
           "id": "f5-12",
@@ -8556,7 +8164,6 @@
           "done": false,
           "notes": "Voor team\n[Status: Recall/chargeback/supplier failure]",
           "created_at": "2026-09-08T08:38:09Z",
-          "doneNote": "Recall/chargeback/supplier failure",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8578,8 +8185,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "lokj6g"
+          ]
         },
         {
           "id": "f5-13",
@@ -8589,7 +8195,6 @@
           "done": false,
           "notes": "€30k → €100k trajectory\n[Status: 1-pager]",
           "created_at": "2026-09-08T06:38:09Z",
-          "doneNote": "1-pager",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8611,8 +8216,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "yf4mt4"
+          ]
         },
         {
           "id": "f5-14",
@@ -8622,7 +8226,6 @@
           "done": false,
           "notes": "Voor maandelijkse cycles\n[Status: Template klaar]",
           "created_at": "2026-09-08T04:38:09Z",
-          "doneNote": "Template klaar",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8644,8 +8247,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "6o3vh6"
+          ]
         },
         {
           "id": "f5-15",
@@ -8655,7 +8257,6 @@
           "done": false,
           "notes": "Voor fundraising optie\n[Status: Deck klaar]",
           "created_at": "2026-09-08T02:38:09Z",
-          "doneNote": "Deck klaar",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8677,8 +8278,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "6vh9v8"
+          ]
         },
         {
           "id": "f5-16",
@@ -8688,7 +8288,6 @@
           "done": false,
           "notes": "HIGH — Lessons learned heeft externe check nodig, anders herhaal je dezelfde fouten.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8710,8 +8309,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "cg5v5e"
+          ]
         },
         {
           "id": "f5-17",
@@ -8721,7 +8319,6 @@
           "done": false,
           "notes": "HIGH — 90 dgn launch = burnout risico. Post-launch assessment voor jaar 2.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
-          "doneNote": "",
           "phase": "f5",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -8743,8 +8340,7 @@
           "linkedKnowledgeBytes": [
             "30",
             "10"
-          ],
-          "conceptHash": "clht46"
+          ]
         }
       ],
       "name": "Compounding"
