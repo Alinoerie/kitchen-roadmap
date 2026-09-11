@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T10:09:34.296Z",
+  "lastSavedBy": "hermes-bidirectional-sync",
+  "lastSavedAt": "2026-09-11T19:00:00Z",
   "phases": [
     {
       "id": "f0",
@@ -29,7 +29,7 @@
               "text": "Bepaal bedrijfsvorm: BR (Besloten Vennootschap) is standaard voor e-commerce — biedt aansprakelijkheidsbescherming en schaalbare equity-structuur. Sole proprietorship (eenmanszaak) is goedkoper maar persoonlijke aansprakelijkheid.",
               "url": "https://www.gov.hk/en/business/registration/",
               "urlLabel": "GovHK Business Registration",
-              "done": true,
+              "done": false,
               "title": "Bepaal bedrijfsvorm (BR vs eenmanszaak)"
             },
             {
@@ -37,14 +37,14 @@
               "text": "Check bedrijfsnaam beschikbaarheid via Hong Kong Companies Registry — unieke naam verplicht, geen overlap met bestaande entiteiten.",
               "url": "https://www.cr.gov.hk/crportal/cgi-bin/crlicname/regname.cgi",
               "urlLabel": "CR Name Search",
-              "done": true,
+              "done": false,
               "title": "Check bedrijfsnaam beschikbaarheid"
             },
             {
               "id": "st3",
               "text": "Verzamel documenten voor incorporation: paspoortkopieën van alle directors/shareholders, bewijs van geregistreerd adres in Hong Kong (geen postbus — fysiek adres vereist), en oprichtingsdocumenten (Articles of Association).",
               "doc": "Benodigd: paspoortkopieën van alle drie co-founders (Ali, Kheibar, Farshad), adresbewijs (huurcontract of utility bill HK), business description (~100 woorden).",
-              "done": true,
+              "done": false,
               "title": "Verzamel documenten voor incorporation"
             },
             {
@@ -105,26 +105,80 @@
             "Business description (~100 woorden over geplande activiteit)",
             "Initiële kapitaalstorting bewijs (HK$1 nominal is voldoende voor BR)",
             "Articles of Association (opgesteld door company secretary)"
+          ],
+          "linkedKnowledgeBytes": [
+            930,
+            919,
+            946,
+            "0",
+            "1",
+            "2",
+            "7",
+            "13",
+            "16",
+            "17",
+            "18",
+            "21",
+            "22",
+            "24",
+            "27",
+            "31",
+            "38",
+            "39",
+            "42",
+            "44",
+            "45",
+            "50",
+            "52",
+            "55",
+            "57",
+            "58",
+            "65",
+            "67",
+            "68",
+            "72",
+            "80",
+            "83",
+            "86",
+            "87",
+            "88",
+            "93",
+            "95",
+            "96",
+            "105",
+            "109",
+            "112",
+            "114",
+            "120",
+            "121",
+            "124",
+            "125",
+            "132",
+            "133",
+            "135",
+            "908",
+            "922",
+            "939",
+            "963",
+            "967",
+            "972",
+            "995",
+            "999"
           ]
         },
         {
           "id": "f0-5",
           "name": "Payment provider keuze (na HK setup)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-5",
           "done": false,
           "notes": "Default Shopify Payments\n[Status: Shopify Payments / Mollie / Stripe]",
           "created_at": "2026-09-03T22:38:09Z",
           "doneNote": "Shopify Payments / Mollie / Stripe",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-5",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -168,26 +222,26 @@
             "Bankrekeninggegevens (uit f0-11) voor payouts",
             "Verwacht maandelijks volume per land/valuta",
             "Personal IDs van alle 3 co-founders (KYC)"
+          ],
+          "linkedKnowledgeBytes": [
+            979,
+            917,
+            918
           ]
         },
         {
           "id": "f0-6",
           "name": "Shopify Payments activeren",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "Verify payout\n[Status: HK IBAN gekoppeld]",
           "created_at": "2026-09-03T20:38:09Z",
           "doneNote": "HK IBAN gekoppeld",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -219,26 +273,45 @@
               "title": "Activeer fraud analysis",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966,
+            "5",
+            "32",
+            "59",
+            "62",
+            "81",
+            "113",
+            "161",
+            "162",
+            "163",
+            "167",
+            "905",
+            "921",
+            "928",
+            "932",
+            "943",
+            "947",
+            "970",
+            "980",
+            "988"
           ]
         },
         {
           "id": "f0-7",
           "name": "VAT/IOSS check voor EU verkopen",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-5",
           "done": false,
           "notes": "HK seller + EU10 = douane-vragen\n[Status: Strategy gedocumenteerd]",
           "created_at": "2026-09-03T18:38:09Z",
           "doneNote": "Strategy gedocumenteerd",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-5",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -282,26 +355,26 @@
             "BTW-nummers per EU-land (na lokale registratie)",
             "Maandelijkse omzet per EU-land voor aangifte",
             "Verzendadressen klanten (bewijs van bestemming)"
+          ],
+          "linkedKnowledgeBytes": [
+            973,
+            127,
+            917
           ]
         },
         {
           "id": "f0-8",
           "name": "Currency hedging EUR/HKD/CNY",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "Exposure bij €100k+ volume\n[Status: Strategy + tool]",
           "created_at": "2026-09-03T16:38:09Z",
           "doneNote": "Strategy + tool",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -333,26 +406,36 @@
               "title": "Documenteer FX beleid",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920,
+            "19",
+            "23",
+            "35",
+            "51",
+            "61",
+            "64",
+            "97",
+            "106",
+            "107",
+            "115"
           ]
         },
         {
           "id": "f0-9",
           "name": "Shopify master account aanmaken",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-7",
           "done": false,
           "notes": "Email + bank verify\n[Status: Account live]",
           "created_at": "2026-09-03T14:38:09Z",
           "doneNote": "Account live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-7",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -435,26 +518,26 @@
             "Bankrekeninggegevens voor Shopify Payments",
             "Btw-nummers per EU-land (zodra F0-7 is afgerond)",
             "Email adressen voor staff uitnodigingen (Ali/Kheibar/Farshad)"
+          ],
+          "linkedKnowledgeBytes": [
+            54,
+            6,
+            917
           ]
         },
         {
           "id": "f0-10",
           "name": "Shopify Markets setup (EU10)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-6",
           "done": false,
           "notes": "Multi-currency EUR + GBP\n[Status: 10 landen actief]",
           "created_at": "2026-09-03T12:38:09Z",
           "doneNote": "10 landen actief",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-6",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -492,6 +575,11 @@
               "title": "Test checkout per market",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -544,26 +632,53 @@
               "title": "Setup theme backup + version control",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978,
+            "3",
+            "8",
+            "9",
+            "14",
+            "29",
+            "36",
+            "40",
+            "53",
+            "56",
+            "70",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "98",
+            "134",
+            "136",
+            "138",
+            "139",
+            "141",
+            "142",
+            "164",
+            "909",
+            "916",
+            "923",
+            "956"
           ]
         },
         {
           "id": "f0-12",
           "name": "Homepage design + copy",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "Brand voice input van Ali\n[Status: Page live]",
           "created_at": "2026-09-03T08:38:09Z",
           "doneNote": "Page live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -601,26 +716,64 @@
               "title": "A/B test hero varianten na 30 dagen live",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985,
+            "37",
+            "41",
+            "48",
+            "69",
+            "71",
+            "73",
+            "74",
+            "90",
+            "91",
+            "94",
+            "101",
+            "116",
+            "122",
+            "128",
+            "129",
+            "130",
+            "131",
+            "137",
+            "140",
+            "143",
+            "144",
+            "146",
+            "148",
+            "150",
+            "153",
+            "154",
+            "155",
+            "156",
+            "157",
+            "925",
+            "937",
+            "942",
+            "948",
+            "951",
+            "960",
+            "982",
+            "983",
+            "987"
           ]
         },
         {
           "id": "f0-13",
           "name": "About, Contact, FAQ pages",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "Multi-language ready\n[Status: Pages live]",
           "created_at": "2026-09-03T06:38:09Z",
           "doneNote": "Pages live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -652,26 +805,26 @@
               "title": "Link building tussen pages",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
           "id": "f0-14",
           "name": "Trust badges + design elements",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "SSL, returns, secure checkout\n[Status: Live]",
           "created_at": "2026-09-03T04:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -703,26 +856,26 @@
               "title": "Test impact op conversion",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
           "id": "f0-15",
           "name": "GPSR Responsible Person service kiezen",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-5",
           "done": false,
           "notes": "Verplicht EU 2024\n[Status: Service getekend]",
           "created_at": "2026-09-03T02:38:09Z",
           "doneNote": "Service getekend",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-5",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -766,26 +919,26 @@
             "Materiaal veiligheidsdata (Material Safety Data Sheets)",
             "Product specs (gewicht, materialen, intended use)",
             "EU adres van RP service provider"
+          ],
+          "linkedKnowledgeBytes": [
+            60,
+            917,
+            918
           ]
         },
         {
           "id": "f0-16",
           "name": "Privacy Policy (Shopify + Hermes)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "HK seller + EU10 klanten\n[Status: Live]",
           "created_at": "2026-09-03T00:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -829,26 +982,26 @@
               "title": "Jaarlijkse Privacy Policy review",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            961,
+            957,
+            920
           ]
         },
         {
           "id": "f0-17",
           "name": "Terms of Service (HK seller disclaimers)",
           "owner": "ali",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "Dropship disclaimer\n[Status: Live]",
           "created_at": "2026-09-02T22:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -886,26 +1039,26 @@
               "title": "Setup dispute resolution procedure",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
           "id": "f0-18",
           "name": "Cookie Policy + GDPR banner (7 talen)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "10 talen EU\n[Status: Live]",
           "created_at": "2026-09-02T20:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -943,26 +1096,26 @@
               "title": "Documenteer consent log",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            961,
+            957,
+            920
           ]
         },
         {
           "id": "f0-19",
           "name": "Returns policy (14 dgn, wij betalen)",
           "owner": "ali",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "EU wettelijk minimum | MERGED 2026-09-10 (audit): omvat returns policy 14 dgn (origineel f0-19) + returns portal opzetten Returnless/Loop/Shopify Afterpay (f0-38). Eén workflow: policy opstellen + portal activeren. Owner: Hermes.\n[Status: Live]",
           "created_at": "2026-09-02T18:38:09Z",
           "doneNote": "Live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1000,26 +1153,26 @@
               "title": "Test return flow end-to-end",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            54,
+            917,
+            6
           ]
         },
         {
           "id": "f0-20",
           "name": "AVB verzekering (food-contact keukengerij)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "€2M dekking aanbevolen\n[Status: Polis actief]",
           "created_at": "2026-09-02T16:38:09Z",
           "doneNote": "Polis actief",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1063,26 +1216,26 @@
             "Test reports (LFGB/FDA) voor underwriting",
             "Verwachte jaaromzet per productcategorie",
             "Distributie landen lijst"
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
           "id": "f0-21",
           "name": "Trademark search (EUIPO + WIPO + categorie)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "Vóór brand naam lock-in\n[Status: Geen conflicten]",
           "created_at": "2026-09-02T14:38:09Z",
           "doneNote": "Geen conflicten",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1126,26 +1279,26 @@
               "title": "Documenteer trademark status",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            60,
+            917,
+            918
           ]
         },
         {
           "id": "f0-22",
           "name": "Domain WHOIS privacy setup",
           "owner": "hermes",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "HK adres niet publiek\n[Status: Privacy enabled]",
           "created_at": "2026-09-02T12:38:09Z",
           "doneNote": "Privacy enabled",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1177,26 +1330,26 @@
               "title": "Documenteer domain inventory",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
           "id": "f0-23",
           "name": "Email deliverability (SPF/DKIM/DMARC)",
           "owner": "hermes",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "Voor Klaviyo + order emails\n[Status: DNS records live]",
           "created_at": "2026-09-02T10:38:09Z",
           "doneNote": "DNS records live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1234,26 +1387,26 @@
               "title": "Setup feedback loops",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
           "id": "f0-24",
           "name": "Dispute/chargeback handling SOP",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-1",
           "done": false,
           "notes": "Wie doet wat binnen 24h\n[Status: SOP + owner aangewezen]",
           "created_at": "2026-09-02T08:38:09Z",
           "doneNote": "SOP + owner aangewezen",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-1",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1291,26 +1444,26 @@
               "title": "Fraud prevention rules in Shopify",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
           "id": "f0-25",
           "name": "Shopify Inbox setup + chatbot widget",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "Multi-language templates\n[Status: Chat widget live]",
           "created_at": "2026-09-02T06:38:09Z",
           "doneNote": "Chat widget live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1348,26 +1501,26 @@
               "title": "Test alle kanalen end-to-end",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            54,
+            6,
+            917
           ]
         },
         {
           "id": "f0-26",
           "name": "CS reply templates × 7 talen",
           "owner": "hermes",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "NL/EN/DE/FR/IT/ES/PL\n[Status: 10 templates × 7 talen]",
           "created_at": "2026-09-02T04:38:09Z",
           "doneNote": "10 templates × 7 talen",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1405,26 +1558,26 @@
               "title": "Maandelijkse review + iteratie",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
           "id": "f0-27",
           "name": "24h ticket response SLA instellen",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-1",
           "done": false,
           "notes": "Ali/Kheibar/Farshad rotation\n[Status: Policy live]",
           "created_at": "2026-09-02T02:38:09Z",
           "doneNote": "Policy live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-1",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1462,26 +1615,26 @@
               "title": "Monthly SLA report naar founders",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            54,
+            6,
+            917
           ]
         },
         {
           "id": "f0-28",
           "name": "GA4 + Meta Pixel setup",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "Test purchase event\n[Status: Events firing]",
           "created_at": "2026-09-02T00:38:09Z",
           "doneNote": "Events firing",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1525,26 +1678,26 @@
               "title": "Documenteer analytics setup",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            34,
+            917,
+            918
           ]
         },
         {
           "id": "f0-29",
           "name": "Klaviyo account + signup forms",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-1",
           "done": false,
           "notes": "Free tier eerst\n[Status: Forms live]",
           "created_at": "2026-09-01T22:38:09Z",
           "doneNote": "Forms live",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-1",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1588,6 +1741,11 @@
               "title": "Monitor Klaviyo deliverability",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
@@ -1646,26 +1804,26 @@
               "title": "Documenteer supplier in 1Password + Notion",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            123,
+            917,
+            918
           ]
         },
         {
           "id": "f0-31",
           "name": "Dropship workflow SOP",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-1",
           "done": false,
           "notes": "Order flow + quality check\n[Status: SOP klaar]",
           "created_at": "2026-09-01T18:38:09Z",
           "doneNote": "SOP klaar",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-1",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1709,26 +1867,26 @@
               "title": "Maandelijkse supplier performance review",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            54,
+            6,
+            917
           ]
         },
         {
           "id": "f0-32",
           "name": "Backup supplier per top-3 SKU",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "Risk mitigation\n[Status: Backup identified]",
           "created_at": "2026-09-01T16:38:09Z",
           "doneNote": "Backup identified",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1766,26 +1924,26 @@
               "title": "Documenteer dual sourcing strategy",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            123,
+            917,
+            918
           ]
         },
         {
           "id": "f0-33",
           "name": "ICP / buyer persona × 3 segmenten (EU25-45 home cook)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "CRITICAL — Geen doelgroep = geen ads die werken. Voedt ad copy, supplier pick, listing volgorde.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1823,26 +1981,64 @@
               "title": "Track segment performance",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912,
+            "15",
+            "20",
+            "43",
+            "46",
+            "49",
+            "66",
+            "85",
+            "89",
+            "92",
+            "99",
+            "126",
+            "145",
+            "149",
+            "158",
+            "165",
+            "166",
+            "168",
+            "901",
+            "903",
+            "913",
+            "914",
+            "931",
+            "941",
+            "944",
+            "945",
+            "949",
+            "952",
+            "953",
+            "958",
+            "969",
+            "974",
+            "976",
+            "984",
+            "986",
+            "990",
+            "993",
+            "996",
+            "998"
           ]
         },
         {
           "id": "f0-34",
           "name": "Brand promise / value prop (1 zin, <12 woorden)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "CRITICAL — Zonder dit kan logo/design/copy niet gemaakt worden. Alles hangt af van 1 zin.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1874,26 +2070,27 @@
               "title": "Documenteer brand promise in Notion",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            30,
+            10,
+            28,
+            "33"
           ]
         },
         {
           "id": "f0-35",
           "name": "Logistics 3PL shortlist (PostNL / DHL / 3PL hub NL)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "HIGH — Drop ship China = 7-14d. 3PL buffer of EU warehouse is table stakes voor €10k/mnd.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1931,26 +2128,26 @@
               "title": "Kies 3PL + teken contract",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            54,
+            6,
+            917
           ]
         },
         {
           "id": "f0-36",
           "name": "Carrier SLA onderzoek (transit times, fail rate, returns ease)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-5",
           "done": false,
           "notes": "HIGH — Wave 1 €35/d = direct afhankelijk van conversion rate; carrier fail = negatieve reviews na 2 orders.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-5",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -1988,26 +2185,26 @@
               "title": "Documenteer carrier performance",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            979,
+            917,
+            918
           ]
         },
         {
           "id": "f0-37",
           "name": "HACCP / food-contact compliance per materiaal (LFGB / FDA)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-5",
           "done": false,
           "notes": "CRITICAL — AVB verzekering f0-20 dekt aansprakelijkheid, maar HACCP/LFGB materiaal-cert is verplicht voor food-contact keukengerij. Zonder = recall risico.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-5",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -2051,26 +2248,26 @@
             "Supplier test reports (LFGB/FDA)",
             "REACH compliance statements",
             "Onafhankelijke lab test reports (indien gedaan)"
+          ],
+          "linkedKnowledgeBytes": [
+            60,
+            917,
+            918
           ]
         },
         {
           "id": "f0-39",
           "name": "CX tool keuze (Gorgias vs Zendesk vs Shopify Inbox alleen)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "HIGH — Inbox widget f0-25 staat, maar geen tool-decision. 7 talen → Gorgias macros bespaart 4u/dag.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -2108,26 +2305,26 @@
               "title": "Setup reporting + dashboards",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            979,
+            917,
+            926
           ]
         },
         {
           "id": "f0-40",
           "name": "Tracking & UTM taxonomy (source/medium/campaign/content standaard)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "CRITICAL — Zonder UTM discipline is attribution onmogelijk; kill rules werken niet. Wave 1 budget €35/d weggegooid geld.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -2171,26 +2368,26 @@
               "title": "Test + verify in GA4",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
           "id": "f0-41",
           "name": "Pixel event taxonomy (ViewContent / AddToCart / InitiateCheckout / Purchase + CAPI)",
           "owner": "kheibar",
-          "day": "D0",
+          "day": "D-3",
           "done": false,
           "notes": "CRITICAL — iOS 14.5+ = CAPI vereist voor Meta ads. Zonder server-side events trainen ads op junk.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-3",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -2234,26 +2431,26 @@
               "title": "Documenteer event taxonomy",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            34,
+            917,
+            926
           ]
         },
         {
           "id": "f0-42",
           "name": "Insurance scope review (product liability + carriage + cyber)",
           "owner": "farshad",
-          "day": "D0",
+          "day": "D-2",
           "done": false,
           "notes": "HIGH — AVB f0-20 alleen. HK → EU drop ship heeft carriage liability risico; cyber voor Shopify/Klaviyo data.\n[Status: ]",
           "created_at": "2026-09-10T14:43:54.667670Z",
           "doneNote": "",
           "phase": "f0",
-          "dayHistory": [
-            {
-              "from": "D-2",
-              "at": "2026-09-11T10:09:08.048Z"
-            }
-          ],
-          "lastDayShiftedBy": "auto-rollforward",
-          "lastDayShiftedAt": "2026-09-11T10:09:08.048Z",
+          "dayHistory": [],
+          "lastDayShiftedBy": null,
+          "lastDayShiftedAt": null,
           "subtasks": [
             {
               "id": "st1",
@@ -2291,6 +2488,11 @@
               "title": "Jaarlijkse review + update",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         }
       ],
@@ -2381,6 +2583,24 @@
             "Links naar top-5 concurrent sites (Our Place, Made In, Misen, Great Jones, Field Company)",
             "Eventuele photos uit eigen keuken (iPhone OK, daglicht)",
             "Notion workspace toegang voor publicatie"
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930,
+            "11",
+            "25",
+            "26",
+            "47",
+            "82",
+            "100",
+            "102",
+            "104",
+            "117",
+            "160",
+            "950",
+            "965",
+            "992"
           ]
         },
         {
@@ -2433,6 +2653,11 @@
               "title": "Train team + freelancers",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -2491,6 +2716,11 @@
               "title": "Test storytelling impact",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -2543,6 +2773,11 @@
               "title": "Lock-in naam + registreer",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -2583,6 +2818,11 @@
               "title": "Maak domein shortlist + keuze",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -2635,6 +2875,11 @@
               "title": "Documenteer search results",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -2687,6 +2932,11 @@
               "title": "Maak handle availability matrix",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -2739,6 +2989,11 @@
               "title": "Start trademark proces (zie f1-12)",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -2791,6 +3046,11 @@
               "title": "Final delivery + brand guide",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -2843,6 +3103,11 @@
               "title": "Documenteer design system",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -2901,6 +3166,11 @@
               "title": "Cross-check brand voice",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -2965,6 +3235,11 @@
             "Lijst van producten/diensten die gemerkt worden",
             "HK BR-nummer + owner info (Ali/Kheibar/Farshad)",
             "Betalingsgegevens voor EUIPO/UKIPO"
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -2999,6 +3274,32 @@
               "title": "Choose 10 SKUs",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            927,
+            929,
+            968,
+            "4",
+            "12",
+            "63",
+            "84",
+            "103",
+            "108",
+            "111",
+            "118",
+            "119",
+            "147",
+            "151",
+            "152",
+            "159",
+            "169",
+            "900",
+            "910",
+            "954",
+            "955",
+            "959",
+            "962",
+            "964"
           ]
         },
         {
@@ -3039,6 +3340,11 @@
               "title": "Matrix + select Wave 1",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            930,
+            919,
+            946
           ]
         },
         {
@@ -3079,6 +3385,11 @@
               "title": "Build competitor database",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -3113,6 +3424,11 @@
               "title": "Evaluate responses",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -3147,6 +3463,11 @@
               "title": "Evaluate on arrival",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -3181,6 +3502,11 @@
               "title": "Functional testing",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -3215,6 +3541,11 @@
               "title": "Identify differentiation opportunities",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -3255,6 +3586,11 @@
               "title": "Document compliance per SKU",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -3289,6 +3625,11 @@
               "title": "Display on product page",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -3329,6 +3670,11 @@
               "title": "Track + renew annually",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -3369,6 +3715,11 @@
               "title": "Organize in Drive",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -3421,6 +3772,11 @@
               "title": "Test met customer scenarios",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -3479,6 +3835,11 @@
               "title": "AI-assisted copy review",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -3537,6 +3898,11 @@
               "title": "Iterate bundle offerings",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            973,
+            933,
+            907
           ]
         },
         {
@@ -3595,6 +3961,11 @@
               "title": "Documenteer pricing rationale",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -3647,6 +4018,11 @@
               "title": "Documenteer per SKU",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            991
           ]
         },
         {
@@ -3705,6 +4081,11 @@
               "title": "Track engagement + iterate",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            975
           ]
         },
         {
@@ -3763,6 +4144,11 @@
               "title": "Wave 1: scale winners",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            930
           ]
         },
         {
@@ -3821,6 +4207,11 @@
               "title": "Iterate product/marketing",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -3879,6 +4270,11 @@
               "title": "Maandelijkse payout + rapport",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -3937,6 +4333,11 @@
               "title": "Monitor feed health",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -4001,6 +4402,11 @@
               "title": "Update + repurpose content",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            930,
+            919,
+            946
           ]
         }
       ],
@@ -4057,6 +4463,11 @@
               "title": "Test page speed impact",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -4103,6 +4514,11 @@
               "title": "Upload + multi-platform",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -4149,6 +4565,11 @@
               "title": "Schedule publish + announce",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -4189,6 +4610,11 @@
               "title": "Lock in winners",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -4235,6 +4661,11 @@
               "title": "A/B test + iterate",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            973,
+            917,
+            918
           ]
         },
         {
@@ -4275,6 +4706,11 @@
               "title": "Update op basis van nieuwe customer questions",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -4327,6 +4763,11 @@
               "title": "Track + optimize",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
@@ -4367,6 +4808,11 @@
               "title": "Pricing + marketing setup",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -4407,6 +4853,11 @@
               "title": "Communicate Wave 1 + lock in resources",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -4453,6 +4904,11 @@
               "title": "Deploy in Meta ads + organic",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            975
           ]
         },
         {
@@ -4499,6 +4955,11 @@
               "title": "Deploy in ads + organic",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            975
           ]
         },
         {
@@ -4551,6 +5012,11 @@
               "title": "Setup automated rules",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -4597,6 +5063,11 @@
               "title": "Configureer billing + budgets",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -4637,6 +5108,11 @@
               "title": "Analyze + optimize",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -4677,6 +5153,11 @@
               "title": "Optimize + expand",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -4717,6 +5198,11 @@
               "title": "Monitor performance (30 dagen)",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
@@ -4757,6 +5243,11 @@
               "title": "Weekly review meeting",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
@@ -4797,6 +5288,11 @@
               "title": "Weekly + monthly retro",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -4837,6 +5333,11 @@
               "title": "Communicate findings + plan",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -4877,6 +5378,11 @@
               "title": "Rotate winners",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            926
           ]
         },
         {
@@ -4917,6 +5423,11 @@
               "title": "Reageer op alle reviews",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
@@ -4957,6 +5468,11 @@
               "title": "Compliance: opt-out + timing",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
@@ -4997,6 +5513,11 @@
               "title": "Forecast demand (basic)",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            926,
+            918
           ]
         },
         {
@@ -5049,6 +5570,11 @@
               "title": "Identify + fix bottlenecks",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            926
           ]
         },
         {
@@ -5083,6 +5609,11 @@
               "title": "Andromeda-friendly creative formats",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            975
           ]
         },
         {
@@ -5117,6 +5648,11 @@
               "title": "Scale winning segments",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -5151,6 +5687,11 @@
               "title": "Daily review + actions",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -5179,6 +5720,11 @@
               "title": "Setup broad targeting + creative filtering",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            927,
+            929,
+            968
           ]
         },
         {
@@ -5207,6 +5753,11 @@
               "title": "Test vs direct sales messaging",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -5235,6 +5786,11 @@
               "title": "Pre-launch creative diversity check",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            930,
+            919,
+            946
           ]
         },
         {
@@ -5263,6 +5819,11 @@
               "title": "Produce 20 mockups per SKU",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            975
           ]
         },
         {
@@ -5291,6 +5852,11 @@
               "title": "Quality control + curation",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            975
           ]
         },
         {
@@ -5319,6 +5885,11 @@
               "title": "Configureer budget allocation",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            926
           ]
         },
         {
@@ -5347,6 +5918,11 @@
               "title": "Audit creative uniqueness",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            930,
+            919,
+            946
           ]
         },
         {
@@ -5375,6 +5951,11 @@
               "title": "Track rotation performance",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            926
           ]
         },
         {
@@ -5403,6 +5984,11 @@
               "title": "Rotate copy + measure",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -5431,6 +6017,11 @@
               "title": "Per audience: dedicated budget",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            927,
+            929,
+            968
           ]
         },
         {
@@ -5459,6 +6050,11 @@
               "title": "Build per-funnel ad sets",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            926
           ]
         },
         {
@@ -5487,6 +6083,11 @@
               "title": "Test curiosity vs benefit hooks",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            930,
+            919,
+            946
           ]
         },
         {
@@ -5515,6 +6116,11 @@
               "title": "Test formats (carousel, video, static)",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            975
           ]
         },
         {
@@ -5543,6 +6149,11 @@
               "title": "Batch creative production",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            911,
+            926,
+            938
           ]
         },
         {
@@ -5571,6 +6182,11 @@
               "title": "Test headline variants",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            930,
+            919,
+            946
           ]
         },
         {
@@ -5599,6 +6215,11 @@
               "title": "Hook formula library",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -5627,6 +6248,11 @@
               "title": "Build segment-specific creative library",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            927,
+            929,
+            968
           ]
         },
         {
@@ -5655,6 +6281,11 @@
               "title": "Audit conversion funnel",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -5683,6 +6314,19 @@
               "title": "Compare attribution windows",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            924,
+            989,
+            934,
+            "110",
+            "902",
+            "904",
+            "915",
+            "936",
+            "940",
+            "971",
+            "997"
           ]
         },
         {
@@ -5711,6 +6355,11 @@
               "title": "Study + differentiate",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -5739,6 +6388,11 @@
               "title": "Setup flexible ad assets",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            935,
+            985
           ]
         },
         {
@@ -5767,6 +6421,11 @@
               "title": "Setup flexible ad structure",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            918,
+            917,
+            912
           ]
         },
         {
@@ -5795,6 +6454,11 @@
               "title": "Setup dashboard with blended metric",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            924,
+            934,
+            989
           ]
         },
         {
@@ -5823,6 +6487,11 @@
               "title": "LTV:CAC target 3:1",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            973,
+            917,
+            918
           ]
         },
         {
@@ -5851,6 +6520,11 @@
               "title": "Optimize for highest LTV tier",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            973,
+            933,
+            917
           ]
         },
         {
@@ -5879,6 +6553,11 @@
               "title": "Set ROAS targets by phase",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -5907,6 +6586,11 @@
               "title": "Document cut experiments",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -5935,6 +6619,11 @@
               "title": "Test native vs explicit ads",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            977,
+            994,
+            935
           ]
         },
         {
@@ -5963,6 +6652,11 @@
               "title": "Audit opening frame",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            930,
+            919,
+            946
           ]
         }
       ],
@@ -6007,6 +6701,11 @@
               "title": "Wave 2 launch plan",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -6047,6 +6746,11 @@
               "title": "Multi-warehouse strategie",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -6087,6 +6791,11 @@
               "title": "Packaging optimization",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -6121,6 +6830,11 @@
               "title": "Loyalty program design",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
@@ -6155,6 +6869,11 @@
               "title": "Currency cost monitoring",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -6189,6 +6908,11 @@
               "title": "Backup 3PL activation",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -6223,6 +6947,11 @@
               "title": "Wave 3 success metrics",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            927,
+            929,
+            968
           ]
         },
         {
@@ -6257,6 +6986,11 @@
               "title": "Weekly AI insights report",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -6291,6 +7025,11 @@
               "title": "Wave 3 ad performance monitoring",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            927,
+            968,
+            929
           ]
         },
         {
@@ -6325,6 +7064,11 @@
               "title": "Document Wave 3 retrospective",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -6359,6 +7103,11 @@
               "title": "Safety stock per SKU",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -6393,6 +7142,11 @@
               "title": "Logistics cost optimization",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -6427,6 +7181,11 @@
               "title": "Returns flow optimization",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -6461,6 +7220,11 @@
               "title": "Quarterly NPS report",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            979,
+            917,
+            918
           ]
         },
         {
@@ -6495,6 +7259,11 @@
               "title": "Respond to competitive threats",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -6529,6 +7298,11 @@
               "title": "Implement top feedback",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            979,
+            917,
+            918
           ]
         },
         {
@@ -6557,6 +7331,11 @@
               "title": "FX cost dashboard",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            991
           ]
         },
         {
@@ -6591,6 +7370,11 @@
               "title": "Quarterly OKR review",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            933,
+            907,
+            975
           ]
         },
         {
@@ -6619,6 +7403,11 @@
               "title": "Decision framework",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            991
           ]
         },
         {
@@ -6653,6 +7442,11 @@
               "title": "Q4 stress test",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -6681,6 +7475,11 @@
               "title": "Freight forwarder scaling",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -6715,6 +7514,11 @@
               "title": "Bundle pricing optimization",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            973,
+            917,
+            918
           ]
         },
         {
@@ -6749,6 +7553,11 @@
               "title": "Crisis drill (annual)",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -6777,6 +7586,11 @@
               "title": "Scale winners via CBO + budget steps",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -6805,6 +7619,11 @@
               "title": "Document kill rationale",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -6833,6 +7652,11 @@
               "title": "Monitor for diminishing returns",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            930,
+            919,
+            946
           ]
         },
         {
@@ -6861,6 +7685,11 @@
               "title": "Test content vs promotion emails",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            924,
+            989,
+            934
           ]
         },
         {
@@ -6889,6 +7718,11 @@
               "title": "Editorial calendar voor emails",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            930,
+            919,
+            946
           ]
         },
         {
@@ -6917,6 +7751,11 @@
               "title": "Segment by engagement",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
@@ -6945,6 +7784,11 @@
               "title": "Test sequence timing",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
@@ -6973,6 +7817,11 @@
               "title": "Optimize ad spend per LTV signal",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            924,
+            989,
+            934
           ]
         },
         {
@@ -7001,6 +7850,11 @@
               "title": "VIP customer program",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            924,
+            934,
+            989
           ]
         }
       ],
@@ -7039,6 +7893,11 @@
               "title": "Document winner criteria",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -7073,6 +7932,11 @@
               "title": "Duplicate winners with new audiences",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -7107,6 +7971,11 @@
               "title": "Refresh customer list monthly",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            927,
+            929,
+            968
           ]
         },
         {
@@ -7135,6 +8004,11 @@
               "title": "Creative diversity library",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            911,
+            957,
+            981
           ]
         },
         {
@@ -7169,6 +8043,11 @@
               "title": "Monitor + optimize",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            927,
+            968,
+            929
           ]
         },
         {
@@ -7197,6 +8076,11 @@
               "title": "Upsell in shipment packaging",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
@@ -7225,6 +8109,11 @@
               "title": "Segment + personalize win-back",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
@@ -7253,6 +8142,11 @@
               "title": "Dynamic bundle recommendations",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            973,
+            981,
+            906
           ]
         },
         {
@@ -7281,6 +8175,11 @@
               "title": "Track cross-sell performance",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            973,
+            981,
+            906
           ]
         },
         {
@@ -7309,6 +8208,11 @@
               "title": "Cohort analysis per channel",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            924,
+            934,
+            989
           ]
         },
         {
@@ -7337,6 +8241,11 @@
               "title": "Optimize for repeat",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            957,
+            961,
+            920
           ]
         },
         {
@@ -7365,6 +8274,11 @@
               "title": "Retention optimization playbook",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            979,
+            981,
+            957
           ]
         },
         {
@@ -7393,6 +8307,11 @@
               "title": "Subscription tech setup",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            930,
+            919,
+            946
           ]
         },
         {
@@ -7421,6 +8340,11 @@
               "title": "VIP perks + exclusivity",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            973,
+            957,
+            961
           ]
         },
         {
@@ -7449,6 +8373,11 @@
               "title": "Cash buffer targets",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -7477,6 +8406,11 @@
               "title": "B2B sales material",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         },
         {
@@ -7511,6 +8445,11 @@
               "title": "Customs + duties per land",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -7539,6 +8478,11 @@
               "title": "Validate demand + feasibility",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            973,
+            981,
+            906
           ]
         }
       ],
@@ -7577,6 +8521,11 @@
               "title": "Stakeholder report",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            924,
+            934,
+            989
           ]
         },
         {
@@ -7605,6 +8554,11 @@
               "title": "Publish internally",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -7633,6 +8587,11 @@
               "title": "Team OKRs v2.0",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            973,
+            933
           ]
         },
         {
@@ -7661,6 +8620,11 @@
               "title": "Strategic supplier partnership",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            973,
+            917,
+            127
           ]
         },
         {
@@ -7689,6 +8653,11 @@
               "title": "Feedback → product roadmap",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            981,
+            906,
+            978
           ]
         },
         {
@@ -7717,6 +8686,11 @@
               "title": "Compliance gaps + fixes",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            60,
+            917,
+            918
           ]
         },
         {
@@ -7745,6 +8719,11 @@
               "title": "Financial learnings",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -7773,6 +8752,11 @@
               "title": "Strategic alternatives review",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            30,
+            10,
+            28
           ]
         },
         {
@@ -7801,6 +8785,11 @@
               "title": "International tax structure review",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            60,
+            917,
+            918
           ]
         },
         {
@@ -7829,6 +8818,11 @@
               "title": "Long-term ambassador program",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            927,
+            929,
+            968
           ]
         },
         {
@@ -7857,6 +8851,11 @@
               "title": "Delegation plan",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            918,
+            912
           ]
         },
         {
@@ -7885,6 +8884,11 @@
               "title": "Crisis simulations",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            979,
+            926,
+            917
           ]
         },
         {
@@ -7913,6 +8917,11 @@
               "title": "Year-2 OKRs",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            973,
+            127,
+            917
           ]
         },
         {
@@ -7941,6 +8950,11 @@
               "title": "MBR facilitation",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            973,
+            918
           ]
         },
         {
@@ -7969,6 +8983,11 @@
               "title": "Investor outreach strategy",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            930,
+            919,
+            946
           ]
         },
         {
@@ -7997,6 +9016,11 @@
               "title": "Advisory board setup",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            917,
+            973,
+            918
           ]
         },
         {
@@ -8025,11 +9049,15 @@
               "title": "Team health monitoring",
               "done": false
             }
+          ],
+          "linkedKnowledgeBytes": [
+            926,
+            938,
+            966
           ]
         }
       ],
       "name": "Compounding"
     }
-  ],
-  "_rollforwardMoved": 35
+  ]
 }
