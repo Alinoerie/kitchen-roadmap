@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T08:57:42.060Z",
+  "lastSavedBy": "web-auto-complete-from-subtasks",
+  "lastSavedAt": "2026-09-11T08:57:43.417Z",
   "phases": [
     {
       "id": "f0",
@@ -15,10 +15,10 @@
           "name": "HK bedrijf oprichten",
           "owner": "kheibar",
           "day": "vrijdag 12 sept",
-          "done": false,
+          "done": true,
           "notes": "Sales of record = HK entity | MERGED 2026-09-10 (audit): includes HK bank (f0-1), WISE (f0-2), Currency Ways (f0-3). 4 accounts openen op vrijdag 12 sept in deze volgorde: HK entity → HK bank → WISE → Currency Ways. Owner: Kheibar.\n[Status: HK entity registered]",
           "created_at": "2026-09-04T00:38:09Z",
-          "doneNote": "HK entity registered",
+          "doneNote": "Auto-completed: alle subtaken zijn afgevinkt",
           "phase": "f0",
           "dayHistory": [],
           "lastDayShiftedBy": null,
@@ -95,7 +95,8 @@
             "Business description (~100 woorden over geplande activiteit)",
             "Initiële kapitaalstorting bewijs (HK$1 nominal is voldoende voor BR)",
             "Articles of Association (opgesteld door company secretary)"
-          ]
+          ],
+          "completedAt": "2026-09-11T08:57:43.417Z"
         },
         {
           "id": "f0-5",
