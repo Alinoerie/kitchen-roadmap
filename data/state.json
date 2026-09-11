@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T09:42:14.710Z",
+  "lastSavedAt": "2026-09-11T09:42:16.771Z",
   "phases": [
     {
       "id": "f0",
@@ -83,7 +83,7 @@
               "text": "Activeer MPF (Mandatory Provident Fund) als je werknemers aanneemt — 5% werknemer + 5% werkgever bijdrage, cap HK$1500/maand per persoon. Of wacht tot F0-7 / F1 Hire fase.",
               "url": "https://www.mpfahk.org/",
               "urlLabel": "MPFA",
-              "done": true,
+              "done": false,
               "title": "Activeer MPF (als je werknemers aanneemt)"
             },
             {
