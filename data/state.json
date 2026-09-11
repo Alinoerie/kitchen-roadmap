@@ -1,7 +1,7 @@
 {
   "version": 1,
   "lastSavedBy": "web-toggle-subtask",
-  "lastSavedAt": "2026-09-11T12:07:34.635Z",
+  "lastSavedAt": "2026-09-11T12:07:37.230Z",
   "phases": [
     {
       "id": "f0",
@@ -15,7 +15,7 @@
           "name": "HK bedrijf oprichten",
           "owner": "kheibar",
           "day": "vrijdag 12 sept",
-          "done": true,
+          "done": false,
           "notes": "Sales of record = HK entity | MERGED 2026-09-10 (audit): includes HK bank (f0-1), WISE (f0-2), Currency Ways (f0-3). 4 accounts openen op vrijdag 12 sept in deze volgorde: HK entity → HK bank → WISE → Currency Ways. Owner: Kheibar.\n[Status: HK entity registered]",
           "created_at": "2026-09-04T00:38:09Z",
           "phase": "f0",
@@ -28,7 +28,7 @@
               "text": "Bepaal bedrijfsvorm: BR (Besloten Vennootschap) is standaard voor e-commerce — biedt aansprakelijkheidsbescherming en schaalbare equity-structuur. Sole proprietorship (eenmanszaak) is goedkoper maar persoonlijke aansprakelijkheid.",
               "url": "https://www.gov.hk/en/business/registration/",
               "urlLabel": "GovHK Business Registration",
-              "done": true,
+              "done": false,
               "title": "Bepaal bedrijfsvorm (BR vs eenmanszaak)"
             },
             {
@@ -36,14 +36,14 @@
               "text": "Check bedrijfsnaam beschikbaarheid via Hong Kong Companies Registry — unieke naam verplicht, geen overlap met bestaande entiteiten.",
               "url": "https://www.cr.gov.hk/crportal/cgi-bin/crlicname/regname.cgi",
               "urlLabel": "CR Name Search",
-              "done": true,
+              "done": false,
               "title": "Check bedrijfsnaam beschikbaarheid"
             },
             {
               "id": "st3",
               "text": "Verzamel documenten voor incorporation: paspoortkopieën van alle directors/shareholders, bewijs van geregistreerd adres in Hong Kong (geen postbus — fysiek adres vereist), en oprichtingsdocumenten (Articles of Association).",
               "doc": "Benodigd: paspoortkopieën van alle drie co-founders (Ali, Kheibar, Farshad), adresbewijs (huurcontract of utility bill HK), business description (~100 woorden).",
-              "done": true,
+              "done": false,
               "title": "Verzamel documenten voor incorporation"
             },
             {
@@ -51,14 +51,14 @@
               "text": "Schakel een Hong Kong company secretary in — verplicht vanaf oprichting. Aanbevolen: TMF Group, Tricor, of GetCo. Budget €800-2000/jaar. Alle drie co-founders tekenen het aanvraagformulier.",
               "url": "https://www.tmf-group.com/en/services/corporate-services/hong-kong-company-secretarial-services",
               "urlLabel": "TMF Group HK",
-              "done": true,
+              "done": false,
               "title": "Schakel Hong Kong company secretary in"
             },
             {
               "id": "st5",
               "text": "Open zakelijke bankrekening in Hong Kong — HSBC Business, Hang Seng, of DBS. Verwacht 4-8 weken doorlooptijd, vaak persoonlijk bezoek vereist voor KYC. Alle drie co-founders moeten aanwezig zijn bij eerste account opening.",
               "doc": "Benodigd: incorporation certificate, business registration certificate, articles of association, paspoort Ali, residence proof.",
-              "done": true,
+              "done": false,
               "title": "Open zakelijke bankrekening in Hong Kong"
             },
             {
@@ -66,7 +66,7 @@
               "text": "Registreer voor Business Registration Certificate (BR) bij Inland Revenue Department binnen 1 maand na incorporation — anders boete.",
               "url": "https://www.ird.gov.hk/eng/tax/breg.htm",
               "urlLabel": "IRD Business Registration",
-              "done": true,
+              "done": false,
               "title": "Registreer Business Registration Certificate"
             },
             {
@@ -74,7 +74,7 @@
               "text": "Vraag Profits Tax / Salaries Tax registration aan bij IRD — elke HK entiteit moet file, ook als 0 omzet. Eerste return 18 maanden na oprichting.",
               "url": "https://www.ird.gov.hk/eng/tax/pst.htm",
               "urlLabel": "IRD Profits Tax",
-              "done": true,
+              "done": false,
               "title": "Registreer voor Profits Tax / Salaries Tax"
             },
             {
@@ -82,19 +82,19 @@
               "text": "Activeer MPF (Mandatory Provident Fund) als je werknemers aanneemt — 5% werknemer + 5% werkgever bijdrage, cap HK$1500/maand per persoon. Of wacht tot F0-7 / F1 Hire fase.",
               "url": "https://www.mpfahk.org/",
               "urlLabel": "MPFA",
-              "done": true,
+              "done": false,
               "title": "Activeer MPF (als je werknemers aanneemt)"
             },
             {
               "id": "st9",
               "text": "Setup corporate seal + company chops (round + signature chop) — wettelijk vereist voor officiële documenten in HK.",
-              "done": true,
+              "done": false,
               "title": "Setup corporate seal + chops"
             },
             {
               "id": "st10",
               "text": "Documenteer alle credentials veilig in 1Password of Bitwarden: HK BR-nummer, incorporation number, bank login, secretary contact, IRD file number. Tag met \"Kasori HK Corp\". Gedeelde toegang voor alle 3 founders.",
-              "done": true,
+              "done": false,
               "title": "Documenteer credentials in 1Password"
             }
           ],
@@ -109,8 +109,8 @@
             "60"
           ],
           "conceptHash": "kza0bx",
-          "doneNote": "Auto-completed: alle subtaken zijn afgevinkt",
-          "completedAt": "2026-09-11T12:07:34.635Z"
+          "doneNote": null,
+          "completedAt": null
         },
         {
           "id": "f0-5",
